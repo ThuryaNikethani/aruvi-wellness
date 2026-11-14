@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Isang mas magiliw na lugar para sa mahihirap na araw",
+    "description": "Isang libre, pribado at multilingual na espasyo para sa kapakanan ng mga taong may migraine, depresyon, pagkabalisa at stress."
+  },
+  "nav": {
+    "skip": "Lumaktaw sa pangunahing nilalaman",
+    "home": "Home ng ARUVI",
+    "primary": "Pangunahin",
+    "checkin": "Kumustahin ang sarili",
+    "calm": "Payapang Espasyo",
+    "features": "Ano ang nasa loob",
+    "support": "Humingi ng tulong",
+    "signIn": "Mag-sign in",
+    "openMenu": "Buksan ang menu",
+    "closeMenu": "Isara ang menu",
+    "language": "Wika",
+    "languagesFull": "Buong salin",
+    "languagesMore": "Iba pang wika",
+    "mySpace": "Aking espasyo"
+  },
+  "comfort": {
+    "toLight": "Lumipat sa maliwanag na tema",
+    "toDark": "Lumipat sa madilim na tema",
+    "textSize": "Laki ng teksto: {size}. Pindutin para baguhin.",
+    "sizes": {
+      "normal": "Karaniwan",
+      "large": "Malaki",
+      "larger": "Mas malaki"
+    }
+  },
+  "i18n": {
+    "partial": "Awtomatikong isinalin ang {language}, kaya maaaring hindi perpekto ang ilang salita. Kung may hindi malinaw, ganap nang nasuri ang English, සිංහල at தமிழ்."
+  },
+  "hero": {
+    "eyebrow": "Libre · Pribado · Sa iyong wika",
+    "title": "Isang mas magiliw na lugar para sa mahihirap na araw.",
+    "body": "Isang ligtas at tahimik na espasyo para mapansin ang nararamdaman mo, bumagal, at alagaan ang sarili — walang pressure o paghuhusga.",
+    "ctaBreathe": "Huminga nang dahan-dahan",
+    "ctaCheckin": "Kumustahin ang sarili",
+    "note": "Hindi kailangan ng account para magsimula."
+  },
+  "mood": {
+    "title": "Ano ang nararamdaman mo ngayon?",
+    "subtitle": "Walang tamang sagot. Piliin ang pinakamalapit — ayos lang kung magbago ito.",
+    "legend": "Nararamdaman ko…",
+    "options": {
+      "happy": "Masaya",
+      "calm": "Payapa",
+      "sad": "Malungkot",
+      "anxious": "Balisa",
+      "overwhelmed": "Labis na nabibigatan",
+      "irritated": "Inis",
+      "exhausted": "Pagod na pagod",
+      "lonely": "Nag-iisa",
+      "numb": "Manhid ang damdamin"
+    },
+    "intensity": "Gaano kalakas ang damdaming ito?",
+    "intensityLow": "Kaunti",
+    "intensityHigh": "Sobra",
+    "save": "I-save",
+    "saved": "Salamat sa pagkumusta sa sarili.",
+    "savedNote": "Sa device na ito lang naka-save.",
+    "again": "Kumustahin muli",
+    "suggestBreathe": "Subukan ang sandaling paghinga",
+    "privacy": "Sa preview na ito, walang lumalabas sa iyong device.",
+    "responses": {
+      "happy": "Ang ganda na mas magaan ang pakiramdam ngayon. Puwede mong isulat kung ano ang nakatulong, para mabalikan mo ito.",
+      "calm": "Sulit pansinin ang payapang sandali. Manatili ka rito hangga't gusto mo.",
+      "sad": "Mabigat ang lungkot kung minsan. Hindi mo kailangang ayusin ito ngayon — sapat na ang maging mabait sa sarili.",
+      "anxious": "Pinapadama ng pagkabalisa na apurahan ang lahat. Ang mabagal na pagbuga ng hininga ay makatutulong para mas maging ligtas ang pakiramdam ng katawan.",
+      "overwhelmed": "Kapag parang sobra na ang lahat, ayos lang na pumili ng isang maliit na bagay — o wala muna.",
+      "irritated": "Kadalasang ibig sabihin ng inis ay may mahalagang bagay sa iyo. Ang maikling paghinto ay makapagbibigay ng kaunting espasyo.",
+      "exhausted": "Totoo ang ganitong pagod. Ang pahinga ay hindi kailangang paghirapan.",
+      "lonely": "Mahirap ang pag-iisa. Kung kaya mo, kumontak sa isang taong pinagkakatiwalaan mo — kahit maikling mensahe lang.",
+      "numb": "Ang pagiging manhid ay minsang paraan ng isip para protektahan ang sarili. Narito ka pa rin, at mahalaga iyon."
+    }
+  },
+  "calm": {
+    "title": "Aking Payapang Espasyo",
+    "subtitle": "Isang tahimik na lugar para bagalan ang paghinga. I-pause, palitan o itigil kahit kailan.",
+    "idle": "Pindutin ang simulan kapag handa ka na.",
+    "phases": {
+      "in": "Huminga papasok",
+      "hold": "Pigilan nang marahan",
+      "out": "Huminga palabas",
+      "rest": "Magpahinga"
+    },
+    "seconds": "{seconds, plural, one {# segundo} other {# segundo}}",
+    "pausedLabel": "Naka-pause",
+    "start": "Simulan",
+    "pause": "I-pause",
+    "resume": "Ituloy",
+    "stop": "Itigil",
+    "patternLabel": "Ritmo ng paghinga",
+    "patterns": {
+      "gentle": "Malumanay — papasok 4, palabas 6",
+      "box": "Kahon — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Background",
+    "scenes": {
+      "forest": "Kagubatan",
+      "ocean": "Dagat",
+      "dusk": "Takipsilim"
+    },
+    "rounds": "{count, plural, =0 {Wala pang natapos na round} one {# round ang natapos} other {# round ang natapos}}",
+    "note": "Walang kumikislap o mabilis na galaw. Nakapatay ang tunog maliban kung bubuksan mo."
+  },
+  "features": {
+    "title": "Lahat ay ayon sa iyong bilis",
+    "subtitle": "Gamitin ang nakatutulong, laktawan ang hindi. Walang gawain dito na kailangan mong tapusin.",
+    "soon": "Malapit na",
+    "preview": "Subukan ngayon",
+    "items": {
+      "calm": {
+        "title": "Payapang Espasyo",
+        "body": "Paghinga, grounding at pagpapahinga ng katawan kasama ang tahimik na tanawin ng kalikasan."
+      },
+      "journal": {
+        "title": "Journal ng Mood at Damdamin",
+        "body": "Pansinin ang iyong damdamin, sumulat nang malaya, at makita ang mga banayad na pattern sa paglipas ng panahon."
+      },
+      "companion": {
+        "title": "AI na Kasama sa Kapakanan",
+        "body": "Isang nakikinig at sumusuporta sa iyong wika. Hindi doktor o therapist."
+      },
+      "migraine": {
+        "title": "Talaarawan ng Migraine",
+        "body": "Itala ang mga atake, sintomas at posibleng trigger, at mag-export ng ulat para sa iyong doktor."
+      },
+      "sleep": {
+        "title": "Tulog at Lakas",
+        "body": "Subaybayan ang pahinga, kalidad ng tulog at lakas para maunawaan ang iyong mga araw."
+      },
+      "insights": {
+        "title": "Mga Insight sa Kapakanan",
+        "body": "Simple at naglalarawang buod ng sarili mong mga tala — hindi kailanman diagnosis."
+      }
+    }
+  },
+  "promise": {
+    "title": "Ang aming pangako sa iyo",
+    "items": {
+      "free": {
+        "title": "Libre para sa lahat",
+        "body": "Walang subscription at walang bayad na feature."
+      },
+      "private": {
+        "title": "Pribado bilang default",
+        "body": "Iyo ang iyong mga journal at usapan. Hindi kami kailanman nagbebenta ng personal o pangkalusugang impormasyon."
+      },
+      "gentle": {
+        "title": "Walang pressure",
+        "body": "Walang streak, walang guilt. Bumalik ka kahit kailan mo kailangan."
+      },
+      "notMedical": {
+        "title": "Suporta, hindi gamutan",
+        "body": "Hindi pumapalit ang ARUVI sa propesyonal na pangangalagang medikal o sikolohikal."
+      }
+    }
+  },
+  "help": {
+    "title": "Kung kailangan mo ng tulong ngayon",
+    "body": "Kung nasa panganib ka o iniisip mong saktan ang sarili, mangyaring kumontak sa isang tao ngayon. Karapat-dapat kang suportahan.",
+    "lines": {
+      "national": "Pambansang Helpline para sa Mental Health (Sri Lanka, 24 oras)",
+      "ambulance": "Ambulansya ng Suwa Seriya",
+      "police": "Emergency ng pulis"
+    },
+    "call": "Tawagan ang {name}: {number}",
+    "note": "Hindi emergency service ang ARUVI. Kung baka kumilos ka ayon sa iniisip na saktan ang sarili, mangyaring kumontak sa isa sa mga serbisyong ito o pumunta sa pinakamalapit na ospital.",
+    "countryLabel": "Iyong bansa",
+    "otherCountry": "Ibang bansa",
+    "noList": "Wala pa kaming beripikadong listahan ng helpline para sa bansang ito. Mangyaring tumawag sa lokal na emergency number o pumunta sa pinakamalapit na ospital. Makakahanap ka rin dito ng libre at kumpidensyal na crisis line na malapit sa iyo:",
+    "findMore": "Maghanap ng helpline sa iyong bansa"
+  },
+  "footer": {
+    "tagline": "Isang mas magiliw na lugar para sa mahihirap na araw.",
+    "disclaimer": "Ang ARUVI ay isang sumusuportang kasama sa kapakanan. Hindi ito kapalit ng propesyonal na gamutang medikal o sikolohikal.",
+    "languages": "Wika",
+    "made": "Ginawa nang may malasakit. Libre para sa lahat."
+  },
+  "common": {
+    "save": "I-save",
+    "saving": "Sine-save…",
+    "saved": "Na-save.",
+    "error": "May nangyaring mali. Pakisubukang muli.",
+    "optional": "opsyonal",
+    "confirmDelete": "Burahin ito?",
+    "yes": "Oo, burahin",
+    "cancel": "Kanselahin"
+  },
+  "auth": {
+    "signInTitle": "Maligayang pagbabalik",
+    "signInSubtitle": "Mag-sign in para makita ang iyong journal, mga tala at insight.",
+    "signUpTitle": "Gawin ang iyong espasyo",
+    "signUpSubtitle": "Libre, pribado at sa iyo. Puwede mong burahin ang lahat kahit kailan.",
+    "name": "Ano ang itatawag namin sa iyo?",
+    "optional": "opsyonal",
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "Hindi bababa sa 10 character. Mainam ang maikling pangungusap.",
+    "acceptTerms": "Sumasang-ayon ako sa mga tuntunin at patakaran sa privacy.",
+    "acceptHealth": "Pumapayag akong itago ng ARUVI ang impormasyon sa kapakanan na pipiliin kong ilagay (mood, journal, tala ng migraine at tulog), nang pribado at para lamang sa akin.",
+    "signIn": "Mag-sign in",
+    "signUp": "Gumawa ng account",
+    "wait": "Sandali lang…",
+    "or": "o",
+    "google": "Magpatuloy gamit ang Google",
+    "noAccount": "Bago sa ARUVI?",
+    "haveAccount": "May account na?",
+    "tryWithout": "O subukan ang isang ehersisyo sa paghinga nang walang account",
+    "errors": {
+      "invalid": "Hindi tugma ang email at password. Pakisubukang muli.",
+      "exists": "Hindi ka namin ma-sign in. Kung may account ka na, mag-sign in na lang.",
+      "checkFields": "Pakisuri ang mga field at subukang muli.",
+      "rateLimited": "Masyadong maraming pagsubok. Maghintay ng ilang minuto at subukang muli.",
+      "generic": "May nangyaring mali. Pakisubukang muli."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Aking espasyo",
+      "overview": "Ngayon",
+      "journal": "Mood at journal",
+      "companion": "Kasama",
+      "migraine": "Talaarawan ng migraine",
+      "sleep": "Tulog at lakas",
+      "insights": "Mga insight",
+      "settings": "Mga setting",
+      "calm": "Payapang Espasyo",
+      "signOut": "Mag-sign out"
+    }
+  },
+  "overview": {
+    "greeting": "Kumusta",
+    "greetingName": "Kumusta, {name}",
+    "subtitle": "Kumusta ka ngayong araw? Wala kang kailangang gawin dito.",
+    "subtitleCheckedIn": "Salamat sa pagkumusta sa sarili ngayon. Kunin mo ang kailangan mo.",
+    "verified": "Nakumpirma na ang iyong email. Salamat.",
+    "verifyFailed": "Hindi gumana o expired na ang link ng kumpirmasyon.",
+    "verifyPending": "Nagpadala kami ng link para kumpirmahin ang iyong email. Pansamantala, puwede mo pa ring gamitin ang ARUVI.",
+    "calmTitle": "Payapang Espasyo",
+    "calmBody": "Ilang mabagal na paghinga, kahit kailan mo kailangan.",
+    "companionTitle": "Makipag-usap sa kasama",
+    "companionBody": "Isang magiliw na tagapakinig, sa iyong wika.",
+    "suggestionTitle": "Isang magiliw na ideya para ngayon",
+    "suggestions": {
+      "0": "Uminom ng isang basong tubig, dahan-dahan.",
+      "1": "Lumabas sandali o magbukas ng bintana para sa isang minutong sariwang hangin.",
+      "2": "Paluwagin ang balikat at hayaang lumambot ang panga.",
+      "3": "Magpadala ng maikling mensahe sa taong pinagkakatiwalaan mo.",
+      "4": "Ipahinga ang mata mula sa screen nang limang minuto.",
+      "5": "Pansinin ang isang maliit na bagay na naging maayos ngayon."
+    },
+    "recentJournal": "Mga bagong journal",
+    "openJournal": "Buksan ang journal",
+    "noJournal": "Wala pang entry. Kahit isang linya ay makatutulong.",
+    "summaryTitle": "Sa isang tingin",
+    "migraine30": "Mga atake ng migraine, nakaraang 30 araw",
+    "lastSleep": "Pinakahuling tulog",
+    "hours": "{hours} oras",
+    "seeInsights": "Tingnan ang iyong mga insight"
+  },
+  "journal": {
+    "title": "Mood at journal",
+    "subtitle": "Pansinin ang nararamdaman at sumulat nang malaya. Ikaw lang ang makakakita nito.",
+    "moodNote": "Ilang salita tungkol dito",
+    "moodHistory": "Mga bagong check-in",
+    "deleteMood": "Burahin ang check-in na ito",
+    "writeTitle": "Sumulat",
+    "promptLabel": "Isang mungkahi, kung makatutulong",
+    "showPrompt": "Ipakita ang mungkahi sa pagsulat",
+    "newPrompt": "Ipakita ang ibang mungkahi",
+    "titleLabel": "Pamagat",
+    "contentLabel": "Iyong mga saloobin",
+    "privateNote": "Pribado bilang default. Hindi kailanman ibinabahagi.",
+    "entries": "Iyong mga entry",
+    "empty": "Lalabas dito ang iyong mga entry.",
+    "deleteEntry": "Burahin ang entry na ito",
+    "prompts": {
+      "0": "Ano ang isang bagay na mabigat ngayong araw, at isang bagay na medyo gumaan?",
+      "1": "Ano ang kailangan ng iyong katawan ngayon?",
+      "2": "Ilarawan ang isang lugar kung saan ka ligtas.",
+      "3": "Ano ang sasabihin mo sa kaibigang ganito rin ang nararamdaman ngayon?",
+      "4": "Ano ang isang maliit na bagay na ipinagpapasalamat mo?",
+      "5": "Ano ang umubos ng lakas mo ngayon? Ano ang nagbalik ng kaunti?",
+      "6": "Kung panahon ang iyong damdamin, anong panahon ito?",
+      "7": "Ano ang isang mabuting bagay na magagawa mo para sa sarili bukas?"
+    }
+  },
+  "migraine": {
+    "title": "Talaarawan ng migraine",
+    "subtitle": "Magtala ng simpleng talaarawan ng sakit ng ulo na maibabahagi mo sa doktor.",
+    "disclaimer": "Itinatala ng talaarawang ito ang iyong napapansin. Ang mga pattern dito ay hindi medikal na diagnosis. Pakikausap ang doktor tungkol sa sakit ng ulo at anumang gamot.",
+    "report": "Ulat para sa doktor",
+    "formTitle": "Magtala ng atake",
+    "start": "Nagsimula",
+    "end": "Natapos",
+    "ongoing": "Nagpapatuloy pa",
+    "ongoingShort": "nagpapatuloy",
+    "duration": "{hours} oras",
+    "intensity": "Tindi ng sakit",
+    "intensityHint": "Ang 0 ay walang sakit, ang 10 ay ang pinakamatinding sakit na maiisip mo.",
+    "locationsLabel": "Saan masakit?",
+    "characteristicsLabel": "Ano ang pakiramdam?",
+    "symptomsLabel": "Iba pang sintomas",
+    "triggersLabel": "Mga posibleng trigger na napansin mo",
+    "triggersHint": "Ang napansin mo lang. Mga posibilidad ito, hindi sanhi.",
+    "medication": "Gamot na ininom",
+    "medicationHint": "Sariling tala mo lang. Hindi kailanman nagmumungkahi ng gamot ang ARUVI.",
+    "recovery": "Mga tala sa pahinga at paggaling",
+    "save": "I-save ang atake",
+    "history": "Kasaysayan ng mga atake",
+    "empty": "Wala pang naitalang atake.",
+    "deleteEpisode": "Burahin ang atakeng ito",
+    "locations": {
+      "left": "Kaliwang bahagi",
+      "right": "Kanang bahagi",
+      "both_sides": "Magkabilang bahagi",
+      "forehead": "Noo",
+      "temples": "Sentido",
+      "behind_eyes": "Likod ng mata",
+      "back_of_head": "Likod ng ulo",
+      "neck": "Leeg"
+    },
+    "characteristics": {
+      "throbbing": "Pumipintig",
+      "pressing": "Dumidiin",
+      "stabbing": "Tumutusok",
+      "dull": "Mapurol na sakit"
+    },
+    "symptoms": {
+      "nausea": "Pagduduwal",
+      "vomiting": "Pagsusuka",
+      "light_sensitivity": "Sensitibo sa liwanag",
+      "sound_sensitivity": "Sensitibo sa tunog",
+      "smell_sensitivity": "Sensitibo sa amoy",
+      "aura": "Aura",
+      "dizziness": "Pagkahilo",
+      "fatigue": "Pagod",
+      "blurred_vision": "Malabong paningin"
+    },
+    "triggers": {
+      "sleep": "Pagbabago sa tulog",
+      "stress": "Stress",
+      "weather": "Pagbabago ng panahon",
+      "dehydration": "Kakulangan sa tubig",
+      "meal_timing": "Oras ng pagkain",
+      "screen": "Oras sa screen",
+      "environment": "Kapaligiran (liwanag, ingay, amoy)",
+      "menstrual": "Siklo ng regla",
+      "other": "Iba pa"
+    }
+  },
+  "report": {
+    "title": "Ulat ng talaarawan ng sakit ng ulo",
+    "period": "nakaraang {days} araw",
+    "print": "I-print o i-save bilang PDF",
+    "disclaimer": "Naglalaman ang ulat na ito ng impormasyong itinala mismo ng tao sa ARUVI. Hindi ito diagnosis. Ang mga posibleng trigger ay sariling obserbasyon.",
+    "episodes": "Mga atake",
+    "avgDuration": "Karaniwang tagal (oras)",
+    "avgIntensity": "Karaniwang tindi (0–10)",
+    "triggers": "Mga posibleng trigger na iniulat ng sarili",
+    "log": "Talaan ng atake",
+    "hours": "Oras"
+  },
+  "sleep": {
+    "title": "Tulog at lakas",
+    "subtitle": "Ang maikling tala araw-araw tungkol sa pahinga at lakas ay tumutulong para maunawaan ang iyong mga araw.",
+    "date": "Petsa",
+    "dateHint": "Itala ang tulog kagabi sa petsa ngayon.",
+    "sleepTitle": "Tulog",
+    "hours": "Oras ng tulog",
+    "quality": "Kalidad ng tulog",
+    "poor": "Hindi maganda",
+    "restful": "Mahimbing",
+    "energyTitle": "Lakas",
+    "energy": "Antas ng lakas",
+    "fatigue": "Pagod",
+    "veryLow": "Napakababa",
+    "high": "Mataas",
+    "little": "Kaunti",
+    "aLot": "Sobra",
+    "rest": "Oras ng pahinga (minuto)",
+    "note": "Tala",
+    "history": "Nakaraang dalawang linggo",
+    "empty": "Wala pang naitala."
+  },
+  "insights": {
+    "title": "Mga insight sa kapakanan",
+    "subtitle": "Isang simpleng pagbabalik-tanaw sa iyong mga tala.",
+    "disclaimer": "Paglalarawan ito ng sarili mong mga tala, hindi medikal na konklusyon. Ang dalawang bagay na sabay na lumilitaw ay hindi nangangahulugang sanhi ng isa ang isa pa.",
+    "rangeLabel": "Saklaw ng panahon",
+    "range": "{days} araw",
+    "stats": {
+      "checkIns": "Mga check-in ng mood",
+      "migraines": "Mga atake ng migraine",
+      "avgDuration": "Karaniwang atake (oras)",
+      "avgSleep": "Karaniwang tulog (oras)"
+    },
+    "observationsTitle": "Ang ipinapakita ng iyong mga tala",
+    "notEnough": "Magpatuloy sa pagtatala nang kaunti pa at lilitaw dito ang mga banayad na obserbasyon.",
+    "obs": {
+      "topTrigger": "Itinala mo ang \"{trigger}\" bilang posibleng trigger sa {count} sa {total} atake.",
+      "lowSleepMigraine": "Sa {share}% ng mga araw na nagtala ka ng migraine, nagtala ka rin ng tulog na kulang sa 6 na oras, kumpara sa {overall}% ng lahat ng gabing itinala mo.",
+      "steadyMood": "Ang damdaming pinakamadalas mong itinala ay \"{mood}\" ({count} beses)."
+    },
+    "moodChart": "Mga mood na itinala mo",
+    "migraineChart": "Mga atake ng migraine bawat araw",
+    "sleepChart": "Oras ng tulog",
+    "energyChart": "Antas ng lakas (1–5)",
+    "showTable": "Ipakita bilang talahanayan",
+    "noData": "Walang check-in sa panahong ito.",
+    "mood": "Mood",
+    "count": "Beses",
+    "date": "Petsa",
+    "episodes": "Mga atake",
+    "hours": "Oras",
+    "energyLevel": "Lakas"
+  },
+  "settings": {
+    "title": "Mga setting",
+    "prefsTitle": "Mga kagustuhan",
+    "displayName": "Pangalang ipambabati sa iyo",
+    "trackMigraine": {
+      "title": "May migraine ako",
+      "body": "Ipakita nang mas kitang-kita ang mga feature para sa migraine."
+    },
+    "trackMenstrual": {
+      "title": "Isama ang siklo ng regla bilang posibleng trigger",
+      "body": "Opsyonal. Sa talaarawan ng migraine lang ipinapakita."
+    },
+    "keepAiHistory": {
+      "title": "Itago ang kasaysayan ng usapan sa kasama",
+      "body": "Nakapatay bilang default. Kapag binuksan, mase-save ang mga usapan para mabalikan mo. Puwede mo itong burahin kahit kailan."
+    },
+    "comfortNote": "Nasa itaas na bar ang tema, laki ng teksto at wika, at naaalala ang mga ito sa device na ito.",
+    "exportTitle": "I-download ang iyong data",
+    "exportBody": "Kumuha ng kopya ng lahat ng itinatago ng ARUVI tungkol sa iyo, bilang JSON file.",
+    "exportButton": "I-download ang aking data",
+    "deleteTitle": "Burahin ang account",
+    "deleteBody": "Permanenteng mabubura nito ang iyong account at lahat ng nasa loob: mood, journal, tala at usapan. Hindi na ito maibabalik.",
+    "deleteConfirmLabel": "I-type ang DELETE para kumpirmahin",
+    "deleteButton": "Burahin ang aking account magpakailanman"
+  },
+  "companion": {
+    "title": "Kasama",
+    "subtitle": "Ibahagi ang nasa isip mo. Sumulat sa anumang wikang gusto mo.",
+    "disclaimer": "Ang kasama ay isang AI, hindi therapist o doktor. Maaari itong magkamali at hindi ito makapagbibigay ng diagnosis o medikal na payo. Kung nasa panganib ka, gamitin ang mga numero sa “Humingi ng tulong” o tumawag sa lokal na emergency number.",
+    "emptyTitle": "Narito ako para makinig.",
+    "emptyBody": "Ano ang nararamdaman mo ngayon?",
+    "placeholder": "Isulat ang nasa isip mo…",
+    "inputLabel": "Iyong mensahe",
+    "send": "Ipadala",
+    "you": "Ikaw",
+    "companion": "Kasama",
+    "thinking": "…",
+    "newChat": "Bagong usapan",
+    "clear": "I-clear ang chat",
+    "deleteHistory": "Burahin ang lahat ng kasaysayan",
+    "historyOn": "Sine-save ang mga usapan. Puwede mo itong patayin sa Mga setting.",
+    "historyOff": "Hindi sine-save ang mga usapan. Mawawala ang mga ito kapag umalis ka sa pahinang ito.",
+    "crisisTitle": "Hindi mo kailangang harapin ito nang mag-isa",
+    "crisisBody": "Mukhang napakahirap ng sitwasyon ngayon. Pakikontak ang taong makatutulong — puwede kang tumawag ngayon, kahit anong oras.",
+    "errors": {
+      "refusal": "Hindi ko masasagot iyon. Kung nahihirapan ka, kumontak sa taong pinagkakatiwalaan mo o gamitin ang mga numero sa “Humingi ng tulong”.",
+      "unavailable": "Hindi available ang kasama sa ngayon. Pakisubukan muli mamaya.",
+      "error": "May nangyaring mali. Pakisubukang muli.",
+      "network": "Mukhang offline ka. Pakisuri ang iyong koneksyon.",
+      "limit": "Marami ka nang naipadalang mensahe. Magpahinga sandali at subukang muli mamaya.",
+      "generic": "May nangyaring mali. Pakisubukang muli."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Mag-sign in para magamit ito",
+    "guestBody": "Gumawa ng libreng account para manatiling pribado at ligtas ang iyong mga tala sa lahat ng device.",
+    "continueGuest": "Magpatuloy nang walang account",
+    "more": "Higit pa",
+    "appearance": "Itsura",
+    "themeSystem": "System",
+    "themeLight": "Maliwanag",
+    "themeDark": "Madilim",
+    "account": "Account",
+    "signedInAs": "Naka-sign in bilang {email}",
+    "offline": "Hindi maabot ang ARUVI ngayon. Pakisuri ang koneksyon at subukang muli.",
+    "reportOnWeb": "Makukuha ang naipi-print na ulat para sa doktor sa website ng ARUVI.",
+    "pickDate": "Pumili ng petsa",
+    "pickTime": "Pumili ng oras",
+    "textSize": "Laki ng teksto",
+    "refresh": "I-refresh",
+    "migraineTab": "Migraine"
+  }
+}
