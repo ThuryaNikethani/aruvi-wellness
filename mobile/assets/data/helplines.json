@@ -1,5 +1,5 @@
 {
-  "_note": "Crisis and emergency lines by country (ISO 3166-1 alpha-2). Only well-established, official services. Verify every number before each release (see docs/safety.md). Shared by the website, the AI companion and the mobile app.",
+  "_note": "Crisis and emergency lines by country (ISO 3166-1 alpha-2), listed in display order. Only official or well-established services; where no crisis line is verified, only the emergency number is listed. localeCountry: the country a language switches to; languages spoken across many countries (en, ar, ...) use the detected country instead. Verify every number before each release (docs/safety.md). Shared by the website, the AI companion and the mobile app.",
   "directory": "https://findahelpline.com",
   "countries": {
     "LK": {
@@ -38,48 +38,64 @@
         }
       ]
     },
-    "IN": {
+    "AU": {
       "name": {
-        "en": "India",
-        "si": "ඉන්දියාව",
-        "ta": "இந்தியா"
+        "en": "Australia",
+        "si": "ඕස්ට්‍රේලියාව",
+        "ta": "ஆஸ்திரேலியா"
       },
       "lines": [
         {
-          "number": "14416",
-          "tel": "14416",
+          "number": "13 11 14",
+          "tel": "131114",
           "name": {
-            "en": "Tele-MANAS national mental health helpline (24 hours)"
+            "en": "Lifeline (24 hours)"
           }
         },
         {
-          "number": "112",
-          "tel": "112",
+          "number": "000",
+          "tel": "000",
           "name": {
             "en": "Emergency"
           }
         }
       ]
     },
-    "US": {
+    "BD": {
       "name": {
-        "en": "United States",
-        "si": "එක්සත් ජනපදය",
-        "ta": "அமெரிக்கா"
+        "en": "Bangladesh",
+        "si": "බංග්ලාදේශය",
+        "ta": "வங்காளதேசம்"
       },
       "lines": [
         {
-          "number": "988",
-          "tel": "988",
+          "number": "999",
+          "tel": "999",
           "name": {
-            "en": "988 Suicide & Crisis Lifeline (call or text, 24 hours)"
+            "en": "National emergency"
+          }
+        }
+      ]
+    },
+    "BR": {
+      "name": {
+        "en": "Brazil",
+        "si": "බ්‍රසීලය",
+        "ta": "பிரேசில்"
+      },
+      "lines": [
+        {
+          "number": "188",
+          "tel": "188",
+          "name": {
+            "en": "CVV emotional support (24 hours)"
           }
         },
         {
-          "number": "911",
-          "tel": "911",
+          "number": "192",
+          "tel": "192",
           "name": {
-            "en": "Emergency"
+            "en": "Ambulance (SAMU)"
           }
         }
       ]
@@ -107,25 +123,195 @@
         }
       ]
     },
-    "GB": {
+    "CN": {
       "name": {
-        "en": "United Kingdom",
-        "si": "එක්සත් රාජධානිය",
-        "ta": "ஐக்கிய இராச்சியம்"
+        "en": "China",
+        "si": "චීනය",
+        "ta": "சீனா"
+      },
+      "lines": [
+        {
+          "number": "120",
+          "tel": "120",
+          "name": {
+            "en": "Ambulance"
+          }
+        },
+        {
+          "number": "110",
+          "tel": "110",
+          "name": {
+            "en": "Police"
+          }
+        }
+      ]
+    },
+    "CZ": {
+      "name": {
+        "en": "Czechia",
+        "si": "චෙක් ජනරජය",
+        "ta": "செக் குடியரசு"
       },
       "lines": [
         {
           "number": "116 123",
           "tel": "116123",
           "name": {
-            "en": "Samaritans (free, 24 hours)"
+            "en": "Psychological first aid line"
           }
         },
         {
-          "number": "999",
-          "tel": "999",
+          "number": "112",
+          "tel": "112",
           "name": {
             "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "FR": {
+      "name": {
+        "en": "France",
+        "si": "ප්‍රංශය",
+        "ta": "பிரான்ஸ்"
+      },
+      "lines": [
+        {
+          "number": "3114",
+          "tel": "3114",
+          "name": {
+            "en": "3114 national suicide prevention line (24 hours)"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "DE": {
+      "name": {
+        "en": "Germany",
+        "si": "ජර්මනිය",
+        "ta": "ஜெர்மனி"
+      },
+      "lines": [
+        {
+          "number": "0800 111 0 111",
+          "tel": "08001110111",
+          "name": {
+            "en": "TelefonSeelsorge (free, 24 hours)"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "GR": {
+      "name": {
+        "en": "Greece",
+        "si": "ග්‍රීසිය",
+        "ta": "கிரீஸ்"
+      },
+      "lines": [
+        {
+          "number": "1018",
+          "tel": "1018",
+          "name": {
+            "en": "Klimaka suicide prevention line (24 hours)"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "HU": {
+      "name": {
+        "en": "Hungary",
+        "si": "හංගේරියාව",
+        "ta": "ஹங்கேரி"
+      },
+      "lines": [
+        {
+          "number": "116 123",
+          "tel": "116123",
+          "name": {
+            "en": "Emotional first aid line"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "IN": {
+      "name": {
+        "en": "India",
+        "si": "ඉන්දියාව",
+        "ta": "இந்தியா"
+      },
+      "lines": [
+        {
+          "number": "14416",
+          "tel": "14416",
+          "name": {
+            "en": "Tele-MANAS national mental health helpline (24 hours)"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "ID": {
+      "name": {
+        "en": "Indonesia",
+        "si": "ඉන්දුනීසියාව",
+        "ta": "இந்தோனேசியா"
+      },
+      "lines": [
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "IR": {
+      "name": {
+        "en": "Iran",
+        "si": "ඉරානය",
+        "ta": "ஈரான்"
+      },
+      "lines": [
+        {
+          "number": "115",
+          "tel": "115",
+          "name": {
+            "en": "Ambulance"
           }
         }
       ]
@@ -153,23 +339,131 @@
         }
       ]
     },
-    "AU": {
+    "IL": {
       "name": {
-        "en": "Australia",
-        "si": "ඕස්ට්‍රේලියාව",
-        "ta": "ஆஸ்திரேலியா"
+        "en": "Israel",
+        "si": "ඊශ්‍රායලය",
+        "ta": "இஸ்ரேல்"
       },
       "lines": [
         {
-          "number": "13 11 14",
-          "tel": "131114",
+          "number": "1201",
+          "tel": "1201",
           "name": {
-            "en": "Lifeline (24 hours)"
+            "en": "ERAN emotional first aid"
           }
         },
         {
-          "number": "000",
-          "tel": "000",
+          "number": "101",
+          "tel": "101",
+          "name": {
+            "en": "Ambulance (Magen David Adom)"
+          }
+        }
+      ]
+    },
+    "IT": {
+      "name": {
+        "en": "Italy",
+        "si": "ඉතාලිය",
+        "ta": "இத்தாலி"
+      },
+      "lines": [
+        {
+          "number": "02 2327 2327",
+          "tel": "0223272327",
+          "name": {
+            "en": "Telefono Amico"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "JP": {
+      "name": {
+        "en": "Japan",
+        "si": "ජපානය",
+        "ta": "ஜப்பான்"
+      },
+      "lines": [
+        {
+          "number": "119",
+          "tel": "119",
+          "name": {
+            "en": "Ambulance and fire"
+          }
+        },
+        {
+          "number": "110",
+          "tel": "110",
+          "name": {
+            "en": "Police"
+          }
+        }
+      ]
+    },
+    "KE": {
+      "name": {
+        "en": "Kenya",
+        "si": "කෙන්යාව",
+        "ta": "கென்யா"
+      },
+      "lines": [
+        {
+          "number": "999",
+          "tel": "999",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "MY": {
+      "name": {
+        "en": "Malaysia",
+        "si": "මැලේසියාව",
+        "ta": "மலேசியா"
+      },
+      "lines": [
+        {
+          "number": "03-7627 2929",
+          "tel": "+60376272929",
+          "name": {
+            "en": "Befrienders Kuala Lumpur (24 hours)"
+          }
+        },
+        {
+          "number": "999",
+          "tel": "999",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "NL": {
+      "name": {
+        "en": "Netherlands",
+        "si": "නෙදර්ලන්තය",
+        "ta": "நெதர்லாந்து"
+      },
+      "lines": [
+        {
+          "number": "113",
+          "tel": "113",
+          "name": {
+            "en": "113 Suicide Prevention (also 0800-0113, free)"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
           "name": {
             "en": "Emergency"
           }
@@ -199,6 +493,100 @@
         }
       ]
     },
+    "NG": {
+      "name": {
+        "en": "Nigeria",
+        "si": "නයිජීරියාව",
+        "ta": "நைஜீரியா"
+      },
+      "lines": [
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "PH": {
+      "name": {
+        "en": "Philippines",
+        "si": "පිලිපීනය",
+        "ta": "பிலிப்பைன்ஸ்"
+      },
+      "lines": [
+        {
+          "number": "1553",
+          "tel": "1553",
+          "name": {
+            "en": "National Center for Mental Health crisis line"
+          }
+        },
+        {
+          "number": "911",
+          "tel": "911",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "PL": {
+      "name": {
+        "en": "Poland",
+        "si": "පෝලන්තය",
+        "ta": "போலந்து"
+      },
+      "lines": [
+        {
+          "number": "116 123",
+          "tel": "116123",
+          "name": {
+            "en": "Crisis support line for adults"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "RO": {
+      "name": {
+        "en": "Romania",
+        "si": "රුමේනියාව",
+        "ta": "ருமேனியா"
+      },
+      "lines": [
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "RU": {
+      "name": {
+        "en": "Russia",
+        "si": "රුසියාව",
+        "ta": "ரஷ்யா"
+      },
+      "lines": [
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
     "SG": {
       "name": {
         "en": "Singapore",
@@ -221,6 +609,229 @@
           }
         }
       ]
+    },
+    "ZA": {
+      "name": {
+        "en": "South Africa",
+        "si": "දකුණු අප්‍රිකාව",
+        "ta": "தென்னாப்பிரிக்கா"
+      },
+      "lines": [
+        {
+          "number": "0800 567 567",
+          "tel": "0800567567",
+          "name": {
+            "en": "SADAG suicide crisis line (24 hours)"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency (from a mobile)"
+          }
+        }
+      ]
+    },
+    "KR": {
+      "name": {
+        "en": "South Korea",
+        "si": "දකුණු කොරියාව",
+        "ta": "தென் கொரியா"
+      },
+      "lines": [
+        {
+          "number": "109",
+          "tel": "109",
+          "name": {
+            "en": "Suicide prevention hotline (24 hours)"
+          }
+        },
+        {
+          "number": "119",
+          "tel": "119",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "ES": {
+      "name": {
+        "en": "Spain",
+        "si": "ස්පාඤ්ඤය",
+        "ta": "ஸ்பெயின்"
+      },
+      "lines": [
+        {
+          "number": "024",
+          "tel": "024",
+          "name": {
+            "en": "024 suicide prevention line (24 hours)"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "SE": {
+      "name": {
+        "en": "Sweden",
+        "si": "ස්වීඩනය",
+        "ta": "சுவீடன்"
+      },
+      "lines": [
+        {
+          "number": "90101",
+          "tel": "90101",
+          "name": {
+            "en": "Mind suicide line (Självmordslinjen)"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "TH": {
+      "name": {
+        "en": "Thailand",
+        "si": "තායිලන්තය",
+        "ta": "தாய்லாந்து"
+      },
+      "lines": [
+        {
+          "number": "1323",
+          "tel": "1323",
+          "name": {
+            "en": "Mental health hotline (24 hours)"
+          }
+        },
+        {
+          "number": "1669",
+          "tel": "1669",
+          "name": {
+            "en": "Medical emergency"
+          }
+        }
+      ]
+    },
+    "TR": {
+      "name": {
+        "en": "Türkiye",
+        "si": "තුර්කිය",
+        "ta": "துருக்கி"
+      },
+      "lines": [
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "UA": {
+      "name": {
+        "en": "Ukraine",
+        "si": "යුක්රේනය",
+        "ta": "உக்ரைன்"
+      },
+      "lines": [
+        {
+          "number": "7333",
+          "tel": "7333",
+          "name": {
+            "en": "Lifeline Ukraine (24 hours)"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "GB": {
+      "name": {
+        "en": "United Kingdom",
+        "si": "එක්සත් රාජධානිය",
+        "ta": "ஐக்கிய இராச்சியம்"
+      },
+      "lines": [
+        {
+          "number": "116 123",
+          "tel": "116123",
+          "name": {
+            "en": "Samaritans (free, 24 hours)"
+          }
+        },
+        {
+          "number": "999",
+          "tel": "999",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "US": {
+      "name": {
+        "en": "United States",
+        "si": "එක්සත් ජනපදය",
+        "ta": "அமெரிக்கா"
+      },
+      "lines": [
+        {
+          "number": "988",
+          "tel": "988",
+          "name": {
+            "en": "988 Suicide & Crisis Lifeline (call or text, 24 hours)"
+          }
+        },
+        {
+          "number": "911",
+          "tel": "911",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "VN": {
+      "name": {
+        "en": "Vietnam",
+        "si": "වියට්නාමය",
+        "ta": "வியட்நாம்"
+      },
+      "lines": [
+        {
+          "number": "115",
+          "tel": "115",
+          "name": {
+            "en": "Ambulance"
+          }
+        },
+        {
+          "number": "113",
+          "tel": "113",
+          "name": {
+            "en": "Police"
+          }
+        }
+      ]
     }
   },
   "localeCountry": {
@@ -232,7 +843,37 @@
     "kn": "IN",
     "mr": "IN",
     "gu": "IN",
-    "pa": "IN"
+    "pa": "IN",
+    "bn": "BD",
+    "zh": "CN",
+    "ja": "JP",
+    "ko": "KR",
+    "th": "TH",
+    "vi": "VN",
+    "id": "ID",
+    "ms": "MY",
+    "fil": "PH",
+    "he": "IL",
+    "fa": "IR",
+    "tr": "TR",
+    "sw": "KE",
+    "yo": "NG",
+    "ha": "NG",
+    "zu": "ZA",
+    "es": "ES",
+    "fr": "FR",
+    "de": "DE",
+    "pt": "BR",
+    "it": "IT",
+    "ru": "RU",
+    "uk": "UA",
+    "pl": "PL",
+    "nl": "NL",
+    "sv": "SE",
+    "ro": "RO",
+    "el": "GR",
+    "cs": "CZ",
+    "hu": "HU"
   },
   "defaultCountry": "LK"
 }
