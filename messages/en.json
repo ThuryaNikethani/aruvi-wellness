@@ -210,12 +210,32 @@
     "noAccount": "New to ARUVI?",
     "haveAccount": "Already have an account?",
     "tryWithout": "Or try a breathing exercise without an account",
+    "birthYear": "Year of birth",
+    "birthYearPlaceholder": "Choose a year",
+    "under16": "I am under 16",
+    "birthYearHint": "ARUVI is for people aged 16 and over. Only you can see this.",
+    "tooYoung": "ARUVI is for people aged 16 and over, so we can't create an account for you yet. If things feel hard, please talk to an adult you trust or call a support line.",
+    "seeHelp": "See support lines",
+    "concernsLabel": "What would you like support with?",
+    "concernsHint": "Choose any that fit. This only shapes what ARUVI shows you — it is not a diagnosis.",
+    "concerns": {
+      "migraine": "Migraine or headaches",
+      "depression": "Low mood or depression",
+      "anxiety": "Anxiety or worry",
+      "stress": "Stress",
+      "sleep": "Sleep",
+      "other": "Something else"
+    },
+    "welcomeTitle": "A few details before you begin",
+    "welcomeSubtitle": "This helps ARUVI fit you. Only you can see it.",
+    "continue": "Continue",
     "errors": {
       "invalid": "That email and password don't match. Please try again.",
       "exists": "We couldn't sign you in. If you already have an account, please sign in instead.",
       "checkFields": "Please check the fields and try again.",
       "rateLimited": "Too many attempts. Please wait a few minutes and try again.",
-      "generic": "Something went wrong. Please try again."
+      "generic": "Something went wrong. Please try again.",
+      "oauthLinked": "This email already has an ARUVI account. Please sign in with your email and password."
     }
   },
   "dash": {
