@@ -112,6 +112,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
               subtitle: Text(localeNames[app.locale] ?? app.locale),
               onTap: _pickLanguage,
             ),
+            const CountryTile(),
             const SizedBox(height: 8),
             SegmentedButton<ThemeMode>(
               segments: [
