@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Un luogo più gentile per i giorni difficili",
+    "description": "Uno spazio di benessere gratuito, privato e multilingue per chi vive con emicrania, depressione, ansia e stress."
+  },
+  "nav": {
+    "skip": "Vai al contenuto principale",
+    "home": "Home di ARUVI",
+    "primary": "Principale",
+    "checkin": "Come stai",
+    "calm": "Spazio calmo",
+    "features": "Cosa trovi",
+    "support": "Chiedi aiuto",
+    "signIn": "Accedi",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "language": "Lingua",
+    "languagesFull": "Tradotte completamente",
+    "languagesMore": "Altre lingue",
+    "mySpace": "Il mio spazio"
+  },
+  "comfort": {
+    "toLight": "Passa al tema chiaro",
+    "toDark": "Passa al tema scuro",
+    "textSize": "Dimensione del testo: {size}. Tocca per cambiare.",
+    "sizes": {
+      "normal": "Normale",
+      "large": "Grande",
+      "larger": "Più grande"
+    }
+  },
+  "i18n": {
+    "partial": "{language} è stato tradotto automaticamente, quindi alcune frasi potrebbero non essere perfette. Se qualcosa non è chiaro, English, සිංහල e தமிழ் sono stati revisionati completamente."
+  },
+  "hero": {
+    "eyebrow": "Gratuito · Privato · Nella tua lingua",
+    "title": "Un luogo più gentile per i giorni difficili.",
+    "body": "Uno spazio sicuro e tranquillo per accorgerti di come ti senti, rallentare e prenderti cura di te — senza pressione né giudizio.",
+    "ctaBreathe": "Fai un respiro lento",
+    "ctaCheckin": "Ascolta come stai",
+    "note": "Non serve un account per iniziare."
+  },
+  "mood": {
+    "title": "Come ti senti in questo momento?",
+    "subtitle": "Non c’è una risposta giusta. Scegli ciò che senti più vicino — va bene se cambia.",
+    "legend": "Mi sento…",
+    "options": {
+      "happy": "Felice",
+      "calm": "Calmo/a",
+      "sad": "Triste",
+      "anxious": "Ansioso/a",
+      "overwhelmed": "Sopraffatto/a",
+      "irritated": "Irritato/a",
+      "exhausted": "Esausto/a",
+      "lonely": "Solo/a",
+      "numb": "Svuotato/a"
+    },
+    "intensity": "Quanto è forte questa sensazione?",
+    "intensityLow": "Un po’",
+    "intensityHigh": "Molto",
+    "save": "Salva",
+    "saved": "Grazie per esserti ascoltato/a.",
+    "savedNote": "Salvato solo su questo dispositivo.",
+    "again": "Di nuovo",
+    "suggestBreathe": "Prova una pausa di respiro",
+    "privacy": "In questa anteprima, nulla lascia il tuo dispositivo.",
+    "responses": {
+      "happy": "Che bello che oggi sembri un po’ più leggero. Puoi annotare cosa ti ha aiutato, per tornarci in futuro.",
+      "calm": "Un momento di calma merita di essere notato. Restaci quanto vuoi.",
+      "sad": "La tristezza può pesare. Non devi risolverla ora — essere gentile con te basta.",
+      "anxious": "L’ansia rende tutto urgente. Un’espirazione lenta può aiutare il corpo a sentirsi un po’ più al sicuro.",
+      "overwhelmed": "Quando tutto sembra troppo, va bene scegliere una sola piccola cosa — o niente.",
+      "irritated": "L’irritazione spesso indica che qualcosa per te conta. Una breve pausa può darti un po’ di spazio.",
+      "exhausted": "Questa stanchezza è reale. Il riposo non è qualcosa che devi guadagnarti.",
+      "lonely": "La solitudine è dura. Se puoi, contatta qualcuno di cui ti fidi — anche un breve messaggio può aiutare.",
+      "numb": "Sentirsi svuotati a volte è il modo in cui la mente si protegge. Sei ancora qui, e questo conta."
+    }
+  },
+  "calm": {
+    "title": "Il mio spazio calmo",
+    "subtitle": "Un luogo tranquillo per rallentare il respiro. Metti in pausa, cambia o fermati quando vuoi.",
+    "idle": "Tocca avvia quando sei pronto/a.",
+    "phases": {
+      "in": "Inspira",
+      "hold": "Trattieni dolcemente",
+      "out": "Espira",
+      "rest": "Riposa"
+    },
+    "seconds": "{seconds, plural, one {# secondo} other {# secondi}}",
+    "pausedLabel": "In pausa",
+    "start": "Avvia",
+    "pause": "Pausa",
+    "resume": "Riprendi",
+    "stop": "Ferma",
+    "patternLabel": "Ritmo del respiro",
+    "patterns": {
+      "gentle": "Dolce — inspira 4, espira 6",
+      "box": "Quadrato — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Sfondo",
+    "scenes": {
+      "forest": "Foresta",
+      "ocean": "Oceano",
+      "dusk": "Crepuscolo"
+    },
+    "rounds": "{count, plural, =0 {Ancora nessun ciclo} one {# ciclo completato} other {# cicli completati}}",
+    "note": "Niente lampeggi né movimenti rapidi. L’audio resta spento a meno che tu non lo attivi."
+  },
+  "features": {
+    "title": "Tutto al tuo ritmo",
+    "subtitle": "Usa ciò che ti aiuta e salta il resto. Niente qui è un compito da finire.",
+    "soon": "Presto disponibile",
+    "preview": "Prova ora",
+    "items": {
+      "calm": {
+        "title": "Spazio calmo",
+        "body": "Respirazione, radicamento e rilassamento del corpo con paesaggi naturali tranquilli."
+      },
+      "journal": {
+        "title": "Diario dell’umore",
+        "body": "Accorgiti delle emozioni, scrivi liberamente e osserva schemi delicati nel tempo."
+      },
+      "companion": {
+        "title": "Compagno di benessere con IA",
+        "body": "Un ascoltatore che ti sostiene nella tua lingua. Non è un medico né un terapeuta."
+      },
+      "migraine": {
+        "title": "Diario dell’emicrania",
+        "body": "Registra attacchi, sintomi e possibili fattori scatenanti, ed esporta un report per il tuo medico."
+      },
+      "sleep": {
+        "title": "Sonno ed energia",
+        "body": "Segui riposo, qualità del sonno ed energia per capire meglio le tue giornate."
+      },
+      "insights": {
+        "title": "Approfondimenti sul benessere",
+        "body": "Riepiloghi semplici e descrittivi delle tue annotazioni — mai una diagnosi."
+      }
+    }
+  },
+  "promise": {
+    "title": "La nostra promessa",
+    "items": {
+      "free": {
+        "title": "Gratuito per tutti",
+        "body": "Nessun abbonamento, nessuna funzione a pagamento."
+      },
+      "private": {
+        "title": "Privato per impostazione predefinita",
+        "body": "I tuoi diari e le tue conversazioni sono tuoi. Non vendiamo mai dati personali o sanitari."
+      },
+      "gentle": {
+        "title": "Nessuna pressione",
+        "body": "Niente serie da mantenere, niente sensi di colpa. Torna quando ne hai bisogno."
+      },
+      "notMedical": {
+        "title": "Sostegno, non cura",
+        "body": "ARUVI non sostituisce l’assistenza medica o psicologica professionale."
+      }
+    }
+  },
+  "help": {
+    "title": "Se hai bisogno di aiuto ora",
+    "body": "Se sei in pericolo o stai pensando di farti del male, contatta qualcuno adesso. Meriti sostegno.",
+    "lines": {
+      "national": "Linea nazionale per la salute mentale (Sri Lanka, 24 ore)",
+      "ambulance": "Ambulanza Suwa Seriya",
+      "police": "Emergenza polizia"
+    },
+    "call": "Chiama {name}: {number}",
+    "note": "ARUVI non è un servizio di emergenza. Se potresti agire su pensieri di farti del male, contatta uno di questi servizi o vai all’ospedale più vicino.",
+    "countryLabel": "Il tuo paese",
+    "otherCountry": "Un altro paese",
+    "noList": "Non abbiamo ancora un elenco verificato di linee di aiuto per questo paese. Chiama il numero di emergenza locale o vai all’ospedale più vicino. Qui puoi anche trovare una linea di crisi gratuita e riservata vicino a te:",
+    "findMore": "Trova una linea di aiuto nel tuo paese"
+  },
+  "footer": {
+    "tagline": "Un luogo più gentile per i giorni difficili.",
+    "disclaimer": "ARUVI è un compagno di benessere che ti sostiene. Non sostituisce un trattamento medico o psicologico professionale.",
+    "languages": "Lingua",
+    "made": "Fatto con cura. Gratuito per tutti."
+  },
+  "common": {
+    "save": "Salva",
+    "saving": "Salvataggio…",
+    "saved": "Salvato.",
+    "error": "Qualcosa è andato storto. Riprova.",
+    "optional": "facoltativo",
+    "confirmDelete": "Eliminare?",
+    "yes": "Sì, elimina",
+    "cancel": "Annulla"
+  },
+  "auth": {
+    "signInTitle": "Bentornato/a",
+    "signInSubtitle": "Accedi per vedere il tuo diario, le annotazioni e gli approfondimenti.",
+    "signUpTitle": "Crea il tuo spazio",
+    "signUpSubtitle": "Gratuito, privato e tuo. Puoi eliminare tutto in qualsiasi momento.",
+    "name": "Come dobbiamo chiamarti?",
+    "optional": "facoltativo",
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "Almeno 10 caratteri. Una frase breve funziona bene.",
+    "acceptTerms": "Accetto i termini d’uso e l’informativa sulla privacy.",
+    "acceptHealth": "Acconsento che ARUVI conservi le informazioni sul benessere che scelgo di inserire (umore, diari, note su emicrania e sonno), in modo privato e solo per me.",
+    "signIn": "Accedi",
+    "signUp": "Crea account",
+    "wait": "Attendi…",
+    "or": "oppure",
+    "google": "Continua con Google",
+    "noAccount": "Nuovo su ARUVI?",
+    "haveAccount": "Hai già un account?",
+    "tryWithout": "Oppure prova un esercizio di respirazione senza account",
+    "errors": {
+      "invalid": "Email e password non corrispondono. Riprova.",
+      "exists": "Non siamo riusciti a farti accedere. Se hai già un account, accedi.",
+      "checkFields": "Controlla i campi e riprova.",
+      "rateLimited": "Troppi tentativi. Attendi qualche minuto e riprova.",
+      "generic": "Qualcosa è andato storto. Riprova."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Il mio spazio",
+      "overview": "Oggi",
+      "journal": "Umore e diario",
+      "companion": "Compagno",
+      "migraine": "Diario dell’emicrania",
+      "sleep": "Sonno ed energia",
+      "insights": "Approfondimenti",
+      "settings": "Impostazioni",
+      "calm": "Spazio calmo",
+      "signOut": "Esci"
+    }
+  },
+  "overview": {
+    "greeting": "Ciao",
+    "greetingName": "Ciao, {name}",
+    "subtitle": "Come arrivi oggi? Qui non devi fare nulla.",
+    "subtitleCheckedIn": "Grazie per esserti ascoltato/a oggi. Prendi ciò di cui hai bisogno.",
+    "verified": "La tua email è confermata. Grazie.",
+    "verifyFailed": "Quel link di conferma non ha funzionato o è scaduto.",
+    "verifyPending": "Ti abbiamo inviato un link per confermare l’email. Nel frattempo puoi continuare a usare ARUVI.",
+    "calmTitle": "Spazio calmo",
+    "calmBody": "Qualche respiro lento, quando ne hai bisogno.",
+    "companionTitle": "Parla con il compagno",
+    "companionBody": "Un ascoltatore gentile, nella tua lingua.",
+    "suggestionTitle": "Un’idea gentile per oggi",
+    "suggestions": {
+      "0": "Bevi un bicchiere d’acqua, lentamente.",
+      "1": "Esci o apri una finestra per un minuto d’aria fresca.",
+      "2": "Rilassa le spalle e lascia andare la mascella.",
+      "3": "Manda un breve messaggio a qualcuno di cui ti fidi.",
+      "4": "Riposa gli occhi lontano dagli schermi per cinque minuti.",
+      "5": "Nota una piccola cosa che oggi è andata bene."
+    },
+    "recentJournal": "Voci recenti del diario",
+    "openJournal": "Apri il diario",
+    "noJournal": "Ancora nessuna voce. Anche una sola riga può aiutare.",
+    "summaryTitle": "In sintesi",
+    "migraine30": "Attacchi di emicrania, ultimi 30 giorni",
+    "lastSleep": "Ultimo sonno",
+    "hours": "{hours} h",
+    "seeInsights": "Vedi i tuoi approfondimenti"
+  },
+  "journal": {
+    "title": "Umore e diario",
+    "subtitle": "Accorgiti di come ti senti e scrivi liberamente. Solo tu puoi vederlo.",
+    "moodNote": "Qualche parola al riguardo",
+    "moodHistory": "Registrazioni recenti",
+    "deleteMood": "Elimina questa registrazione",
+    "writeTitle": "Scrivi",
+    "promptLabel": "Uno spunto di scrittura, se aiuta",
+    "showPrompt": "Mostra uno spunto",
+    "newPrompt": "Mostra un altro spunto",
+    "titleLabel": "Titolo",
+    "contentLabel": "I tuoi pensieri",
+    "privateNote": "Privato per impostazione predefinita. Mai condiviso.",
+    "entries": "Le tue voci",
+    "empty": "Le tue voci appariranno qui.",
+    "deleteEntry": "Elimina questa voce",
+    "prompts": {
+      "0": "Cosa ti è pesato oggi, e cosa ti è sembrato un po’ più leggero?",
+      "1": "Di cosa ha bisogno il tuo corpo adesso?",
+      "2": "Descrivi un luogo in cui ti senti al sicuro.",
+      "3": "Cosa diresti a un amico che oggi si sente come te?",
+      "4": "Per quale piccola cosa sei grato/a?",
+      "5": "Cosa ti ha tolto energia oggi? Cosa te ne ha restituita un po’?",
+      "6": "Se le tue emozioni fossero un tempo atmosferico, quale sarebbe?",
+      "7": "Quale gesto gentile potresti fare per te domani?"
+    }
+  },
+  "migraine": {
+    "title": "Diario dell’emicrania",
+    "subtitle": "Tieni un semplice diario del mal di testa da condividere con il tuo medico.",
+    "disclaimer": "Questo diario registra ciò che noti. Gli schemi mostrati qui non sono una diagnosi medica. Parla con un medico del tuo mal di testa e di eventuali farmaci.",
+    "report": "Report per il medico",
+    "formTitle": "Registra un attacco",
+    "start": "Inizio",
+    "end": "Fine",
+    "ongoing": "Ancora in corso",
+    "ongoingShort": "in corso",
+    "duration": "{hours} h",
+    "intensity": "Intensità del dolore",
+    "intensityHint": "0 significa nessun dolore, 10 il peggior dolore immaginabile.",
+    "locationsLabel": "Dove fa male?",
+    "characteristicsLabel": "Com’è il dolore?",
+    "symptomsLabel": "Altri sintomi",
+    "triggersLabel": "Possibili fattori scatenanti notati",
+    "triggersHint": "Solo ciò che hai notato tu. Sono possibilità, non cause.",
+    "medication": "Farmaco assunto",
+    "medicationHint": "Solo una tua nota. ARUVI non suggerisce mai farmaci.",
+    "recovery": "Note su riposo e recupero",
+    "save": "Salva attacco",
+    "history": "Storico degli attacchi",
+    "empty": "Ancora nessun attacco registrato.",
+    "deleteEpisode": "Elimina questo attacco",
+    "locations": {
+      "left": "Lato sinistro",
+      "right": "Lato destro",
+      "both_sides": "Entrambi i lati",
+      "forehead": "Fronte",
+      "temples": "Tempie",
+      "behind_eyes": "Dietro gli occhi",
+      "back_of_head": "Nuca",
+      "neck": "Collo"
+    },
+    "characteristics": {
+      "throbbing": "Pulsante",
+      "pressing": "Oppressivo",
+      "stabbing": "Trafittivo",
+      "dull": "Sordo"
+    },
+    "symptoms": {
+      "nausea": "Nausea",
+      "vomiting": "Vomito",
+      "light_sensitivity": "Sensibilità alla luce",
+      "sound_sensitivity": "Sensibilità ai suoni",
+      "smell_sensitivity": "Sensibilità agli odori",
+      "aura": "Aura",
+      "dizziness": "Vertigini",
+      "fatigue": "Stanchezza",
+      "blurred_vision": "Vista offuscata"
+    },
+    "triggers": {
+      "sleep": "Cambiamenti del sonno",
+      "stress": "Stress",
+      "weather": "Cambiamenti del tempo",
+      "dehydration": "Disidratazione",
+      "meal_timing": "Orari dei pasti",
+      "screen": "Tempo davanti agli schermi",
+      "environment": "Ambiente (luce, rumore, odori)",
+      "menstrual": "Ciclo mestruale",
+      "other": "Altro"
+    }
+  },
+  "report": {
+    "title": "Report del diario del mal di testa",
+    "period": "Ultimi {days} giorni",
+    "print": "Stampa o salva come PDF",
+    "disclaimer": "Questo report contiene informazioni registrate dalla persona stessa in ARUVI. Non è una diagnosi. I possibili fattori scatenanti sono osservazioni personali.",
+    "episodes": "Attacchi",
+    "avgDuration": "Durata media (ore)",
+    "avgIntensity": "Intensità media (0–10)",
+    "triggers": "Possibili fattori scatenanti riferiti dalla persona",
+    "log": "Elenco degli attacchi",
+    "hours": "Ore"
+  },
+  "sleep": {
+    "title": "Sonno ed energia",
+    "subtitle": "Una breve nota quotidiana su riposo ed energia ti aiuta a capire le tue giornate.",
+    "date": "Data",
+    "dateHint": "Registra il sonno della notte scorsa con la data di oggi.",
+    "sleepTitle": "Sonno",
+    "hours": "Ore di sonno",
+    "quality": "Qualità del sonno",
+    "poor": "Scarsa",
+    "restful": "Riposante",
+    "energyTitle": "Energia",
+    "energy": "Livello di energia",
+    "fatigue": "Stanchezza",
+    "veryLow": "Molto basso",
+    "high": "Alto",
+    "little": "Poca",
+    "aLot": "Molta",
+    "rest": "Tempo di riposo (minuti)",
+    "note": "Nota",
+    "history": "Ultime due settimane",
+    "empty": "Ancora nulla di registrato."
+  },
+  "insights": {
+    "title": "Approfondimenti sul benessere",
+    "subtitle": "Uno sguardo semplice su ciò che hai registrato.",
+    "disclaimer": "Sono descrizioni delle tue annotazioni, non conclusioni mediche. Se due cose compaiono insieme, non significa che una causi l’altra.",
+    "rangeLabel": "Periodo",
+    "range": "{days} giorni",
+    "stats": {
+      "checkIns": "Registrazioni dell’umore",
+      "migraines": "Attacchi di emicrania",
+      "avgDuration": "Attacco medio (h)",
+      "avgSleep": "Sonno medio (h)"
+    },
+    "observationsTitle": "Cosa mostrano le tue annotazioni",
+    "notEnough": "Continua a registrare ancora un po’, e qui appariranno osservazioni delicate.",
+    "obs": {
+      "topTrigger": "Hai indicato “{trigger}” come possibile fattore scatenante in {count} attacchi su {total}.",
+      "lowSleepMigraine": "Nel {share}% dei giorni con emicrania avevi anche registrato meno di 6 ore di sonno, rispetto al {overall}% di tutte le notti registrate.",
+      "steadyMood": "L’emozione che hai registrato più spesso è “{mood}” ({count} volte)."
+    },
+    "moodChart": "Stati d’animo registrati",
+    "migraineChart": "Attacchi di emicrania al giorno",
+    "sleepChart": "Ore di sonno",
+    "energyChart": "Livello di energia (1–5)",
+    "showTable": "Mostra come tabella",
+    "noData": "Nessuna registrazione in questo periodo.",
+    "mood": "Umore",
+    "count": "Volte",
+    "date": "Data",
+    "episodes": "Attacchi",
+    "hours": "Ore",
+    "energyLevel": "Energia"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "prefsTitle": "Preferenze",
+    "displayName": "Nome con cui salutarti",
+    "trackMigraine": {
+      "title": "Vivo con l’emicrania",
+      "body": "Metti più in evidenza le funzioni per l’emicrania."
+    },
+    "trackMenstrual": {
+      "title": "Includi il ciclo mestruale tra i possibili fattori scatenanti",
+      "body": "Facoltativo. Compare solo nel tuo diario dell’emicrania."
+    },
+    "keepAiHistory": {
+      "title": "Conserva la cronologia delle conversazioni con il compagno",
+      "body": "Disattivato per impostazione predefinita. Se attivo, le conversazioni vengono salvate così puoi riprenderle. Puoi eliminarle in qualsiasi momento."
+    },
+    "comfortNote": "Tema, dimensione del testo e lingua si trovano nella barra in alto e vengono ricordati su questo dispositivo.",
+    "exportTitle": "Scarica i tuoi dati",
+    "exportBody": "Ottieni una copia di tutto ciò che ARUVI conserva su di te, come file JSON.",
+    "exportButton": "Scarica i miei dati",
+    "deleteTitle": "Elimina account",
+    "deleteBody": "Questo elimina per sempre il tuo account e tutto il suo contenuto: umore, diari, note e conversazioni. Non può essere annullato.",
+    "deleteConfirmLabel": "Scrivi DELETE per confermare",
+    "deleteButton": "Elimina definitivamente il mio account"
+  },
+  "companion": {
+    "title": "Compagno",
+    "subtitle": "Condividi ciò che hai in mente. Scrivi nella lingua che preferisci.",
+    "disclaimer": "Il compagno è un’IA, non un terapeuta né un medico. Può sbagliare e non può fare diagnosi né dare consigli medici. Se sei in pericolo, usa i numeri in “Chiedi aiuto” o chiama il numero di emergenza locale.",
+    "emptyTitle": "Sono qui per ascoltarti.",
+    "emptyBody": "Come ti senti in questo momento?",
+    "placeholder": "Scrivi ciò che hai in mente…",
+    "inputLabel": "Il tuo messaggio",
+    "send": "Invia",
+    "you": "Tu",
+    "companion": "Compagno",
+    "thinking": "…",
+    "newChat": "Nuova conversazione",
+    "clear": "Cancella conversazione",
+    "deleteHistory": "Elimina tutta la cronologia",
+    "historyOn": "Le conversazioni vengono salvate. Puoi disattivarlo nelle Impostazioni.",
+    "historyOff": "Le conversazioni non vengono salvate. Spariscono quando lasci questa pagina.",
+    "crisisTitle": "Non devi affrontarlo da solo/a",
+    "crisisBody": "Sembra che in questo momento sia davvero dura. Contatta qualcuno che può aiutarti — puoi chiamare ora, a qualsiasi ora.",
+    "errors": {
+      "refusal": "Non posso rispondere a questo. Se è un momento difficile, contatta qualcuno di cui ti fidi o usa i numeri in “Chiedi aiuto”.",
+      "unavailable": "Il compagno non è disponibile al momento. Riprova più tardi.",
+      "error": "Qualcosa è andato storto. Riprova.",
+      "network": "Sembra che tu sia offline. Controlla la connessione.",
+      "limit": "Hai inviato molti messaggi. Fai una breve pausa e riprova più tardi.",
+      "generic": "Qualcosa è andato storto. Riprova."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Accedi per usare questa funzione",
+    "guestBody": "Crea un account gratuito per mantenere le tue annotazioni private e al sicuro su tutti i dispositivi.",
+    "continueGuest": "Continua senza account",
+    "more": "Altro",
+    "appearance": "Aspetto",
+    "themeSystem": "Sistema",
+    "themeLight": "Chiaro",
+    "themeDark": "Scuro",
+    "account": "Account",
+    "signedInAs": "Accesso effettuato come {email}",
+    "offline": "Impossibile raggiungere ARUVI al momento. Controlla la connessione e riprova.",
+    "reportOnWeb": "Il report stampabile per il medico è disponibile sul sito di ARUVI.",
+    "pickDate": "Scegli la data",
+    "pickTime": "Scegli l’ora",
+    "textSize": "Dimensione del testo",
+    "refresh": "Aggiorna",
+    "migraineTab": "Emicrania"
+  }
+}
