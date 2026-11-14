@@ -210,12 +210,32 @@
     "noAccount": "ARUVI가 처음이신가요?",
     "haveAccount": "이미 계정이 있으신가요?",
     "tryWithout": "계정 없이 호흡 연습 해 보기",
+    "birthYear": "태어난 해",
+    "birthYearPlaceholder": "연도 선택",
+    "under16": "16세 미만입니다",
+    "birthYearHint": "ARUVI는 16세 이상을 위한 서비스입니다. 이 정보는 본인만 볼 수 있어요.",
+    "tooYoung": "ARUVI는 16세 이상을 위한 서비스라 아직 계정을 만들 수 없어요. 힘들다면 믿을 수 있는 어른과 이야기하거나 상담 전화에 연락해 주세요.",
+    "seeHelp": "상담 전화 보기",
+    "concernsLabel": "어떤 부분에서 도움을 받고 싶으신가요?",
+    "concernsHint": "해당하는 것을 모두 고르세요. ARUVI가 보여 주는 내용만 바뀌며, 진단이 아닙니다.",
+    "concerns": {
+      "migraine": "편두통 또는 두통",
+      "depression": "우울감 또는 우울증",
+      "anxiety": "불안 또는 걱정",
+      "stress": "스트레스",
+      "sleep": "수면",
+      "other": "기타"
+    },
+    "welcomeTitle": "시작하기 전에 몇 가지만",
+    "welcomeSubtitle": "ARUVI를 나에게 맞추는 데 도움이 돼요. 이 정보는 본인만 볼 수 있어요.",
+    "continue": "계속",
     "errors": {
       "invalid": "이메일과 비밀번호가 일치하지 않아요. 다시 시도해 주세요.",
       "exists": "로그인하지 못했어요. 이미 계정이 있다면 로그인해 주세요.",
       "checkFields": "입력 내용을 확인하고 다시 시도해 주세요.",
       "rateLimited": "시도 횟수가 너무 많아요. 몇 분 후에 다시 시도해 주세요.",
-      "generic": "문제가 생겼어요. 다시 시도해 주세요."
+      "generic": "문제가 생겼어요. 다시 시도해 주세요.",
+      "oauthLinked": "이 이메일로 이미 ARUVI 계정이 있어요. 이메일과 비밀번호로 로그인해 주세요."
     }
   },
   "dash": {
