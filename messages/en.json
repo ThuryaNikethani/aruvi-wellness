@@ -30,7 +30,7 @@
     }
   },
   "i18n": {
-    "partial": "{language} is being translated. Until it's ready, some text is shown in English."
+    "partial": "{language} was translated automatically, so some wording may not be perfect. If anything is unclear, English, සිංහල and தமிழ் are fully reviewed."
   },
   "hero": {
     "eyebrow": "Free · Private · In your language",
