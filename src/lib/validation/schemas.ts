@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { Mood, TriggerCategory, ThemePreference, TextSize } from "@prisma/client";
+import { Concern, Mood, TriggerCategory, ThemePreference, TextSize } from "@prisma/client";
 
 const upper = (v: unknown) => (typeof v === "string" ? v.toUpperCase() : v);
 const optionalText = (max: number) =>
@@ -14,6 +14,16 @@ export const signInSchema = z.object({
   password: z.string().min(1).max(200),
 });
 
+// ───── Profile (asked at sign-up, or on first Google sign-in) ─────
+export const MIN_AGE = 16;
+export const latestBirthYear = () => new Date().getUTCFullYear() - MIN_AGE;
+export const birthYearValue = z.coerce
+  .number()
+  .int()
+  .min(1900)
+  .refine((y) => y <= latestBirthYear(), "too_young");
+export const concernsValue = z.array(z.preprocess(upper, z.nativeEnum(Concern))).max(6).default([]);
+
 export const registerSchema = z.object({
   name: optionalText(80),
   email: z.string().trim().toLowerCase().email().max(254),
@@ -21,6 +31,20 @@ export const registerSchema = z.object({
   locale: z.string().min(2).max(10).default("en"),
   acceptTerms: z.literal(true),
   acceptHealthData: z.literal(true),
+  // Optional here so older mobile builds keep working; the web form always sends them.
+  birthYear: birthYearValue.optional(),
+  concerns: concernsValue,
+  trackMenstrual: z.boolean().optional(),
+});
+
+export const completeProfileSchema = z.object({
+  birthYear: birthYearValue,
+  concerns: concernsValue,
+  trackMenstrual: z.boolean().optional(),
+  locale: z.string().min(2).max(10).optional(),
+  // Required only when the account has no consent on record yet (e.g. created with Google).
+  acceptTerms: z.boolean().optional(),
+  acceptHealthData: z.boolean().optional(),
 });
 
 // ───── Mood & journal ─────
