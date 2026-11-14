@@ -210,12 +210,32 @@
     "noAccount": "第一次使用 ARUVI？",
     "haveAccount": "已有账户？",
     "tryWithout": "或者不注册，先试试呼吸练习",
+    "birthYear": "出生年份",
+    "birthYearPlaceholder": "选择年份",
+    "under16": "我未满 16 岁",
+    "birthYearHint": "ARUVI 面向 16 岁及以上的人。此信息仅你可见。",
+    "tooYoung": "ARUVI 面向 16 岁及以上的人，因此我们暂时无法为你创建账户。如果你感到很难受，请和你信任的成年人聊聊，或拨打支持热线。",
+    "seeHelp": "查看支持热线",
+    "concernsLabel": "你希望在哪些方面得到支持？",
+    "concernsHint": "选择所有符合的选项。这只会影响 ARUVI 为你展示的内容——并非诊断。",
+    "concerns": {
+      "migraine": "偏头痛或头痛",
+      "depression": "情绪低落或抑郁",
+      "anxiety": "焦虑或担忧",
+      "stress": "压力",
+      "sleep": "睡眠",
+      "other": "其他"
+    },
+    "welcomeTitle": "开始之前的几个小问题",
+    "welcomeSubtitle": "这能让 ARUVI 更适合你。此信息仅你可见。",
+    "continue": "继续",
     "errors": {
       "invalid": "邮箱和密码不匹配，请重试。",
       "exists": "无法为你登录。如果你已有账户，请直接登录。",
       "checkFields": "请检查填写的内容后重试。",
       "rateLimited": "尝试次数过多，请等几分钟后再试。",
-      "generic": "出了点问题，请重试。"
+      "generic": "出了点问题，请重试。",
+      "oauthLinked": "该邮箱已注册 ARUVI 账户。请使用邮箱和密码登录。"
     }
   },
   "dash": {
