@@ -13,7 +13,8 @@
     "db:migrate": "dotenv -e .env.local -- prisma migrate dev",
     "db:studio": "dotenv -e .env.local -- prisma studio",
     "postinstall": "prisma generate",
-    "mobile:i18n": "node scripts/sync-mobile-i18n.mjs"
+    "mobile:i18n": "node scripts/sync-mobile-i18n.mjs",
+    "translate": "node scripts/translate.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.8.0",
