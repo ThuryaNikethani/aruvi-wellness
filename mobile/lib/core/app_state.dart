@@ -5,16 +5,18 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'api.dart';
+import 'helplines.dart';
 import 'i18n.dart';
 
 /// App-wide state: language, comfort settings and the signed-in user.
 class AppState extends ChangeNotifier {
-  AppState._(this._prefs, this.i18n, this._token);
+  AppState._(this._prefs, this.i18n, this._token, this.helplines);
 
   static const _secure = FlutterSecureStorage();
   static const _tokenKey = 'aruvi_token';
 
   final SharedPreferences _prefs;
+  final Helplines helplines;
   I18n i18n;
   String? _token;
   Map<String, dynamic>? user;
@@ -28,7 +30,7 @@ class AppState extends ChangeNotifier {
     try {
       token = await _secure.read(key: _tokenKey);
     } catch (_) {}
-    final state = AppState._(prefs, await I18n.load(locale), token);
+    final state = AppState._(prefs, await I18n.load(locale), token, await Helplines.load());
     if (token != null) await state.refreshUser();
     return state;
   }
@@ -54,6 +56,17 @@ class AppState extends ChangeNotifier {
   Future<void> setLocale(String code) async {
     i18n = await I18n.load(code);
     await _prefs.setString('locale', code);
+    notifyListeners();
+  }
+
+  // ───── Helpline country ─────
+  /// The user's choice, else the phone's region, else the language.
+  String get country =>
+      _prefs.getString('country') ??
+      helplines.guess(locale, WidgetsBinding.instance.platformDispatcher.locale.countryCode);
+  List<Helpline> get lines => helplines.linesFor(country);
+  Future<void> setCountry(String code) async {
+    await _prefs.setString('country', code);
     notifyListeners();
   }
 
