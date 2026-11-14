@@ -10,7 +10,7 @@ Future<AppState> _boot(WidgetTester tester, {String? locale, String? country}) a
   tester.view.physicalSize = const Size(1080, 2400);
   tester.view.devicePixelRatio = 3;
   addTearDown(tester.view.reset);
-  SharedPreferences.setMockInitialValues({if (locale != null) 'locale': locale, if (country != null) 'country': country});
+  SharedPreferences.setMockInitialValues({if (locale != null) 'locale': locale, if (country != null) 'country_${locale ?? 'en'}': country});
   late AppState state;
   await tester.runAsync(() async => state = await AppState.init());
   await tester.pumpWidget(ChangeNotifierProvider.value(value: state, child: const AruviApp()));
@@ -84,5 +84,16 @@ void main() {
     await tester.tap(find.byIcon(Icons.support).first);
     await tester.pumpAndSettle();
     expect(find.text('Find a helpline in your country'), findsWidgets);
+  });
+
+  testWidgets('choosing Japanese switches helplines to Japan', (tester) async {
+    final state = await _boot(tester);
+    await tester.runAsync(() => state.setLocale('ja'));
+    await tester.pumpAndSettle();
+    expect(state.country, 'JP');
+    expect(state.lines.first.number, '119');
+    await tester.runAsync(() => state.setLocale('si'));
+    await tester.pumpAndSettle();
+    expect(state.country, 'LK');
   });
 }
