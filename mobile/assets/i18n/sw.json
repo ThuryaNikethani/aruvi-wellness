@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Mahali pa upole kwa siku ngumu",
+    "description": "Nafasi ya ustawi ya bure, ya faragha na ya lugha nyingi kwa watu wanaoishi na kipandauso, msongo wa mawazo, wasiwasi na shinikizo."
+  },
+  "nav": {
+    "skip": "Ruka hadi maudhui makuu",
+    "home": "Ukurasa wa nyumbani wa ARUVI",
+    "primary": "Kuu",
+    "checkin": "Kujiuliza hali",
+    "calm": "Nafasi ya Utulivu",
+    "features": "Kilichomo",
+    "support": "Pata msaada",
+    "signIn": "Ingia",
+    "openMenu": "Fungua menyu",
+    "closeMenu": "Funga menyu",
+    "language": "Lugha",
+    "languagesFull": "Zimetafsiriwa kikamilifu",
+    "languagesMore": "Lugha zaidi",
+    "mySpace": "Nafasi yangu"
+  },
+  "comfort": {
+    "toLight": "Badilisha kwenda mandhari angavu",
+    "toDark": "Badilisha kwenda mandhari meusi",
+    "textSize": "Ukubwa wa maandishi: {size}. Bonyeza kubadilisha.",
+    "sizes": {
+      "normal": "Kawaida",
+      "large": "Kubwa",
+      "larger": "Kubwa zaidi"
+    }
+  },
+  "i18n": {
+    "partial": "{language} imetafsiriwa kiotomatiki, kwa hivyo baadhi ya maneno huenda yasiwe sahihi kabisa. Kama kuna jambo lisilo wazi, English, සිංහල na தமிழ் zimekaguliwa kikamilifu."
+  },
+  "hero": {
+    "eyebrow": "Bure · Faragha · Kwa lugha yako",
+    "title": "Mahali pa upole kwa siku ngumu.",
+    "body": "Nafasi salama na tulivu ya kutambua jinsi unavyojisikia, kupunguza kasi na kujitunza — bila shinikizo wala hukumu.",
+    "ctaBreathe": "Vuta pumzi kwa upole",
+    "ctaCheckin": "Jiulize hali yako",
+    "note": "Huhitaji akaunti ili kuanza."
+  },
+  "mood": {
+    "title": "Unajisikiaje sasa hivi?",
+    "subtitle": "Hakuna jibu sahihi. Chagua kinachokaribia zaidi — ni sawa kikibadilika.",
+    "legend": "Ninajisikia…",
+    "options": {
+      "happy": "Furaha",
+      "calm": "Utulivu",
+      "sad": "Huzuni",
+      "anxious": "Wasiwasi",
+      "overwhelmed": "Kuzidiwa",
+      "irritated": "Kukasirika",
+      "exhausted": "Uchovu mwingi",
+      "lonely": "Upweke",
+      "numb": "Kufa ganzi kihisia"
+    },
+    "intensity": "Hisia hii ina nguvu kiasi gani?",
+    "intensityLow": "Kidogo",
+    "intensityHigh": "Sana",
+    "save": "Hifadhi",
+    "saved": "Asante kwa kujiuliza hali yako.",
+    "savedNote": "Imehifadhiwa kwenye kifaa hiki pekee.",
+    "again": "Jiulize tena",
+    "suggestBreathe": "Jaribu pumziko la kupumua",
+    "privacy": "Katika onyesho hili, hakuna kinachotoka kwenye kifaa chako.",
+    "responses": {
+      "happy": "Ni vizuri kwamba leo inahisi nyepesi zaidi. Unaweza kuandika kilichokusaidia, ili urudi kwake.",
+      "calm": "Wakati wa utulivu unastahili kutambuliwa. Kaa nao kwa muda wowote unaotaka.",
+      "sad": "Huzuni inaweza kuhisi nzito. Huhitaji kuirekebisha sasa — kuwa mpole kwako mwenyewe kunatosha.",
+      "anxious": "Wasiwasi hufanya kila kitu kihisi cha haraka. Kutoa pumzi taratibu kunaweza kusaidia mwili kujisikia salama kidogo zaidi.",
+      "overwhelmed": "Kila kitu kinapohisi kuwa kingi mno, ni sawa kuchagua jambo moja dogo tu — au kutofanya chochote.",
+      "irritated": "Hasira mara nyingi inamaanisha kuna kitu muhimu kwako. Pumziko fupi linaweza kukupa nafasi kidogo.",
+      "exhausted": "Uchovu wa namna hii ni halisi. Kupumzika si kitu unachopaswa kukistahili.",
+      "lonely": "Upweke ni mgumu. Ukiweza, wasiliana na mtu mmoja unayemwamini — hata ujumbe mfupi unaweza kusaidia.",
+      "numb": "Kufa ganzi wakati mwingine ni njia ya akili kujilinda. Bado uko hapa, na hilo ni muhimu."
+    }
+  },
+  "calm": {
+    "title": "Nafasi Yangu ya Utulivu",
+    "subtitle": "Mahali tulivu pa kupunguza kasi ya kupumua. Simamisha, badilisha au acha wakati wowote.",
+    "idle": "Bonyeza anza ukiwa tayari.",
+    "phases": {
+      "in": "Vuta pumzi",
+      "hold": "Shikilia kwa upole",
+      "out": "Toa pumzi",
+      "rest": "Pumzika"
+    },
+    "seconds": "{seconds, plural, one {sekunde #} other {sekunde #}}",
+    "pausedLabel": "Imesimamishwa",
+    "start": "Anza",
+    "pause": "Simamisha",
+    "resume": "Endelea",
+    "stop": "Acha",
+    "patternLabel": "Mdundo wa kupumua",
+    "patterns": {
+      "gentle": "Upole — vuta 4, toa 6",
+      "box": "Kisanduku — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Mandharinyuma",
+    "scenes": {
+      "forest": "Msitu",
+      "ocean": "Bahari",
+      "dusk": "Machweo"
+    },
+    "rounds": "{count, plural, =0 {Bado hakuna mzunguko} one {Mzunguko # umekamilika} other {Mizunguko # imekamilika}}",
+    "note": "Hakuna mwako wala mwendo wa kasi. Sauti hubaki zimezimwa isipokuwa ukiziwasha."
+  },
+  "features": {
+    "title": "Kila kitu kwa kasi yako",
+    "subtitle": "Tumia kinachosaidia, ruka kisichosaidia. Hakuna jukumu hapa unalolazimika kumaliza.",
+    "soon": "Inakuja hivi karibuni",
+    "preview": "Jaribu sasa",
+    "items": {
+      "calm": {
+        "title": "Nafasi ya Utulivu",
+        "body": "Kupumua, kujikita na kulegeza mwili pamoja na mandhari tulivu ya asili."
+      },
+      "journal": {
+        "title": "Shajara ya Hisia",
+        "body": "Tambua hisia zako, andika kwa uhuru na uone mifumo ya upole kadiri muda unavyokwenda."
+      },
+      "companion": {
+        "title": "Mwenzi wa Ustawi wa AI",
+        "body": "Msikilizaji anayekuunga mkono kwa lugha yako. Si daktari wala mtaalamu wa tiba."
+      },
+      "migraine": {
+        "title": "Shajara ya Kipandauso",
+        "body": "Rekodi mashambulizi, dalili na vichochezi vinavyowezekana, na utoe ripoti kwa daktari wako."
+      },
+      "sleep": {
+        "title": "Usingizi na Nguvu",
+        "body": "Fuatilia mapumziko, ubora wa usingizi na nguvu ili kuelewa siku zako."
+      },
+      "insights": {
+        "title": "Maarifa ya Ustawi",
+        "body": "Muhtasari rahisi na wa kuelezea wa rekodi zako mwenyewe — kamwe si utambuzi wa ugonjwa."
+      }
+    }
+  },
+  "promise": {
+    "title": "Ahadi yetu kwako",
+    "items": {
+      "free": {
+        "title": "Bure kwa kila mtu",
+        "body": "Hakuna usajili wa kulipia wala vipengele vya malipo."
+      },
+      "private": {
+        "title": "Faragha kwa chaguo-msingi",
+        "body": "Shajara na mazungumzo yako ni yako. Kamwe hatuuzi taarifa binafsi au za afya."
+      },
+      "gentle": {
+        "title": "Hakuna shinikizo",
+        "body": "Hakuna hesabu za mfululizo, hakuna hatia. Rudi wakati wowote unapohitaji."
+      },
+      "notMedical": {
+        "title": "Msaada, si matibabu",
+        "body": "ARUVI haichukui nafasi ya huduma ya kitaalamu ya matibabu au saikolojia."
+      }
+    }
+  },
+  "help": {
+    "title": "Ikiwa unahitaji msaada sasa hivi",
+    "body": "Ikiwa uko hatarini au unafikiria kujidhuru, tafadhali wasiliana na mtu sasa. Unastahili kusaidiwa.",
+    "lines": {
+      "national": "Simu ya Kitaifa ya Afya ya Akili (Sri Lanka, saa 24)",
+      "ambulance": "Gari la wagonjwa la Suwa Seriya",
+      "police": "Dharura ya polisi"
+    },
+    "call": "Piga simu {name}: {number}",
+    "note": "ARUVI si huduma ya dharura. Ikiwa huenda ukatenda kulingana na mawazo ya kujidhuru, tafadhali wasiliana na mojawapo ya huduma hizi au nenda hospitali iliyo karibu.",
+    "countryLabel": "Nchi yako",
+    "otherCountry": "Nchi nyingine",
+    "noList": "Bado hatuna orodha iliyothibitishwa ya simu za msaada kwa nchi hii. Tafadhali piga nambari ya dharura ya eneo lako au nenda hospitali iliyo karibu. Unaweza pia kupata simu ya msaada wa dharura ya bure na ya siri karibu nawe hapa:",
+    "findMore": "Tafuta simu ya msaada katika nchi yako"
+  },
+  "footer": {
+    "tagline": "Mahali pa upole kwa siku ngumu.",
+    "disclaimer": "ARUVI ni mwenzi wa ustawi anayekuunga mkono. Si mbadala wa matibabu ya kitaalamu ya kiafya au kisaikolojia.",
+    "languages": "Lugha",
+    "made": "Imetengenezwa kwa upendo. Bure kwa kila mtu."
+  },
+  "common": {
+    "save": "Hifadhi",
+    "saving": "Inahifadhi…",
+    "saved": "Imehifadhiwa.",
+    "error": "Kuna hitilafu. Tafadhali jaribu tena.",
+    "optional": "si lazima",
+    "confirmDelete": "Futa hiki?",
+    "yes": "Ndiyo, futa",
+    "cancel": "Ghairi"
+  },
+  "auth": {
+    "signInTitle": "Karibu tena",
+    "signInSubtitle": "Ingia ili kuona shajara, rekodi na maarifa yako.",
+    "signUpTitle": "Unda nafasi yako",
+    "signUpSubtitle": "Bure, ya faragha na yako. Unaweza kufuta kila kitu wakati wowote.",
+    "name": "Tukuite nani?",
+    "optional": "si lazima",
+    "email": "Barua pepe",
+    "password": "Nenosiri",
+    "passwordHint": "Angalau herufi 10. Sentensi fupi inafaa.",
+    "acceptTerms": "Nakubali masharti na sera ya faragha.",
+    "acceptHealth": "Nakubali ARUVI ihifadhi taarifa za ustawi ninazochagua kuweka (hisia, shajara, rekodi za kipandauso na usingizi), kwa faragha na kwa ajili yangu pekee.",
+    "signIn": "Ingia",
+    "signUp": "Fungua akaunti",
+    "wait": "Tafadhali subiri…",
+    "or": "au",
+    "google": "Endelea na Google",
+    "noAccount": "Mgeni kwenye ARUVI?",
+    "haveAccount": "Tayari una akaunti?",
+    "tryWithout": "Au jaribu zoezi la kupumua bila akaunti",
+    "errors": {
+      "invalid": "Barua pepe na nenosiri havilingani. Tafadhali jaribu tena.",
+      "exists": "Hatukuweza kukuingiza. Ikiwa tayari una akaunti, tafadhali ingia.",
+      "checkFields": "Tafadhali kagua sehemu zote na ujaribu tena.",
+      "rateLimited": "Majaribio mengi mno. Subiri dakika chache kisha ujaribu tena.",
+      "generic": "Kuna hitilafu. Tafadhali jaribu tena."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Nafasi yangu",
+      "overview": "Leo",
+      "journal": "Hisia na shajara",
+      "companion": "Mwenzi",
+      "migraine": "Shajara ya kipandauso",
+      "sleep": "Usingizi na nguvu",
+      "insights": "Maarifa",
+      "settings": "Mipangilio",
+      "calm": "Nafasi ya Utulivu",
+      "signOut": "Toka"
+    }
+  },
+  "overview": {
+    "greeting": "Habari",
+    "greetingName": "Habari, {name}",
+    "subtitle": "Unaendeleaje leo? Hakuna unachopaswa kufanya hapa.",
+    "subtitleCheckedIn": "Asante kwa kujiuliza hali yako leo. Chukua unachohitaji.",
+    "verified": "Barua pepe yako imethibitishwa. Asante.",
+    "verifyFailed": "Kiungo hicho cha uthibitisho hakikufanya kazi au muda wake umeisha.",
+    "verifyPending": "Tumekutumia kiungo cha kuthibitisha barua pepe yako. Wakati huo unaweza kuendelea kutumia ARUVI.",
+    "calmTitle": "Nafasi ya Utulivu",
+    "calmBody": "Pumzi chache za taratibu, wakati wowote unapohitaji.",
+    "companionTitle": "Ongea na mwenzi",
+    "companionBody": "Msikilizaji mpole, kwa lugha yako.",
+    "suggestionTitle": "Wazo la upole kwa leo",
+    "suggestions": {
+      "0": "Kunywa glasi ya maji, taratibu.",
+      "1": "Toka nje au fungua dirisha upate hewa safi kwa dakika moja.",
+      "2": "Legeza mabega yako na uache taya yako ilegee.",
+      "3": "Tuma ujumbe mfupi kwa mtu unayemwamini.",
+      "4": "Pumzisha macho yako mbali na skrini kwa dakika tano.",
+      "5": "Tambua jambo moja dogo lililoenda vizuri leo."
+    },
+    "recentJournal": "Shajara za karibuni",
+    "openJournal": "Fungua shajara",
+    "noJournal": "Bado hakuna maandishi. Hata kuandika mstari mmoja kunaweza kusaidia.",
+    "summaryTitle": "Kwa muhtasari",
+    "migraine30": "Mashambulizi ya kipandauso, siku 30 zilizopita",
+    "lastSleep": "Usingizi wa karibuni",
+    "hours": "saa {hours}",
+    "seeInsights": "Tazama maarifa yako"
+  },
+  "journal": {
+    "title": "Hisia na shajara",
+    "subtitle": "Tambua unavyojisikia na uandike kwa uhuru. Ni wewe tu unayeweza kuona hii.",
+    "moodNote": "Maneno machache kuhusu hilo",
+    "moodHistory": "Ukaguzi wa karibuni",
+    "deleteMood": "Futa ukaguzi huu",
+    "writeTitle": "Andika",
+    "promptLabel": "Wazo la kuandika, likikusaidia",
+    "showPrompt": "Onyesha wazo la kuandika",
+    "newPrompt": "Onyesha wazo lingine",
+    "titleLabel": "Kichwa",
+    "contentLabel": "Mawazo yako",
+    "privateNote": "Faragha kwa chaguo-msingi. Kamwe haishirikiwi.",
+    "entries": "Maandishi yako",
+    "empty": "Maandishi yako yataonekana hapa.",
+    "deleteEntry": "Futa maandishi haya",
+    "prompts": {
+      "0": "Ni jambo gani lilihisi zito leo, na jambo gani lilihisi jepesi kidogo?",
+      "1": "Mwili wako unahitaji nini sasa hivi?",
+      "2": "Eleza mahali unapojisikia salama.",
+      "3": "Ungemwambia nini rafiki anayejisikia kama wewe leo?",
+      "4": "Ni jambo gani dogo unalolishukuru?",
+      "5": "Nini kilimaliza nguvu zako leo? Nini kilikurudishia kidogo?",
+      "6": "Kama hisia zako zingekuwa hali ya hewa, zingekuwa ipi?",
+      "7": "Ni jambo gani moja la wema unaloweza kujifanyia kesho?"
+    }
+  },
+  "migraine": {
+    "title": "Shajara ya kipandauso",
+    "subtitle": "Weka shajara rahisi ya maumivu ya kichwa unayoweza kushiriki na daktari wako.",
+    "disclaimer": "Shajara hii inarekodi unachogundua. Mifumo inayoonyeshwa hapa si utambuzi wa kitabibu. Tafadhali zungumza na daktari kuhusu maumivu yako ya kichwa na dawa yoyote.",
+    "report": "Ripoti kwa daktari",
+    "formTitle": "Rekodi shambulio",
+    "start": "Lilianza",
+    "end": "Liliisha",
+    "ongoing": "Bado linaendelea",
+    "ongoingShort": "linaendelea",
+    "duration": "saa {hours}",
+    "intensity": "Ukali wa maumivu",
+    "intensityHint": "0 inamaanisha hakuna maumivu, 10 inamaanisha maumivu makali zaidi unayoweza kufikiria.",
+    "locationsLabel": "Maumivu yako wapi?",
+    "characteristicsLabel": "Yanahisi vipi?",
+    "symptomsLabel": "Dalili nyingine",
+    "triggersLabel": "Vichochezi vinavyowezekana ulivyogundua",
+    "triggersHint": "Ulichogundua mwenyewe tu. Hivi ni uwezekano, si visababishi.",
+    "medication": "Dawa uliyotumia",
+    "medicationHint": "Rekodi yako binafsi tu. ARUVI kamwe haipendekezi dawa.",
+    "recovery": "Maelezo ya mapumziko na kupona",
+    "save": "Hifadhi shambulio",
+    "history": "Historia ya mashambulizi",
+    "empty": "Bado hakuna shambulio lililorekodiwa.",
+    "deleteEpisode": "Futa shambulio hili",
+    "locations": {
+      "left": "Upande wa kushoto",
+      "right": "Upande wa kulia",
+      "both_sides": "Pande zote mbili",
+      "forehead": "Paji la uso",
+      "temples": "Mapaji ya pembeni",
+      "behind_eyes": "Nyuma ya macho",
+      "back_of_head": "Nyuma ya kichwa",
+      "neck": "Shingo"
+    },
+    "characteristics": {
+      "throbbing": "Kupwita",
+      "pressing": "Kubana",
+      "stabbing": "Kuchoma",
+      "dull": "Maumivu hafifu"
+    },
+    "symptoms": {
+      "nausea": "Kichefuchefu",
+      "vomiting": "Kutapika",
+      "light_sensitivity": "Kuumizwa na mwanga",
+      "sound_sensitivity": "Kuumizwa na sauti",
+      "smell_sensitivity": "Kuumizwa na harufu",
+      "aura": "Aura",
+      "dizziness": "Kizunguzungu",
+      "fatigue": "Uchovu",
+      "blurred_vision": "Kuona ukungu"
+    },
+    "triggers": {
+      "sleep": "Mabadiliko ya usingizi",
+      "stress": "Shinikizo",
+      "weather": "Mabadiliko ya hali ya hewa",
+      "dehydration": "Upungufu wa maji",
+      "meal_timing": "Muda wa milo",
+      "screen": "Muda wa skrini",
+      "environment": "Mazingira (mwanga, kelele, harufu)",
+      "menstrual": "Mzunguko wa hedhi",
+      "other": "Nyingine"
+    }
+  },
+  "report": {
+    "title": "Ripoti ya shajara ya maumivu ya kichwa",
+    "period": "siku {days} zilizopita",
+    "print": "Chapisha au hifadhi kama PDF",
+    "disclaimer": "Ripoti hii ina taarifa zilizorekodiwa na mtu mwenyewe katika ARUVI. Si utambuzi. Vichochezi vinavyowezekana ni uchunguzi binafsi.",
+    "episodes": "Mashambulizi",
+    "avgDuration": "Wastani wa muda (saa)",
+    "avgIntensity": "Wastani wa ukali (0–10)",
+    "triggers": "Vichochezi vilivyoripotiwa binafsi",
+    "log": "Kumbukumbu ya mashambulizi",
+    "hours": "Saa"
+  },
+  "sleep": {
+    "title": "Usingizi na nguvu",
+    "subtitle": "Kumbukumbu fupi ya kila siku kuhusu mapumziko na nguvu inakusaidia kuelewa siku zako.",
+    "date": "Tarehe",
+    "dateHint": "Rekodi usingizi wa jana usiku kwenye tarehe ya leo.",
+    "sleepTitle": "Usingizi",
+    "hours": "Saa za usingizi",
+    "quality": "Ubora wa usingizi",
+    "poor": "Mbaya",
+    "restful": "Wa kupumzisha",
+    "energyTitle": "Nguvu",
+    "energy": "Kiwango cha nguvu",
+    "fatigue": "Uchovu",
+    "veryLow": "Chini sana",
+    "high": "Juu",
+    "little": "Kidogo",
+    "aLot": "Sana",
+    "rest": "Muda wa kupumzika (dakika)",
+    "note": "Kumbukumbu",
+    "history": "Wiki mbili zilizopita",
+    "empty": "Bado hakuna kilichorekodiwa."
+  },
+  "insights": {
+    "title": "Maarifa ya ustawi",
+    "subtitle": "Mtazamo rahisi wa ulichorekodi.",
+    "disclaimer": "Haya ni maelezo ya rekodi zako mwenyewe, si hitimisho za kitabibu. Vitu viwili kutokea pamoja haimaanishi kimoja husababisha kingine.",
+    "rangeLabel": "Kipindi",
+    "range": "siku {days}",
+    "stats": {
+      "checkIns": "Ukaguzi wa hisia",
+      "migraines": "Mashambulizi ya kipandauso",
+      "avgDuration": "Wastani wa shambulio (saa)",
+      "avgSleep": "Wastani wa usingizi (saa)"
+    },
+    "observationsTitle": "Rekodi zako zinaonyesha nini",
+    "notEnough": "Endelea kurekodi kwa muda kidogo na uchunguzi wa upole utaonekana hapa.",
+    "obs": {
+      "topTrigger": "Ulitaja \"{trigger}\" kama kichochezi kinachowezekana katika mashambulizi {count} kati ya {total}.",
+      "lowSleepMigraine": "Katika {share}% ya siku ulizorekodi kipandauso, pia ulirekodi usingizi wa chini ya saa 6, ikilinganishwa na {overall}% ya usiku wote uliorekodi.",
+      "steadyMood": "Hisia uliyorekodi mara nyingi zaidi ilikuwa \"{mood}\" (mara {count})."
+    },
+    "moodChart": "Hisia ulizorekodi",
+    "migraineChart": "Mashambulizi ya kipandauso kwa siku",
+    "sleepChart": "Saa za usingizi",
+    "energyChart": "Kiwango cha nguvu (1–5)",
+    "showTable": "Onyesha kama jedwali",
+    "noData": "Hakuna ukaguzi katika kipindi hiki.",
+    "mood": "Hisia",
+    "count": "Mara",
+    "date": "Tarehe",
+    "episodes": "Mashambulizi",
+    "hours": "Saa",
+    "energyLevel": "Nguvu"
+  },
+  "settings": {
+    "title": "Mipangilio",
+    "prefsTitle": "Mapendeleo",
+    "displayName": "Jina la kukusalimia",
+    "trackMigraine": {
+      "title": "Ninaishi na kipandauso",
+      "body": "Onyesha vipengele vya kipandauso kwa uwazi zaidi."
+    },
+    "trackMenstrual": {
+      "title": "Jumuisha mzunguko wa hedhi kama kichochezi kinachowezekana",
+      "body": "Si lazima. Huonyeshwa tu katika shajara yako ya kipandauso."
+    },
+    "keepAiHistory": {
+      "title": "Hifadhi historia ya mazungumzo na mwenzi",
+      "body": "Imezimwa kwa chaguo-msingi. Ikiwashwa, mazungumzo yako huhifadhiwa ili uweze kurudi kwake. Unaweza kuyafuta wakati wowote."
+    },
+    "comfortNote": "Mandhari, ukubwa wa maandishi na lugha viko kwenye upau wa juu na hukumbukwa kwenye kifaa hiki.",
+    "exportTitle": "Pakua data yako",
+    "exportBody": "Pata nakala ya kila kitu ARUVI inachohifadhi kukuhusu, kama faili ya JSON.",
+    "exportButton": "Pakua data yangu",
+    "deleteTitle": "Futa akaunti",
+    "deleteBody": "Hii itafuta kabisa akaunti yako na kila kitu ndani yake: hisia, shajara, rekodi na mazungumzo. Haiwezi kutenduliwa.",
+    "deleteConfirmLabel": "Andika DELETE kuthibitisha",
+    "deleteButton": "Futa akaunti yangu milele"
+  },
+  "companion": {
+    "title": "Mwenzi",
+    "subtitle": "Shiriki kilicho moyoni mwako. Andika kwa lugha yoyote unayopenda.",
+    "disclaimer": "Mwenzi ni AI, si mtaalamu wa tiba wala daktari. Anaweza kukosea na hawezi kutambua ugonjwa au kutoa ushauri wa kitabibu. Ikiwa uko hatarini, tafadhali tumia nambari zilizo katika “Pata msaada” au piga nambari ya dharura ya eneo lako.",
+    "emptyTitle": "Niko hapa kukusikiliza.",
+    "emptyBody": "Unajisikiaje sasa hivi?",
+    "placeholder": "Andika kilicho moyoni mwako…",
+    "inputLabel": "Ujumbe wako",
+    "send": "Tuma",
+    "you": "Wewe",
+    "companion": "Mwenzi",
+    "thinking": "…",
+    "newChat": "Mazungumzo mapya",
+    "clear": "Futa gumzo",
+    "deleteHistory": "Futa historia yote",
+    "historyOn": "Mazungumzo yanahifadhiwa. Unaweza kuzima hili katika Mipangilio.",
+    "historyOff": "Mazungumzo hayahifadhiwi. Yatatoweka ukiondoka kwenye ukurasa huu.",
+    "crisisTitle": "Huhitaji kupitia hili peke yako",
+    "crisisBody": "Inaonekana mambo ni magumu sana sasa hivi. Tafadhali wasiliana na mtu anayeweza kusaidia — unaweza kupiga simu sasa, wakati wowote.",
+    "errors": {
+      "refusal": "Siwezi kujibu hilo. Ikiwa unapitia wakati mgumu, tafadhali wasiliana na mtu unayemwamini au tumia nambari zilizo katika “Pata msaada”.",
+      "unavailable": "Mwenzi hapatikani sasa hivi. Tafadhali jaribu tena baadaye.",
+      "error": "Kuna hitilafu. Tafadhali jaribu tena.",
+      "network": "Inaonekana uko nje ya mtandao. Tafadhali kagua muunganisho wako.",
+      "limit": "Umetuma ujumbe mwingi kwa sasa. Pumzika kidogo kisha ujaribu tena baadaye.",
+      "generic": "Kuna hitilafu. Tafadhali jaribu tena."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Ingia ili kutumia hii",
+    "guestBody": "Fungua akaunti ya bure ili rekodi zako ziwe za faragha na salama kwenye vifaa vyote.",
+    "continueGuest": "Endelea bila akaunti",
+    "more": "Zaidi",
+    "appearance": "Mwonekano",
+    "themeSystem": "Mfumo",
+    "themeLight": "Angavu",
+    "themeDark": "Meusi",
+    "account": "Akaunti",
+    "signedInAs": "Umeingia kama {email}",
+    "offline": "Haiwezekani kufikia ARUVI sasa. Tafadhali kagua muunganisho wako na ujaribu tena.",
+    "reportOnWeb": "Ripoti ya daktari inayochapishika inapatikana kwenye tovuti ya ARUVI.",
+    "pickDate": "Chagua tarehe",
+    "pickTime": "Chagua muda",
+    "textSize": "Ukubwa wa maandishi",
+    "refresh": "Onyesha upya",
+    "migraineTab": "Kipandauso"
+  }
+}
