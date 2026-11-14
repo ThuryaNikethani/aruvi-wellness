@@ -6,6 +6,8 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  // Lets a test build use another folder (NEXT_DIST_DIR=.next-test) without breaking a running `npm run dev`.
+  distDir: process.env.NEXT_DIST_DIR ?? ".next",
   outputFileTracingRoot: path.join(__dirname),
   serverExternalPackages: ["@node-rs/argon2"],
   async headers() {
