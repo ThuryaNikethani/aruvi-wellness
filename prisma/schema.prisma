@@ -1,0 +1,302 @@
+// ARUVI database schema
+// Every user-owned table cascades on user deletion (permanent account deletion).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ───────────── Accounts & auth (Auth.js) ─────────────
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  passwordHash  String?   // Argon2id; null for OAuth-only users
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  accounts         Account[]
+  sessions         Session[]
+  preferences      UserPreferences?
+  consents         UserConsent[]
+  moodEntries      MoodEntry[]
+  journalEntries   JournalEntry[]
+  migraineEpisodes MigraineEpisode[]
+  sleepEntries     SleepEntry[]
+  energyEntries    EnergyEntry[]
+  conversations    Conversation[]
+  calmSessions     CalmSession[]
+}
+
+model Account {
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([provider, providerAccountId])
+}
+
+model Session {
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String
+  expires    DateTime
+
+  @@id([identifier, token])
+}
+
+// ───────────── Preferences & consent ─────────────
+
+enum ThemePreference {
+  SYSTEM
+  LIGHT
+  DARK
+}
+
+enum TextSize {
+  NORMAL
+  LARGE
+  LARGER
+}
+
+model UserPreferences {
+  userId          String          @id
+  locale          String          @default("en")
+  theme           ThemePreference @default(SYSTEM)
+  textSize        TextSize        @default(NORMAL)
+  reducedMotion   Boolean         @default(false)
+  ambientAudio    Boolean         @default(false) // audio is always opt-in
+  trackMigraine   Boolean         @default(false)
+  trackMenstrual  Boolean         @default(false)
+  keepAiHistory   Boolean         @default(false) // user-controlled retention
+  displayName     String?
+  updatedAt       DateTime        @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+enum ConsentType {
+  TERMS
+  PRIVACY
+  HEALTH_DATA
+  AI_PROCESSING
+}
+
+model UserConsent {
+  id        String      @id @default(cuid())
+  userId    String
+  type      ConsentType
+  version   String
+  granted   Boolean
+  createdAt DateTime    @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, type])
+}
+
+// ───────────── Mood & journal ─────────────
+
+enum Mood {
+  HAPPY
+  CALM
+  SAD
+  ANXIOUS
+  OVERWHELMED
+  IRRITATED
+  EXHAUSTED
+  LONELY
+  NUMB
+}
+
+model MoodEntry {
+  id         String   @id @default(cuid())
+  userId     String
+  mood       Mood
+  intensity  Int      // 1–5
+  note       String?  @db.Text
+  recordedAt DateTime @default(now())
+  createdAt  DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, recordedAt])
+}
+
+model JournalEntry {
+  id        String   @id @default(cuid())
+  userId    String
+  title     String?
+  content   String   @db.Text
+  prompt    String?
+  mood      Mood?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+}
+
+// ───────────── Migraine diary ─────────────
+
+enum TriggerCategory {
+  SLEEP
+  STRESS
+  WEATHER
+  DEHYDRATION
+  MEAL_TIMING
+  SCREEN
+  ENVIRONMENT
+  MENSTRUAL
+  OTHER
+}
+
+model MigraineEpisode {
+  id              String    @id @default(cuid())
+  userId          String
+  startedAt       DateTime
+  endedAt         DateTime?
+  intensity       Int       // 0–10
+  locations       String[]  // e.g. "left", "right", "forehead", "behind_eyes"
+  characteristics String[]  // e.g. "throbbing", "pressing"
+  medicationNote  String?   @db.Text // user-entered record only, never a recommendation
+  recoveryNote    String?   @db.Text
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  user     User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  symptoms MigraineSymptom[]
+  triggers MigraineTrigger[]
+
+  @@index([userId, startedAt])
+}
+
+model MigraineSymptom {
+  id        String @id @default(cuid())
+  episodeId String
+  symptom   String // e.g. "nausea", "light_sensitivity", "aura"
+
+  episode MigraineEpisode @relation(fields: [episodeId], references: [id], onDelete: Cascade)
+
+  @@unique([episodeId, symptom])
+}
+
+model MigraineTrigger {
+  id        String          @id @default(cuid())
+  episodeId String
+  category  TriggerCategory
+  note      String?
+
+  episode MigraineEpisode @relation(fields: [episodeId], references: [id], onDelete: Cascade)
+
+  @@unique([episodeId, category])
+}
+
+// ───────────── Sleep & energy ─────────────
+
+model SleepEntry {
+  id        String   @id @default(cuid())
+  userId    String
+  date      DateTime @db.Date
+  hours     Float
+  quality   Int      // 1–5
+  note      String?
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, date])
+}
+
+model EnergyEntry {
+  id         String   @id @default(cuid())
+  userId     String
+  date       DateTime @db.Date
+  energy     Int      // 1–5
+  fatigue    Int?     // 1–5
+  restMinutes Int?
+  note       String?
+  createdAt  DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, date])
+}
+
+// ───────────── AI companion ─────────────
+
+enum MessageRole {
+  USER
+  ASSISTANT
+}
+
+model Conversation {
+  id        String   @id @default(cuid())
+  userId    String
+  title     String?
+  locale    String   @default("en")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user     User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  messages Message[]
+
+  @@index([userId, updatedAt])
+}
+
+model Message {
+  id             String      @id @default(cuid())
+  conversationId String
+  role           MessageRole
+  content        String      @db.Text
+  flaggedCrisis  Boolean     @default(false)
+  createdAt      DateTime    @default(now())
+
+  conversation Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+
+  @@index([conversationId, createdAt])
+}
+
+// ───────────── Calm Space ─────────────
+
+model CalmSession {
+  id          String   @id @default(cuid())
+  userId      String
+  activity    String   // "breathing_gentle", "grounding_54321", ...
+  durationSec Int
+  completed   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+}
