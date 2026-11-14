@@ -210,12 +210,32 @@
     "noAccount": "Ny på ARUVI?",
     "haveAccount": "Har du redan ett konto?",
     "tryWithout": "Eller prova en andningsövning utan konto",
+    "birthYear": "Födelseår",
+    "birthYearPlaceholder": "Välj ett år",
+    "under16": "Jag är under 16",
+    "birthYearHint": "ARUVI är för personer som är 16 år eller äldre. Bara du kan se detta.",
+    "tooYoung": "ARUVI är för personer som är 16 år eller äldre, så vi kan inte skapa ett konto åt dig ännu. Om det känns tungt, prata med en vuxen du litar på eller ring en stödlinje.",
+    "seeHelp": "Se stödlinjer",
+    "concernsLabel": "Vad vill du ha stöd med?",
+    "concernsHint": "Välj allt som passar. Det påverkar bara vad ARUVI visar dig — det är ingen diagnos.",
+    "concerns": {
+      "migraine": "Migrän eller huvudvärk",
+      "depression": "Nedstämdhet eller depression",
+      "anxiety": "Ångest eller oro",
+      "stress": "Stress",
+      "sleep": "Sömn",
+      "other": "Något annat"
+    },
+    "welcomeTitle": "Några uppgifter innan du börjar",
+    "welcomeSubtitle": "Det hjälper ARUVI att passa dig. Bara du kan se det.",
+    "continue": "Fortsätt",
     "errors": {
       "invalid": "E-post och lösenord stämmer inte. Försök igen.",
       "exists": "Vi kunde inte logga in dig. Om du redan har ett konto, logga in.",
       "checkFields": "Kontrollera fälten och försök igen.",
       "rateLimited": "För många försök. Vänta några minuter och försök igen.",
-      "generic": "Något gick fel. Försök igen."
+      "generic": "Något gick fel. Försök igen.",
+      "oauthLinked": "Den här e-postadressen har redan ett ARUVI-konto. Logga in med e-post och lösenord."
     }
   },
   "dash": {
