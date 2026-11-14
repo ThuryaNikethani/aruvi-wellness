@@ -210,12 +210,32 @@
     "noAccount": "Baharu di ARUVI?",
     "haveAccount": "Sudah ada akaun?",
     "tryWithout": "Atau cuba latihan pernafasan tanpa akaun",
+    "birthYear": "Tahun lahir",
+    "birthYearPlaceholder": "Pilih tahun",
+    "under16": "Saya bawah 16 tahun",
+    "birthYearHint": "ARUVI untuk mereka yang berumur 16 tahun ke atas. Hanya anda yang boleh melihat ini.",
+    "tooYoung": "ARUVI untuk mereka yang berumur 16 tahun ke atas, jadi kami belum boleh membuat akaun untuk anda. Jika keadaan terasa sukar, berbual dengan orang dewasa yang anda percayai atau hubungi talian sokongan.",
+    "seeHelp": "Lihat talian sokongan",
+    "concernsLabel": "Dalam hal apa anda mahukan sokongan?",
+    "concernsHint": "Pilih mana-mana yang sesuai. Ini hanya membentuk apa yang ARUVI tunjukkan kepada anda — bukan diagnosis.",
+    "concerns": {
+      "migraine": "Migrain atau sakit kepala",
+      "depression": "Perasaan murung atau kemurungan",
+      "anxiety": "Kebimbangan atau risau",
+      "stress": "Tekanan",
+      "sleep": "Tidur",
+      "other": "Perkara lain"
+    },
+    "welcomeTitle": "Beberapa butiran sebelum bermula",
+    "welcomeSubtitle": "Ini membantu ARUVI sesuai dengan anda. Hanya anda yang boleh melihatnya.",
+    "continue": "Teruskan",
     "errors": {
       "invalid": "E-mel dan kata laluan tidak sepadan. Sila cuba lagi.",
       "exists": "Kami tidak dapat melog masuk anda. Jika anda sudah ada akaun, sila log masuk.",
       "checkFields": "Sila semak maklumat dan cuba lagi.",
       "rateLimited": "Terlalu banyak cubaan. Sila tunggu beberapa minit dan cuba lagi.",
-      "generic": "Sesuatu tidak kena. Sila cuba lagi."
+      "generic": "Sesuatu tidak kena. Sila cuba lagi.",
+      "oauthLinked": "E-mel ini sudah mempunyai akaun ARUVI. Sila log masuk dengan e-mel dan kata laluan anda."
     }
   },
   "dash": {
