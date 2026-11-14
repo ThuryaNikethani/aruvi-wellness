@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Łagodniejsze miejsce na trudne dni",
+    "description": "Bezpłatna, prywatna, wielojęzyczna przestrzeń dobrostanu dla osób żyjących z migreną, depresją, lękiem i stresem."
+  },
+  "nav": {
+    "skip": "Przejdź do głównej treści",
+    "home": "Strona główna ARUVI",
+    "primary": "Główne",
+    "checkin": "Jak się masz",
+    "calm": "Spokojny kąt",
+    "features": "Co tu znajdziesz",
+    "support": "Uzyskaj pomoc",
+    "signIn": "Zaloguj się",
+    "openMenu": "Otwórz menu",
+    "closeMenu": "Zamknij menu",
+    "language": "Język",
+    "languagesFull": "W pełni przetłumaczone",
+    "languagesMore": "Więcej języków",
+    "mySpace": "Moja przestrzeń"
+  },
+  "comfort": {
+    "toLight": "Przełącz na jasny motyw",
+    "toDark": "Przełącz na ciemny motyw",
+    "textSize": "Rozmiar tekstu: {size}. Stuknij, aby zmienić.",
+    "sizes": {
+      "normal": "Normalny",
+      "large": "Duży",
+      "larger": "Większy"
+    }
+  },
+  "i18n": {
+    "partial": "{language} przetłumaczono maszynowo, więc niektóre sformułowania mogą być nieidealne. Jeśli coś jest niejasne, English, සිංහල i தமிழ் zostały w pełni sprawdzone."
+  },
+  "hero": {
+    "eyebrow": "Bezpłatnie · Prywatnie · W Twoim języku",
+    "title": "Łagodniejsze miejsce na trudne dni.",
+    "body": "Bezpieczna, spokojna przestrzeń, by zauważyć, jak się czujesz, zwolnić i zadbać o siebie — bez presji i bez oceniania.",
+    "ctaBreathe": "Spokojnie oddychaj",
+    "ctaCheckin": "Sprawdź, jak się czujesz",
+    "note": "Do rozpoczęcia nie potrzebujesz konta."
+  },
+  "mood": {
+    "title": "Jak się teraz czujesz?",
+    "subtitle": "Nie ma dobrej odpowiedzi. Wybierz to, co najbliższe — w porządku, jeśli to się zmieni.",
+    "legend": "Czuję…",
+    "options": {
+      "happy": "Radość",
+      "calm": "Spokój",
+      "sad": "Smutek",
+      "anxious": "Niepokój",
+      "overwhelmed": "Przytłoczenie",
+      "irritated": "Rozdrażnienie",
+      "exhausted": "Wyczerpanie",
+      "lonely": "Samotność",
+      "numb": "Odrętwienie"
+    },
+    "intensity": "Jak silne jest to uczucie?",
+    "intensityLow": "Trochę",
+    "intensityHigh": "Bardzo",
+    "save": "Zapisz",
+    "saved": "Dziękujemy, że się wsłuchałeś(-aś) w siebie.",
+    "savedNote": "Zapisano tylko na tym urządzeniu.",
+    "again": "Jeszcze raz",
+    "suggestBreathe": "Spróbuj przerwy na oddech",
+    "privacy": "W tym podglądzie nic nie opuszcza Twojego urządzenia.",
+    "responses": {
+      "happy": "Dobrze, że dziś jest trochę lżej. Możesz zapisać, co pomogło, aby do tego wrócić.",
+      "calm": "Chwila spokoju jest warta zauważenia. Zostań w niej tak długo, jak chcesz.",
+      "sad": "Smutek potrafi ciążyć. Nie musisz go teraz rozwiązywać — wystarczy być dla siebie łagodnym.",
+      "anxious": "Niepokój sprawia, że wszystko wydaje się pilne. Powolny wydech może pomóc ciału poczuć się trochę bezpieczniej.",
+      "overwhelmed": "Gdy wszystkiego jest za dużo, w porządku jest wybrać jedną małą rzecz — albo nic.",
+      "irritated": "Rozdrażnienie często pokazuje, że coś jest dla Ciebie ważne. Krótka przerwa może dać trochę przestrzeni.",
+      "exhausted": "To zmęczenie jest prawdziwe. Na odpoczynek nie trzeba zasługiwać.",
+      "lonely": "Samotność jest trudna. Jeśli możesz, odezwij się do kogoś, komu ufasz — nawet krótka wiadomość może pomóc.",
+      "numb": "Odrętwienie bywa sposobem, w jaki umysł się chroni. Wciąż tu jesteś i to ma znaczenie."
+    }
+  },
+  "calm": {
+    "title": "Mój spokojny kąt",
+    "subtitle": "Ciche miejsce, by spowolnić oddech. Wstrzymaj, zmień lub zakończ w dowolnej chwili.",
+    "idle": "Stuknij Start, gdy będziesz gotowy(-a).",
+    "phases": {
+      "in": "Wdech",
+      "hold": "Łagodnie zatrzymaj",
+      "out": "Wydech",
+      "rest": "Odpocznij"
+    },
+    "seconds": "{seconds, plural, one {# sekunda} few {# sekundy} many {# sekund} other {# sekundy}}",
+    "pausedLabel": "Wstrzymano",
+    "start": "Start",
+    "pause": "Pauza",
+    "resume": "Wznów",
+    "stop": "Zakończ",
+    "patternLabel": "Rytm oddechu",
+    "patterns": {
+      "gentle": "Łagodny — wdech 4, wydech 6",
+      "box": "Kwadrat — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Tło",
+    "scenes": {
+      "forest": "Las",
+      "ocean": "Ocean",
+      "dusk": "Zmierzch"
+    },
+    "rounds": "{count, plural, =0 {Jeszcze brak cykli} one {Ukończono # cykl} few {Ukończono # cykle} many {Ukończono # cykli} other {Ukończono # cyklu}}",
+    "note": "Bez migania i szybkiego ruchu. Dźwięk jest wyłączony, dopóki go nie włączysz."
+  },
+  "features": {
+    "title": "Wszystko w Twoim tempie",
+    "subtitle": "Korzystaj z tego, co pomaga, a resztę pomiń. Nic tutaj nie jest zadaniem do wykonania.",
+    "soon": "Wkrótce",
+    "preview": "Wypróbuj teraz",
+    "items": {
+      "calm": {
+        "title": "Spokojny kąt",
+        "body": "Oddychanie, uziemienie i relaksacja ciała ze spokojnymi krajobrazami przyrody."
+      },
+      "journal": {
+        "title": "Dziennik nastroju",
+        "body": "Zauważaj emocje, pisz swobodnie i z czasem dostrzegaj łagodne wzorce."
+      },
+      "companion": {
+        "title": "Towarzysz dobrostanu AI",
+        "body": "Wspierający słuchacz w Twoim języku. Nie jest lekarzem ani terapeutą."
+      },
+      "migraine": {
+        "title": "Dziennik migreny",
+        "body": "Zapisuj napady, objawy i możliwe czynniki wyzwalające oraz eksportuj raport dla lekarza."
+      },
+      "sleep": {
+        "title": "Sen i energia",
+        "body": "Śledź odpoczynek, jakość snu i energię, aby lepiej rozumieć swoje dni."
+      },
+      "insights": {
+        "title": "Wglądy w dobrostan",
+        "body": "Proste, opisowe podsumowania Twoich własnych zapisów — nigdy diagnoza."
+      }
+    }
+  },
+  "promise": {
+    "title": "Nasza obietnica",
+    "items": {
+      "free": {
+        "title": "Bezpłatnie dla wszystkich",
+        "body": "Bez subskrypcji i płatnych funkcji."
+      },
+      "private": {
+        "title": "Domyślnie prywatne",
+        "body": "Twoje dzienniki i rozmowy należą do Ciebie. Nigdy nie sprzedajemy danych osobowych ani zdrowotnych."
+      },
+      "gentle": {
+        "title": "Bez presji",
+        "body": "Bez serii i poczucia winy. Wracaj, kiedy potrzebujesz."
+      },
+      "notMedical": {
+        "title": "Wsparcie, nie leczenie",
+        "body": "ARUVI nie zastępuje profesjonalnej opieki medycznej ani psychologicznej."
+      }
+    }
+  },
+  "help": {
+    "title": "Jeśli potrzebujesz pomocy teraz",
+    "body": "Jeśli jesteś w niebezpieczeństwie lub myślisz o zrobieniu sobie krzywdy, skontaktuj się teraz z kimś. Zasługujesz na wsparcie.",
+    "lines": {
+      "national": "Krajowy telefon zdrowia psychicznego (Sri Lanka, całodobowo)",
+      "ambulance": "Karetka Suwa Seriya",
+      "police": "Policja — numer alarmowy"
+    },
+    "call": "Zadzwoń: {name} — {number}",
+    "note": "ARUVI nie jest służbą ratunkową. Jeśli możesz zadziałać pod wpływem myśli o zrobieniu sobie krzywdy, skontaktuj się z jedną z tych służb lub udaj się do najbliższego szpitala.",
+    "countryLabel": "Twój kraj",
+    "otherCountry": "Inny kraj",
+    "noList": "Nie mamy jeszcze zweryfikowanej listy telefonów zaufania dla tego kraju. Zadzwoń pod lokalny numer alarmowy lub udaj się do najbliższego szpitala. Tutaj znajdziesz też bezpłatny i poufny telefon kryzysowy w swojej okolicy:",
+    "findMore": "Znajdź telefon zaufania w swoim kraju"
+  },
+  "footer": {
+    "tagline": "Łagodniejsze miejsce na trudne dni.",
+    "disclaimer": "ARUVI to wspierający towarzysz dobrostanu. Nie zastępuje profesjonalnego leczenia medycznego ani psychologicznego.",
+    "languages": "Język",
+    "made": "Stworzone z troską. Bezpłatne dla wszystkich."
+  },
+  "common": {
+    "save": "Zapisz",
+    "saving": "Zapisywanie…",
+    "saved": "Zapisano.",
+    "error": "Coś poszło nie tak. Spróbuj ponownie.",
+    "optional": "opcjonalnie",
+    "confirmDelete": "Usunąć?",
+    "yes": "Tak, usuń",
+    "cancel": "Anuluj"
+  },
+  "auth": {
+    "signInTitle": "Witaj ponownie",
+    "signInSubtitle": "Zaloguj się, aby zobaczyć swój dziennik, zapisy i wglądy.",
+    "signUpTitle": "Utwórz swoją przestrzeń",
+    "signUpSubtitle": "Bezpłatna, prywatna i Twoja. W każdej chwili możesz wszystko usunąć.",
+    "name": "Jak mamy się do Ciebie zwracać?",
+    "optional": "opcjonalnie",
+    "email": "E-mail",
+    "password": "Hasło",
+    "passwordHint": "Co najmniej 10 znaków. Krótkie zdanie sprawdzi się dobrze.",
+    "acceptTerms": "Akceptuję warunki korzystania i politykę prywatności.",
+    "acceptHealth": "Wyrażam zgodę, aby ARUVI przechowywało informacje o dobrostanie, które zdecyduję się wprowadzić (nastroje, dzienniki, notatki o migrenie i śnie), prywatnie i tylko dla mnie.",
+    "signIn": "Zaloguj się",
+    "signUp": "Utwórz konto",
+    "wait": "Proszę czekać…",
+    "or": "lub",
+    "google": "Kontynuuj z Google",
+    "noAccount": "Nowy(-a) w ARUVI?",
+    "haveAccount": "Masz już konto?",
+    "tryWithout": "Albo wypróbuj ćwiczenie oddechowe bez konta",
+    "errors": {
+      "invalid": "E-mail i hasło nie pasują do siebie. Spróbuj ponownie.",
+      "exists": "Nie udało się Cię zalogować. Jeśli masz już konto, zaloguj się.",
+      "checkFields": "Sprawdź pola i spróbuj ponownie.",
+      "rateLimited": "Zbyt wiele prób. Odczekaj kilka minut i spróbuj ponownie.",
+      "generic": "Coś poszło nie tak. Spróbuj ponownie."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Moja przestrzeń",
+      "overview": "Dzisiaj",
+      "journal": "Nastrój i dziennik",
+      "companion": "Towarzysz",
+      "migraine": "Dziennik migreny",
+      "sleep": "Sen i energia",
+      "insights": "Wglądy",
+      "settings": "Ustawienia",
+      "calm": "Spokojny kąt",
+      "signOut": "Wyloguj się"
+    }
+  },
+  "overview": {
+    "greeting": "Cześć",
+    "greetingName": "Cześć, {name}",
+    "subtitle": "Jak się dziś masz? Nie musisz tu nic robić.",
+    "subtitleCheckedIn": "Dziękujemy, że dziś zajrzałeś(-aś) w siebie. Weź, czego potrzebujesz.",
+    "verified": "Twój e-mail został potwierdzony. Dziękujemy.",
+    "verifyFailed": "Ten link potwierdzający nie zadziałał lub wygasł.",
+    "verifyPending": "Wysłaliśmy link do potwierdzenia e-maila. W międzyczasie możesz dalej korzystać z ARUVI.",
+    "calmTitle": "Spokojny kąt",
+    "calmBody": "Kilka powolnych oddechów, kiedy tylko potrzebujesz.",
+    "companionTitle": "Porozmawiaj z towarzyszem",
+    "companionBody": "Łagodny słuchacz w Twoim języku.",
+    "suggestionTitle": "Łagodny pomysł na dziś",
+    "suggestions": {
+      "0": "Wypij powoli szklankę wody.",
+      "1": "Wyjdź na zewnątrz lub otwórz okno na minutę świeżego powietrza.",
+      "2": "Opuść ramiona i rozluźnij szczękę.",
+      "3": "Wyślij krótką wiadomość komuś, komu ufasz.",
+      "4": "Daj oczom pięć minut odpoczynku od ekranów.",
+      "5": "Zauważ jedną małą rzecz, która dziś się udała."
+    },
+    "recentJournal": "Ostatnie wpisy w dzienniku",
+    "openJournal": "Otwórz dziennik",
+    "noJournal": "Brak wpisów. Nawet jedna linijka może pomóc.",
+    "summaryTitle": "W skrócie",
+    "migraine30": "Napady migreny, ostatnie 30 dni",
+    "lastSleep": "Ostatni sen",
+    "hours": "{hours} godz.",
+    "seeInsights": "Zobacz swoje wglądy"
+  },
+  "journal": {
+    "title": "Nastrój i dziennik",
+    "subtitle": "Zauważ, jak się czujesz, i pisz swobodnie. Tylko Ty to widzisz.",
+    "moodNote": "Kilka słów o tym",
+    "moodHistory": "Ostatnie zapisy nastroju",
+    "deleteMood": "Usuń ten zapis",
+    "writeTitle": "Pisz",
+    "promptLabel": "Podpowiedź do pisania, jeśli pomoże",
+    "showPrompt": "Pokaż podpowiedź",
+    "newPrompt": "Pokaż inną podpowiedź",
+    "titleLabel": "Tytuł",
+    "contentLabel": "Twoje myśli",
+    "privateNote": "Domyślnie prywatne. Nigdy nieudostępniane.",
+    "entries": "Twoje wpisy",
+    "empty": "Tu pojawią się Twoje wpisy.",
+    "deleteEntry": "Usuń ten wpis",
+    "prompts": {
+      "0": "Co dziś było ciężkie, a co trochę lżejsze?",
+      "1": "Czego teraz potrzebuje Twoje ciało?",
+      "2": "Opisz miejsce, w którym czujesz się bezpiecznie.",
+      "3": "Co powiedział(a)byś przyjacielowi, który czuje się dziś tak jak Ty?",
+      "4": "Za jaką małą rzecz jesteś wdzięczny(-a)?",
+      "5": "Co dziś odebrało Ci energię? Co trochę jej oddało?",
+      "6": "Gdyby Twoje emocje były pogodą, jaka by to była pogoda?",
+      "7": "Co miłego mógłbyś (mogłabyś) jutro dla siebie zrobić?"
+    }
+  },
+  "migraine": {
+    "title": "Dziennik migreny",
+    "subtitle": "Prowadź prosty dziennik bólu głowy, którym możesz podzielić się z lekarzem.",
+    "disclaimer": "Ten dziennik zapisuje to, co zauważasz. Pokazane tu wzorce nie są diagnozą medyczną. Porozmawiaj z lekarzem o bólach głowy i wszelkich lekach.",
+    "report": "Raport dla lekarza",
+    "formTitle": "Zapisz napad",
+    "start": "Początek",
+    "end": "Koniec",
+    "ongoing": "Wciąż trwa",
+    "ongoingShort": "trwa",
+    "duration": "{hours} godz.",
+    "intensity": "Natężenie bólu",
+    "intensityHint": "0 oznacza brak bólu, 10 najgorszy ból, jaki można sobie wyobrazić.",
+    "locationsLabel": "Gdzie boli?",
+    "characteristicsLabel": "Jaki to ból?",
+    "symptomsLabel": "Inne objawy",
+    "triggersLabel": "Zauważone możliwe czynniki wyzwalające",
+    "triggersHint": "Tylko to, co sam(a) zauważyłeś(-aś). To możliwości, nie przyczyny.",
+    "medication": "Przyjęte leki",
+    "medicationHint": "Tylko Twoja notatka. ARUVI nigdy nie sugeruje leków.",
+    "recovery": "Notatki o odpoczynku i regeneracji",
+    "save": "Zapisz napad",
+    "history": "Historia napadów",
+    "empty": "Brak zapisanych napadów.",
+    "deleteEpisode": "Usuń ten napad",
+    "locations": {
+      "left": "Lewa strona",
+      "right": "Prawa strona",
+      "both_sides": "Obie strony",
+      "forehead": "Czoło",
+      "temples": "Skronie",
+      "behind_eyes": "Za oczami",
+      "back_of_head": "Tył głowy",
+      "neck": "Szyja"
+    },
+    "characteristics": {
+      "throbbing": "Pulsujący",
+      "pressing": "Uciskający",
+      "stabbing": "Kłujący",
+      "dull": "Tępy"
+    },
+    "symptoms": {
+      "nausea": "Nudności",
+      "vomiting": "Wymioty",
+      "light_sensitivity": "Nadwrażliwość na światło",
+      "sound_sensitivity": "Nadwrażliwość na dźwięki",
+      "smell_sensitivity": "Nadwrażliwość na zapachy",
+      "aura": "Aura",
+      "dizziness": "Zawroty głowy",
+      "fatigue": "Zmęczenie",
+      "blurred_vision": "Nieostre widzenie"
+    },
+    "triggers": {
+      "sleep": "Zmiany snu",
+      "stress": "Stres",
+      "weather": "Zmiany pogody",
+      "dehydration": "Odwodnienie",
+      "meal_timing": "Pory posiłków",
+      "screen": "Czas przed ekranem",
+      "environment": "Otoczenie (światło, hałas, zapachy)",
+      "menstrual": "Cykl menstruacyjny",
+      "other": "Inne"
+    }
+  },
+  "report": {
+    "title": "Raport z dziennika bólu głowy",
+    "period": "Ostatnie {days} dni",
+    "print": "Drukuj lub zapisz jako PDF",
+    "disclaimer": "Ten raport zawiera informacje zapisane przez samą osobę w ARUVI. Nie jest diagnozą. Możliwe czynniki wyzwalające to osobiste obserwacje.",
+    "episodes": "Napady",
+    "avgDuration": "Średni czas trwania (godz.)",
+    "avgIntensity": "Średnie natężenie (0–10)",
+    "triggers": "Możliwe czynniki wyzwalające podane przez osobę",
+    "log": "Lista napadów",
+    "hours": "Godziny"
+  },
+  "sleep": {
+    "title": "Sen i energia",
+    "subtitle": "Krótka codzienna notatka o odpoczynku i energii pomaga zrozumieć Twoje dni.",
+    "date": "Data",
+    "dateHint": "Zapisz sen z ostatniej nocy pod dzisiejszą datą.",
+    "sleepTitle": "Sen",
+    "hours": "Godziny snu",
+    "quality": "Jakość snu",
+    "poor": "Słaba",
+    "restful": "Regenerujący",
+    "energyTitle": "Energia",
+    "energy": "Poziom energii",
+    "fatigue": "Zmęczenie",
+    "veryLow": "Bardzo niski",
+    "high": "Wysoki",
+    "little": "Trochę",
+    "aLot": "Bardzo",
+    "rest": "Czas odpoczynku (minuty)",
+    "note": "Notatka",
+    "history": "Ostatnie dwa tygodnie",
+    "empty": "Jeszcze nic nie zapisano."
+  },
+  "insights": {
+    "title": "Wglądy w dobrostan",
+    "subtitle": "Proste spojrzenie na to, co zapisałeś(-aś).",
+    "disclaimer": "To opisy Twoich własnych zapisów, a nie wnioski medyczne. Jeśli dwie rzeczy pojawiają się razem, nie znaczy to, że jedna powoduje drugą.",
+    "rangeLabel": "Okres",
+    "range": "{days} dni",
+    "stats": {
+      "checkIns": "Zapisy nastroju",
+      "migraines": "Napady migreny",
+      "avgDuration": "Śr. napad (godz.)",
+      "avgSleep": "Śr. sen (godz.)"
+    },
+    "observationsTitle": "Co pokazują Twoje zapisy",
+    "notEnough": "Zapisuj jeszcze przez jakiś czas, a pojawią się tu łagodne obserwacje.",
+    "obs": {
+      "topTrigger": "Wskazałeś(-aś) „{trigger}” jako możliwy czynnik wyzwalający w {count} z {total} napadów.",
+      "lowSleepMigraine": "W {share}% dni z migreną zapisałeś(-aś) też mniej niż 6 godzin snu, w porównaniu z {overall}% wszystkich zapisanych nocy.",
+      "steadyMood": "Najczęściej zapisywaną emocją jest „{mood}” (razy: {count})."
+    },
+    "moodChart": "Zapisane nastroje",
+    "migraineChart": "Napady migreny dziennie",
+    "sleepChart": "Godziny snu",
+    "energyChart": "Poziom energii (1–5)",
+    "showTable": "Pokaż jako tabelę",
+    "noData": "Brak zapisów w tym okresie.",
+    "mood": "Nastrój",
+    "count": "Razy",
+    "date": "Data",
+    "episodes": "Napady",
+    "hours": "Godziny",
+    "energyLevel": "Energia"
+  },
+  "settings": {
+    "title": "Ustawienia",
+    "prefsTitle": "Preferencje",
+    "displayName": "Imię do powitania",
+    "trackMigraine": {
+      "title": "Żyję z migreną",
+      "body": "Wyróżnij funkcje związane z migreną."
+    },
+    "trackMenstrual": {
+      "title": "Uwzględnij cykl menstruacyjny jako możliwy czynnik",
+      "body": "Opcjonalnie. Widoczne tylko w Twoim dzienniku migreny."
+    },
+    "keepAiHistory": {
+      "title": "Zachowuj historię rozmów z towarzyszem",
+      "body": "Domyślnie wyłączone. Po włączeniu rozmowy są zapisywane, abyś mógł (mogła) do nich wrócić. Możesz je usunąć w każdej chwili."
+    },
+    "comfortNote": "Motyw, rozmiar tekstu i język znajdziesz na górnym pasku; są zapamiętywane na tym urządzeniu.",
+    "exportTitle": "Pobierz swoje dane",
+    "exportBody": "Otrzymaj kopię wszystkiego, co ARUVI przechowuje o Tobie, w pliku JSON.",
+    "exportButton": "Pobierz moje dane",
+    "deleteTitle": "Usuń konto",
+    "deleteBody": "To trwale usunie Twoje konto i całą jego zawartość: nastroje, dzienniki, notatki i rozmowy. Tej operacji nie można cofnąć.",
+    "deleteConfirmLabel": "Wpisz DELETE, aby potwierdzić",
+    "deleteButton": "Trwale usuń moje konto"
+  },
+  "companion": {
+    "title": "Towarzysz",
+    "subtitle": "Podziel się tym, co masz na myśli. Pisz w dowolnym języku.",
+    "disclaimer": "Towarzysz to AI, a nie terapeuta ani lekarz. Może się mylić i nie może stawiać diagnoz ani udzielać porad medycznych. Jeśli jesteś w niebezpieczeństwie, skorzystaj z numerów w sekcji „Uzyskaj pomoc” lub zadzwoń pod lokalny numer alarmowy.",
+    "emptyTitle": "Jestem tu, by Cię wysłuchać.",
+    "emptyBody": "Jak się teraz czujesz?",
+    "placeholder": "Napisz, co masz na myśli…",
+    "inputLabel": "Twoja wiadomość",
+    "send": "Wyślij",
+    "you": "Ty",
+    "companion": "Towarzysz",
+    "thinking": "…",
+    "newChat": "Nowa rozmowa",
+    "clear": "Wyczyść rozmowę",
+    "deleteHistory": "Usuń całą historię",
+    "historyOn": "Rozmowy są zapisywane. Możesz to wyłączyć w Ustawieniach.",
+    "historyOff": "Rozmowy nie są zapisywane. Znikną, gdy opuścisz tę stronę.",
+    "crisisTitle": "Nie musisz przechodzić przez to sam(a)",
+    "crisisBody": "Wygląda na to, że teraz jest naprawdę ciężko. Skontaktuj się z kimś, kto może pomóc — możesz zadzwonić teraz, o każdej porze.",
+    "errors": {
+      "refusal": "Nie mogę na to odpowiedzieć. Jeśli jest Ci ciężko, skontaktuj się z kimś, komu ufasz, lub skorzystaj z numerów w sekcji „Uzyskaj pomoc”.",
+      "unavailable": "Towarzysz jest teraz niedostępny. Spróbuj później.",
+      "error": "Coś poszło nie tak. Spróbuj ponownie.",
+      "network": "Wygląda na to, że jesteś offline. Sprawdź połączenie.",
+      "limit": "Wysłałeś(-aś) wiele wiadomości. Zrób krótką przerwę i spróbuj później.",
+      "generic": "Coś poszło nie tak. Spróbuj ponownie."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Zaloguj się, aby z tego korzystać",
+    "guestBody": "Utwórz bezpłatne konto, aby Twoje zapisy były prywatne i bezpieczne na wszystkich urządzeniach.",
+    "continueGuest": "Kontynuuj bez konta",
+    "more": "Więcej",
+    "appearance": "Wygląd",
+    "themeSystem": "Systemowy",
+    "themeLight": "Jasny",
+    "themeDark": "Ciemny",
+    "account": "Konto",
+    "signedInAs": "Zalogowano jako {email}",
+    "offline": "Nie można teraz połączyć się z ARUVI. Sprawdź połączenie i spróbuj ponownie.",
+    "reportOnWeb": "Raport dla lekarza do wydruku jest dostępny na stronie ARUVI.",
+    "pickDate": "Wybierz datę",
+    "pickTime": "Wybierz godzinę",
+    "textSize": "Rozmiar tekstu",
+    "refresh": "Odśwież",
+    "migraineTab": "Migrena"
+  }
+}
