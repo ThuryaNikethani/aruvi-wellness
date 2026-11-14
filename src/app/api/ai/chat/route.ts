@@ -6,12 +6,14 @@ import { rateLimit } from "@/lib/security/rate-limit";
 import { detectCrisis } from "@/lib/ai/safety";
 import { streamCompanionReply } from "@/lib/ai/companion";
 import { nativeName } from "@/i18n/locales";
+import { guessCountry, supportNote } from "@/lib/helplines";
 
 const turn = z.object({ role: z.enum(["user", "assistant"]), content: z.string().min(1).max(4000) });
 
 const chatSchema = z.object({
   conversationId: z.string().cuid().optional(),
   locale: z.string().min(2).max(10).default("en"),
+  country: z.string().regex(/^([A-Za-z]{2}|OTHER)$/).optional(),
   history: z.array(turn).max(30).default([]),
   message: z.string().trim().min(1).max(4000),
 });
@@ -27,7 +29,8 @@ export const POST = handle(async (req) => {
   const hourly = rateLimit(`ai:${userId}`, 40, 60 * 60_000);
   if (!hourly.ok) throw new ApiError(429, "rate_limited");
 
-  const { conversationId, locale, history, message } = await parseJson(req, chatSchema);
+  const { conversationId, locale, country, history, message } = await parseJson(req, chatSchema);
+  const helplineCountry = (country ?? guessCountry(locale, req.headers.get("x-vercel-ip-country"))).toUpperCase();
   const crisis = detectCrisis(message);
 
   const prefs = await prisma.userPreferences.findUnique({ where: { userId }, select: { keepAiHistory: true } });
@@ -62,6 +65,7 @@ export const POST = handle(async (req) => {
   const stream = streamCompanionReply({
     history: turns,
     localeName: nativeName(locale),
+    supportLines: supportNote(helplineCountry, locale),
     crisis,
     onDone: async (text) => {
       if (!convoId || !text || text.startsWith("\u0000")) return;
