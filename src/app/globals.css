@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* ───────── ARUVI design tokens ─────────
+   Nature-inspired, low-glare palette. All text pairs meet WCAG AA. */
+:root {
+  --bg: #f6f4ee;          /* morning mist */
+  --surface: #fffdf8;     /* paper */
+  --surface-2: #eef0e8;   /* moss wash */
+  --ink: #22312c;         /* deep forest */
+  --ink-soft: #55665f;    /* lichen */
+  --line: #ded9cc;
+  --leaf: #2f6f5b;        /* primary – sage forest */
+  --leaf-soft: #dcebe3;
+  --stream: #3b7a8f;      /* secondary – river */
+  --stream-soft: #dcecf1;
+  --clay: #a8634a;        /* warm accent */
+  --clay-soft: #f4e4da;
+  --sand: #e9dfcb;
+  --on-leaf: #ffffff;
+  --focus: #3b7a8f;
+
+  --scene-forest: linear-gradient(160deg, #dcebe3 0%, #c4dccf 55%, #a9c9b7 100%);
+  --scene-ocean: linear-gradient(160deg, #e3f0f4 0%, #c6e0e8 55%, #a6cbd8 100%);
+  --scene-dusk: linear-gradient(160deg, #f4e7dc 0%, #e6d3d0 55%, #cfc0d3 100%);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111916; --surface: #18221f; --surface-2: #1f2b27; --ink: #e4ebe7; --ink-soft: #a7b6af;
+    --line: #2b3934; --leaf: #82c4ab; --leaf-soft: #1f3a31; --stream: #8bc0d1; --stream-soft: #1c3640;
+    --clay: #e0a58b; --clay-soft: #3a2a23; --sand: #2c2a24; --on-leaf: #0f1a16; --focus: #8bc0d1;
+    --scene-forest: linear-gradient(160deg, #1b2c26 0%, #18302a 55%, #143026 100%);
+    --scene-ocean: linear-gradient(160deg, #182a31 0%, #163039 55%, #12303b 100%);
+    --scene-dusk: linear-gradient(160deg, #2a2327 0%, #29232e 55%, #241f30 100%);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111916; --surface: #18221f; --surface-2: #1f2b27; --ink: #e4ebe7; --ink-soft: #a7b6af;
+  --line: #2b3934; --leaf: #82c4ab; --leaf-soft: #1f3a31; --stream: #8bc0d1; --stream-soft: #1c3640;
+  --clay: #e0a58b; --clay-soft: #3a2a23; --sand: #2c2a24; --on-leaf: #0f1a16; --focus: #8bc0d1;
+  --scene-forest: linear-gradient(160deg, #1b2c26 0%, #18302a 55%, #143026 100%);
+  --scene-ocean: linear-gradient(160deg, #182a31 0%, #163039 55%, #12303b 100%);
+  --scene-dusk: linear-gradient(160deg, #2a2327 0%, #29232e 55%, #241f30 100%);
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+  --color-leaf: var(--leaf);
+  --color-leaf-soft: var(--leaf-soft);
+  --color-stream: var(--stream);
+  --color-stream-soft: var(--stream-soft);
+  --color-clay: var(--clay);
+  --color-clay-soft: var(--clay-soft);
+  --color-sand: var(--sand);
+  --color-on-leaf: var(--on-leaf);
+  --font-sans: var(--font-body), var(--font-sinhala), var(--font-tamil), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-heading), var(--font-sinhala), var(--font-tamil), Georgia, serif;
+}
+
+/* User-controlled text size (rem-based, so the whole UI scales) */
+html { font-size: 100%; }
+html[data-text-size="large"] { font-size: 112.5%; }
+html[data-text-size="larger"] { font-size: 125%; }
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+/* Sinhala & Tamil scripts need extra vertical room */
+html[lang="si"] body, html[lang="ta"] body { line-height: 1.8; }
+html[lang="si"] h1, html[lang="si"] h2, html[lang="ta"] h1, html[lang="ta"] h2 { line-height: 1.4; }
+
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 6px; }
+
+.scene-forest { background: var(--scene-forest); }
+.scene-ocean { background: var(--scene-ocean); }
+.scene-dusk { background: var(--scene-dusk); }
+
+/* No forced motion: honour the OS setting everywhere */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
