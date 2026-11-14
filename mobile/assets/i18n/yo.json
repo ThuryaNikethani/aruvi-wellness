@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Ibi tó jẹ́jẹ́ fún àwọn ọjọ́ líle",
+    "description": "Àyè àlàáfíà ọ̀fẹ́, àdáni, tó ní ọ̀pọ̀ èdè fún àwọn tó ń gbé pẹ̀lú ẹ̀fọ́rí líle (migraine), ìsoríkọ́, àníyàn àti wàhálà ọkàn."
+  },
+  "nav": {
+    "skip": "Lọ sí àkóónú pàtàkì",
+    "home": "Ojú-ìwé àkọ́kọ́ ARUVI",
+    "primary": "Pàtàkì",
+    "checkin": "Bí ọkàn ṣe rí",
+    "calm": "Àyè Ìdákẹ́jẹ́",
+    "features": "Ohun tó wà nínú",
+    "support": "Gba ìrànlọ́wọ́",
+    "signIn": "Wọlé",
+    "openMenu": "Ṣí àkójọ",
+    "closeMenu": "Pa àkójọ",
+    "language": "Èdè",
+    "languagesFull": "Tí a túmọ̀ pátápátá",
+    "languagesMore": "Àwọn èdè míràn",
+    "mySpace": "Àyè mi"
+  },
+  "comfort": {
+    "toLight": "Yí padà sí àwòrán ìmọ́lẹ̀",
+    "toDark": "Yí padà sí àwòrán òkùnkùn",
+    "textSize": "Ìtóbi ọ̀rọ̀: {size}. Tẹ̀ láti yí i padà.",
+    "sizes": {
+      "normal": "Déédéé",
+      "large": "Ńlá",
+      "larger": "Ńlá jù"
+    }
+  },
+  "i18n": {
+    "partial": "A túmọ̀ {language} láìfọwọ́kàn, nítorí náà àwọn ọ̀rọ̀ kan lè má péye pátápátá. Bí ohunkóhun kò bá yé ọ, a ti ṣàyẹ̀wò English, සිංහල àti தமிழ் dáadáa."
+  },
+  "hero": {
+    "eyebrow": "Ọ̀fẹ́ · Àdáni · Ní èdè rẹ",
+    "title": "Ibi tó jẹ́jẹ́ fún àwọn ọjọ́ líle.",
+    "body": "Àyè tó ní ààbò, tó sì dákẹ́ láti kíyèsí bí ara rẹ ṣe rí, láti rọra, àti láti tọ́jú ara rẹ — láìsí ìfúnpá tàbí ìdájọ́.",
+    "ctaBreathe": "Mí ẹ̀mí jẹ́jẹ́",
+    "ctaCheckin": "Bèèrè bí ara rẹ ṣe rí",
+    "note": "O kò nílò àkọọ́lẹ̀ láti bẹ̀rẹ̀."
+  },
+  "mood": {
+    "title": "Báwo ni ara rẹ ṣe rí báyìí?",
+    "subtitle": "Kò sí ìdáhùn tó tọ́. Yan èyí tó súnmọ́ jùlọ — kò burú bí ó bá yí padà.",
+    "legend": "Ara mi rí…",
+    "options": {
+      "happy": "Inú dídùn",
+      "calm": "Ìbàlẹ̀ ọkàn",
+      "sad": "Ìbànújẹ́",
+      "anxious": "Àníyàn",
+      "overwhelmed": "Ìwúwo tó pọ̀ jù",
+      "irritated": "Ìbínú",
+      "exhausted": "Àárẹ̀ púpọ̀",
+      "lonely": "Ìdáwà",
+      "numb": "Àìní ìmọ̀lára"
+    },
+    "intensity": "Báwo ni ìmọ̀lára yìí ṣe lágbára tó?",
+    "intensityLow": "Díẹ̀",
+    "intensityHigh": "Púpọ̀",
+    "save": "Fi pamọ́",
+    "saved": "A dúpẹ́ pé o bèèrè bí ara rẹ ṣe rí.",
+    "savedNote": "A fi pamọ́ sórí ẹ̀rọ yìí nìkan.",
+    "again": "Tún bèèrè",
+    "suggestBreathe": "Gbìyànjú ìsinmi mímí",
+    "privacy": "Nínú àfihàn yìí, kò sí ohun tó ń jáde kúrò lórí ẹ̀rọ rẹ.",
+    "responses": {
+      "happy": "Ó dára pé òní fúyẹ́ díẹ̀. O lè kọ ohun tó ràn ọ́ lọ́wọ́ sílẹ̀, kí o lè padà sí i.",
+      "calm": "Àkókò ìbàlẹ̀ ọkàn yẹ ní kíkíyèsí. Dúró pẹ̀lú rẹ̀ bí o ṣe fẹ́.",
+      "sad": "Ìbànújẹ́ lè wúwo. O kò ní láti yanjú rẹ̀ báyìí — kí o jẹ́jẹ́ sí ara rẹ ti tó.",
+      "anxious": "Àníyàn máa ń jẹ́ kí gbogbo nǹkan dàbí kánjúkánjú. Mímí jáde díẹ̀díẹ̀ lè jẹ́ kí ara rẹ ní ìmọ̀lára ààbò díẹ̀ sí i.",
+      "overwhelmed": "Nígbà tí gbogbo nǹkan bá pọ̀ jù, kò burú láti yan ohun kékeré kan ṣoṣo — tàbí láti má ṣe nǹkankan.",
+      "irritated": "Ìbínú sábà máa ń fihàn pé ohun kan ṣe pàtàkì sí ọ. Ìdádúró kúkúrú lè fún ọ ní àyè díẹ̀.",
+      "exhausted": "Àárẹ̀ yìí jẹ́ òótọ́. Ìsinmi kì í ṣe ohun tí o ní láti ṣiṣẹ́ fún.",
+      "lonely": "Ìdáwà le. Bí o bá lè, kàn sí ẹnìkan tí o fọkàn tán — kódà ọ̀rọ̀ kúkúrú lè ṣèrànwọ́.",
+      "numb": "Àìní ìmọ̀lára jẹ́ ọ̀nà tí ọkàn fi ń dáàbò bo ara rẹ̀ nígbà míràn. O ṣì wà níbí, ìyẹn sì ṣe pàtàkì."
+    }
+  },
+  "calm": {
+    "title": "Àyè Ìdákẹ́jẹ́ Mi",
+    "subtitle": "Ibi tó dákẹ́ láti rọra mí. Dánu dúró, yí padà tàbí dúró nígbàkígbà.",
+    "idle": "Tẹ bẹ̀rẹ̀ nígbà tí o bá ṣetán.",
+    "phases": {
+      "in": "Mí wọlé",
+      "hold": "Dì í mú jẹ́jẹ́",
+      "out": "Mí jáde",
+      "rest": "Sinmi"
+    },
+    "seconds": "{seconds, plural, one {ìṣẹ́jú-àáyá #} other {ìṣẹ́jú-àáyá #}}",
+    "pausedLabel": "Ó ti dánu dúró",
+    "start": "Bẹ̀rẹ̀",
+    "pause": "Dánu dúró",
+    "resume": "Tẹ̀síwájú",
+    "stop": "Dúró",
+    "patternLabel": "Ìlù mímí",
+    "patterns": {
+      "gentle": "Jẹ́jẹ́ — wọlé 4, jáde 6",
+      "box": "Àpótí — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Ẹ̀yìn",
+    "scenes": {
+      "forest": "Igbó",
+      "ocean": "Òkun",
+      "dusk": "Ìrọ̀lẹ́"
+    },
+    "rounds": "{count, plural, =0 {Kò tíì sí yíká kankan} one {Yíká # ti parí} other {Yíká # ti parí}}",
+    "note": "Kò sí ìtànṣán tàbí ìṣípò kíákíá. Ohùn máa wà ní pípa àyàfi bí o bá tàn án."
+  },
+  "features": {
+    "title": "Gbogbo nǹkan ní ìyára rẹ",
+    "subtitle": "Lo ohun tó ń ràn ọ́ lọ́wọ́, fo èyí tí kò ṣe. Kò sí iṣẹ́ kankan níbí tí o gbọ́dọ̀ parí.",
+    "soon": "Ó ń bọ̀ láìpẹ́",
+    "preview": "Gbìyànjú báyìí",
+    "items": {
+      "calm": {
+        "title": "Àyè Ìdákẹ́jẹ́",
+        "body": "Mímí, dídúró nínú ìsinsìnyí àti ìsinmi ara pẹ̀lú àwòrán àdánidá tó dákẹ́."
+      },
+      "journal": {
+        "title": "Ìwé Ìrántí Ìmọ̀lára",
+        "body": "Kíyèsí ìmọ̀lára rẹ, kọ̀wé ní òmìnira, kí o sì rí àwọn àpẹẹrẹ jẹ́jẹ́ bí àkókò ti ń lọ."
+      },
+      "companion": {
+        "title": "Alábàáṣiṣẹ́ Àlàáfíà AI",
+        "body": "Olùgbọ́ tó ń tì ọ́ lẹ́yìn ní èdè rẹ. Kì í ṣe dókítà tàbí oníṣègùn ọpọlọ."
+      },
+      "migraine": {
+        "title": "Ìwé Ìrántí Ẹ̀fọ́rí",
+        "body": "Kọ àwọn ìkọlù, àmì àti ohun tó lè fà á sílẹ̀, kí o sì mú ìjábọ̀ jáde fún dókítà rẹ."
+      },
+      "sleep": {
+        "title": "Oorun àti Agbára",
+        "body": "Tọpa ìsinmi, dídára oorun àti agbára láti lóye àwọn ọjọ́ rẹ."
+      },
+      "insights": {
+        "title": "Òye Àlàáfíà",
+        "body": "Àkópọ̀ rírọrùn, tó ń ṣàpèjúwe àwọn àkọsílẹ̀ rẹ — kì í ṣe ìwádìí àìsàn láé."
+      }
+    }
+  },
+  "promise": {
+    "title": "Ìlérí wa sí ọ",
+    "items": {
+      "free": {
+        "title": "Ọ̀fẹ́ fún gbogbo ènìyàn",
+        "body": "Kò sí owó oṣooṣù, kò sí ẹ̀yà tí a ń sanwó fún."
+      },
+      "private": {
+        "title": "Àdáni láti ìbẹ̀rẹ̀",
+        "body": "Ìwé ìrántí àti ìjíròrò rẹ jẹ́ tìrẹ. A kò ní ta àlàyé ara ẹni tàbí ti ìlera láé."
+      },
+      "gentle": {
+        "title": "Kò sí ìfúnpá",
+        "body": "Kò sí kíka ọjọ́ léraléra, kò sí ẹ̀bi. Padà wá nígbàkígbà tí o bá nílò."
+      },
+      "notMedical": {
+        "title": "Ìtìlẹ́yìn, kì í ṣe ìtọ́jú",
+        "body": "ARUVI kò rọ́pò ìtọ́jú ìṣègùn tàbí ti ọpọlọ láti ọwọ́ akọ́ṣẹ́mọṣẹ́."
+      }
+    }
+  },
+  "help": {
+    "title": "Bí o bá nílò ìrànlọ́wọ́ báyìí",
+    "body": "Bí o bá wà nínú ewu tàbí o ń ronú láti ṣe ara rẹ léṣe, jọ̀wọ́ kàn sí ẹnìkan báyìí. O yẹ fún ìtìlẹ́yìn.",
+    "lines": {
+      "national": "Ìlà Ìrànlọ́wọ́ Ìlera Ọpọlọ Orílẹ̀-èdè (Sri Lanka, wákàtí 24)",
+      "ambulance": "Ọkọ̀ ìgbàlà Suwa Seriya",
+      "police": "Pàjáwìrì ọlọ́pàá"
+    },
+    "call": "Pe {name}: {number}",
+    "note": "ARUVI kì í ṣe iṣẹ́ pàjáwìrì. Bí o bá lè ṣe ohun tí èrò láti ṣe ara rẹ léṣe ń sọ, jọ̀wọ́ kàn sí ọ̀kan nínú àwọn iṣẹ́ yìí tàbí lọ sí ilé ìwòsàn tó súnmọ́ jùlọ.",
+    "countryLabel": "Orílẹ̀-èdè rẹ",
+    "otherCountry": "Orílẹ̀-èdè míràn",
+    "noList": "A kò tíì ní àkójọ ìlà ìrànlọ́wọ́ tí a ti ṣàyẹ̀wò fún orílẹ̀-èdè yìí. Jọ̀wọ́ pe nọ́mbà pàjáwìrì àdúgbò rẹ tàbí lọ sí ilé ìwòsàn tó súnmọ́ jùlọ. O tún lè rí ìlà ìrànlọ́wọ́ ọ̀fẹ́ àti àṣírí nítòsí rẹ níbí:",
+    "findMore": "Wá ìlà ìrànlọ́wọ́ ní orílẹ̀-èdè rẹ"
+  },
+  "footer": {
+    "tagline": "Ibi tó jẹ́jẹ́ fún àwọn ọjọ́ líle.",
+    "disclaimer": "ARUVI jẹ́ alábàáṣiṣẹ́ àlàáfíà tó ń tì ọ́ lẹ́yìn. Kò rọ́pò ìtọ́jú ìṣègùn tàbí ti ọpọlọ láti ọwọ́ akọ́ṣẹ́mọṣẹ́.",
+    "languages": "Èdè",
+    "made": "A fi ìfẹ́ ṣe é. Ọ̀fẹ́ fún gbogbo ènìyàn."
+  },
+  "common": {
+    "save": "Fi pamọ́",
+    "saving": "Ó ń fi pamọ́…",
+    "saved": "A ti fi pamọ́.",
+    "error": "Nǹkan kan kò lọ dáadáa. Jọ̀wọ́ tún gbìyànjú.",
+    "optional": "kò pọn dandan",
+    "confirmDelete": "Pa èyí rẹ́?",
+    "yes": "Bẹ́ẹ̀ni, pa á rẹ́",
+    "cancel": "Fagilé"
+  },
+  "auth": {
+    "signInTitle": "Káàbọ̀ padà",
+    "signInSubtitle": "Wọlé láti rí ìwé ìrántí, àkọsílẹ̀ àti òye rẹ.",
+    "signUpTitle": "Ṣẹ̀dá àyè rẹ",
+    "signUpSubtitle": "Ọ̀fẹ́, àdáni àti tìrẹ. O lè pa gbogbo nǹkan rẹ́ nígbàkígbà.",
+    "name": "Kí ni kí a máa pè ọ́?",
+    "optional": "kò pọn dandan",
+    "email": "Ímeèlì",
+    "password": "Ọ̀rọ̀ aṣínà",
+    "passwordHint": "Ó kéré tán lẹ́tà 10. Gbólóhùn kúkúrú dára.",
+    "acceptTerms": "Mo gbà pẹ̀lú àwọn òfin àti ìlànà àṣírí.",
+    "acceptHealth": "Mo gbà kí ARUVI tọ́jú àlàyé àlàáfíà tí mo bá yàn láti fi sí i (ìmọ̀lára, ìwé ìrántí, àkọsílẹ̀ ẹ̀fọ́rí àti oorun), ní àdáni àti fún èmi nìkan.",
+    "signIn": "Wọlé",
+    "signUp": "Ṣẹ̀dá àkọọ́lẹ̀",
+    "wait": "Jọ̀wọ́ dúró…",
+    "or": "tàbí",
+    "google": "Tẹ̀síwájú pẹ̀lú Google",
+    "noAccount": "Ṣé o jẹ́ tuntun sí ARUVI?",
+    "haveAccount": "Ṣé o ti ní àkọọ́lẹ̀?",
+    "tryWithout": "Tàbí gbìyànjú ìdánrawò mímí láìsí àkọọ́lẹ̀",
+    "errors": {
+      "invalid": "Ímeèlì àti ọ̀rọ̀ aṣínà kò bá ara wọn mu. Jọ̀wọ́ tún gbìyànjú.",
+      "exists": "A kò lè mú ọ wọlé. Bí o bá ti ní àkọọ́lẹ̀, jọ̀wọ́ wọlé.",
+      "checkFields": "Jọ̀wọ́ ṣàyẹ̀wò àwọn àlàyé kí o sì tún gbìyànjú.",
+      "rateLimited": "Ìgbìyànjú ti pọ̀ jù. Dúró fún ìṣẹ́jú díẹ̀ kí o sì tún gbìyànjú.",
+      "generic": "Nǹkan kan kò lọ dáadáa. Jọ̀wọ́ tún gbìyànjú."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Àyè mi",
+      "overview": "Òní",
+      "journal": "Ìmọ̀lára àti ìwé ìrántí",
+      "companion": "Alábàáṣiṣẹ́",
+      "migraine": "Ìwé ìrántí ẹ̀fọ́rí",
+      "sleep": "Oorun àti agbára",
+      "insights": "Òye",
+      "settings": "Ètò",
+      "calm": "Àyè Ìdákẹ́jẹ́",
+      "signOut": "Jáde"
+    }
+  },
+  "overview": {
+    "greeting": "Ẹ n lẹ́",
+    "greetingName": "Ẹ n lẹ́, {name}",
+    "subtitle": "Báwo ni ara rẹ lónìí? Kò sí ohun tí o gbọ́dọ̀ ṣe níbí.",
+    "subtitleCheckedIn": "A dúpẹ́ pé o bèèrè bí ara rẹ ṣe rí lónìí. Mú ohun tí o nílò.",
+    "verified": "A ti fìdí ímeèlì rẹ múlẹ̀. A dúpẹ́.",
+    "verifyFailed": "Ìjápọ̀ ìfìdímúlẹ̀ yẹn kò ṣiṣẹ́ tàbí ó ti parí.",
+    "verifyPending": "A ti fi ìjápọ̀ ránṣẹ́ láti fìdí ímeèlì rẹ múlẹ̀. Láàrin àkókò yìí, o lè máa lo ARUVI.",
+    "calmTitle": "Àyè Ìdákẹ́jẹ́",
+    "calmBody": "Mímí díẹ̀díẹ̀ díẹ̀, nígbàkígbà tí o bá nílò.",
+    "companionTitle": "Bá alábàáṣiṣẹ́ sọ̀rọ̀",
+    "companionBody": "Olùgbọ́ jẹ́jẹ́, ní èdè rẹ.",
+    "suggestionTitle": "Èrò jẹ́jẹ́ fún òní",
+    "suggestions": {
+      "0": "Mu ife omi kan, díẹ̀díẹ̀.",
+      "1": "Jáde síta tàbí ṣí fèrèsé fún afẹ́fẹ́ tútù fún ìṣẹ́jú kan.",
+      "2": "Tú èjìká rẹ sílẹ̀ kí o sì jẹ́ kí àgbọ̀n rẹ rọ̀.",
+      "3": "Fi ọ̀rọ̀ kúkúrú ránṣẹ́ sí ẹnìkan tí o fọkàn tán.",
+      "4": "Sinmi ojú rẹ kúrò lójú iboju fún ìṣẹ́jú márùn-ún.",
+      "5": "Kíyèsí ohun kékeré kan tó lọ dáadáa lónìí."
+    },
+    "recentJournal": "Àkọsílẹ̀ ìwé ìrántí tuntun",
+    "openJournal": "Ṣí ìwé ìrántí",
+    "noJournal": "Kò tíì sí àkọsílẹ̀. Kódà kíkọ ìlà kan lè ṣèrànwọ́.",
+    "summaryTitle": "Ní ìwòṣẹ́jú",
+    "migraine30": "Ìkọlù ẹ̀fọ́rí, ọjọ́ 30 sẹ́yìn",
+    "lastSleep": "Oorun tó kẹ́yìn",
+    "hours": "wákàtí {hours}",
+    "seeInsights": "Wo òye rẹ"
+  },
+  "journal": {
+    "title": "Ìmọ̀lára àti ìwé ìrántí",
+    "subtitle": "Kíyèsí bí ara rẹ ṣe rí kí o sì kọ̀wé ní òmìnira. Ìwọ nìkan ló lè rí èyí.",
+    "moodNote": "Ọ̀rọ̀ díẹ̀ nípa rẹ̀",
+    "moodHistory": "Àwọn àyẹ̀wò tuntun",
+    "deleteMood": "Pa àyẹ̀wò yìí rẹ́",
+    "writeTitle": "Kọ̀wé",
+    "promptLabel": "Ìtọ́sọ́nà ìkọ̀wé, bí ó bá ṣèrànwọ́",
+    "showPrompt": "Fi ìtọ́sọ́nà ìkọ̀wé hàn",
+    "newPrompt": "Fi ìtọ́sọ́nà míràn hàn",
+    "titleLabel": "Àkọlé",
+    "contentLabel": "Èrò rẹ",
+    "privateNote": "Àdáni láti ìbẹ̀rẹ̀. A kì í pín in láé.",
+    "entries": "Àwọn àkọsílẹ̀ rẹ",
+    "empty": "Àwọn àkọsílẹ̀ rẹ yóò hàn níbí.",
+    "deleteEntry": "Pa àkọsílẹ̀ yìí rẹ́",
+    "prompts": {
+      "0": "Kí ni ohun kan tó wúwo lónìí, àti ohun kan tó fúyẹ́ díẹ̀?",
+      "1": "Kí ni ara rẹ nílò báyìí?",
+      "2": "Ṣàpèjúwe ibi kan tí o ti ní ìmọ̀lára ààbò.",
+      "3": "Kí ni o máa sọ fún ọ̀rẹ́ tí ara rẹ̀ rí bí tìrẹ lónìí?",
+      "4": "Kí ni ohun kékeré kan tí o dúpẹ́ fún?",
+      "5": "Kí ló gba agbára rẹ lónìí? Kí ló dá díẹ̀ padà?",
+      "6": "Bí ìmọ̀lára rẹ bá jẹ́ ojú ọjọ́, irú ojú ọjọ́ wo ni yóò jẹ́?",
+      "7": "Kí ni ohun rere kan tí o lè ṣe fún ara rẹ lọ́la?"
+    }
+  },
+  "migraine": {
+    "title": "Ìwé ìrántí ẹ̀fọ́rí",
+    "subtitle": "Tọ́jú ìwé ìrántí orí fífọ́ tó rọrùn tí o lè pín pẹ̀lú dókítà rẹ.",
+    "disclaimer": "Ìwé ìrántí yìí ń kọ ohun tí o kíyèsí sílẹ̀. Àwọn àpẹẹrẹ tó hàn níbí kì í ṣe ìwádìí àìsàn. Jọ̀wọ́ bá dókítà sọ̀rọ̀ nípa orí fífọ́ rẹ àti oògùn èyíkéyìí.",
+    "report": "Ìjábọ̀ fún dókítà",
+    "formTitle": "Kọ ìkọlù kan sílẹ̀",
+    "start": "Bẹ̀rẹ̀",
+    "end": "Parí",
+    "ongoing": "Ó ṣì ń lọ",
+    "ongoingShort": "ń lọ",
+    "duration": "wákàtí {hours}",
+    "intensity": "Agbára ìrora",
+    "intensityHint": "0 túmọ̀ sí àìsí ìrora, 10 túmọ̀ sí ìrora tó burú jùlọ tí o lè ronú.",
+    "locationsLabel": "Ibo ló ń dùn ọ́?",
+    "characteristicsLabel": "Báwo ló ṣe rí?",
+    "symptomsLabel": "Àwọn àmì míràn",
+    "triggersLabel": "Ohun tó lè fà á tí o kíyèsí",
+    "triggersHint": "Ohun tí ìwọ fúnra rẹ kíyèsí nìkan. Ìwọ̀nyí jẹ́ ṣíṣeéṣe, kì í ṣe ohun tó fà á.",
+    "medication": "Oògùn tí o lò",
+    "medicationHint": "Àkọsílẹ̀ tìrẹ nìkan. ARUVI kì í dábàá oògùn láé.",
+    "recovery": "Àkọsílẹ̀ ìsinmi àti ìmúlàradá",
+    "save": "Fi ìkọlù pamọ́",
+    "history": "Ìtàn ìkọlù",
+    "empty": "Kò tíì sí ìkọlù tí a kọ sílẹ̀.",
+    "deleteEpisode": "Pa ìkọlù yìí rẹ́",
+    "locations": {
+      "left": "Apá òsì",
+      "right": "Apá ọ̀tún",
+      "both_sides": "Apá méjèèjì",
+      "forehead": "Iwájú orí",
+      "temples": "Ẹ̀gbẹ́ orí",
+      "behind_eyes": "Lẹ́yìn ojú",
+      "back_of_head": "Ẹ̀yìn orí",
+      "neck": "Ọrùn"
+    },
+    "characteristics": {
+      "throbbing": "Ń lù kíkankíkan",
+      "pressing": "Ń tẹ̀",
+      "stabbing": "Ń gún",
+      "dull": "Ìrora díẹ̀díẹ̀"
+    },
+    "symptoms": {
+      "nausea": "Ríru inú",
+      "vomiting": "Èébì",
+      "light_sensitivity": "Ìmọ́lẹ̀ ń dààmú",
+      "sound_sensitivity": "Ariwo ń dààmú",
+      "smell_sensitivity": "Òórùn ń dààmú",
+      "aura": "Àmì ìṣáájú (aura)",
+      "dizziness": "Òòyì",
+      "fatigue": "Àárẹ̀",
+      "blurred_vision": "Ojú tó ṣókùnkùn"
+    },
+    "triggers": {
+      "sleep": "Ìyípadà oorun",
+      "stress": "Wàhálà",
+      "weather": "Ìyípadà ojú ọjọ́",
+      "dehydration": "Àìtó omi",
+      "meal_timing": "Àkókò oúnjẹ",
+      "screen": "Àkókò lójú iboju",
+      "environment": "Àyíká (ìmọ́lẹ̀, ariwo, òórùn)",
+      "menstrual": "Àkókò nǹkan oṣù",
+      "other": "Òmíràn"
+    }
+  },
+  "report": {
+    "title": "Ìjábọ̀ ìwé ìrántí orí fífọ́",
+    "period": "ọjọ́ {days} sẹ́yìn",
+    "print": "Tẹ̀ jáde tàbí fi pamọ́ bí PDF",
+    "disclaimer": "Ìjábọ̀ yìí ní àlàyé tí ẹni náà fúnra rẹ̀ kọ sínú ARUVI. Kì í ṣe ìwádìí àìsàn. Ohun tó lè fà á jẹ́ àkíyèsí ara ẹni.",
+    "episodes": "Àwọn ìkọlù",
+    "avgDuration": "Àkókò àpapọ̀ (wákàtí)",
+    "avgIntensity": "Agbára àpapọ̀ (0–10)",
+    "triggers": "Ohun tó lè fà á tí ẹni náà sọ",
+    "log": "Àkọsílẹ̀ ìkọlù",
+    "hours": "Wákàtí"
+  },
+  "sleep": {
+    "title": "Oorun àti agbára",
+    "subtitle": "Àkọsílẹ̀ kúkúrú ojoojúmọ́ nípa ìsinmi àti agbára ń ràn ọ́ lọ́wọ́ láti lóye àwọn ọjọ́ rẹ.",
+    "date": "Ọjọ́",
+    "dateHint": "Kọ oorun àná sílẹ̀ ní ọjọ́ òní.",
+    "sleepTitle": "Oorun",
+    "hours": "Wákàtí oorun",
+    "quality": "Dídára oorun",
+    "poor": "Kò dára",
+    "restful": "Ó sinmi mi",
+    "energyTitle": "Agbára",
+    "energy": "Ìpele agbára",
+    "fatigue": "Àárẹ̀",
+    "veryLow": "Kéré gan-an",
+    "high": "Ga",
+    "little": "Díẹ̀",
+    "aLot": "Púpọ̀",
+    "rest": "Àkókò ìsinmi (ìṣẹ́jú)",
+    "note": "Àkọsílẹ̀",
+    "history": "Ọ̀sẹ̀ méjì sẹ́yìn",
+    "empty": "Kò tíì sí ohun tí a kọ sílẹ̀."
+  },
+  "insights": {
+    "title": "Òye àlàáfíà",
+    "subtitle": "Ìwòsẹ́yìn rírọrùn sí ohun tí o ti kọ sílẹ̀.",
+    "disclaimer": "Ìwọ̀nyí jẹ́ àpèjúwe àwọn àkọsílẹ̀ rẹ, kì í ṣe ìpinnu ìṣègùn. Bí nǹkan méjì bá hàn papọ̀, kò túmọ̀ sí pé ọ̀kan ló fa èkejì.",
+    "rangeLabel": "Àkókò",
+    "range": "ọjọ́ {days}",
+    "stats": {
+      "checkIns": "Àyẹ̀wò ìmọ̀lára",
+      "migraines": "Ìkọlù ẹ̀fọ́rí",
+      "avgDuration": "Ìkọlù àpapọ̀ (wákàtí)",
+      "avgSleep": "Oorun àpapọ̀ (wákàtí)"
+    },
+    "observationsTitle": "Ohun tí àkọsílẹ̀ rẹ fihàn",
+    "notEnough": "Máa kọ̀wé fún ìgbà díẹ̀ sí i, àkíyèsí jẹ́jẹ́ yóò hàn níbí.",
+    "obs": {
+      "topTrigger": "O kọ \"{trigger}\" gẹ́gẹ́ bí ohun tó lè fà á nínú {count} lára ìkọlù {total}.",
+      "lowSleepMigraine": "Ní {share}% àwọn ọjọ́ tí o kọ ẹ̀fọ́rí sílẹ̀, o tún kọ oorun tó kéré sí wákàtí 6, ní ìfiwéra pẹ̀lú {overall}% gbogbo òru tí o kọ sílẹ̀.",
+      "steadyMood": "Ìmọ̀lára tí o kọ sílẹ̀ jùlọ ni \"{mood}\" (ìgbà {count})."
+    },
+    "moodChart": "Àwọn ìmọ̀lára tí o kọ sílẹ̀",
+    "migraineChart": "Ìkọlù ẹ̀fọ́rí lójoojúmọ́",
+    "sleepChart": "Wákàtí oorun",
+    "energyChart": "Ìpele agbára (1–5)",
+    "showTable": "Fihàn bí tábìlì",
+    "noData": "Kò sí àyẹ̀wò ní àkókò yìí.",
+    "mood": "Ìmọ̀lára",
+    "count": "Ìgbà",
+    "date": "Ọjọ́",
+    "episodes": "Àwọn ìkọlù",
+    "hours": "Wákàtí",
+    "energyLevel": "Agbára"
+  },
+  "settings": {
+    "title": "Ètò",
+    "prefsTitle": "Àwọn àṣàyàn",
+    "displayName": "Orúkọ tí a ó fi kí ọ",
+    "trackMigraine": {
+      "title": "Mo ń gbé pẹ̀lú ẹ̀fọ́rí",
+      "body": "Fi àwọn ẹ̀yà ẹ̀fọ́rí hàn kedere sí i."
+    },
+    "trackMenstrual": {
+      "title": "Fi àkókò nǹkan oṣù kún ohun tó lè fà á",
+      "body": "Kò pọn dandan. Ó hàn nínú ìwé ìrántí ẹ̀fọ́rí rẹ nìkan."
+    },
+    "keepAiHistory": {
+      "title": "Tọ́jú ìtàn ìjíròrò pẹ̀lú alábàáṣiṣẹ́",
+      "body": "Ó wà ní pípa láti ìbẹ̀rẹ̀. Bí o bá tàn án, a ó fi ìjíròrò rẹ pamọ́ kí o lè padà sí i. O lè pa á rẹ́ nígbàkígbà."
+    },
+    "comfortNote": "Àwòrán, ìtóbi ọ̀rọ̀ àti èdè wà lórí ọ̀pá òkè, a sì máa rántí wọn lórí ẹ̀rọ yìí.",
+    "exportTitle": "Gba dátà rẹ sílẹ̀",
+    "exportBody": "Gba ẹ̀dà gbogbo ohun tí ARUVI tọ́jú nípa rẹ, gẹ́gẹ́ bí fáìlì JSON.",
+    "exportButton": "Gba dátà mi sílẹ̀",
+    "deleteTitle": "Pa àkọọ́lẹ̀ rẹ́",
+    "deleteBody": "Èyí yóò pa àkọọ́lẹ̀ rẹ àti gbogbo ohun tó wà nínú rẹ̀ rẹ́ títí láé: ìmọ̀lára, ìwé ìrántí, àkọsílẹ̀ àti ìjíròrò. Kò ṣeé dá padà.",
+    "deleteConfirmLabel": "Tẹ DELETE láti fìdí múlẹ̀",
+    "deleteButton": "Pa àkọọ́lẹ̀ mi rẹ́ títí láé"
+  },
+  "companion": {
+    "title": "Alábàáṣiṣẹ́",
+    "subtitle": "Sọ ohun tó wà lọ́kàn rẹ. Kọ̀wé ní èdè èyíkéyìí tí o fẹ́.",
+    "disclaimer": "Alábàáṣiṣẹ́ jẹ́ AI, kì í ṣe oníṣègùn ọpọlọ tàbí dókítà. Ó lè ṣàṣìṣe, kò sì lè ṣe ìwádìí àìsàn tàbí fún ọ ní ìmọ̀ràn ìṣègùn. Bí o bá wà nínú ewu, jọ̀wọ́ lo àwọn nọ́mbà inú “Gba ìrànlọ́wọ́” tàbí pe nọ́mbà pàjáwìrì àdúgbò rẹ.",
+    "emptyTitle": "Mo wà níbí láti gbọ́ ọ.",
+    "emptyBody": "Báwo ni ara rẹ ṣe rí báyìí?",
+    "placeholder": "Kọ ohun tó wà lọ́kàn rẹ…",
+    "inputLabel": "Ọ̀rọ̀ rẹ",
+    "send": "Fi ránṣẹ́",
+    "you": "Ìwọ",
+    "companion": "Alábàáṣiṣẹ́",
+    "thinking": "…",
+    "newChat": "Ìjíròrò tuntun",
+    "clear": "Pa ìjíròrò mọ́",
+    "deleteHistory": "Pa gbogbo ìtàn rẹ́",
+    "historyOn": "A ń fi ìjíròrò pamọ́. O lè pa èyí nínú Ètò.",
+    "historyOff": "A kì í fi ìjíròrò pamọ́. Wọn yóò pòórá nígbà tí o bá kúrò ní ojú-ìwé yìí.",
+    "crisisTitle": "O kò ní láti la èyí kọjá nìkan",
+    "crisisBody": "Ó dàbí pé nǹkan le gan-an báyìí. Jọ̀wọ́ kàn sí ẹnìkan tó lè ṣèrànwọ́ — o lè pè báyìí, nígbàkígbà.",
+    "errors": {
+      "refusal": "Mi ò lè dáhùn èyí. Bí nǹkan bá le fún ọ, jọ̀wọ́ kàn sí ẹnìkan tí o fọkàn tán tàbí lo àwọn nọ́mbà inú “Gba ìrànlọ́wọ́”.",
+      "unavailable": "Alábàáṣiṣẹ́ kò sí báyìí. Jọ̀wọ́ tún gbìyànjú lẹ́yìnwá.",
+      "error": "Nǹkan kan kò lọ dáadáa. Jọ̀wọ́ tún gbìyànjú.",
+      "network": "Ó dàbí pé o kò sí lórí ayélujára. Jọ̀wọ́ ṣàyẹ̀wò ìsopọ̀ rẹ.",
+      "limit": "O ti fi ọ̀pọ̀ ọ̀rọ̀ ránṣẹ́. Sinmi díẹ̀ kí o sì tún gbìyànjú lẹ́yìnwá.",
+      "generic": "Nǹkan kan kò lọ dáadáa. Jọ̀wọ́ tún gbìyànjú."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Wọlé láti lo èyí",
+    "guestBody": "Ṣẹ̀dá àkọọ́lẹ̀ ọ̀fẹ́ kí àwọn àkọsílẹ̀ rẹ lè wà ní àdáni àti ààbò lórí gbogbo ẹ̀rọ.",
+    "continueGuest": "Tẹ̀síwájú láìsí àkọọ́lẹ̀",
+    "more": "Síwájú sí i",
+    "appearance": "Ìrísí",
+    "themeSystem": "Ẹ̀rọ",
+    "themeLight": "Ìmọ́lẹ̀",
+    "themeDark": "Òkùnkùn",
+    "account": "Àkọọ́lẹ̀",
+    "signedInAs": "O wọlé bí {email}",
+    "offline": "A kò lè dé ARUVI báyìí. Jọ̀wọ́ ṣàyẹ̀wò ìsopọ̀ rẹ kí o sì tún gbìyànjú.",
+    "reportOnWeb": "Ìjábọ̀ dókítà tí a lè tẹ̀ jáde wà lórí ojú-ọ̀nà ayélujára ARUVI.",
+    "pickDate": "Yan ọjọ́",
+    "pickTime": "Yan àkókò",
+    "textSize": "Ìtóbi ọ̀rọ̀",
+    "refresh": "Sọ̀ di tuntun",
+    "migraineTab": "Ẹ̀fọ́rí"
+  }
+}
