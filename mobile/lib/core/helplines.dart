@@ -54,10 +54,13 @@ class Helplines {
 
   List<Helpline> linesFor(String country) => _countries[country] ?? const [];
 
-  /// Device region → language → default.
+  /// The language's own country → (English, Arabic…) the phone's region → default.
   String guess(String locale, String? deviceCountry) {
+    final fromLanguage = _localeCountry[locale];
+    if (fromLanguage != null) return fromLanguage;
     final c = deviceCountry?.toUpperCase();
     if (c != null && c.length == 2) return _countries.containsKey(c) ? c : other;
-    return _localeCountry[locale] ?? defaultCountry;
+    // English → Sri Lanka (ARUVI's home); other multi-country languages → international directory.
+    return locale == 'en' ? defaultCountry : other;
   }
 }
