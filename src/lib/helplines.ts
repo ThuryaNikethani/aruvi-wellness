@@ -24,11 +24,22 @@ export function lineName(line: Helpline, locale: string) {
   return line.name[locale] ?? line.name.en;
 }
 
-/** Best guess when the user hasn't chosen: detected country → language → default. */
+/** True when the language belongs to one country (si → LK, ja → JP). */
+export function languageHasCountry(locale: string) {
+  return locale in localeCountry;
+}
+
+/**
+ * Country for a language when the user hasn't picked one:
+ * the language's own country → (for languages like English) the detected country → default.
+ */
 export function guessCountry(locale: string, detected?: string | null) {
+  if (localeCountry[locale]) return localeCountry[locale];
   const geo = detected?.toUpperCase();
   if (geo && /^[A-Z]{2}$/.test(geo)) return countries[geo] ? geo : OTHER_COUNTRY;
-  return localeCountry[locale] ?? data.defaultCountry;
+  // English is ARUVI's main language in Sri Lanka; for other multi-country languages
+  // (Arabic, Urdu…) we don't guess a country — show the international directory.
+  return locale === "en" ? data.defaultCountry : OTHER_COUNTRY;
 }
 
 /** Plain-text list for the AI companion's per-request instructions. */
