@@ -99,9 +99,21 @@ model UserPreferences {
   trackMenstrual  Boolean         @default(false)
   keepAiHistory   Boolean         @default(false) // user-controlled retention
   displayName     String?
+  birthYear       Int?            // asked at sign-up; null = profile not completed yet
+  concerns        Concern[]       @default([])
   updatedAt       DateTime        @updatedAt
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+/// What the person would like support with. Self-chosen, never a diagnosis.
+enum Concern {
+  MIGRAINE
+  DEPRESSION
+  ANXIETY
+  STRESS
+  SLEEP
+  OTHER
 }
 
 enum ConsentType {
