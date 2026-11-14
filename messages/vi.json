@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Một nơi dịu dàng cho những ngày khó khăn",
+    "description": "Không gian chăm sóc sức khỏe tinh thần miễn phí, riêng tư và đa ngôn ngữ dành cho người sống chung với chứng đau nửa đầu, trầm cảm, lo âu và căng thẳng."
+  },
+  "nav": {
+    "skip": "Chuyển đến nội dung chính",
+    "home": "Trang chủ ARUVI",
+    "primary": "Chính",
+    "checkin": "Ghi nhận cảm xúc",
+    "calm": "Góc bình yên",
+    "features": "Có gì bên trong",
+    "support": "Tìm trợ giúp",
+    "signIn": "Đăng nhập",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu",
+    "language": "Ngôn ngữ",
+    "languagesFull": "Đã dịch đầy đủ",
+    "languagesMore": "Ngôn ngữ khác",
+    "mySpace": "Không gian của tôi"
+  },
+  "comfort": {
+    "toLight": "Chuyển sang giao diện sáng",
+    "toDark": "Chuyển sang giao diện tối",
+    "textSize": "Cỡ chữ: {size}. Nhấn để thay đổi.",
+    "sizes": {
+      "normal": "Bình thường",
+      "large": "Lớn",
+      "larger": "Lớn hơn"
+    }
+  },
+  "i18n": {
+    "partial": "{language} được dịch tự động nên một số từ có thể chưa hoàn toàn chính xác. Nếu có điều gì chưa rõ, English, සිංහල và தமிழ் đã được rà soát đầy đủ."
+  },
+  "hero": {
+    "eyebrow": "Miễn phí · Riêng tư · Bằng ngôn ngữ của bạn",
+    "title": "Một nơi dịu dàng cho những ngày khó khăn.",
+    "body": "Một không gian an toàn, yên tĩnh để bạn nhận ra cảm xúc của mình, chậm lại và chăm sóc bản thân — không áp lực, không phán xét.",
+    "ctaBreathe": "Hít thở thật nhẹ nhàng",
+    "ctaCheckin": "Lắng nghe bản thân",
+    "note": "Không cần tài khoản để bắt đầu."
+  },
+  "mood": {
+    "title": "Lúc này bạn cảm thấy thế nào?",
+    "subtitle": "Không có câu trả lời đúng. Hãy chọn điều gần nhất — thay đổi cũng không sao.",
+    "legend": "Tôi đang cảm thấy…",
+    "options": {
+      "happy": "Vui vẻ",
+      "calm": "Bình yên",
+      "sad": "Buồn",
+      "anxious": "Lo lắng",
+      "overwhelmed": "Quá tải",
+      "irritated": "Bực bội",
+      "exhausted": "Kiệt sức",
+      "lonely": "Cô đơn",
+      "numb": "Tê liệt cảm xúc"
+    },
+    "intensity": "Cảm xúc này mạnh đến mức nào?",
+    "intensityLow": "Một chút",
+    "intensityHigh": "Rất nhiều",
+    "save": "Lưu",
+    "saved": "Cảm ơn bạn đã lắng nghe bản thân.",
+    "savedNote": "Chỉ lưu trên thiết bị này.",
+    "again": "Ghi nhận lại",
+    "suggestBreathe": "Thử một khoảng nghỉ để thở",
+    "privacy": "Trong bản xem trước này, không có dữ liệu nào rời khỏi thiết bị của bạn.",
+    "responses": {
+      "happy": "Thật tốt khi hôm nay thấy nhẹ nhàng hơn. Bạn có thể ghi lại điều gì đã giúp mình, để quay lại khi cần.",
+      "calm": "Một khoảnh khắc bình yên rất đáng để nhận ra. Hãy ở lại với nó bao lâu tùy thích.",
+      "sad": "Nỗi buồn có thể rất nặng nề. Bạn không cần giải quyết nó ngay — dịu dàng với bản thân là đủ rồi.",
+      "anxious": "Lo âu khiến mọi thứ có vẻ gấp gáp. Thở ra thật chậm có thể giúp cơ thể thấy an toàn hơn một chút.",
+      "overwhelmed": "Khi mọi thứ dường như quá nhiều, chỉ chọn một việc nhỏ — hoặc không làm gì cả — cũng không sao.",
+      "irritated": "Bực bội thường cho thấy điều gì đó quan trọng với bạn. Một khoảng dừng ngắn có thể cho bạn thêm chút không gian.",
+      "exhausted": "Sự mệt mỏi này là thật. Nghỉ ngơi không phải là điều bạn phải giành lấy.",
+      "lonely": "Cô đơn thật khó khăn. Nếu có thể, hãy liên lạc với một người bạn tin tưởng — dù chỉ là một tin nhắn ngắn.",
+      "numb": "Cảm thấy tê liệt đôi khi là cách tâm trí tự bảo vệ. Bạn vẫn ở đây, và điều đó thật quan trọng."
+    }
+  },
+  "calm": {
+    "title": "Góc bình yên của tôi",
+    "subtitle": "Một nơi yên tĩnh để làm chậm hơi thở. Tạm dừng, thay đổi hoặc dừng lại bất cứ lúc nào.",
+    "idle": "Nhấn bắt đầu khi bạn sẵn sàng.",
+    "phases": {
+      "in": "Hít vào",
+      "hold": "Giữ nhẹ nhàng",
+      "out": "Thở ra",
+      "rest": "Nghỉ"
+    },
+    "seconds": "{seconds, plural, other {# giây}}",
+    "pausedLabel": "Đã tạm dừng",
+    "start": "Bắt đầu",
+    "pause": "Tạm dừng",
+    "resume": "Tiếp tục",
+    "stop": "Dừng",
+    "patternLabel": "Nhịp thở",
+    "patterns": {
+      "gentle": "Nhẹ nhàng — hít 4, thở 6",
+      "box": "Hình hộp — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Hình nền",
+    "scenes": {
+      "forest": "Rừng",
+      "ocean": "Biển",
+      "dusk": "Hoàng hôn"
+    },
+    "rounds": "{count, plural, =0 {Chưa có vòng nào} other {Đã hoàn thành # vòng}}",
+    "note": "Không nhấp nháy hay chuyển động nhanh. Âm thanh luôn tắt trừ khi bạn bật lên."
+  },
+  "features": {
+    "title": "Mọi thứ theo nhịp của bạn",
+    "subtitle": "Dùng những gì giúp ích, bỏ qua những gì không. Ở đây không có nhiệm vụ nào bắt buộc phải hoàn thành.",
+    "soon": "Sắp ra mắt",
+    "preview": "Dùng thử ngay",
+    "items": {
+      "calm": {
+        "title": "Góc bình yên",
+        "body": "Hít thở, trở về hiện tại và thư giãn cơ thể cùng khung cảnh thiên nhiên yên tĩnh."
+      },
+      "journal": {
+        "title": "Nhật ký tâm trạng và cảm xúc",
+        "body": "Nhận ra cảm xúc, viết tự do và thấy những xu hướng nhẹ nhàng theo thời gian."
+      },
+      "companion": {
+        "title": "Người bạn đồng hành AI",
+        "body": "Một người lắng nghe hỗ trợ bằng ngôn ngữ của bạn. Không phải bác sĩ hay nhà trị liệu."
+      },
+      "migraine": {
+        "title": "Nhật ký đau nửa đầu",
+        "body": "Ghi lại các cơn, triệu chứng và yếu tố khởi phát có thể, rồi xuất báo cáo cho bác sĩ."
+      },
+      "sleep": {
+        "title": "Giấc ngủ và năng lượng",
+        "body": "Theo dõi nghỉ ngơi, chất lượng giấc ngủ và năng lượng để hiểu rõ những ngày của bạn."
+      },
+      "insights": {
+        "title": "Góc nhìn sức khỏe",
+        "body": "Tổng quan đơn giản, mô tả từ chính ghi chép của bạn — không bao giờ là chẩn đoán."
+      }
+    }
+  },
+  "promise": {
+    "title": "Lời hứa của chúng tôi",
+    "items": {
+      "free": {
+        "title": "Miễn phí cho mọi người",
+        "body": "Không đăng ký trả phí, không tính năng mất tiền."
+      },
+      "private": {
+        "title": "Riêng tư mặc định",
+        "body": "Nhật ký và cuộc trò chuyện là của bạn. Chúng tôi không bao giờ bán thông tin cá nhân hay sức khỏe."
+      },
+      "gentle": {
+        "title": "Không áp lực",
+        "body": "Không chuỗi ngày, không cảm giác tội lỗi. Quay lại bất cứ khi nào bạn cần."
+      },
+      "notMedical": {
+        "title": "Hỗ trợ, không phải điều trị",
+        "body": "ARUVI không thay thế chăm sóc y tế hay tâm lý chuyên nghiệp."
+      }
+    }
+  },
+  "help": {
+    "title": "Nếu bạn cần giúp đỡ ngay bây giờ",
+    "body": "Nếu bạn đang gặp nguy hiểm hoặc nghĩ đến việc làm hại bản thân, hãy liên hệ với một người ngay bây giờ. Bạn xứng đáng được hỗ trợ.",
+    "lines": {
+      "national": "Đường dây nóng Sức khỏe Tâm thần Quốc gia (Sri Lanka, 24 giờ)",
+      "ambulance": "Xe cứu thương Suwa Seriya",
+      "police": "Cảnh sát khẩn cấp"
+    },
+    "call": "Gọi {name}: {number}",
+    "note": "ARUVI không phải là dịch vụ khẩn cấp. Nếu bạn có thể hành động theo ý nghĩ làm hại bản thân, hãy liên hệ một trong các dịch vụ này hoặc đến bệnh viện gần nhất.",
+    "countryLabel": "Quốc gia của bạn",
+    "otherCountry": "Quốc gia khác",
+    "noList": "Chúng tôi chưa có danh sách đường dây hỗ trợ đã xác minh cho quốc gia này. Hãy gọi số khẩn cấp tại địa phương hoặc đến bệnh viện gần nhất. Bạn cũng có thể tìm một đường dây hỗ trợ khủng hoảng miễn phí, bảo mật gần bạn tại đây:",
+    "findMore": "Tìm đường dây hỗ trợ ở quốc gia của bạn"
+  },
+  "footer": {
+    "tagline": "Một nơi dịu dàng cho những ngày khó khăn.",
+    "disclaimer": "ARUVI là người bạn đồng hành hỗ trợ sức khỏe tinh thần. Ứng dụng không thay thế điều trị y tế hay tâm lý chuyên nghiệp.",
+    "languages": "Ngôn ngữ",
+    "made": "Được tạo bằng sự quan tâm. Miễn phí cho mọi người."
+  },
+  "common": {
+    "save": "Lưu",
+    "saving": "Đang lưu…",
+    "saved": "Đã lưu.",
+    "error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "optional": "không bắt buộc",
+    "confirmDelete": "Xóa mục này?",
+    "yes": "Có, xóa",
+    "cancel": "Hủy"
+  },
+  "auth": {
+    "signInTitle": "Chào mừng bạn trở lại",
+    "signInSubtitle": "Đăng nhập để xem nhật ký, ghi chép và góc nhìn của bạn.",
+    "signUpTitle": "Tạo không gian của bạn",
+    "signUpSubtitle": "Miễn phí, riêng tư và là của bạn. Bạn có thể xóa mọi thứ bất cứ lúc nào.",
+    "name": "Chúng tôi nên gọi bạn là gì?",
+    "optional": "không bắt buộc",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "passwordHint": "Ít nhất 10 ký tự. Một câu ngắn là lựa chọn tốt.",
+    "acceptTerms": "Tôi đồng ý với điều khoản và chính sách quyền riêng tư.",
+    "acceptHealth": "Tôi đồng ý để ARUVI lưu trữ thông tin sức khỏe tinh thần mà tôi chọn nhập (tâm trạng, nhật ký, ghi chép đau nửa đầu và giấc ngủ), một cách riêng tư và chỉ dành cho tôi.",
+    "signIn": "Đăng nhập",
+    "signUp": "Tạo tài khoản",
+    "wait": "Vui lòng chờ…",
+    "or": "hoặc",
+    "google": "Tiếp tục với Google",
+    "noAccount": "Bạn mới dùng ARUVI?",
+    "haveAccount": "Đã có tài khoản?",
+    "tryWithout": "Hoặc thử một bài tập thở mà không cần tài khoản",
+    "errors": {
+      "invalid": "Email và mật khẩu không khớp. Vui lòng thử lại.",
+      "exists": "Không thể đăng nhập. Nếu bạn đã có tài khoản, vui lòng đăng nhập.",
+      "checkFields": "Vui lòng kiểm tra thông tin và thử lại.",
+      "rateLimited": "Quá nhiều lần thử. Vui lòng chờ vài phút rồi thử lại.",
+      "generic": "Đã xảy ra lỗi. Vui lòng thử lại."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Không gian của tôi",
+      "overview": "Hôm nay",
+      "journal": "Tâm trạng và nhật ký",
+      "companion": "Bạn đồng hành",
+      "migraine": "Nhật ký đau nửa đầu",
+      "sleep": "Giấc ngủ và năng lượng",
+      "insights": "Góc nhìn",
+      "settings": "Cài đặt",
+      "calm": "Góc bình yên",
+      "signOut": "Đăng xuất"
+    }
+  },
+  "overview": {
+    "greeting": "Xin chào",
+    "greetingName": "Xin chào, {name}",
+    "subtitle": "Hôm nay bạn thế nào? Ở đây bạn không cần phải làm gì cả.",
+    "subtitleCheckedIn": "Cảm ơn bạn đã lắng nghe bản thân hôm nay. Hãy nhận những gì bạn cần.",
+    "verified": "Email của bạn đã được xác nhận. Cảm ơn bạn.",
+    "verifyFailed": "Liên kết xác nhận không hoạt động hoặc đã hết hạn.",
+    "verifyPending": "Chúng tôi đã gửi liên kết để xác nhận email của bạn. Trong lúc đó, bạn vẫn có thể dùng ARUVI.",
+    "calmTitle": "Góc bình yên",
+    "calmBody": "Vài hơi thở chậm, bất cứ khi nào bạn cần.",
+    "companionTitle": "Trò chuyện với bạn đồng hành",
+    "companionBody": "Một người lắng nghe dịu dàng, bằng ngôn ngữ của bạn.",
+    "suggestionTitle": "Một gợi ý nhẹ nhàng cho hôm nay",
+    "suggestions": {
+      "0": "Uống một ly nước, thật chậm.",
+      "1": "Bước ra ngoài hoặc mở cửa sổ để hít thở không khí trong lành một phút.",
+      "2": "Thả lỏng vai và để hàm được thư giãn.",
+      "3": "Gửi một tin nhắn ngắn cho người bạn tin tưởng.",
+      "4": "Cho mắt nghỉ ngơi, rời xa màn hình năm phút.",
+      "5": "Để ý một điều nhỏ đã diễn ra ổn hôm nay."
+    },
+    "recentJournal": "Nhật ký gần đây",
+    "openJournal": "Mở nhật ký",
+    "noJournal": "Chưa có ghi chép nào. Chỉ viết một dòng cũng có thể giúp ích.",
+    "summaryTitle": "Tổng quan",
+    "migraine30": "Số cơn đau nửa đầu, 30 ngày qua",
+    "lastSleep": "Giấc ngủ gần nhất",
+    "hours": "{hours} giờ",
+    "seeInsights": "Xem góc nhìn của bạn"
+  },
+  "journal": {
+    "title": "Tâm trạng và nhật ký",
+    "subtitle": "Nhận ra cảm xúc và viết tự do. Chỉ mình bạn có thể xem.",
+    "moodNote": "Vài lời về điều đó",
+    "moodHistory": "Lần ghi nhận gần đây",
+    "deleteMood": "Xóa lần ghi nhận này",
+    "writeTitle": "Viết",
+    "promptLabel": "Gợi ý viết, nếu hữu ích",
+    "showPrompt": "Hiện gợi ý viết",
+    "newPrompt": "Hiện gợi ý khác",
+    "titleLabel": "Tiêu đề",
+    "contentLabel": "Suy nghĩ của bạn",
+    "privateNote": "Riêng tư mặc định. Không bao giờ chia sẻ.",
+    "entries": "Ghi chép của bạn",
+    "empty": "Ghi chép của bạn sẽ hiện ở đây.",
+    "deleteEntry": "Xóa ghi chép này",
+    "prompts": {
+      "0": "Hôm nay có điều gì nặng nề, và điều gì nhẹ nhõm hơn một chút?",
+      "1": "Lúc này cơ thể bạn cần gì?",
+      "2": "Hãy mô tả một nơi khiến bạn thấy an toàn.",
+      "3": "Bạn sẽ nói gì với một người bạn đang cảm thấy giống bạn hôm nay?",
+      "4": "Một điều nhỏ bé nào khiến bạn biết ơn?",
+      "5": "Hôm nay điều gì làm bạn cạn năng lượng? Điều gì giúp bạn nạp lại một chút?",
+      "6": "Nếu cảm xúc của bạn là thời tiết, đó sẽ là thời tiết gì?",
+      "7": "Ngày mai bạn có thể làm điều tử tế nào cho bản thân?"
+    }
+  },
+  "migraine": {
+    "title": "Nhật ký đau nửa đầu",
+    "subtitle": "Ghi một cuốn nhật ký đau đầu đơn giản mà bạn có thể chia sẻ với bác sĩ.",
+    "disclaimer": "Nhật ký này ghi lại những gì bạn nhận thấy. Các xu hướng hiển thị ở đây không phải là chẩn đoán y khoa. Vui lòng trao đổi với bác sĩ về cơn đau đầu và bất kỳ loại thuốc nào.",
+    "report": "Báo cáo cho bác sĩ",
+    "formTitle": "Ghi lại một cơn",
+    "start": "Bắt đầu",
+    "end": "Kết thúc",
+    "ongoing": "Vẫn đang diễn ra",
+    "ongoingShort": "đang diễn ra",
+    "duration": "{hours} giờ",
+    "intensity": "Mức độ đau",
+    "intensityHint": "0 nghĩa là không đau, 10 nghĩa là cơn đau tệ nhất bạn có thể tưởng tượng.",
+    "locationsLabel": "Đau ở đâu?",
+    "characteristicsLabel": "Cảm giác như thế nào?",
+    "symptomsLabel": "Triệu chứng khác",
+    "triggersLabel": "Yếu tố khởi phát bạn nhận thấy",
+    "triggersHint": "Chỉ những gì bạn tự nhận thấy. Đây là khả năng, không phải nguyên nhân.",
+    "medication": "Thuốc đã dùng",
+    "medicationHint": "Chỉ là ghi chép của riêng bạn. ARUVI không bao giờ gợi ý thuốc.",
+    "recovery": "Ghi chú nghỉ ngơi và hồi phục",
+    "save": "Lưu cơn đau",
+    "history": "Lịch sử các cơn",
+    "empty": "Chưa có cơn nào được ghi lại.",
+    "deleteEpisode": "Xóa cơn này",
+    "locations": {
+      "left": "Bên trái",
+      "right": "Bên phải",
+      "both_sides": "Cả hai bên",
+      "forehead": "Trán",
+      "temples": "Thái dương",
+      "behind_eyes": "Sau mắt",
+      "back_of_head": "Sau gáy",
+      "neck": "Cổ"
+    },
+    "characteristics": {
+      "throbbing": "Đau nhói theo nhịp",
+      "pressing": "Đau như bị ép",
+      "stabbing": "Đau như dao đâm",
+      "dull": "Đau âm ỉ"
+    },
+    "symptoms": {
+      "nausea": "Buồn nôn",
+      "vomiting": "Nôn",
+      "light_sensitivity": "Nhạy cảm với ánh sáng",
+      "sound_sensitivity": "Nhạy cảm với âm thanh",
+      "smell_sensitivity": "Nhạy cảm với mùi",
+      "aura": "Tiền triệu (aura)",
+      "dizziness": "Chóng mặt",
+      "fatigue": "Mệt mỏi",
+      "blurred_vision": "Nhìn mờ"
+    },
+    "triggers": {
+      "sleep": "Thay đổi giấc ngủ",
+      "stress": "Căng thẳng",
+      "weather": "Thay đổi thời tiết",
+      "dehydration": "Thiếu nước",
+      "meal_timing": "Giờ ăn",
+      "screen": "Thời gian dùng màn hình",
+      "environment": "Môi trường (ánh sáng, tiếng ồn, mùi)",
+      "menstrual": "Chu kỳ kinh nguyệt",
+      "other": "Khác"
+    }
+  },
+  "report": {
+    "title": "Báo cáo nhật ký đau đầu",
+    "period": "{days} ngày qua",
+    "print": "In hoặc lưu thành PDF",
+    "disclaimer": "Báo cáo này chứa thông tin do chính người dùng ghi trong ARUVI. Đây không phải là chẩn đoán. Các yếu tố khởi phát là quan sát tự ghi nhận.",
+    "episodes": "Số cơn",
+    "avgDuration": "Thời gian trung bình (giờ)",
+    "avgIntensity": "Mức độ trung bình (0–10)",
+    "triggers": "Yếu tố khởi phát tự ghi nhận",
+    "log": "Nhật ký các cơn",
+    "hours": "Giờ"
+  },
+  "sleep": {
+    "title": "Giấc ngủ và năng lượng",
+    "subtitle": "Một ghi chú ngắn mỗi ngày về nghỉ ngơi và năng lượng giúp bạn hiểu những ngày của mình.",
+    "date": "Ngày",
+    "dateHint": "Ghi giấc ngủ tối qua vào ngày hôm nay.",
+    "sleepTitle": "Giấc ngủ",
+    "hours": "Số giờ ngủ",
+    "quality": "Chất lượng giấc ngủ",
+    "poor": "Kém",
+    "restful": "Ngon giấc",
+    "energyTitle": "Năng lượng",
+    "energy": "Mức năng lượng",
+    "fatigue": "Mệt mỏi",
+    "veryLow": "Rất thấp",
+    "high": "Cao",
+    "little": "Một chút",
+    "aLot": "Rất nhiều",
+    "rest": "Thời gian nghỉ (phút)",
+    "note": "Ghi chú",
+    "history": "Hai tuần qua",
+    "empty": "Chưa có gì được ghi lại."
+  },
+  "insights": {
+    "title": "Góc nhìn sức khỏe",
+    "subtitle": "Nhìn lại đơn giản những gì bạn đã ghi.",
+    "disclaimer": "Đây là mô tả từ chính ghi chép của bạn, không phải kết luận y khoa. Hai điều xuất hiện cùng nhau không có nghĩa là điều này gây ra điều kia.",
+    "rangeLabel": "Khoảng thời gian",
+    "range": "{days} ngày",
+    "stats": {
+      "checkIns": "Lần ghi nhận tâm trạng",
+      "migraines": "Cơn đau nửa đầu",
+      "avgDuration": "Cơn trung bình (giờ)",
+      "avgSleep": "Giấc ngủ trung bình (giờ)"
+    },
+    "observationsTitle": "Ghi chép của bạn cho thấy",
+    "notEnough": "Hãy tiếp tục ghi thêm một thời gian, những quan sát nhẹ nhàng sẽ xuất hiện ở đây.",
+    "obs": {
+      "topTrigger": "Bạn đã ghi \"{trigger}\" là yếu tố khởi phát có thể trong {count} trên {total} cơn.",
+      "lowSleepMigraine": "Trong {share}% số ngày bạn ghi nhận đau nửa đầu, bạn cũng ghi ngủ dưới 6 giờ, so với {overall}% trên tất cả các đêm bạn đã ghi.",
+      "steadyMood": "Cảm xúc bạn ghi nhận nhiều nhất là \"{mood}\" ({count} lần)."
+    },
+    "moodChart": "Tâm trạng bạn đã ghi",
+    "migraineChart": "Số cơn đau nửa đầu mỗi ngày",
+    "sleepChart": "Số giờ ngủ",
+    "energyChart": "Mức năng lượng (1–5)",
+    "showTable": "Hiển thị dạng bảng",
+    "noData": "Không có lần ghi nhận nào trong khoảng này.",
+    "mood": "Tâm trạng",
+    "count": "Số lần",
+    "date": "Ngày",
+    "episodes": "Số cơn",
+    "hours": "Giờ",
+    "energyLevel": "Năng lượng"
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "prefsTitle": "Tùy chọn",
+    "displayName": "Tên để chào bạn",
+    "trackMigraine": {
+      "title": "Tôi bị đau nửa đầu",
+      "body": "Hiển thị các tính năng đau nửa đầu nổi bật hơn."
+    },
+    "trackMenstrual": {
+      "title": "Thêm chu kỳ kinh nguyệt làm yếu tố khởi phát có thể",
+      "body": "Không bắt buộc. Chỉ hiển thị trong nhật ký đau nửa đầu."
+    },
+    "keepAiHistory": {
+      "title": "Lưu lịch sử trò chuyện với bạn đồng hành",
+      "body": "Mặc định tắt. Khi bật, cuộc trò chuyện được lưu để bạn quay lại xem. Bạn có thể xóa bất cứ lúc nào."
+    },
+    "comfortNote": "Giao diện, cỡ chữ và ngôn ngữ nằm ở thanh trên cùng và được ghi nhớ trên thiết bị này.",
+    "exportTitle": "Tải dữ liệu của bạn",
+    "exportBody": "Nhận bản sao tất cả những gì ARUVI lưu về bạn, dưới dạng tệp JSON.",
+    "exportButton": "Tải dữ liệu của tôi",
+    "deleteTitle": "Xóa tài khoản",
+    "deleteBody": "Thao tác này sẽ xóa vĩnh viễn tài khoản và mọi thứ trong đó: tâm trạng, nhật ký, ghi chép và cuộc trò chuyện. Không thể hoàn tác.",
+    "deleteConfirmLabel": "Nhập DELETE để xác nhận",
+    "deleteButton": "Xóa vĩnh viễn tài khoản của tôi"
+  },
+  "companion": {
+    "title": "Bạn đồng hành",
+    "subtitle": "Chia sẻ những gì bạn đang nghĩ. Viết bằng bất kỳ ngôn ngữ nào bạn thích.",
+    "disclaimer": "Bạn đồng hành là AI, không phải nhà trị liệu hay bác sĩ. AI có thể mắc lỗi và không thể chẩn đoán hay đưa lời khuyên y tế. Nếu bạn đang gặp nguy hiểm, hãy dùng các số trong “Tìm trợ giúp” hoặc gọi số khẩn cấp tại địa phương.",
+    "emptyTitle": "Mình ở đây để lắng nghe.",
+    "emptyBody": "Lúc này bạn cảm thấy thế nào?",
+    "placeholder": "Viết điều bạn đang nghĩ…",
+    "inputLabel": "Tin nhắn của bạn",
+    "send": "Gửi",
+    "you": "Bạn",
+    "companion": "Bạn đồng hành",
+    "thinking": "…",
+    "newChat": "Cuộc trò chuyện mới",
+    "clear": "Xóa trò chuyện",
+    "deleteHistory": "Xóa toàn bộ lịch sử",
+    "historyOn": "Cuộc trò chuyện được lưu. Bạn có thể tắt trong Cài đặt.",
+    "historyOff": "Cuộc trò chuyện không được lưu và sẽ biến mất khi bạn rời trang này.",
+    "crisisTitle": "Bạn không phải trải qua điều này một mình",
+    "crisisBody": "Có vẻ như mọi thứ đang rất khó khăn lúc này. Hãy liên hệ với người có thể giúp bạn — bạn có thể gọi ngay, bất cứ lúc nào.",
+    "errors": {
+      "refusal": "Mình không thể trả lời điều đó. Nếu bạn đang khó khăn, hãy liên hệ người bạn tin tưởng hoặc dùng các số trong “Tìm trợ giúp”.",
+      "unavailable": "Bạn đồng hành hiện không khả dụng. Vui lòng thử lại sau.",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+      "network": "Có vẻ bạn đang ngoại tuyến. Vui lòng kiểm tra kết nối.",
+      "limit": "Bạn đã gửi khá nhiều tin nhắn. Hãy nghỉ một chút rồi thử lại sau nhé.",
+      "generic": "Đã xảy ra lỗi. Vui lòng thử lại."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Đăng nhập để sử dụng",
+    "guestBody": "Tạo tài khoản miễn phí để giữ ghi chép của bạn riêng tư và an toàn trên mọi thiết bị.",
+    "continueGuest": "Tiếp tục không cần tài khoản",
+    "more": "Thêm",
+    "appearance": "Giao diện",
+    "themeSystem": "Hệ thống",
+    "themeLight": "Sáng",
+    "themeDark": "Tối",
+    "account": "Tài khoản",
+    "signedInAs": "Đã đăng nhập: {email}",
+    "offline": "Hiện không thể kết nối ARUVI. Vui lòng kiểm tra kết nối và thử lại.",
+    "reportOnWeb": "Báo cáo cho bác sĩ dạng in có trên trang web ARUVI.",
+    "pickDate": "Chọn ngày",
+    "pickTime": "Chọn giờ",
+    "textSize": "Cỡ chữ",
+    "refresh": "Làm mới",
+    "migraineTab": "Đau nửa đầu"
+  }
+}
