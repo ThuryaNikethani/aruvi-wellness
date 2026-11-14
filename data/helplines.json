@@ -1,0 +1,238 @@
+{
+  "_note": "Crisis and emergency lines by country (ISO 3166-1 alpha-2). Only well-established, official services. Verify every number before each release (see docs/safety.md). Shared by the website, the AI companion and the mobile app.",
+  "directory": "https://findahelpline.com",
+  "countries": {
+    "LK": {
+      "name": {
+        "en": "Sri Lanka",
+        "si": "ශ්‍රී ලංකාව",
+        "ta": "இலங்கை"
+      },
+      "lines": [
+        {
+          "number": "1926",
+          "tel": "1926",
+          "name": {
+            "en": "National Mental Health Helpline (24 hours)",
+            "si": "ජාතික මානසික සෞඛ්‍ය උපකාරක සේවාව (පැය 24)",
+            "ta": "தேசிய மனநல உதவி எண் (24 மணி நேரம்)"
+          }
+        },
+        {
+          "number": "1990",
+          "tel": "1990",
+          "name": {
+            "en": "Suwa Seriya ambulance",
+            "si": "සුවසැරිය ගිලන් රථ සේවාව",
+            "ta": "சுவசெரிய ஆம்புலன்ஸ் சேவை"
+          }
+        },
+        {
+          "number": "119",
+          "tel": "119",
+          "name": {
+            "en": "Police emergency",
+            "si": "පොලිස් හදිසි ඇමතුම",
+            "ta": "காவல்துறை அவசர அழைப்பு"
+          }
+        }
+      ]
+    },
+    "IN": {
+      "name": {
+        "en": "India",
+        "si": "ඉන්දියාව",
+        "ta": "இந்தியா"
+      },
+      "lines": [
+        {
+          "number": "14416",
+          "tel": "14416",
+          "name": {
+            "en": "Tele-MANAS national mental health helpline (24 hours)"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "US": {
+      "name": {
+        "en": "United States",
+        "si": "එක්සත් ජනපදය",
+        "ta": "அமெரிக்கா"
+      },
+      "lines": [
+        {
+          "number": "988",
+          "tel": "988",
+          "name": {
+            "en": "988 Suicide & Crisis Lifeline (call or text, 24 hours)"
+          }
+        },
+        {
+          "number": "911",
+          "tel": "911",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "CA": {
+      "name": {
+        "en": "Canada",
+        "si": "කැනඩාව",
+        "ta": "கனடா"
+      },
+      "lines": [
+        {
+          "number": "988",
+          "tel": "988",
+          "name": {
+            "en": "9-8-8 Suicide Crisis Helpline (call or text, 24 hours)"
+          }
+        },
+        {
+          "number": "911",
+          "tel": "911",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "GB": {
+      "name": {
+        "en": "United Kingdom",
+        "si": "එක්සත් රාජධානිය",
+        "ta": "ஐக்கிய இராச்சியம்"
+      },
+      "lines": [
+        {
+          "number": "116 123",
+          "tel": "116123",
+          "name": {
+            "en": "Samaritans (free, 24 hours)"
+          }
+        },
+        {
+          "number": "999",
+          "tel": "999",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "IE": {
+      "name": {
+        "en": "Ireland",
+        "si": "අයර්ලන්තය",
+        "ta": "அயர்லாந்து"
+      },
+      "lines": [
+        {
+          "number": "116 123",
+          "tel": "116123",
+          "name": {
+            "en": "Samaritans (free, 24 hours)"
+          }
+        },
+        {
+          "number": "112",
+          "tel": "112",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "AU": {
+      "name": {
+        "en": "Australia",
+        "si": "ඕස්ට්‍රේලියාව",
+        "ta": "ஆஸ்திரேலியா"
+      },
+      "lines": [
+        {
+          "number": "13 11 14",
+          "tel": "131114",
+          "name": {
+            "en": "Lifeline (24 hours)"
+          }
+        },
+        {
+          "number": "000",
+          "tel": "000",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "NZ": {
+      "name": {
+        "en": "New Zealand",
+        "si": "නවසීලන්තය",
+        "ta": "நியூசிலாந்து"
+      },
+      "lines": [
+        {
+          "number": "1737",
+          "tel": "1737",
+          "name": {
+            "en": "Need to talk? (free call or text, 24 hours)"
+          }
+        },
+        {
+          "number": "111",
+          "tel": "111",
+          "name": {
+            "en": "Emergency"
+          }
+        }
+      ]
+    },
+    "SG": {
+      "name": {
+        "en": "Singapore",
+        "si": "සිංගප්පූරුව",
+        "ta": "சிங்கப்பூர்"
+      },
+      "lines": [
+        {
+          "number": "1767",
+          "tel": "1767",
+          "name": {
+            "en": "Samaritans of Singapore (24 hours)"
+          }
+        },
+        {
+          "number": "995",
+          "tel": "995",
+          "name": {
+            "en": "Ambulance"
+          }
+        }
+      ]
+    }
+  },
+  "localeCountry": {
+    "si": "LK",
+    "ta": "LK",
+    "hi": "IN",
+    "ml": "IN",
+    "te": "IN",
+    "kn": "IN",
+    "mr": "IN",
+    "gu": "IN",
+    "pa": "IN"
+  },
+  "defaultCountry": "LK"
+}
