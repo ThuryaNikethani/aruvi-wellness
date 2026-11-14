@@ -12,13 +12,15 @@
     "db:push": "prisma db push",
     "db:migrate": "prisma migrate dev",
     "db:studio": "prisma studio",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "mobile:i18n": "node scripts/sync-mobile-i18n.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.8.0",
     "@auth/prisma-adapter": "^2.7.4",
     "@node-rs/argon2": "^2.0.2",
     "@prisma/client": "^6.6.0",
+    "jose": "^6.0.11",
     "lucide-react": "^0.468.0",
     "next": "^15.3.0",
     "next-auth": "^5.0.0-beta.25",
