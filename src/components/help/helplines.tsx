@@ -3,25 +3,15 @@
 import { useMemo } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { ExternalLink, Phone } from "lucide-react";
-import { HELPLINE_COUNTRIES, HELPLINE_DIRECTORY, OTHER_COUNTRY, helplinesFor, lineName } from "@/lib/helplines";
+import { HELPLINE_COUNTRIES, HELPLINE_DIRECTORY, OTHER_COUNTRY, countryName, helplinesFor, lineName } from "@/lib/helplines";
 import { useHelplineCountry } from "./use-country";
-
-function countryName(code: string, locale: string) {
-  try {
-    return new Intl.DisplayNames([locale, "en"], { type: "region" }).of(code) ?? code;
-  } catch {
-    return code;
-  }
-}
 
 export function CountrySelect({ id }: { id: string }) {
   const t = useTranslations("help");
   const locale = useLocale();
   const { country, setCountry } = useHelplineCountry();
-  const options = useMemo(
-    () => HELPLINE_COUNTRIES.map((c) => ({ code: c, name: countryName(c, locale) })).sort((a, b) => a.name.localeCompare(b.name, locale)),
-    [locale],
-  );
+  // Names come from data/helplines.json (fixed text, same on server and browser).
+  const options = useMemo(() => HELPLINE_COUNTRIES.map((c) => ({ code: c, name: countryName(c, locale) })), [locale]);
 
   return (
     <div className="flex flex-wrap items-center gap-2 text-sm">
