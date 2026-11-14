@@ -210,12 +210,32 @@
     "noAccount": "Baru di ARUVI?",
     "haveAccount": "Sudah punya akun?",
     "tryWithout": "Atau coba latihan napas tanpa akun",
+    "birthYear": "Tahun lahir",
+    "birthYearPlaceholder": "Pilih tahun",
+    "under16": "Saya di bawah 16 tahun",
+    "birthYearHint": "ARUVI untuk orang berusia 16 tahun ke atas. Hanya kamu yang bisa melihat ini.",
+    "tooYoung": "ARUVI untuk orang berusia 16 tahun ke atas, jadi kami belum bisa membuat akun untukmu. Jika terasa berat, bicaralah dengan orang dewasa yang kamu percaya atau hubungi layanan dukungan.",
+    "seeHelp": "Lihat layanan dukungan",
+    "concernsLabel": "Dalam hal apa kamu ingin didukung?",
+    "concernsHint": "Pilih yang sesuai. Ini hanya menyesuaikan apa yang ditampilkan ARUVI — bukan diagnosis.",
+    "concerns": {
+      "migraine": "Migrain atau sakit kepala",
+      "depression": "Suasana hati rendah atau depresi",
+      "anxiety": "Kecemasan atau kekhawatiran",
+      "stress": "Stres",
+      "sleep": "Tidur",
+      "other": "Hal lain"
+    },
+    "welcomeTitle": "Beberapa detail sebelum mulai",
+    "welcomeSubtitle": "Ini membantu ARUVI menyesuaikan diri denganmu. Hanya kamu yang bisa melihatnya.",
+    "continue": "Lanjutkan",
     "errors": {
       "invalid": "Email dan kata sandi tidak cocok. Silakan coba lagi.",
       "exists": "Kami tidak dapat memasukkanmu. Jika sudah punya akun, silakan masuk.",
       "checkFields": "Periksa kembali isian lalu coba lagi.",
       "rateLimited": "Terlalu banyak percobaan. Tunggu beberapa menit lalu coba lagi.",
-      "generic": "Terjadi kesalahan. Silakan coba lagi."
+      "generic": "Terjadi kesalahan. Silakan coba lagi.",
+      "oauthLinked": "Email ini sudah memiliki akun ARUVI. Silakan masuk dengan email dan kata sandi."
     }
   },
   "dash": {
