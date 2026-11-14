@@ -8,14 +8,28 @@ describe("helplines", () => {
     expect(guessCountry("hi")).toBe("IN");
   });
 
-  it("prefers the detected country over the language", () => {
-    expect(guessCountry("en", "gb")).toBe("GB");
-    expect(guessCountry("ta", "IN")).toBe("IN");
+  it("switches country with the language", () => {
+    expect(guessCountry("ja")).toBe("JP");
+    expect(guessCountry("de")).toBe("DE");
+    expect(guessCountry("es")).toBe("ES");
+    expect(guessCountry("pt")).toBe("BR");
+    // The language decides even when the visitor is elsewhere; they can still pick another country.
+    expect(guessCountry("ta", "IN")).toBe("LK");
   });
 
-  it("marks detected countries without a verified list as OTHER", () => {
-    expect(guessCountry("en", "BR")).toBe(OTHER_COUNTRY);
+  it("uses the detected country for languages spoken in many countries", () => {
+    expect(guessCountry("en", "gb")).toBe("GB");
+    expect(guessCountry("en")).toBe("LK");
+    expect(guessCountry("ar", "EG")).toBe(OTHER_COUNTRY);
+    expect(guessCountry("ar")).toBe(OTHER_COUNTRY);
+    expect(guessCountry("ar", "GB")).toBe("GB");
     expect(helplinesFor(OTHER_COUNTRY)).toEqual([]);
+  });
+
+  it("every language mapped to a country has at least one number", () => {
+    for (const l of ["si", "ta", "hi", "bn", "zh", "ja", "ko", "th", "vi", "id", "ms", "fil", "he", "fa", "tr", "sw", "yo", "ha", "zu", "es", "fr", "de", "pt", "it", "ru", "uk", "pl", "nl", "sv", "ro", "el", "cs", "hu"]) {
+      expect(helplinesFor(guessCountry(l)).length, l).toBeGreaterThan(0);
+    }
   });
 
   it("returns localised line names with English fallback", () => {
@@ -32,8 +46,8 @@ describe("helplines", () => {
     expect(other).not.toMatch(/\d{3}/);
   });
 
-  it("every listed number has a dialable tel value", () => {
-    for (const c of ["LK", "IN", "US", "CA", "GB", "IE", "AU", "NZ", "SG"]) {
+  it("every listed number has a dialable tel value", async () => {
+    for (const c of Object.keys((await import("../data/helplines.json")).default.countries)) {
       for (const l of helplinesFor(c)) expect(l.tel).toMatch(/^\+?\d{3,15}$/);
     }
   });
