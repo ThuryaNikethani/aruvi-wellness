@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Tempat yang lebih lembut untuk hari-hari sulit",
+    "description": "Ruang kesejahteraan yang gratis, pribadi, dan multibahasa untuk orang yang hidup dengan migrain, depresi, kecemasan, dan stres."
+  },
+  "nav": {
+    "skip": "Lewati ke konten utama",
+    "home": "Beranda ARUVI",
+    "primary": "Utama",
+    "checkin": "Cek perasaan",
+    "calm": "Ruang Tenang",
+    "features": "Isinya apa saja",
+    "support": "Cari bantuan",
+    "signIn": "Masuk",
+    "openMenu": "Buka menu",
+    "closeMenu": "Tutup menu",
+    "language": "Bahasa",
+    "languagesFull": "Diterjemahkan penuh",
+    "languagesMore": "Bahasa lainnya",
+    "mySpace": "Ruang saya"
+  },
+  "comfort": {
+    "toLight": "Ganti ke tema terang",
+    "toDark": "Ganti ke tema gelap",
+    "textSize": "Ukuran teks: {size}. Tekan untuk mengubah.",
+    "sizes": {
+      "normal": "Normal",
+      "large": "Besar",
+      "larger": "Lebih besar"
+    }
+  },
+  "i18n": {
+    "partial": "{language} diterjemahkan secara otomatis, jadi beberapa kata mungkin belum sempurna. Jika ada yang kurang jelas, English, සිංහල, dan தமிழ் sudah ditinjau sepenuhnya."
+  },
+  "hero": {
+    "eyebrow": "Gratis · Pribadi · Dalam bahasamu",
+    "title": "Tempat yang lebih lembut untuk hari-hari sulit.",
+    "body": "Ruang yang aman dan tenang untuk menyadari perasaanmu, melambat, dan merawat diri — tanpa tekanan atau penghakiman.",
+    "ctaBreathe": "Tarik napas perlahan",
+    "ctaCheckin": "Cek perasaanmu",
+    "note": "Tidak perlu akun untuk memulai."
+  },
+  "mood": {
+    "title": "Bagaimana perasaanmu saat ini?",
+    "subtitle": "Tidak ada jawaban yang benar. Pilih yang paling mendekati — tidak apa-apa jika berubah.",
+    "legend": "Aku merasa…",
+    "options": {
+      "happy": "Bahagia",
+      "calm": "Tenang",
+      "sad": "Sedih",
+      "anxious": "Cemas",
+      "overwhelmed": "Kewalahan",
+      "irritated": "Kesal",
+      "exhausted": "Sangat lelah",
+      "lonely": "Kesepian",
+      "numb": "Mati rasa secara emosional"
+    },
+    "intensity": "Seberapa kuat perasaan ini?",
+    "intensityLow": "Sedikit",
+    "intensityHigh": "Sangat",
+    "save": "Simpan",
+    "saved": "Terima kasih sudah mengecek perasaanmu.",
+    "savedNote": "Hanya disimpan di perangkat ini.",
+    "again": "Cek lagi",
+    "suggestBreathe": "Coba jeda bernapas",
+    "privacy": "Dalam pratinjau ini, tidak ada data yang keluar dari perangkatmu.",
+    "responses": {
+      "happy": "Senang rasanya hari ini terasa lebih ringan. Kamu bisa mencatat apa yang membantu, supaya bisa kembali ke sana.",
+      "calm": "Momen tenang layak untuk disadari. Tetaplah bersamanya selama kamu mau.",
+      "sad": "Kesedihan bisa terasa berat. Kamu tidak perlu menyelesaikannya sekarang — bersikap lembut pada diri sendiri sudah cukup.",
+      "anxious": "Kecemasan membuat segalanya terasa mendesak. Menghembuskan napas perlahan bisa membantu tubuh merasa sedikit lebih aman.",
+      "overwhelmed": "Saat semuanya terasa terlalu banyak, tidak apa-apa memilih satu hal kecil saja — atau tidak melakukan apa-apa.",
+      "irritated": "Rasa kesal sering berarti ada sesuatu yang penting bagimu. Jeda singkat bisa memberimu sedikit ruang.",
+      "exhausted": "Lelah seperti ini itu nyata. Istirahat bukanlah sesuatu yang harus kamu peroleh dengan usaha.",
+      "lonely": "Kesepian itu berat. Jika bisa, hubungi satu orang yang kamu percaya — bahkan pesan singkat pun bisa membantu.",
+      "numb": "Mati rasa kadang adalah cara pikiran melindungi dirinya. Kamu masih di sini, dan itu penting."
+    }
+  },
+  "calm": {
+    "title": "Ruang Tenangku",
+    "subtitle": "Tempat sunyi untuk memperlambat napas. Jeda, ubah, atau berhenti kapan pun kamu mau.",
+    "idle": "Tekan mulai jika sudah siap.",
+    "phases": {
+      "in": "Tarik napas",
+      "hold": "Tahan perlahan",
+      "out": "Hembuskan",
+      "rest": "Istirahat"
+    },
+    "seconds": "{seconds, plural, other {# detik}}",
+    "pausedLabel": "Dijeda",
+    "start": "Mulai",
+    "pause": "Jeda",
+    "resume": "Lanjutkan",
+    "stop": "Berhenti",
+    "patternLabel": "Irama napas",
+    "patterns": {
+      "gentle": "Lembut — tarik 4, hembus 6",
+      "box": "Kotak — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Latar",
+    "scenes": {
+      "forest": "Hutan",
+      "ocean": "Laut",
+      "dusk": "Senja"
+    },
+    "rounds": "{count, plural, =0 {Belum ada putaran} other {# putaran selesai}}",
+    "note": "Tanpa kedipan atau gerakan cepat. Suara tetap mati kecuali kamu menyalakannya."
+  },
+  "features": {
+    "title": "Semua sesuai iramamu",
+    "subtitle": "Gunakan yang membantu, lewati yang tidak. Tidak ada yang wajib kamu selesaikan di sini.",
+    "soon": "Segera hadir",
+    "preview": "Coba sekarang",
+    "items": {
+      "calm": {
+        "title": "Ruang Tenang",
+        "body": "Bernapas, grounding, dan relaksasi tubuh dengan pemandangan alam yang tenang."
+      },
+      "journal": {
+        "title": "Jurnal Suasana Hati & Emosi",
+        "body": "Sadari perasaanmu, menulislah dengan bebas, dan lihat pola-pola lembut dari waktu ke waktu."
+      },
+      "companion": {
+        "title": "Pendamping Kesejahteraan AI",
+        "body": "Pendengar yang mendukung dalam bahasamu. Bukan dokter atau terapis."
+      },
+      "migraine": {
+        "title": "Buku Harian Migrain",
+        "body": "Catat serangan, gejala, dan kemungkinan pemicu, lalu ekspor laporan untuk doktermu."
+      },
+      "sleep": {
+        "title": "Tidur & Energi",
+        "body": "Pantau istirahat, kualitas tidur, dan energi untuk memahami hari-harimu."
+      },
+      "insights": {
+        "title": "Wawasan Kesejahteraan",
+        "body": "Ringkasan sederhana dan deskriptif dari catatanmu sendiri — bukan diagnosis."
+      }
+    }
+  },
+  "promise": {
+    "title": "Janji kami untukmu",
+    "items": {
+      "free": {
+        "title": "Gratis untuk semua",
+        "body": "Tanpa langganan dan tanpa fitur berbayar."
+      },
+      "private": {
+        "title": "Pribadi secara bawaan",
+        "body": "Jurnal dan percakapanmu adalah milikmu. Kami tidak pernah menjual informasi pribadi atau kesehatan."
+      },
+      "gentle": {
+        "title": "Tanpa tekanan",
+        "body": "Tanpa hitungan hari beruntun, tanpa rasa bersalah. Kembalilah kapan pun kamu butuh."
+      },
+      "notMedical": {
+        "title": "Dukungan, bukan pengobatan",
+        "body": "ARUVI tidak menggantikan perawatan medis atau psikologis profesional."
+      }
+    }
+  },
+  "help": {
+    "title": "Jika kamu butuh bantuan sekarang",
+    "body": "Jika kamu dalam bahaya atau berpikir untuk menyakiti diri sendiri, tolong hubungi seseorang sekarang. Kamu layak mendapat dukungan.",
+    "lines": {
+      "national": "Layanan Kesehatan Jiwa Nasional (Sri Lanka, 24 jam)",
+      "ambulance": "Ambulans Suwa Seriya",
+      "police": "Darurat polisi"
+    },
+    "call": "Hubungi {name}: {number}",
+    "note": "ARUVI bukan layanan darurat. Jika kamu mungkin bertindak atas pikiran untuk menyakiti diri sendiri, hubungi salah satu layanan ini atau pergi ke rumah sakit terdekat.",
+    "countryLabel": "Negaramu",
+    "otherCountry": "Negara lain",
+    "noList": "Kami belum memiliki daftar layanan bantuan terverifikasi untuk negara ini. Silakan hubungi nomor darurat setempat atau pergi ke rumah sakit terdekat. Kamu juga bisa menemukan layanan krisis gratis dan rahasia di dekatmu di sini:",
+    "findMore": "Cari layanan bantuan di negaramu"
+  },
+  "footer": {
+    "tagline": "Tempat yang lebih lembut untuk hari-hari sulit.",
+    "disclaimer": "ARUVI adalah pendamping kesejahteraan yang suportif. ARUVI bukan pengganti pengobatan medis atau psikologis profesional.",
+    "languages": "Bahasa",
+    "made": "Dibuat dengan kepedulian. Gratis untuk semua."
+  },
+  "common": {
+    "save": "Simpan",
+    "saving": "Menyimpan…",
+    "saved": "Tersimpan.",
+    "error": "Terjadi kesalahan. Silakan coba lagi.",
+    "optional": "opsional",
+    "confirmDelete": "Hapus ini?",
+    "yes": "Ya, hapus",
+    "cancel": "Batal"
+  },
+  "auth": {
+    "signInTitle": "Selamat datang kembali",
+    "signInSubtitle": "Masuk untuk melihat jurnal, catatan, dan wawasanmu.",
+    "signUpTitle": "Buat ruangmu",
+    "signUpSubtitle": "Gratis, pribadi, dan milikmu. Kamu bisa menghapus semuanya kapan saja.",
+    "name": "Kami harus memanggilmu apa?",
+    "optional": "opsional",
+    "email": "Email",
+    "password": "Kata sandi",
+    "passwordHint": "Minimal 10 karakter. Kalimat pendek juga bagus.",
+    "acceptTerms": "Saya menyetujui ketentuan dan kebijakan privasi.",
+    "acceptHealth": "Saya setuju ARUVI menyimpan informasi kesejahteraan yang saya pilih untuk dimasukkan (suasana hati, jurnal, catatan migrain dan tidur), secara pribadi dan hanya untuk saya.",
+    "signIn": "Masuk",
+    "signUp": "Buat akun",
+    "wait": "Mohon tunggu…",
+    "or": "atau",
+    "google": "Lanjutkan dengan Google",
+    "noAccount": "Baru di ARUVI?",
+    "haveAccount": "Sudah punya akun?",
+    "tryWithout": "Atau coba latihan napas tanpa akun",
+    "errors": {
+      "invalid": "Email dan kata sandi tidak cocok. Silakan coba lagi.",
+      "exists": "Kami tidak dapat memasukkanmu. Jika sudah punya akun, silakan masuk.",
+      "checkFields": "Periksa kembali isian lalu coba lagi.",
+      "rateLimited": "Terlalu banyak percobaan. Tunggu beberapa menit lalu coba lagi.",
+      "generic": "Terjadi kesalahan. Silakan coba lagi."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Ruang saya",
+      "overview": "Hari ini",
+      "journal": "Suasana hati & jurnal",
+      "companion": "Pendamping",
+      "migraine": "Buku harian migrain",
+      "sleep": "Tidur & energi",
+      "insights": "Wawasan",
+      "settings": "Pengaturan",
+      "calm": "Ruang Tenang",
+      "signOut": "Keluar"
+    }
+  },
+  "overview": {
+    "greeting": "Halo",
+    "greetingName": "Halo, {name}",
+    "subtitle": "Bagaimana kabarmu hari ini? Tidak ada yang harus kamu lakukan di sini.",
+    "subtitleCheckedIn": "Terima kasih sudah mengecek perasaanmu hari ini. Ambil apa pun yang kamu butuhkan.",
+    "verified": "Emailmu sudah dikonfirmasi. Terima kasih.",
+    "verifyFailed": "Tautan konfirmasi tidak berfungsi atau sudah kedaluwarsa.",
+    "verifyPending": "Kami sudah mengirim tautan untuk mengonfirmasi emailmu. Sementara itu, kamu tetap bisa memakai ARUVI.",
+    "calmTitle": "Ruang Tenang",
+    "calmBody": "Beberapa napas pelan, kapan pun kamu butuh.",
+    "companionTitle": "Bicara dengan pendamping",
+    "companionBody": "Pendengar yang lembut, dalam bahasamu.",
+    "suggestionTitle": "Ide lembut untuk hari ini",
+    "suggestions": {
+      "0": "Minum segelas air, pelan-pelan.",
+      "1": "Keluar sebentar atau buka jendela untuk menghirup udara segar selama semenit.",
+      "2": "Lemaskan bahu dan biarkan rahangmu rileks.",
+      "3": "Kirim pesan singkat ke seseorang yang kamu percaya.",
+      "4": "Istirahatkan mata dari layar selama lima menit.",
+      "5": "Perhatikan satu hal kecil yang berjalan baik hari ini."
+    },
+    "recentJournal": "Jurnal terbaru",
+    "openJournal": "Buka jurnal",
+    "noJournal": "Belum ada catatan. Menulis satu baris pun bisa membantu.",
+    "summaryTitle": "Sekilas",
+    "migraine30": "Serangan migrain, 30 hari terakhir",
+    "lastSleep": "Tidur terakhir",
+    "hours": "{hours} jam",
+    "seeInsights": "Lihat wawasanmu"
+  },
+  "journal": {
+    "title": "Suasana hati & jurnal",
+    "subtitle": "Sadari perasaanmu dan menulislah dengan bebas. Hanya kamu yang bisa melihatnya.",
+    "moodNote": "Beberapa kata tentang itu",
+    "moodHistory": "Cek perasaan terbaru",
+    "deleteMood": "Hapus cek ini",
+    "writeTitle": "Tulis",
+    "promptLabel": "Pemantik tulisan, jika membantu",
+    "showPrompt": "Tampilkan pemantik tulisan",
+    "newPrompt": "Tampilkan pemantik lain",
+    "titleLabel": "Judul",
+    "contentLabel": "Pikiranmu",
+    "privateNote": "Pribadi secara bawaan. Tidak pernah dibagikan.",
+    "entries": "Catatanmu",
+    "empty": "Catatanmu akan muncul di sini.",
+    "deleteEntry": "Hapus catatan ini",
+    "prompts": {
+      "0": "Apa satu hal yang terasa berat hari ini, dan satu hal yang terasa sedikit lebih ringan?",
+      "1": "Apa yang dibutuhkan tubuhmu saat ini?",
+      "2": "Gambarkan tempat di mana kamu merasa aman.",
+      "3": "Apa yang akan kamu katakan pada teman yang merasakan hal yang sama sepertimu hari ini?",
+      "4": "Hal kecil apa yang kamu syukuri?",
+      "5": "Apa yang menguras energimu hari ini? Apa yang mengembalikannya sedikit?",
+      "6": "Jika perasaanmu adalah cuaca, cuaca apakah itu?",
+      "7": "Apa satu hal baik yang bisa kamu lakukan untuk dirimu besok?"
+    }
+  },
+  "migraine": {
+    "title": "Buku harian migrain",
+    "subtitle": "Simpan catatan sakit kepala sederhana yang bisa kamu bagikan ke doktermu.",
+    "disclaimer": "Buku harian ini mencatat apa yang kamu perhatikan. Pola yang ditampilkan di sini bukan diagnosis medis. Silakan bicarakan sakit kepala dan obat apa pun dengan dokter.",
+    "report": "Laporan dokter",
+    "formTitle": "Catat serangan",
+    "start": "Mulai",
+    "end": "Selesai",
+    "ongoing": "Masih berlangsung",
+    "ongoingShort": "berlangsung",
+    "duration": "{hours} jam",
+    "intensity": "Intensitas nyeri",
+    "intensityHint": "0 berarti tidak nyeri, 10 berarti nyeri terburuk yang bisa kamu bayangkan.",
+    "locationsLabel": "Di mana nyerinya?",
+    "characteristicsLabel": "Seperti apa rasanya?",
+    "symptomsLabel": "Gejala lain",
+    "triggersLabel": "Kemungkinan pemicu yang kamu perhatikan",
+    "triggersHint": "Hanya yang kamu perhatikan sendiri. Ini kemungkinan, bukan penyebab.",
+    "medication": "Obat yang diminum",
+    "medicationHint": "Hanya catatanmu sendiri. ARUVI tidak pernah menyarankan obat.",
+    "recovery": "Catatan istirahat dan pemulihan",
+    "save": "Simpan serangan",
+    "history": "Riwayat serangan",
+    "empty": "Belum ada serangan yang dicatat.",
+    "deleteEpisode": "Hapus serangan ini",
+    "locations": {
+      "left": "Sisi kiri",
+      "right": "Sisi kanan",
+      "both_sides": "Kedua sisi",
+      "forehead": "Dahi",
+      "temples": "Pelipis",
+      "behind_eyes": "Di belakang mata",
+      "back_of_head": "Kepala bagian belakang",
+      "neck": "Leher"
+    },
+    "characteristics": {
+      "throbbing": "Berdenyut",
+      "pressing": "Menekan",
+      "stabbing": "Menusuk",
+      "dull": "Nyeri tumpul"
+    },
+    "symptoms": {
+      "nausea": "Mual",
+      "vomiting": "Muntah",
+      "light_sensitivity": "Peka terhadap cahaya",
+      "sound_sensitivity": "Peka terhadap suara",
+      "smell_sensitivity": "Peka terhadap bau",
+      "aura": "Aura",
+      "dizziness": "Pusing",
+      "fatigue": "Lelah",
+      "blurred_vision": "Penglihatan kabur"
+    },
+    "triggers": {
+      "sleep": "Perubahan tidur",
+      "stress": "Stres",
+      "weather": "Perubahan cuaca",
+      "dehydration": "Dehidrasi",
+      "meal_timing": "Waktu makan",
+      "screen": "Waktu layar",
+      "environment": "Lingkungan (cahaya, bising, bau)",
+      "menstrual": "Siklus menstruasi",
+      "other": "Lainnya"
+    }
+  },
+  "report": {
+    "title": "Laporan buku harian sakit kepala",
+    "period": "{days} hari terakhir",
+    "print": "Cetak atau simpan sebagai PDF",
+    "disclaimer": "Laporan ini berisi informasi yang dicatat sendiri oleh orang tersebut di ARUVI. Ini bukan diagnosis. Kemungkinan pemicu adalah pengamatan pribadi.",
+    "episodes": "Serangan",
+    "avgDuration": "Durasi rata-rata (jam)",
+    "avgIntensity": "Intensitas rata-rata (0–10)",
+    "triggers": "Kemungkinan pemicu yang dilaporkan sendiri",
+    "log": "Log serangan",
+    "hours": "Jam"
+  },
+  "sleep": {
+    "title": "Tidur & energi",
+    "subtitle": "Catatan singkat setiap hari tentang istirahat dan energi membantumu memahami hari-harimu.",
+    "date": "Tanggal",
+    "dateHint": "Catat tidur semalam di tanggal hari ini.",
+    "sleepTitle": "Tidur",
+    "hours": "Jam tidur",
+    "quality": "Kualitas tidur",
+    "poor": "Buruk",
+    "restful": "Nyenyak",
+    "energyTitle": "Energi",
+    "energy": "Tingkat energi",
+    "fatigue": "Rasa lelah",
+    "veryLow": "Sangat rendah",
+    "high": "Tinggi",
+    "little": "Sedikit",
+    "aLot": "Sangat",
+    "rest": "Waktu istirahat (menit)",
+    "note": "Catatan",
+    "history": "Dua minggu terakhir",
+    "empty": "Belum ada yang dicatat."
+  },
+  "insights": {
+    "title": "Wawasan kesejahteraan",
+    "subtitle": "Melihat kembali catatanmu dengan sederhana.",
+    "disclaimer": "Ini adalah deskripsi dari catatanmu sendiri, bukan kesimpulan medis. Dua hal yang muncul bersamaan tidak berarti yang satu menyebabkan yang lain.",
+    "rangeLabel": "Rentang waktu",
+    "range": "{days} hari",
+    "stats": {
+      "checkIns": "Cek suasana hati",
+      "migraines": "Serangan migrain",
+      "avgDuration": "Rata-rata serangan (jam)",
+      "avgSleep": "Rata-rata tidur (jam)"
+    },
+    "observationsTitle": "Yang ditunjukkan catatanmu",
+    "notEnough": "Teruslah mencatat sebentar lagi, dan pengamatan lembut akan muncul di sini.",
+    "obs": {
+      "topTrigger": "Kamu mencatat \"{trigger}\" sebagai kemungkinan pemicu pada {count} dari {total} serangan.",
+      "lowSleepMigraine": "Pada {share}% hari ketika kamu mencatat migrain, kamu juga mencatat tidur kurang dari 6 jam, dibandingkan {overall}% dari semua malam yang kamu catat.",
+      "steadyMood": "Perasaan yang paling sering kamu catat adalah \"{mood}\" ({count} kali)."
+    },
+    "moodChart": "Suasana hati yang kamu catat",
+    "migraineChart": "Serangan migrain per hari",
+    "sleepChart": "Jam tidur",
+    "energyChart": "Tingkat energi (1–5)",
+    "showTable": "Tampilkan sebagai tabel",
+    "noData": "Tidak ada cek perasaan pada periode ini.",
+    "mood": "Suasana hati",
+    "count": "Kali",
+    "date": "Tanggal",
+    "episodes": "Serangan",
+    "hours": "Jam",
+    "energyLevel": "Energi"
+  },
+  "settings": {
+    "title": "Pengaturan",
+    "prefsTitle": "Preferensi",
+    "displayName": "Nama untuk menyapamu",
+    "trackMigraine": {
+      "title": "Saya hidup dengan migrain",
+      "body": "Tampilkan fitur migrain dengan lebih menonjol."
+    },
+    "trackMenstrual": {
+      "title": "Sertakan siklus menstruasi sebagai kemungkinan pemicu",
+      "body": "Opsional. Hanya ditampilkan di buku harian migrain."
+    },
+    "keepAiHistory": {
+      "title": "Simpan riwayat percakapan dengan pendamping",
+      "body": "Mati secara bawaan. Jika dinyalakan, percakapanmu disimpan agar bisa kamu buka lagi. Kamu bisa menghapusnya kapan saja."
+    },
+    "comfortNote": "Tema, ukuran teks, dan bahasa ada di bilah atas dan diingat di perangkat ini.",
+    "exportTitle": "Unduh datamu",
+    "exportBody": "Dapatkan salinan semua yang disimpan ARUVI tentangmu, dalam file JSON.",
+    "exportButton": "Unduh data saya",
+    "deleteTitle": "Hapus akun",
+    "deleteBody": "Ini akan menghapus akunmu dan semua isinya secara permanen: suasana hati, jurnal, catatan, dan percakapan. Tindakan ini tidak bisa dibatalkan.",
+    "deleteConfirmLabel": "Ketik DELETE untuk mengonfirmasi",
+    "deleteButton": "Hapus akun saya selamanya"
+  },
+  "companion": {
+    "title": "Pendamping",
+    "subtitle": "Ceritakan apa yang ada di pikiranmu. Tulis dalam bahasa apa pun yang kamu suka.",
+    "disclaimer": "Pendamping adalah AI, bukan terapis atau dokter. AI bisa keliru dan tidak dapat mendiagnosis atau memberi saran medis. Jika kamu dalam bahaya, gunakan nomor di “Cari bantuan” atau hubungi nomor darurat setempat.",
+    "emptyTitle": "Aku di sini untuk mendengarkan.",
+    "emptyBody": "Bagaimana perasaanmu saat ini?",
+    "placeholder": "Tulis apa yang ada di pikiranmu…",
+    "inputLabel": "Pesanmu",
+    "send": "Kirim",
+    "you": "Kamu",
+    "companion": "Pendamping",
+    "thinking": "…",
+    "newChat": "Percakapan baru",
+    "clear": "Bersihkan obrolan",
+    "deleteHistory": "Hapus semua riwayat",
+    "historyOn": "Percakapan disimpan. Kamu bisa mematikannya di Pengaturan.",
+    "historyOff": "Percakapan tidak disimpan dan akan hilang saat kamu meninggalkan halaman ini.",
+    "crisisTitle": "Kamu tidak harus melewati ini sendirian",
+    "crisisBody": "Sepertinya keadaan sedang sangat berat sekarang. Tolong hubungi seseorang yang bisa membantu — kamu bisa menelepon sekarang, kapan saja.",
+    "errors": {
+      "refusal": "Aku tidak bisa menanggapi itu. Jika kamu sedang kesulitan, hubungi seseorang yang kamu percaya atau gunakan nomor di “Cari bantuan”.",
+      "unavailable": "Pendamping sedang tidak tersedia. Silakan coba lagi nanti.",
+      "error": "Terjadi kesalahan. Silakan coba lagi.",
+      "network": "Sepertinya kamu sedang offline. Periksa koneksimu.",
+      "limit": "Kamu sudah mengirim banyak pesan. Istirahat sebentar, lalu coba lagi nanti.",
+      "generic": "Terjadi kesalahan. Silakan coba lagi."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Masuk untuk menggunakan ini",
+    "guestBody": "Buat akun gratis agar catatanmu tetap pribadi dan aman di semua perangkat.",
+    "continueGuest": "Lanjutkan tanpa akun",
+    "more": "Lainnya",
+    "appearance": "Tampilan",
+    "themeSystem": "Sistem",
+    "themeLight": "Terang",
+    "themeDark": "Gelap",
+    "account": "Akun",
+    "signedInAs": "Masuk sebagai {email}",
+    "offline": "Tidak dapat terhubung ke ARUVI saat ini. Periksa koneksimu dan coba lagi.",
+    "reportOnWeb": "Laporan dokter yang bisa dicetak tersedia di situs web ARUVI.",
+    "pickDate": "Pilih tanggal",
+    "pickTime": "Pilih waktu",
+    "textSize": "Ukuran teks",
+    "refresh": "Muat ulang",
+    "migraineTab": "Migrain"
+  }
+}
