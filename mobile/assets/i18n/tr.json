@@ -210,12 +210,32 @@
     "noAccount": "ARUVI'de yeni misin?",
     "haveAccount": "Zaten hesabın var mı?",
     "tryWithout": "Ya da hesap olmadan bir nefes egzersizi dene",
+    "birthYear": "Doğum yılı",
+    "birthYearPlaceholder": "Bir yıl seçin",
+    "under16": "16 yaşından küçüğüm",
+    "birthYearHint": "ARUVI 16 yaş ve üzeri kişiler içindir. Bunu yalnızca sen görebilirsin.",
+    "tooYoung": "ARUVI 16 yaş ve üzeri kişiler için olduğundan henüz senin için hesap oluşturamıyoruz. Zorlanıyorsan güvendiğin bir yetişkinle konuş ya da bir destek hattını ara.",
+    "seeHelp": "Destek hatlarını gör",
+    "concernsLabel": "Hangi konuda destek almak istersin?",
+    "concernsHint": "Uygun olanların hepsini seç. Bu yalnızca ARUVI'nin sana ne göstereceğini belirler — bir teşhis değildir.",
+    "concerns": {
+      "migraine": "Migren veya baş ağrısı",
+      "depression": "Çökkün ruh hali veya depresyon",
+      "anxiety": "Kaygı veya endişe",
+      "stress": "Stres",
+      "sleep": "Uyku",
+      "other": "Başka bir şey"
+    },
+    "welcomeTitle": "Başlamadan önce birkaç bilgi",
+    "welcomeSubtitle": "Bu, ARUVI'nin sana uymasına yardımcı olur. Yalnızca sen görebilirsin.",
+    "continue": "Devam",
     "errors": {
       "invalid": "E-posta ve şifre eşleşmiyor. Lütfen tekrar dene.",
       "exists": "Giriş yapamadık. Zaten bir hesabın varsa lütfen giriş yap.",
       "checkFields": "Lütfen alanları kontrol edip tekrar dene.",
       "rateLimited": "Çok fazla deneme. Birkaç dakika bekleyip tekrar dene.",
-      "generic": "Bir şeyler ters gitti. Lütfen tekrar dene."
+      "generic": "Bir şeyler ters gitti. Lütfen tekrar dene.",
+      "oauthLinked": "Bu e-postayla zaten bir ARUVI hesabı var. Lütfen e-posta ve şifrenle giriş yap."
     }
   },
   "dash": {
