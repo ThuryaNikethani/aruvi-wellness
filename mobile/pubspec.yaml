@@ -66,6 +66,7 @@ flutter:
 
   assets:
     - assets/i18n/
+    - assets/data/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
