@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Zor günler için daha nazik bir yer",
+    "description": "Migren, depresyon, kaygı ve stresle yaşayan insanlar için ücretsiz, gizli ve çok dilli bir iyi oluş alanı."
+  },
+  "nav": {
+    "skip": "Ana içeriğe geç",
+    "home": "ARUVI ana sayfa",
+    "primary": "Ana",
+    "checkin": "Duygu kontrolü",
+    "calm": "Sakin Alan",
+    "features": "Neler var",
+    "support": "Yardım al",
+    "signIn": "Giriş yap",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "language": "Dil",
+    "languagesFull": "Tamamen çevrildi",
+    "languagesMore": "Diğer diller",
+    "mySpace": "Alanım"
+  },
+  "comfort": {
+    "toLight": "Açık temaya geç",
+    "toDark": "Koyu temaya geç",
+    "textSize": "Yazı boyutu: {size}. Değiştirmek için dokun.",
+    "sizes": {
+      "normal": "Normal",
+      "large": "Büyük",
+      "larger": "Daha büyük"
+    }
+  },
+  "i18n": {
+    "partial": "{language} otomatik olarak çevrildi, bu yüzden bazı ifadeler tam doğru olmayabilir. Anlaşılmayan bir şey olursa English, සිංහල ve தமிழ் tamamen gözden geçirilmiştir."
+  },
+  "hero": {
+    "eyebrow": "Ücretsiz · Gizli · Senin dilinde",
+    "title": "Zor günler için daha nazik bir yer.",
+    "body": "Nasıl hissettiğini fark etmek, yavaşlamak ve kendine iyi bakmak için güvenli, sessiz bir alan — baskı ya da yargı olmadan.",
+    "ctaBreathe": "Yavaşça nefes al",
+    "ctaCheckin": "Kendine nasıl olduğunu sor",
+    "note": "Başlamak için hesap gerekmez."
+  },
+  "mood": {
+    "title": "Şu an nasıl hissediyorsun?",
+    "subtitle": "Doğru bir cevap yok. En yakın hissettiren seçeneği seç — değişirse de sorun değil.",
+    "legend": "Hissettiğim…",
+    "options": {
+      "happy": "Mutlu",
+      "calm": "Sakin",
+      "sad": "Üzgün",
+      "anxious": "Kaygılı",
+      "overwhelmed": "Bunalmış",
+      "irritated": "Sinirli",
+      "exhausted": "Bitkin",
+      "lonely": "Yalnız",
+      "numb": "Duygusal olarak hissiz"
+    },
+    "intensity": "Bu duygu ne kadar güçlü?",
+    "intensityLow": "Biraz",
+    "intensityHigh": "Çok",
+    "save": "Kaydet",
+    "saved": "Kendini kontrol ettiğin için teşekkürler.",
+    "savedNote": "Yalnızca bu cihazda kaydedildi.",
+    "again": "Tekrar kontrol et",
+    "suggestBreathe": "Bir nefes molası dene",
+    "privacy": "Bu önizlemede hiçbir şey cihazından dışarı çıkmaz.",
+    "responses": {
+      "happy": "Bugünün daha hafif hissettirmesi çok güzel. Neyin iyi geldiğini not alabilirsin, böylece ona tekrar dönebilirsin.",
+      "calm": "Sakin bir an fark edilmeye değer. İstediğin kadar onunla kal.",
+      "sad": "Üzüntü ağır gelebilir. Onu şimdi düzeltmek zorunda değilsin — kendine nazik davranmak yeterli.",
+      "anxious": "Kaygı her şeyi acil gibi hissettirir. Yavaşça nefes vermek bedeninin biraz daha güvende hissetmesine yardımcı olabilir.",
+      "overwhelmed": "Her şey fazla geldiğinde sadece küçük bir şey seçmek — ya da hiçbir şey yapmamak — sorun değil.",
+      "irritated": "Sinirlilik çoğu zaman bir şeyin senin için önemli olduğunu gösterir. Kısa bir ara sana biraz alan açabilir.",
+      "exhausted": "Bu kadar yorgunluk gerçek. Dinlenmek hak etmen gereken bir şey değil.",
+      "lonely": "Yalnızlık zordur. Yapabilirsen güvendiğin bir kişiye ulaş — kısa bir mesaj bile yardımcı olabilir.",
+      "numb": "Hissizlik bazen zihnin kendini koruma yoludur. Hâlâ buradasın ve bu önemli."
+    }
+  },
+  "calm": {
+    "title": "Sakin Alanım",
+    "subtitle": "Nefesini yavaşlatmak için sessiz bir yer. İstediğin zaman duraklat, değiştir ya da bitir.",
+    "idle": "Hazır olduğunda başlat'a dokun.",
+    "phases": {
+      "in": "Nefes al",
+      "hold": "Hafifçe tut",
+      "out": "Nefes ver",
+      "rest": "Dinlen"
+    },
+    "seconds": "{seconds, plural, one {# saniye} other {# saniye}}",
+    "pausedLabel": "Duraklatıldı",
+    "start": "Başlat",
+    "pause": "Duraklat",
+    "resume": "Devam et",
+    "stop": "Bitir",
+    "patternLabel": "Nefes ritmi",
+    "patterns": {
+      "gentle": "Nazik — al 4, ver 6",
+      "box": "Kutu — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Arka plan",
+    "scenes": {
+      "forest": "Orman",
+      "ocean": "Okyanus",
+      "dusk": "Alacakaranlık"
+    },
+    "rounds": "{count, plural, =0 {Henüz tur yok} one {# tur tamamlandı} other {# tur tamamlandı}}",
+    "note": "Yanıp sönme ya da hızlı hareket yok. Sesler sen açmadıkça kapalı kalır."
+  },
+  "features": {
+    "title": "Her şey senin hızında",
+    "subtitle": "İşine yarayanı kullan, yaramayanı geç. Burada bitirmek zorunda olduğun hiçbir görev yok.",
+    "soon": "Yakında",
+    "preview": "Şimdi dene",
+    "items": {
+      "calm": {
+        "title": "Sakin Alan",
+        "body": "Sessiz doğa manzaralarıyla nefes, topraklanma ve beden gevşemesi."
+      },
+      "journal": {
+        "title": "Duygu Durumu Günlüğü",
+        "body": "Duygularını fark et, özgürce yaz ve zamanla nazik örüntüleri gör."
+      },
+      "companion": {
+        "title": "Yapay Zekâ İyi Oluş Arkadaşı",
+        "body": "Senin dilinde destekleyici bir dinleyici. Doktor ya da terapist değil."
+      },
+      "migraine": {
+        "title": "Migren Günlüğü",
+        "body": "Atakları, belirtileri ve olası tetikleyicileri kaydet; doktorun için rapor oluştur."
+      },
+      "sleep": {
+        "title": "Uyku ve Enerji",
+        "body": "Günlerini anlamak için dinlenmeyi, uyku kalitesini ve enerjini takip et."
+      },
+      "insights": {
+        "title": "İyi Oluş İçgörüleri",
+        "body": "Kendi kayıtlarının basit, betimleyici özetleri — asla teşhis değil."
+      }
+    }
+  },
+  "promise": {
+    "title": "Sana sözümüz",
+    "items": {
+      "free": {
+        "title": "Herkese ücretsiz",
+        "body": "Abonelik yok, ücretli özellik yok."
+      },
+      "private": {
+        "title": "Varsayılan olarak gizli",
+        "body": "Günlüklerin ve sohbetlerin sana aittir. Kişisel ya da sağlık bilgilerini asla satmayız."
+      },
+      "gentle": {
+        "title": "Baskı yok",
+        "body": "Seri sayacı yok, suçluluk yok. İhtiyaç duyduğunda geri gel."
+      },
+      "notMedical": {
+        "title": "Destek, tedavi değil",
+        "body": "ARUVI profesyonel tıbbi ya da psikolojik bakımın yerini tutmaz."
+      }
+    }
+  },
+  "help": {
+    "title": "Şu an yardıma ihtiyacın varsa",
+    "body": "Tehlikedeysen ya da kendine zarar vermeyi düşünüyorsan lütfen şimdi birine ulaş. Desteği hak ediyorsun.",
+    "lines": {
+      "national": "Ulusal Ruh Sağlığı Yardım Hattı (Sri Lanka, 24 saat)",
+      "ambulance": "Suwa Seriya ambulansı",
+      "police": "Polis acil"
+    },
+    "call": "{name} ara: {number}",
+    "note": "ARUVI bir acil durum hizmeti değildir. Kendine zarar verme düşüncelerine göre davranabileceğini düşünüyorsan lütfen bu hizmetlerden birine ulaş ya da en yakın hastaneye git.",
+    "countryLabel": "Ülken",
+    "otherCountry": "Başka bir ülke",
+    "noList": "Bu ülke için henüz doğrulanmış bir yardım hattı listemiz yok. Lütfen yerel acil numarasını ara ya da en yakın hastaneye git. Yakınındaki ücretsiz ve gizli bir kriz hattını burada da bulabilirsin:",
+    "findMore": "Ülkende bir yardım hattı bul"
+  },
+  "footer": {
+    "tagline": "Zor günler için daha nazik bir yer.",
+    "disclaimer": "ARUVI destekleyici bir iyi oluş arkadaşıdır. Profesyonel tıbbi ya da psikolojik tedavinin yerini tutmaz.",
+    "languages": "Dil",
+    "made": "Özenle yapıldı. Herkese ücretsiz."
+  },
+  "common": {
+    "save": "Kaydet",
+    "saving": "Kaydediliyor…",
+    "saved": "Kaydedildi.",
+    "error": "Bir şeyler ters gitti. Lütfen tekrar dene.",
+    "optional": "isteğe bağlı",
+    "confirmDelete": "Bu silinsin mi?",
+    "yes": "Evet, sil",
+    "cancel": "İptal"
+  },
+  "auth": {
+    "signInTitle": "Tekrar hoş geldin",
+    "signInSubtitle": "Günlüğünü, kayıtlarını ve içgörülerini görmek için giriş yap.",
+    "signUpTitle": "Alanını oluştur",
+    "signUpSubtitle": "Ücretsiz, gizli ve senin. İstediğin zaman her şeyi silebilirsin.",
+    "name": "Sana nasıl hitap edelim?",
+    "optional": "isteğe bağlı",
+    "email": "E-posta",
+    "password": "Şifre",
+    "passwordHint": "En az 10 karakter. Kısa bir cümle iyi olur.",
+    "acceptTerms": "Şartları ve gizlilik politikasını kabul ediyorum.",
+    "acceptHealth": "ARUVI'nin girmeyi seçtiğim iyi oluş bilgilerimi (duygu durumu, günlükler, migren ve uyku kayıtları) gizli olarak ve yalnızca benim için saklamasına onay veriyorum.",
+    "signIn": "Giriş yap",
+    "signUp": "Hesap oluştur",
+    "wait": "Lütfen bekle…",
+    "or": "veya",
+    "google": "Google ile devam et",
+    "noAccount": "ARUVI'de yeni misin?",
+    "haveAccount": "Zaten hesabın var mı?",
+    "tryWithout": "Ya da hesap olmadan bir nefes egzersizi dene",
+    "errors": {
+      "invalid": "E-posta ve şifre eşleşmiyor. Lütfen tekrar dene.",
+      "exists": "Giriş yapamadık. Zaten bir hesabın varsa lütfen giriş yap.",
+      "checkFields": "Lütfen alanları kontrol edip tekrar dene.",
+      "rateLimited": "Çok fazla deneme. Birkaç dakika bekleyip tekrar dene.",
+      "generic": "Bir şeyler ters gitti. Lütfen tekrar dene."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Alanım",
+      "overview": "Bugün",
+      "journal": "Duygu ve günlük",
+      "companion": "Arkadaş",
+      "migraine": "Migren günlüğü",
+      "sleep": "Uyku ve enerji",
+      "insights": "İçgörüler",
+      "settings": "Ayarlar",
+      "calm": "Sakin Alan",
+      "signOut": "Çıkış yap"
+    }
+  },
+  "overview": {
+    "greeting": "Merhaba",
+    "greetingName": "Merhaba, {name}",
+    "subtitle": "Bugün nasılsın? Burada yapmak zorunda olduğun hiçbir şey yok.",
+    "subtitleCheckedIn": "Bugün kendini kontrol ettiğin için teşekkürler. Neye ihtiyacın varsa al.",
+    "verified": "E-postan doğrulandı. Teşekkürler.",
+    "verifyFailed": "Doğrulama bağlantısı çalışmadı ya da süresi doldu.",
+    "verifyPending": "E-postanı doğrulaman için bir bağlantı gönderdik. Bu sırada ARUVI'yi kullanmaya devam edebilirsin.",
+    "calmTitle": "Sakin Alan",
+    "calmBody": "İhtiyaç duyduğunda birkaç yavaş nefes.",
+    "companionTitle": "Arkadaşla konuş",
+    "companionBody": "Senin dilinde nazik bir dinleyici.",
+    "suggestionTitle": "Bugün için nazik bir fikir",
+    "suggestions": {
+      "0": "Bir bardak suyu yavaşça iç.",
+      "1": "Dışarı çık ya da bir dakikalığına pencereyi açıp temiz hava al.",
+      "2": "Omuzlarını gevşet ve çenenin yumuşamasına izin ver.",
+      "3": "Güvendiğin birine kısa bir mesaj gönder.",
+      "4": "Beş dakika ekranlardan uzaklaşıp gözlerini dinlendir.",
+      "5": "Bugün iyi giden küçük bir şeyi fark et."
+    },
+    "recentJournal": "Son günlük kayıtları",
+    "openJournal": "Günlüğü aç",
+    "noJournal": "Henüz kayıt yok. Tek bir satır yazmak bile iyi gelebilir.",
+    "summaryTitle": "Bir bakışta",
+    "migraine30": "Migren atakları, son 30 gün",
+    "lastSleep": "En son uyku",
+    "hours": "{hours} sa",
+    "seeInsights": "İçgörülerini gör"
+  },
+  "journal": {
+    "title": "Duygu ve günlük",
+    "subtitle": "Nasıl hissettiğini fark et ve özgürce yaz. Bunu yalnızca sen görebilirsin.",
+    "moodNote": "Bununla ilgili birkaç kelime",
+    "moodHistory": "Son kontroller",
+    "deleteMood": "Bu kontrolü sil",
+    "writeTitle": "Yaz",
+    "promptLabel": "İşine yararsa bir yazma önerisi",
+    "showPrompt": "Yazma önerisi göster",
+    "newPrompt": "Başka bir öneri göster",
+    "titleLabel": "Başlık",
+    "contentLabel": "Düşüncelerin",
+    "privateNote": "Varsayılan olarak gizli. Asla paylaşılmaz.",
+    "entries": "Kayıtların",
+    "empty": "Kayıtların burada görünecek.",
+    "deleteEntry": "Bu kaydı sil",
+    "prompts": {
+      "0": "Bugün ağır gelen bir şey ve biraz daha hafif gelen bir şey neydi?",
+      "1": "Bedenin şu an neye ihtiyaç duyuyor?",
+      "2": "Kendini güvende hissettiğin bir yeri anlat.",
+      "3": "Bugün seninle aynı şekilde hisseden bir arkadaşına ne söylerdin?",
+      "4": "Minnettar olduğun küçük bir şey ne?",
+      "5": "Bugün enerjini ne tüketti? Ne biraz geri verdi?",
+      "6": "Duyguların bir hava durumu olsaydı, nasıl olurdu?",
+      "7": "Yarın kendin için yapabileceğin nazik bir şey ne?"
+    }
+  },
+  "migraine": {
+    "title": "Migren günlüğü",
+    "subtitle": "Doktorunla paylaşabileceğin basit bir baş ağrısı günlüğü tut.",
+    "disclaimer": "Bu günlük fark ettiklerini kaydeder. Burada gösterilen örüntüler tıbbi teşhis değildir. Lütfen baş ağrıların ve kullandığın ilaçlar hakkında bir doktorla konuş.",
+    "report": "Doktor raporu",
+    "formTitle": "Bir atak kaydet",
+    "start": "Başladı",
+    "end": "Bitti",
+    "ongoing": "Hâlâ sürüyor",
+    "ongoingShort": "sürüyor",
+    "duration": "{hours} sa",
+    "intensity": "Ağrı şiddeti",
+    "intensityHint": "0 ağrı yok, 10 hayal edebileceğin en kötü ağrı demek.",
+    "locationsLabel": "Ağrı nerede?",
+    "characteristicsLabel": "Nasıl hissettiriyor?",
+    "symptomsLabel": "Diğer belirtiler",
+    "triggersLabel": "Fark ettiğin olası tetikleyiciler",
+    "triggersHint": "Yalnızca kendi fark ettiklerin. Bunlar olasılıklar, nedenler değil.",
+    "medication": "Alınan ilaç",
+    "medicationHint": "Yalnızca kendi kaydın. ARUVI asla ilaç önermez.",
+    "recovery": "Dinlenme ve iyileşme notları",
+    "save": "Atağı kaydet",
+    "history": "Atak geçmişi",
+    "empty": "Henüz kaydedilmiş atak yok.",
+    "deleteEpisode": "Bu atağı sil",
+    "locations": {
+      "left": "Sol taraf",
+      "right": "Sağ taraf",
+      "both_sides": "İki taraf",
+      "forehead": "Alın",
+      "temples": "Şakaklar",
+      "behind_eyes": "Gözlerin arkası",
+      "back_of_head": "Başın arkası",
+      "neck": "Boyun"
+    },
+    "characteristics": {
+      "throbbing": "Zonklayan",
+      "pressing": "Sıkıştıran",
+      "stabbing": "Bıçak saplanır gibi",
+      "dull": "Künt ağrı"
+    },
+    "symptoms": {
+      "nausea": "Bulantı",
+      "vomiting": "Kusma",
+      "light_sensitivity": "Işığa hassasiyet",
+      "sound_sensitivity": "Sese hassasiyet",
+      "smell_sensitivity": "Kokuya hassasiyet",
+      "aura": "Aura",
+      "dizziness": "Baş dönmesi",
+      "fatigue": "Yorgunluk",
+      "blurred_vision": "Bulanık görme"
+    },
+    "triggers": {
+      "sleep": "Uyku değişiklikleri",
+      "stress": "Stres",
+      "weather": "Hava değişiklikleri",
+      "dehydration": "Susuzluk",
+      "meal_timing": "Öğün zamanları",
+      "screen": "Ekran süresi",
+      "environment": "Ortam (ışık, gürültü, koku)",
+      "menstrual": "Adet döngüsü",
+      "other": "Diğer"
+    }
+  },
+  "report": {
+    "title": "Baş ağrısı günlüğü raporu",
+    "period": "son {days} gün",
+    "print": "Yazdır ya da PDF olarak kaydet",
+    "disclaimer": "Bu rapor, kişinin ARUVI'ye kendisinin kaydettiği bilgileri içerir. Bu bir teşhis değildir. Olası tetikleyiciler kişisel gözlemlerdir.",
+    "episodes": "Ataklar",
+    "avgDuration": "Ortalama süre (saat)",
+    "avgIntensity": "Ortalama şiddet (0–10)",
+    "triggers": "Kişinin bildirdiği olası tetikleyiciler",
+    "log": "Atak kaydı",
+    "hours": "Saat"
+  },
+  "sleep": {
+    "title": "Uyku ve enerji",
+    "subtitle": "Dinlenme ve enerji hakkında günlük kısa bir not, günlerini anlamana yardımcı olur.",
+    "date": "Tarih",
+    "dateHint": "Dün geceki uykunu bugünün tarihine kaydet.",
+    "sleepTitle": "Uyku",
+    "hours": "Uyunan saat",
+    "quality": "Uyku kalitesi",
+    "poor": "Kötü",
+    "restful": "Dinlendirici",
+    "energyTitle": "Enerji",
+    "energy": "Enerji düzeyi",
+    "fatigue": "Yorgunluk",
+    "veryLow": "Çok düşük",
+    "high": "Yüksek",
+    "little": "Biraz",
+    "aLot": "Çok",
+    "rest": "Dinlenme süresi (dakika)",
+    "note": "Not",
+    "history": "Son iki hafta",
+    "empty": "Henüz bir şey kaydedilmedi."
+  },
+  "insights": {
+    "title": "İyi oluş içgörüleri",
+    "subtitle": "Kaydettiklerine basit bir geri bakış.",
+    "disclaimer": "Bunlar kendi kayıtlarının betimlemeleridir, tıbbi sonuçlar değil. İki şeyin birlikte görünmesi birinin diğerine neden olduğu anlamına gelmez.",
+    "rangeLabel": "Zaman aralığı",
+    "range": "{days} gün",
+    "stats": {
+      "checkIns": "Duygu kontrolleri",
+      "migraines": "Migren atakları",
+      "avgDuration": "Ort. atak (sa)",
+      "avgSleep": "Ort. uyku (sa)"
+    },
+    "observationsTitle": "Kayıtlarının gösterdikleri",
+    "notEnough": "Bir süre daha kaydetmeye devam et, burada nazik gözlemler belirecek.",
+    "obs": {
+      "topTrigger": "{total} atağın {count} tanesinde \"{trigger}\" seçeneğini olası tetikleyici olarak not ettin.",
+      "lowSleepMigraine": "Migren kaydettiğin günlerin %{share} kadarında 6 saatten az uyku da kaydetmiştin; kaydettiğin tüm gecelerde bu oran %{overall}.",
+      "steadyMood": "En sık kaydettiğin duygu \"{mood}\" oldu ({count} kez)."
+    },
+    "moodChart": "Kaydettiğin duygular",
+    "migraineChart": "Günlük migren atakları",
+    "sleepChart": "Uyku saatleri",
+    "energyChart": "Enerji düzeyi (1–5)",
+    "showTable": "Tablo olarak göster",
+    "noData": "Bu dönemde kontrol yok.",
+    "mood": "Duygu",
+    "count": "Kez",
+    "date": "Tarih",
+    "episodes": "Ataklar",
+    "hours": "Saat",
+    "energyLevel": "Enerji"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "prefsTitle": "Tercihler",
+    "displayName": "Seni selamlayacağımız isim",
+    "trackMigraine": {
+      "title": "Migrenle yaşıyorum",
+      "body": "Migren özelliklerini daha belirgin göster."
+    },
+    "trackMenstrual": {
+      "title": "Adet döngüsünü olası tetikleyici olarak ekle",
+      "body": "İsteğe bağlı. Yalnızca migren günlüğünde gösterilir."
+    },
+    "keepAiHistory": {
+      "title": "Arkadaşla sohbet geçmişini sakla",
+      "body": "Varsayılan olarak kapalı. Açıldığında sohbetlerin kaydedilir, böylece onlara geri dönebilirsin. İstediğin zaman silebilirsin."
+    },
+    "comfortNote": "Tema, yazı boyutu ve dil üst çubukta yer alır ve bu cihazda hatırlanır.",
+    "exportTitle": "Verilerini indir",
+    "exportBody": "ARUVI'nin senin hakkında sakladığı her şeyin bir kopyasını JSON dosyası olarak al.",
+    "exportButton": "Verilerimi indir",
+    "deleteTitle": "Hesabı sil",
+    "deleteBody": "Bu işlem hesabını ve içindeki her şeyi kalıcı olarak siler: duygular, günlükler, kayıtlar ve sohbetler. Geri alınamaz.",
+    "deleteConfirmLabel": "Onaylamak için DELETE yaz",
+    "deleteButton": "Hesabımı kalıcı olarak sil"
+  },
+  "companion": {
+    "title": "Arkadaş",
+    "subtitle": "Aklındakileri paylaş. İstediğin dilde yazabilirsin.",
+    "disclaimer": "Arkadaş bir yapay zekâdır; terapist ya da doktor değildir. Hata yapabilir ve teşhis koyamaz ya da tıbbi tavsiye veremez. Tehlikedeysen lütfen “Yardım al” bölümündeki numaraları kullan ya da yerel acil numarasını ara.",
+    "emptyTitle": "Dinlemek için buradayım.",
+    "emptyBody": "Şu an nasıl hissediyorsun?",
+    "placeholder": "Aklındakileri yaz…",
+    "inputLabel": "Mesajın",
+    "send": "Gönder",
+    "you": "Sen",
+    "companion": "Arkadaş",
+    "thinking": "…",
+    "newChat": "Yeni sohbet",
+    "clear": "Sohbeti temizle",
+    "deleteHistory": "Tüm geçmişi sil",
+    "historyOn": "Sohbetler kaydediliyor. Bunu Ayarlar'dan kapatabilirsin.",
+    "historyOff": "Sohbetler kaydedilmiyor. Bu sayfadan ayrıldığında kaybolurlar.",
+    "crisisTitle": "Bununla tek başına başa çıkmak zorunda değilsin",
+    "crisisBody": "Şu an işler gerçekten zor görünüyor. Lütfen yardım edebilecek birine ulaş — şimdi, günün her saati arayabilirsin.",
+    "errors": {
+      "refusal": "Buna yanıt veremiyorum. Zorlanıyorsan lütfen güvendiğin birine ulaş ya da “Yardım al” bölümündeki numaraları kullan.",
+      "unavailable": "Arkadaş şu an kullanılamıyor. Lütfen daha sonra tekrar dene.",
+      "error": "Bir şeyler ters gitti. Lütfen tekrar dene.",
+      "network": "Çevrimdışı görünüyorsun. Lütfen bağlantını kontrol et.",
+      "limit": "Şimdilik çok fazla mesaj gönderdin. Kısa bir mola verip daha sonra tekrar dene.",
+      "generic": "Bir şeyler ters gitti. Lütfen tekrar dene."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Bunu kullanmak için giriş yap",
+    "guestBody": "Kayıtlarını tüm cihazlarda gizli ve güvende tutmak için ücretsiz bir hesap oluştur.",
+    "continueGuest": "Hesap olmadan devam et",
+    "more": "Daha fazla",
+    "appearance": "Görünüm",
+    "themeSystem": "Sistem",
+    "themeLight": "Açık",
+    "themeDark": "Koyu",
+    "account": "Hesap",
+    "signedInAs": "{email} olarak giriş yapıldı",
+    "offline": "Şu an ARUVI'ye ulaşılamıyor. Lütfen bağlantını kontrol edip tekrar dene.",
+    "reportOnWeb": "Yazdırılabilir doktor raporu ARUVI web sitesinde mevcut.",
+    "pickDate": "Tarih seç",
+    "pickTime": "Saat seç",
+    "textSize": "Yazı boyutu",
+    "refresh": "Yenile",
+    "migraineTab": "Migren"
+  }
+}
