@@ -168,7 +168,11 @@
       "police": "Police emergency"
     },
     "call": "Call {name}: {number}",
-    "note": "ARUVI is not an emergency service. If you are outside Sri Lanka, please contact your local emergency number or go to the nearest hospital."
+    "note": "ARUVI is not an emergency service. If you might act on thoughts of harming yourself, please contact one of these services or go to the nearest hospital.",
+    "countryLabel": "Your country",
+    "otherCountry": "Another country",
+    "noList": "We don’t have a verified helpline list for this country yet. Please call your local emergency number or go to the nearest hospital. You can also find a free, confidential crisis line near you here:",
+    "findMore": "Find a helpline in your country"
   },
   "footer": {
     "tagline": "A gentler place for difficult days.",
@@ -443,7 +447,7 @@
   "companion": {
     "title": "Companion",
     "subtitle": "Share what's on your mind. Write in any language you like.",
-    "disclaimer": "The companion is an AI, not a therapist or doctor. It can make mistakes and cannot diagnose or give medical advice. If you are in danger, please call 1926 or 1990, or your local emergency number.",
+    "disclaimer": "The companion is an AI, not a therapist or doctor. It can make mistakes and cannot diagnose or give medical advice. If you are in danger, please use the numbers in “Get help” or call your local emergency number.",
     "emptyTitle": "I'm here to listen.",
     "emptyBody": "How are you feeling right now?",
     "placeholder": "Write what's on your mind…",
@@ -460,7 +464,7 @@
     "crisisTitle": "You don't have to go through this alone",
     "crisisBody": "It sounds like things are really hard right now. Please reach out to a person who can help — you can call now, any time of day.",
     "errors": {
-      "refusal": "I'm not able to respond to that. If you're struggling, please reach out to someone you trust or call 1926.",
+      "refusal": "I’m not able to respond to that. If you’re struggling, please reach out to someone you trust or use the numbers in “Get help”.",
       "unavailable": "The companion isn't available right now. Please try again later.",
       "error": "Something went wrong. Please try again.",
       "network": "You seem to be offline. Please check your connection.",
