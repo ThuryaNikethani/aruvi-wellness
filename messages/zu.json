@@ -210,12 +210,32 @@
     "noAccount": "Umusha ku-ARUVI?",
     "haveAccount": "Usunayo i-akhawunti?",
     "tryWithout": "Noma zama umsebenzi wokuphefumula ngaphandle kwe-akhawunti",
+    "birthYear": "Unyaka wokuzalwa",
+    "birthYearPlaceholder": "Khetha unyaka",
+    "under16": "Ngingaphansi kweminyaka eyi-16",
+    "birthYearHint": "I-ARUVI ingeyabantu abaneminyaka eyi-16 nangaphezulu. Nguwe kuphela ongabona lokhu.",
+    "tooYoung": "I-ARUVI ingeyabantu abaneminyaka eyi-16 nangaphezulu, ngakho asikwazi ukukudalela i-akhawunti okwamanje. Uma izinto zinzima, sicela ukhulume nomuntu omdala omethembayo noma ushayele ulayini wosizo.",
+    "seeHelp": "Bona imigqa yosizo",
+    "concernsLabel": "Ungathanda ukwesekwa kuphi?",
+    "concernsHint": "Khetha noma yikuphi okufanelekile. Lokhu kushintsha kuphela lokho i-ARUVI ekukhombisa kona — akusona isixilongo.",
+    "concerns": {
+      "migraine": "Isiqhwala noma ikhanda",
+      "depression": "Ukudangala noma ukucindezeleka",
+      "anxiety": "Ukukhathazeka noma ukwesaba",
+      "stress": "Ingcindezi",
+      "sleep": "Ukulala",
+      "other": "Okunye"
+    },
+    "welcomeTitle": "Imininingwane embalwa ngaphambi kokuqala",
+    "welcomeSubtitle": "Lokhu kusiza i-ARUVI ikulingane. Nguwe kuphela ongakubona.",
+    "continue": "Qhubeka",
     "errors": {
       "invalid": "I-imeyili nephasiwedi akuhambisani. Sicela uzame futhi.",
       "exists": "Asikwazanga ukukungenisa. Uma usunayo i-akhawunti, sicela ungene.",
       "checkFields": "Sicela uhlole imininingwane bese uzama futhi.",
       "rateLimited": "Imizamo iningi kakhulu. Linda imizuzu embalwa bese uzama futhi.",
-      "generic": "Kukhona okungahambanga kahle. Sicela uzame futhi."
+      "generic": "Kukhona okungahambanga kahle. Sicela uzame futhi.",
+      "oauthLinked": "Le imeyili isinayo i-akhawunti ye-ARUVI. Sicela ungene nge-imeyili nephasiwedi yakho."
     }
   },
   "dash": {
