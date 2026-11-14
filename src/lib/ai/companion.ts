@@ -15,11 +15,14 @@ export type ChatTurn = { role: "user" | "assistant"; content: string };
 export function streamCompanionReply({
   history,
   localeName,
+  supportLines,
   crisis,
   onDone,
 }: {
   history: ChatTurn[];
   localeName: string;
+  /** Per-country helplines (see supportNote in lib/helplines). */
+  supportLines: string;
   crisis: boolean;
   onDone?: (text: string) => Promise<void> | void;
 }) {
@@ -41,7 +44,8 @@ export function streamCompanionReply({
           fallbacks: "default",
           system: [
             { type: "text", text: COMPANION_SYSTEM_PROMPT, cache_control: { type: "ephemeral" } },
-            { type: "text", text: languageNote(localeName) },
+            // Per-user details go after the cached prompt so the cache stays valid.
+            { type: "text", text: `${languageNote(localeName)}\n${supportLines}` },
           ],
           messages,
         });
