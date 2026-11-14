@@ -5,12 +5,12 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-Future<AppState> _boot(WidgetTester tester, {String? locale}) async {
+Future<AppState> _boot(WidgetTester tester, {String? locale, String? country}) async {
   // A typical phone: 360 × 800 logical pixels.
   tester.view.physicalSize = const Size(1080, 2400);
   tester.view.devicePixelRatio = 3;
   addTearDown(tester.view.reset);
-  SharedPreferences.setMockInitialValues({if (locale != null) 'locale': locale});
+  SharedPreferences.setMockInitialValues({if (locale != null) 'locale': locale, if (country != null) 'country': country});
   late AppState state;
   await tester.runAsync(() async => state = await AppState.init());
   await tester.pumpWidget(ChangeNotifierProvider.value(value: state, child: const AruviApp()));
@@ -61,5 +61,28 @@ void main() {
     await _boot(tester, locale: 'ar');
     final dir = Directionality.of(tester.element(find.byType(NavigationBar)));
     expect(dir, TextDirection.rtl);
+  });
+
+  testWidgets('help screen shows Sri Lankan lines in Sinhala', (tester) async {
+    await _boot(tester, locale: 'si', country: 'LK');
+    await tester.tap(find.byIcon(Icons.support).first);
+    await tester.pumpAndSettle();
+    expect(find.text('1926'), findsWidgets);
+    expect(find.textContaining('ජාතික මානසික සෞඛ්‍ය'), findsWidgets);
+  });
+
+  testWidgets('help screen shows UK lines when the country is GB', (tester) async {
+    await _boot(tester, country: 'GB');
+    await tester.tap(find.byIcon(Icons.support).first);
+    await tester.pumpAndSettle();
+    expect(find.text('116 123'), findsWidgets);
+    expect(find.text('1926'), findsNothing);
+  });
+
+  testWidgets('unlisted country points to the international directory', (tester) async {
+    await _boot(tester, country: 'OTHER');
+    await tester.tap(find.byIcon(Icons.support).first);
+    await tester.pumpAndSettle();
+    expect(find.text('Find a helpline in your country'), findsWidgets);
   });
 }
