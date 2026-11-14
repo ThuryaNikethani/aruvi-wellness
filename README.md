@@ -73,7 +73,9 @@ All endpoints are JSON, require a signed-in user, and are scoped to that user. T
 
 ## Languages
 
-All languages live in [`src/i18n/locales.ts`](src/i18n/locales.ts). `en`, `si` and `ta` have complete human translations in `messages/`. Every other listed language works and falls back to English until `messages/<code>.json` is added. RTL languages get `dir="rtl"` automatically.
+All languages live in [`src/i18n/locales.ts`](src/i18n/locales.ts). `en`, `si` and `ta` have complete human translations in `messages/`. हिन्दी, العربية, 中文 and Español are translated too. Every other listed language works and falls back to English until `messages/<code>.json` is added. RTL languages get `dir="rtl"` automatically.
+
+**Translate all other languages:** `npm run translate` translates `messages/en.json` into every language in the registry with Claude (needs `ANTHROPIC_API_KEY` in `.env.local`). Only missing or changed strings are sent, so re-running after editing English is cheap. Use `npm run translate -- ja fr` for specific languages, then `npm run mobile:i18n` to update the mobile app. Machine-translated languages show a small notice until they are reviewed.
 
 > Translations of mental-health content should be reviewed by fluent speakers before launch.
 
