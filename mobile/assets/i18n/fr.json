@@ -210,12 +210,32 @@
     "noAccount": "Nouveau sur ARUVI ?",
     "haveAccount": "Vous avez déjà un compte ?",
     "tryWithout": "Ou essayez un exercice de respiration sans compte",
+    "birthYear": "Année de naissance",
+    "birthYearPlaceholder": "Choisissez une année",
+    "under16": "J’ai moins de 16 ans",
+    "birthYearHint": "ARUVI s’adresse aux personnes de 16 ans et plus. Vous seul·e pouvez voir cette information.",
+    "tooYoung": "ARUVI s’adresse aux personnes de 16 ans et plus, nous ne pouvons donc pas encore créer votre compte. Si c’est difficile en ce moment, parlez à un adulte de confiance ou appelez une ligne d’écoute.",
+    "seeHelp": "Voir les lignes d’écoute",
+    "concernsLabel": "Sur quoi aimeriez-vous être soutenu·e ?",
+    "concernsHint": "Choisissez tout ce qui vous correspond. Cela adapte seulement ce qu’ARUVI vous montre — ce n’est pas un diagnostic.",
+    "concerns": {
+      "migraine": "Migraine ou maux de tête",
+      "depression": "Moral bas ou dépression",
+      "anxiety": "Anxiété ou inquiétude",
+      "stress": "Stress",
+      "sleep": "Sommeil",
+      "other": "Autre chose"
+    },
+    "welcomeTitle": "Quelques informations avant de commencer",
+    "welcomeSubtitle": "Cela aide ARUVI à s’adapter à vous. Vous seul·e pouvez le voir.",
+    "continue": "Continuer",
     "errors": {
       "invalid": "L’e-mail et le mot de passe ne correspondent pas. Veuillez réessayer.",
       "exists": "Nous n’avons pas pu vous connecter. Si vous avez déjà un compte, connectez-vous.",
       "checkFields": "Veuillez vérifier les champs et réessayer.",
       "rateLimited": "Trop de tentatives. Patientez quelques minutes puis réessayez.",
-      "generic": "Un problème est survenu. Veuillez réessayer."
+      "generic": "Un problème est survenu. Veuillez réessayer.",
+      "oauthLinked": "Cet e-mail a déjà un compte ARUVI. Connectez-vous avec votre e-mail et votre mot de passe."
     }
   },
   "dash": {
