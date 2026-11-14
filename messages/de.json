@@ -210,12 +210,32 @@
     "noAccount": "Neu bei ARUVI?",
     "haveAccount": "Schon ein Konto?",
     "tryWithout": "Oder probiere eine Atemübung ohne Konto",
+    "birthYear": "Geburtsjahr",
+    "birthYearPlaceholder": "Jahr auswählen",
+    "under16": "Ich bin unter 16",
+    "birthYearHint": "ARUVI ist für Menschen ab 16 Jahren. Nur du kannst das sehen.",
+    "tooYoung": "ARUVI ist für Menschen ab 16 Jahren, deshalb können wir noch kein Konto für dich erstellen. Wenn es dir gerade schwer fällt, sprich bitte mit einem Erwachsenen, dem du vertraust, oder ruf ein Hilfetelefon an.",
+    "seeHelp": "Hilfetelefone ansehen",
+    "concernsLabel": "Wobei möchtest du Unterstützung?",
+    "concernsHint": "Wähle alles, was passt. Das bestimmt nur, was ARUVI dir zeigt — es ist keine Diagnose.",
+    "concerns": {
+      "migraine": "Migräne oder Kopfschmerzen",
+      "depression": "Gedrückte Stimmung oder Depression",
+      "anxiety": "Angst oder Sorgen",
+      "stress": "Stress",
+      "sleep": "Schlaf",
+      "other": "Etwas anderes"
+    },
+    "welcomeTitle": "Ein paar Angaben vor dem Start",
+    "welcomeSubtitle": "So passt sich ARUVI an dich an. Nur du kannst das sehen.",
+    "continue": "Weiter",
     "errors": {
       "invalid": "E-Mail und Passwort passen nicht zusammen. Bitte versuche es erneut.",
       "exists": "Wir konnten dich nicht anmelden. Wenn du schon ein Konto hast, melde dich bitte an.",
       "checkFields": "Bitte überprüfe die Angaben und versuche es erneut.",
       "rateLimited": "Zu viele Versuche. Warte ein paar Minuten und versuche es dann erneut.",
-      "generic": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
+      "generic": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+      "oauthLinked": "Für diese E-Mail gibt es bereits ein ARUVI-Konto. Bitte melde dich mit E-Mail und Passwort an."
     }
   },
   "dash": {
