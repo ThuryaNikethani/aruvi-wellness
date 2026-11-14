@@ -210,12 +210,32 @@
     "noAccount": "Mgeni kwenye ARUVI?",
     "haveAccount": "Tayari una akaunti?",
     "tryWithout": "Au jaribu zoezi la kupumua bila akaunti",
+    "birthYear": "Mwaka wa kuzaliwa",
+    "birthYearPlaceholder": "Chagua mwaka",
+    "under16": "Nina umri chini ya miaka 16",
+    "birthYearHint": "ARUVI ni kwa watu wenye umri wa miaka 16 na zaidi. Ni wewe tu unayeweza kuona hili.",
+    "tooYoung": "ARUVI ni kwa watu wenye umri wa miaka 16 na zaidi, kwa hiyo bado hatuwezi kukufungulia akaunti. Mambo yakiwa magumu, tafadhali zungumza na mtu mzima unayemwamini au piga simu ya msaada.",
+    "seeHelp": "Angalia simu za msaada",
+    "concernsLabel": "Ungependa kusaidiwa katika nini?",
+    "concernsHint": "Chagua yoyote inayofaa. Hii hubadilisha tu kile ARUVI inakuonyesha — si utambuzi wa ugonjwa.",
+    "concerns": {
+      "migraine": "Kipandauso au maumivu ya kichwa",
+      "depression": "Huzuni au msongo wa mawazo",
+      "anxiety": "Wasiwasi au hofu",
+      "stress": "Mfadhaiko",
+      "sleep": "Usingizi",
+      "other": "Kitu kingine"
+    },
+    "welcomeTitle": "Maelezo machache kabla ya kuanza",
+    "welcomeSubtitle": "Hii husaidia ARUVI ikufae. Ni wewe tu unayeweza kuiona.",
+    "continue": "Endelea",
     "errors": {
       "invalid": "Barua pepe na nenosiri havilingani. Tafadhali jaribu tena.",
       "exists": "Hatukuweza kukuingiza. Ikiwa tayari una akaunti, tafadhali ingia.",
       "checkFields": "Tafadhali kagua sehemu zote na ujaribu tena.",
       "rateLimited": "Majaribio mengi mno. Subiri dakika chache kisha ujaribu tena.",
-      "generic": "Kuna hitilafu. Tafadhali jaribu tena."
+      "generic": "Kuna hitilafu. Tafadhali jaribu tena.",
+      "oauthLinked": "Barua pepe hii tayari ina akaunti ya ARUVI. Tafadhali ingia kwa barua pepe na nenosiri lako."
     }
   },
   "dash": {
