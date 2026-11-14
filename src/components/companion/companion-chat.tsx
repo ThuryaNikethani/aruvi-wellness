@@ -2,7 +2,9 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { LifeBuoy, Phone, Plus, Send, Trash2 } from "lucide-react";
+import { LifeBuoy, Plus, Send, Trash2 } from "lucide-react";
+import { CountrySelect, HelplineButtons } from "@/components/help/helplines";
+import { useHelplineCountry } from "@/components/help/use-country";
 import { useRouter } from "@/i18n/navigation";
 import { api } from "@/lib/client";
 import { ui } from "@/components/ui/styles";
@@ -21,8 +23,8 @@ export function CompanionChat({
   keepHistory: boolean;
 }) {
   const t = useTranslations("companion");
-  const th = useTranslations("help");
   const locale = useLocale();
+  const { country } = useHelplineCountry();
   const router = useRouter();
   const [turns, setTurns] = useState<Turn[]>(initialMessages);
   const [conversationId, setConversationId] = useState(initialConversationId);
@@ -51,7 +53,7 @@ export function CompanionChat({
       res = await fetch("/api/ai/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ conversationId, locale, history, message }),
+        body: JSON.stringify({ conversationId, locale, country, history, message }),
       });
     } catch {
       setTurns(history);
@@ -113,17 +115,8 @@ export function CompanionChat({
             {t("crisisTitle")}
           </p>
           <p className="text-ink">{t("crisisBody")}</p>
-          <div className="flex flex-wrap gap-3">
-            {[
-              { key: "national", number: "1926" },
-              { key: "ambulance", number: "1990" },
-            ].map((l) => (
-              <a key={l.key} href={`tel:${l.number}`} className={ui.btnPrimary}>
-                <Phone className="h-4 w-4" aria-hidden />
-                {l.number} · {th(`lines.${l.key}`)}
-              </a>
-            ))}
-          </div>
+          <HelplineButtons />
+          <CountrySelect id="crisis-country" />
         </aside>
       )}
 
