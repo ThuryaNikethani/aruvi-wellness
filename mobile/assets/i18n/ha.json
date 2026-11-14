@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Wuri mai laushi don kwanaki masu wahala",
+    "description": "Wurin jin daɗin rai kyauta, na sirri, mai harsuna da yawa ga masu fama da ciwon kai mai tsanani (migraine), baƙin ciki, damuwa da matsi."
+  },
+  "nav": {
+    "skip": "Tsallaka zuwa babban abun ciki",
+    "home": "Shafin farko na ARUVI",
+    "primary": "Babba",
+    "checkin": "Duba yadda kake ji",
+    "calm": "Wurin Natsuwa",
+    "features": "Abin da ke ciki",
+    "support": "Nemi taimako",
+    "signIn": "Shiga",
+    "openMenu": "Buɗe menu",
+    "closeMenu": "Rufe menu",
+    "language": "Harshe",
+    "languagesFull": "An fassara gaba ɗaya",
+    "languagesMore": "Ƙarin harsuna",
+    "mySpace": "Wurina"
+  },
+  "comfort": {
+    "toLight": "Canza zuwa jigon haske",
+    "toDark": "Canza zuwa jigon duhu",
+    "textSize": "Girman rubutu: {size}. Taɓa don canzawa.",
+    "sizes": {
+      "normal": "Na yau da kullum",
+      "large": "Babba",
+      "larger": "Mafi girma"
+    }
+  },
+  "i18n": {
+    "partial": "An fassara {language} ta na'ura, don haka wasu kalmomi ba za su yi daidai sosai ba. Idan wani abu bai bayyana ba, an duba English, සිංහල da தமிழ் sosai."
+  },
+  "hero": {
+    "eyebrow": "Kyauta · Na sirri · Da harshenka",
+    "title": "Wuri mai laushi don kwanaki masu wahala.",
+    "body": "Wuri mai aminci da shiru don lura da yadda kake ji, ka rage gudu, ka kula da kanka — ba tare da matsi ko hukunci ba.",
+    "ctaBreathe": "Yi numfashi a hankali",
+    "ctaCheckin": "Duba yadda kake ji",
+    "note": "Ba a buƙatar asusu don farawa."
+  },
+  "mood": {
+    "title": "Yaya kake ji a yanzu?",
+    "subtitle": "Babu amsa daidai. Zaɓi abin da ya fi kusa — ba laifi idan ya canza.",
+    "legend": "Ina jin…",
+    "options": {
+      "happy": "Farin ciki",
+      "calm": "Natsuwa",
+      "sad": "Baƙin ciki",
+      "anxious": "Damuwa",
+      "overwhelmed": "Nauyi ya yi yawa",
+      "irritated": "Fushi",
+      "exhausted": "Gajiya sosai",
+      "lonely": "Kaɗaici",
+      "numb": "Rashin jin komai"
+    },
+    "intensity": "Yaya ƙarfin wannan ji yake?",
+    "intensityLow": "Kaɗan",
+    "intensityHigh": "Sosai",
+    "save": "Ajiye",
+    "saved": "Mun gode da ka duba yadda kake ji.",
+    "savedNote": "An ajiye a wannan na'ura kaɗai.",
+    "again": "Sake duba",
+    "suggestBreathe": "Gwada hutun numfashi",
+    "privacy": "A wannan samfoti, babu abin da ke barin na'urarka.",
+    "responses": {
+      "happy": "Yana da kyau yau ta ɗan yi sauƙi. Za ka iya rubuta abin da ya taimaka, don ka koma gare shi.",
+      "calm": "Lokacin natsuwa ya cancanci a lura da shi. Ka zauna a ciki yadda kake so.",
+      "sad": "Baƙin ciki na iya yin nauyi. Ba dole ka gyara shi yanzu ba — ka yi wa kanka laushi ya isa.",
+      "anxious": "Damuwa tana sa komai ya zama na gaggawa. Fitar da numfashi a hankali na iya sa jikinka ya ɗan ji aminci.",
+      "overwhelmed": "Idan komai ya yi yawa, ba laifi ka zaɓi ƙaramin abu ɗaya — ko kuma kada ka yi komai.",
+      "irritated": "Fushi sau da yawa yana nuna cewa wani abu yana da muhimmanci a gare ka. Ɗan hutu na iya ba ka ɗan sarari.",
+      "exhausted": "Wannan gajiya gaskiya ce. Hutu ba abu ne da sai ka cancance shi ba.",
+      "lonely": "Kaɗaici yana da wuya. Idan za ka iya, tuntuɓi wani da ka amince da shi — ko da ɗan saƙo na iya taimakawa.",
+      "numb": "Rashin jin komai wani lokaci hanya ce da zuciya ke kare kanta. Har yanzu kana nan, kuma hakan yana da muhimmanci."
+    }
+  },
+  "calm": {
+    "title": "Wurin Natsuwata",
+    "subtitle": "Wuri mai shiru don rage saurin numfashinka. Dakata, canza ko tsaya a kowane lokaci.",
+    "idle": "Danna fara idan ka shirya.",
+    "phases": {
+      "in": "Shaƙa",
+      "hold": "Riƙe a hankali",
+      "out": "Fitar",
+      "rest": "Huta"
+    },
+    "seconds": "{seconds, plural, one {daƙiƙa #} other {daƙiƙa #}}",
+    "pausedLabel": "An dakata",
+    "start": "Fara",
+    "pause": "Dakata",
+    "resume": "Ci gaba",
+    "stop": "Tsaya",
+    "patternLabel": "Salon numfashi",
+    "patterns": {
+      "gentle": "A hankali — shaƙa 4, fitar 6",
+      "box": "Akwati — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Bango",
+    "scenes": {
+      "forest": "Daji",
+      "ocean": "Teku",
+      "dusk": "Magariba"
+    },
+    "rounds": "{count, plural, =0 {Babu zagaye tukuna} one {Zagaye # ya kammala} other {Zagaye # sun kammala}}",
+    "note": "Babu walƙiya ko motsi mai sauri. Sauti yana kashe sai dai idan ka kunna shi."
+  },
+  "features": {
+    "title": "Komai a saurin da kake so",
+    "subtitle": "Yi amfani da abin da ke taimaka maka, ka tsallake wanda ba ya taimakawa. Babu wani aiki a nan da dole ka kammala.",
+    "soon": "Nan ba da daɗewa ba",
+    "preview": "Gwada yanzu",
+    "items": {
+      "calm": {
+        "title": "Wurin Natsuwa",
+        "body": "Numfashi, zama a halin yanzu da sassauta jiki tare da hotunan yanayi masu kwantar da hankali."
+      },
+      "journal": {
+        "title": "Littafin Yanayin Zuciya",
+        "body": "Lura da yadda kake ji, rubuta cikin 'yanci, ka ga tsare-tsare a hankali yayin da lokaci ke tafiya."
+      },
+      "companion": {
+        "title": "Abokin Jin Daɗi na AI",
+        "body": "Mai sauraro mai tallafi da harshenka. Ba likita ko mai warkar da tunani ba ne."
+      },
+      "migraine": {
+        "title": "Littafin Ciwon Kai",
+        "body": "Rubuta hare-hare, alamomi da abubuwan da ka iya jawo su, ka fitar da rahoto ga likitanka."
+      },
+      "sleep": {
+        "title": "Barci da Kuzari",
+        "body": "Bibiyi hutu, ingancin barci da kuzari don fahimtar kwanakinka."
+      },
+      "insights": {
+        "title": "Fahimtar Jin Daɗi",
+        "body": "Taƙaitattun bayanai masu sauƙi na abin da ka rubuta — ba bincike na cuta ba ko kaɗan."
+      }
+    }
+  },
+  "promise": {
+    "title": "Alƙawarinmu gare ka",
+    "items": {
+      "free": {
+        "title": "Kyauta ga kowa",
+        "body": "Babu biyan kuɗi, babu wani abu na biya."
+      },
+      "private": {
+        "title": "Na sirri tun farko",
+        "body": "Littattafanka da tattaunawarka naka ne. Ba za mu taɓa sayar da bayanan sirri ko na lafiya ba."
+      },
+      "gentle": {
+        "title": "Babu matsi",
+        "body": "Babu ƙidayar kwanaki, babu laifi. Dawo duk lokacin da kake buƙata."
+      },
+      "notMedical": {
+        "title": "Tallafi, ba magani ba",
+        "body": "ARUVI ba ya maye gurbin kulawar likita ko ta lafiyar ƙwaƙwalwa daga ƙwararru."
+      }
+    }
+  },
+  "help": {
+    "title": "Idan kana buƙatar taimako yanzu",
+    "body": "Idan kana cikin haɗari ko kana tunanin cutar da kanka, don Allah tuntuɓi wani yanzu. Ka cancanci tallafi.",
+    "lines": {
+      "national": "Layin Taimakon Lafiyar Ƙwaƙwalwa na Ƙasa (Sri Lanka, awa 24)",
+      "ambulance": "Motar asibiti Suwa Seriya",
+      "police": "Gaggawar 'yan sanda"
+    },
+    "call": "Kira {name}: {number}",
+    "note": "ARUVI ba sabis na gaggawa ba ne. Idan kana iya aiwatar da tunanin cutar da kanka, don Allah tuntuɓi ɗaya daga cikin waɗannan sabis ko ka je asibiti mafi kusa.",
+    "countryLabel": "Ƙasarka",
+    "otherCountry": "Wata ƙasa",
+    "noList": "Ba mu da jerin layukan taimako da aka tabbatar don wannan ƙasa tukuna. Don Allah kira lambar gaggawa ta yankinku ko ka je asibiti mafi kusa. Haka kuma za ka iya samun layin taimako kyauta kuma na sirri kusa da kai a nan:",
+    "findMore": "Nemo layin taimako a ƙasarka"
+  },
+  "footer": {
+    "tagline": "Wuri mai laushi don kwanaki masu wahala.",
+    "disclaimer": "ARUVI abokin jin daɗi ne mai tallafi. Ba ya maye gurbin kulawar likita ko ta lafiyar ƙwaƙwalwa daga ƙwararru.",
+    "languages": "Harshe",
+    "made": "An yi shi da kulawa. Kyauta ga kowa."
+  },
+  "common": {
+    "save": "Ajiye",
+    "saving": "Ana ajiyewa…",
+    "saved": "An ajiye.",
+    "error": "Wani abu ya faru ba daidai ba. Don Allah sake gwadawa.",
+    "optional": "ba dole ba",
+    "confirmDelete": "A goge wannan?",
+    "yes": "Eh, goge",
+    "cancel": "Soke"
+  },
+  "auth": {
+    "signInTitle": "Barka da dawowa",
+    "signInSubtitle": "Shiga don ganin littafinka, bayananka da fahimtarka.",
+    "signUpTitle": "Ƙirƙiri wurinka",
+    "signUpSubtitle": "Kyauta, na sirri kuma naka. Za ka iya goge komai a kowane lokaci.",
+    "name": "Me za mu kira ka?",
+    "optional": "ba dole ba",
+    "email": "Imel",
+    "password": "Kalmar sirri",
+    "passwordHint": "Aƙalla haruffa 10. Gajeren jumla yana aiki sosai.",
+    "acceptTerms": "Na amince da sharuɗɗan amfani da manufar sirri.",
+    "acceptHealth": "Na yarda ARUVI ya ajiye bayanan jin daɗi da na zaɓi shigarwa (yanayin zuciya, littattafai, bayanan ciwon kai da barci), cikin sirri kuma don ni kaɗai.",
+    "signIn": "Shiga",
+    "signUp": "Ƙirƙiri asusu",
+    "wait": "Don Allah jira…",
+    "or": "ko",
+    "google": "Ci gaba da Google",
+    "noAccount": "Sabon shiga ARUVI?",
+    "haveAccount": "Kana da asusu tuni?",
+    "tryWithout": "Ko gwada aikin numfashi ba tare da asusu ba",
+    "errors": {
+      "invalid": "Imel da kalmar sirri ba su dace ba. Don Allah sake gwadawa.",
+      "exists": "Ba mu iya shigar da kai ba. Idan kana da asusu tuni, don Allah shiga.",
+      "checkFields": "Don Allah duba bayanan ka sake gwadawa.",
+      "rateLimited": "Ƙoƙari ya yi yawa. Jira 'yan mintuna ka sake gwadawa.",
+      "generic": "Wani abu ya faru ba daidai ba. Don Allah sake gwadawa."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Wurina",
+      "overview": "Yau",
+      "journal": "Yanayin zuciya da littafi",
+      "companion": "Aboki",
+      "migraine": "Littafin ciwon kai",
+      "sleep": "Barci da kuzari",
+      "insights": "Fahimta",
+      "settings": "Saituna",
+      "calm": "Wurin Natsuwa",
+      "signOut": "Fita"
+    }
+  },
+  "overview": {
+    "greeting": "Sannu",
+    "greetingName": "Sannu, {name}",
+    "subtitle": "Yaya kake yau? Babu abin da dole ka yi a nan.",
+    "subtitleCheckedIn": "Mun gode da ka duba yadda kake ji yau. Ɗauki abin da kake buƙata.",
+    "verified": "An tabbatar da imel ɗinka. Mun gode.",
+    "verifyFailed": "Wannan hanyar tabbatarwa ba ta yi aiki ba ko ta ƙare.",
+    "verifyPending": "Mun aika maka hanyar haɗi don tabbatar da imel ɗinka. Kafin nan, za ka iya ci gaba da amfani da ARUVI.",
+    "calmTitle": "Wurin Natsuwa",
+    "calmBody": "'Yan numfashi a hankali, duk lokacin da kake buƙata.",
+    "companionTitle": "Yi magana da aboki",
+    "companionBody": "Mai sauraro mai laushi, da harshenka.",
+    "suggestionTitle": "Shawara mai laushi don yau",
+    "suggestions": {
+      "0": "Sha kofin ruwa, a hankali.",
+      "1": "Fita waje ko buɗe taga don iska mai sanyi na minti ɗaya.",
+      "2": "Sassauta kafaɗunka ka bar haƙarƙarinka ya sake.",
+      "3": "Aika ɗan saƙo ga wani da ka amince da shi.",
+      "4": "Huta idanunka daga allo na minti biyar.",
+      "5": "Lura da ƙaramin abu ɗaya da ya tafi daidai yau."
+    },
+    "recentJournal": "Rubuce-rubucen littafi na baya-bayan nan",
+    "openJournal": "Buɗe littafi",
+    "noJournal": "Babu rubutu tukuna. Ko layi ɗaya na iya taimakawa.",
+    "summaryTitle": "A taƙaice",
+    "migraine30": "Hare-haren ciwon kai, kwanaki 30 da suka wuce",
+    "lastSleep": "Barci na ƙarshe",
+    "hours": "awa {hours}",
+    "seeInsights": "Duba fahimtarka"
+  },
+  "journal": {
+    "title": "Yanayin zuciya da littafi",
+    "subtitle": "Lura da yadda kake ji ka rubuta cikin 'yanci. Kai kaɗai ne za ka iya ganin wannan.",
+    "moodNote": "'Yan kalmomi game da shi",
+    "moodHistory": "Duba-duba na baya-bayan nan",
+    "deleteMood": "Goge wannan dubawa",
+    "writeTitle": "Rubuta",
+    "promptLabel": "Jagoran rubutu, idan zai taimaka",
+    "showPrompt": "Nuna jagoran rubutu",
+    "newPrompt": "Nuna wani jagora",
+    "titleLabel": "Take",
+    "contentLabel": "Tunaninka",
+    "privateNote": "Na sirri tun farko. Ba a taɓa raba shi ba.",
+    "entries": "Rubuce-rubucenka",
+    "empty": "Rubuce-rubucenka za su bayyana a nan.",
+    "deleteEntry": "Goge wannan rubutu",
+    "prompts": {
+      "0": "Wane abu ɗaya ya yi nauyi yau, kuma wane abu ya ɗan yi sauƙi?",
+      "1": "Me jikinka ke buƙata a yanzu?",
+      "2": "Bayyana wani wuri da kake jin aminci.",
+      "3": "Me za ka faɗa wa aboki da ke jin yadda kake ji yau?",
+      "4": "Wane ƙaramin abu ne kake godiya da shi?",
+      "5": "Me ya cinye kuzarinka yau? Me ya ɗan dawo da shi?",
+      "6": "Da yanayin zuciyarka yanayi ne na sama, wane irin yanayi zai zama?",
+      "7": "Wane abu mai kyau ne za ka iya yi wa kanka gobe?"
+    }
+  },
+  "migraine": {
+    "title": "Littafin ciwon kai",
+    "subtitle": "Riƙe littafin ciwon kai mai sauƙi da za ka iya raba wa likitanka.",
+    "disclaimer": "Wannan littafi yana rubuta abin da ka lura. Tsare-tsaren da aka nuna a nan ba bincike na likita ba ne. Don Allah yi magana da likita game da ciwon kanka da kowane magani.",
+    "report": "Rahoto ga likita",
+    "formTitle": "Rubuta hari ɗaya",
+    "start": "Farawa",
+    "end": "Ƙarewa",
+    "ongoing": "Har yanzu yana ci gaba",
+    "ongoingShort": "yana ci gaba",
+    "duration": "awa {hours}",
+    "intensity": "Ƙarfin ciwo",
+    "intensityHint": "0 yana nufin babu ciwo, 10 shine mafi munin ciwo da za ka iya tunanin.",
+    "locationsLabel": "Ina ke ciwo?",
+    "characteristicsLabel": "Yaya yake ji?",
+    "symptomsLabel": "Sauran alamomi",
+    "triggersLabel": "Abubuwan da ka iya jawo shi da ka lura",
+    "triggersHint": "Abin da kai da kanka ka lura kaɗai. Waɗannan yiwuwa ne, ba dalilai ba.",
+    "medication": "Maganin da ka sha",
+    "medicationHint": "Bayaninka na kanka kaɗai. ARUVI ba ya taɓa ba da shawarar magani.",
+    "recovery": "Bayanan hutu da murmurewa",
+    "save": "Ajiye hari",
+    "history": "Tarihin hare-hare",
+    "empty": "Babu hari da aka rubuta tukuna.",
+    "deleteEpisode": "Goge wannan hari",
+    "locations": {
+      "left": "Gefen hagu",
+      "right": "Gefen dama",
+      "both_sides": "Gefe biyu",
+      "forehead": "Goshi",
+      "temples": "Gefen kai",
+      "behind_eyes": "Bayan idanu",
+      "back_of_head": "Bayan kai",
+      "neck": "Wuya"
+    },
+    "characteristics": {
+      "throbbing": "Yana bugawa",
+      "pressing": "Yana matsawa",
+      "stabbing": "Yana sukawa",
+      "dull": "Ciwo mara ƙarfi"
+    },
+    "symptoms": {
+      "nausea": "Tashin zuciya",
+      "vomiting": "Amai",
+      "light_sensitivity": "Haske yana damuwa",
+      "sound_sensitivity": "Hayaniya tana damuwa",
+      "smell_sensitivity": "Ƙamshi yana damuwa",
+      "aura": "Alamar gargaɗi (aura)",
+      "dizziness": "Jiri",
+      "fatigue": "Gajiya",
+      "blurred_vision": "Gani mara haske"
+    },
+    "triggers": {
+      "sleep": "Canjin barci",
+      "stress": "Matsi",
+      "weather": "Canjin yanayi",
+      "dehydration": "Ƙarancin ruwa a jiki",
+      "meal_timing": "Lokacin cin abinci",
+      "screen": "Lokacin kallon allo",
+      "environment": "Muhalli (haske, hayaniya, ƙamshi)",
+      "menstrual": "Lokacin haila",
+      "other": "Wani"
+    }
+  },
+  "report": {
+    "title": "Rahoton littafin ciwon kai",
+    "period": "kwanaki {days} da suka wuce",
+    "print": "Buga ko ajiye a matsayin PDF",
+    "disclaimer": "Wannan rahoto yana ƙunshe da bayanan da mutumin da kansa ya rubuta a ARUVI. Ba bincike na cuta ba ne. Abubuwan da ka iya jawo shi lura ne na kai.",
+    "episodes": "Hare-hare",
+    "avgDuration": "Matsakaicin tsawon lokaci (awa)",
+    "avgIntensity": "Matsakaicin ƙarfi (0–10)",
+    "triggers": "Abubuwan da mutumin ya ce ka iya jawo shi",
+    "log": "Jerin hare-hare",
+    "hours": "Awowi"
+  },
+  "sleep": {
+    "title": "Barci da kuzari",
+    "subtitle": "Ɗan bayani na yau da kullum game da hutu da kuzari yana taimaka maka fahimtar kwanakinka.",
+    "date": "Kwanan wata",
+    "dateHint": "Rubuta barcin daren jiya a kwanan watan yau.",
+    "sleepTitle": "Barci",
+    "hours": "Awowin barci",
+    "quality": "Ingancin barci",
+    "poor": "Mara kyau",
+    "restful": "Mai hutarwa",
+    "energyTitle": "Kuzari",
+    "energy": "Matakin kuzari",
+    "fatigue": "Gajiya",
+    "veryLow": "Ƙasa sosai",
+    "high": "Sama",
+    "little": "Kaɗan",
+    "aLot": "Sosai",
+    "rest": "Lokacin hutu (minti)",
+    "note": "Bayani",
+    "history": "Makonni biyu da suka wuce",
+    "empty": "Babu abin da aka rubuta tukuna."
+  },
+  "insights": {
+    "title": "Fahimtar jin daɗi",
+    "subtitle": "Kallo mai sauƙi kan abin da ka rubuta.",
+    "disclaimer": "Waɗannan bayanan rubuce-rubucenka ne, ba sakamakon likita ba. Idan abubuwa biyu sun bayyana tare, ba yana nufin ɗaya ya jawo ɗayan ba.",
+    "rangeLabel": "Lokaci",
+    "range": "kwanaki {days}",
+    "stats": {
+      "checkIns": "Duba yanayin zuciya",
+      "migraines": "Hare-haren ciwon kai",
+      "avgDuration": "Matsakaicin hari (awa)",
+      "avgSleep": "Matsakaicin barci (awa)"
+    },
+    "observationsTitle": "Abin da rubuce-rubucenka suka nuna",
+    "notEnough": "Ci gaba da rubutu na ɗan lokaci, lura masu laushi za su bayyana a nan.",
+    "obs": {
+      "topTrigger": "Ka rubuta \"{trigger}\" a matsayin abin da ka iya jawo shi a hare-hare {count} cikin {total}.",
+      "lowSleepMigraine": "A {share}% na kwanakin da ka rubuta ciwon kai, ka kuma rubuta barci ƙasa da awa 6, idan aka kwatanta da {overall}% na duk daren da ka rubuta.",
+      "steadyMood": "Yanayin zuciyar da ka fi rubutawa shine \"{mood}\" (sau {count})."
+    },
+    "moodChart": "Yanayin zuciya da aka rubuta",
+    "migraineChart": "Hare-haren ciwon kai a kowace rana",
+    "sleepChart": "Awowin barci",
+    "energyChart": "Matakin kuzari (1–5)",
+    "showTable": "Nuna a matsayin tebur",
+    "noData": "Babu dubawa a wannan lokaci.",
+    "mood": "Yanayin zuciya",
+    "count": "Sau",
+    "date": "Kwanan wata",
+    "episodes": "Hare-hare",
+    "hours": "Awowi",
+    "energyLevel": "Kuzari"
+  },
+  "settings": {
+    "title": "Saituna",
+    "prefsTitle": "Zaɓuɓɓuka",
+    "displayName": "Sunan da za mu gaishe ka da shi",
+    "trackMigraine": {
+      "title": "Ina fama da ciwon kai mai tsanani",
+      "body": "Nuna fasalolin ciwon kai a fili sosai."
+    },
+    "trackMenstrual": {
+      "title": "Saka lokacin haila cikin abubuwan da ka iya jawo shi",
+      "body": "Ba dole ba. Yana bayyana a littafin ciwon kanka kaɗai."
+    },
+    "keepAiHistory": {
+      "title": "Ajiye tarihin tattaunawa da aboki",
+      "body": "A kashe yake tun farko. Idan ka kunna, za a ajiye tattaunawarka don ka koma gare su. Za ka iya goge su a kowane lokaci."
+    },
+    "comfortNote": "Jigo, girman rubutu da harshe suna kan sandar sama, kuma ana tuna su a wannan na'ura.",
+    "exportTitle": "Sauke bayananka",
+    "exportBody": "Samu kwafin duk abin da ARUVI ya ajiye game da kai, a matsayin fayil na JSON.",
+    "exportButton": "Sauke bayanaina",
+    "deleteTitle": "Goge asusu",
+    "deleteBody": "Wannan zai goge asusunka da duk abin da ke ciki har abada: yanayin zuciya, littattafai, bayanai da tattaunawa. Ba za a iya dawo da shi ba.",
+    "deleteConfirmLabel": "Rubuta DELETE don tabbatarwa",
+    "deleteButton": "Goge asusuna har abada"
+  },
+  "companion": {
+    "title": "Aboki",
+    "subtitle": "Faɗi abin da ke zuciyarka. Rubuta da kowane harshe da kake so.",
+    "disclaimer": "Abokin AI ne, ba mai warkar da tunani ko likita ba. Yana iya yin kuskure kuma ba zai iya bincika cuta ko ba da shawarar likita ba. Idan kana cikin haɗari, don Allah yi amfani da lambobin da ke cikin “Nemi taimako” ko ka kira lambar gaggawa ta yankinku.",
+    "emptyTitle": "Ina nan don in saurare ka.",
+    "emptyBody": "Yaya kake ji a yanzu?",
+    "placeholder": "Rubuta abin da ke zuciyarka…",
+    "inputLabel": "Saƙonka",
+    "send": "Aika",
+    "you": "Kai",
+    "companion": "Aboki",
+    "thinking": "…",
+    "newChat": "Sabuwar tattaunawa",
+    "clear": "Share tattaunawa",
+    "deleteHistory": "Goge duk tarihi",
+    "historyOn": "Ana ajiye tattaunawa. Za ka iya kashe wannan a Saituna.",
+    "historyOff": "Ba a ajiye tattaunawa. Za su ɓace idan ka bar wannan shafi.",
+    "crisisTitle": "Ba dole ka fuskanci wannan kai kaɗai ba",
+    "crisisBody": "Yana kama da abubuwa suna da wuya sosai a yanzu. Don Allah tuntuɓi wani da zai iya taimakawa — za ka iya kira yanzu, a kowane lokaci.",
+    "errors": {
+      "refusal": "Ba zan iya amsa wannan ba. Idan abubuwa suna da wuya, don Allah tuntuɓi wani da ka amince da shi ko yi amfani da lambobin da ke cikin “Nemi taimako”.",
+      "unavailable": "Aboki ba ya samuwa a yanzu. Don Allah sake gwadawa daga baya.",
+      "error": "Wani abu ya faru ba daidai ba. Don Allah sake gwadawa.",
+      "network": "Kamar ba ka kan intanet. Don Allah duba haɗinka.",
+      "limit": "Ka aika saƙonni da yawa. Ɗan huta ka sake gwadawa daga baya.",
+      "generic": "Wani abu ya faru ba daidai ba. Don Allah sake gwadawa."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Shiga don amfani da wannan",
+    "guestBody": "Ƙirƙiri asusu kyauta don bayananka su kasance na sirri kuma amintattu a duk na'urori.",
+    "continueGuest": "Ci gaba ba tare da asusu ba",
+    "more": "Ƙari",
+    "appearance": "Kamanni",
+    "themeSystem": "Tsarin na'ura",
+    "themeLight": "Haske",
+    "themeDark": "Duhu",
+    "account": "Asusu",
+    "signedInAs": "Ka shiga a matsayin {email}",
+    "offline": "Ba a iya isa ARUVI a yanzu ba. Don Allah duba haɗinka ka sake gwadawa.",
+    "reportOnWeb": "Rahoton likita da za a iya bugawa yana kan shafin yanar gizo na ARUVI.",
+    "pickDate": "Zaɓi kwanan wata",
+    "pickTime": "Zaɓi lokaci",
+    "textSize": "Girman rubutu",
+    "refresh": "Sabunta",
+    "migraineTab": "Ciwon kai"
+  }
+}
