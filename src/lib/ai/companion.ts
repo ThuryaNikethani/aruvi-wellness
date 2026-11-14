@@ -63,7 +63,11 @@ export function streamCompanionReply({
       } catch (err) {
         // Never log message content; only the error class.
         console.error("ai_error", err instanceof Error ? err.name : "unknown");
-        controller.enqueue(encoder.encode(err instanceof Anthropic.AuthenticationError ? "\u0000unavailable" : "\u0000error"));
+        // Missing/invalid credentials (config errors aren't APIErrors) → "unavailable"; anything else → "error".
+        const unavailable =
+          err instanceof Anthropic.AuthenticationError ||
+          (err instanceof Anthropic.AnthropicError && !(err instanceof Anthropic.APIError));
+        controller.enqueue(encoder.encode(unavailable ? "\u0000unavailable" : "\u0000error"));
       } finally {
         controller.close();
       }
