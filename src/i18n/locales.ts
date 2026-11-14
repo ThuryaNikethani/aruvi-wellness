@@ -5,7 +5,7 @@
  * - Every other language is fully routable today: missing strings fall back to
  *   English until a translation file (messages/<code>.json) is added.
  * - To add any language in the world: append its BCP 47 code here and
- *   (optionally) drop a messages/<code>.json file. Native names come from Intl.
+ *   (optionally) drop a messages/<code>.json file, and add its name to NATIVE_NAMES below.
  */
 export const curatedLocales = ["en", "si", "ta"] as const;
 
@@ -33,13 +33,25 @@ export function isCurated(locale: string) {
   return (curatedLocales as readonly string[]).includes(locale);
 }
 
+/**
+ * Language names in their own script. A fixed table (not Intl.DisplayNames) so the
+ * server and every browser render exactly the same text — no hydration mismatches.
+ * Keep in sync with mobile/lib/core/i18n.dart.
+ */
+const NATIVE_NAMES: Record<string, string> = {
+  en: "English", si: "සිංහල", ta: "தமிழ்",
+  hi: "हिन्दी", bn: "বাংলা", ur: "اردو", ml: "മലയാളം", te: "తెలుగు", kn: "ಕನ್ನಡ",
+  mr: "मराठी", gu: "ગુજરાતી", pa: "ਪੰਜਾਬੀ", ne: "नेपाली", dv: "ދިވެހި",
+  zh: "中文", ja: "日本語", ko: "한국어", th: "ไทย", vi: "Tiếng Việt", id: "Bahasa Indonesia",
+  ms: "Bahasa Melayu", fil: "Filipino", my: "မြန်မာ", km: "ខ្មែរ",
+  ar: "العربية", fa: "فارسی", he: "עברית", tr: "Türkçe", sw: "Kiswahili", am: "አማርኛ",
+  yo: "Yorùbá", ha: "Hausa", zu: "isiZulu",
+  es: "Español", fr: "Français", de: "Deutsch", pt: "Português", it: "Italiano", ru: "Русский",
+  uk: "Українська", pl: "Polski", nl: "Nederlands", sv: "Svenska", ro: "Română", el: "Ελληνικά",
+  cs: "Čeština", hu: "Magyar",
+};
+
 /** Language name written in its own script, e.g. "සිංහල", "தமிழ்", "日本語". */
 export function nativeName(locale: string) {
-  try {
-    const name = new Intl.DisplayNames([locale], { type: "language" }).of(locale);
-    if (name && name !== locale) return name.charAt(0).toLocaleUpperCase(locale) + name.slice(1);
-  } catch {
-    /* unsupported by this runtime */
-  }
-  return locale.toUpperCase();
+  return NATIVE_NAMES[locale] ?? locale.toUpperCase();
 }
