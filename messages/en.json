@@ -12,18 +12,22 @@
     "features": "What's inside",
     "support": "Get help",
     "signIn": "Sign in",
-    "signInSoon": "Accounts are coming soon. Everything here works without one.",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "language": "Language",
     "languagesFull": "Fully translated",
-    "languagesMore": "More languages"
+    "languagesMore": "More languages",
+    "mySpace": "My space"
   },
   "comfort": {
     "toLight": "Switch to light theme",
     "toDark": "Switch to dark theme",
     "textSize": "Text size: {size}. Press to change.",
-    "sizes": { "normal": "Normal", "large": "Large", "larger": "Larger" }
+    "sizes": {
+      "normal": "Normal",
+      "large": "Large",
+      "larger": "Larger"
+    }
   },
   "i18n": {
     "partial": "{language} is being translated. Until it's ready, some text is shown in English."
@@ -76,7 +80,12 @@
     "title": "My Calm Space",
     "subtitle": "A quiet place to slow your breathing. Pause, change or stop whenever you like.",
     "idle": "Press start when you're ready.",
-    "phases": { "in": "Breathe in", "hold": "Hold gently", "out": "Breathe out", "rest": "Rest" },
+    "phases": {
+      "in": "Breathe in",
+      "hold": "Hold gently",
+      "out": "Breathe out",
+      "rest": "Rest"
+    },
     "seconds": "{seconds, plural, one {# second} other {# seconds}}",
     "pausedLabel": "Paused",
     "start": "Start",
@@ -84,9 +93,16 @@
     "resume": "Resume",
     "stop": "Stop",
     "patternLabel": "Breathing rhythm",
-    "patterns": { "gentle": "Gentle — in 4, out 6", "box": "Box — 4 · 4 · 4 · 4" },
+    "patterns": {
+      "gentle": "Gentle — in 4, out 6",
+      "box": "Box — 4 · 4 · 4 · 4"
+    },
     "sceneLabel": "Background",
-    "scenes": { "forest": "Forest", "ocean": "Ocean", "dusk": "Dusk" },
+    "scenes": {
+      "forest": "Forest",
+      "ocean": "Ocean",
+      "dusk": "Dusk"
+    },
     "rounds": "{count, plural, =0 {No rounds yet} one {# round completed} other {# rounds completed}}",
     "note": "No flashing or fast movement. Sounds stay off unless you choose to turn them on."
   },
@@ -96,21 +112,51 @@
     "soon": "Coming soon",
     "preview": "Try it now",
     "items": {
-      "calm": { "title": "Calm Space", "body": "Breathing, grounding and body relaxation with quiet nature scenes." },
-      "journal": { "title": "Mood & Emotion Journal", "body": "Notice your feelings, write freely, and see gentle patterns over time." },
-      "companion": { "title": "AI Wellness Companion", "body": "A supportive listener in your language. Not a doctor or therapist." },
-      "migraine": { "title": "Migraine Diary", "body": "Record episodes, symptoms and possible triggers, and export a report for your doctor." },
-      "sleep": { "title": "Sleep & Energy", "body": "Track rest, sleep quality and energy to understand your days." },
-      "insights": { "title": "Wellness Insights", "body": "Simple, descriptive overviews of your own records — never a diagnosis." }
+      "calm": {
+        "title": "Calm Space",
+        "body": "Breathing, grounding and body relaxation with quiet nature scenes."
+      },
+      "journal": {
+        "title": "Mood & Emotion Journal",
+        "body": "Notice your feelings, write freely, and see gentle patterns over time."
+      },
+      "companion": {
+        "title": "AI Wellness Companion",
+        "body": "A supportive listener in your language. Not a doctor or therapist."
+      },
+      "migraine": {
+        "title": "Migraine Diary",
+        "body": "Record episodes, symptoms and possible triggers, and export a report for your doctor."
+      },
+      "sleep": {
+        "title": "Sleep & Energy",
+        "body": "Track rest, sleep quality and energy to understand your days."
+      },
+      "insights": {
+        "title": "Wellness Insights",
+        "body": "Simple, descriptive overviews of your own records — never a diagnosis."
+      }
     }
   },
   "promise": {
     "title": "Our promise to you",
     "items": {
-      "free": { "title": "Free for everyone", "body": "No subscriptions and no paid features." },
-      "private": { "title": "Private by default", "body": "Your journals and conversations are yours. We never sell personal or health information." },
-      "gentle": { "title": "No pressure", "body": "No streaks, no guilt. Come back whenever you need to." },
-      "notMedical": { "title": "Support, not treatment", "body": "ARUVI does not replace professional medical or psychological care." }
+      "free": {
+        "title": "Free for everyone",
+        "body": "No subscriptions and no paid features."
+      },
+      "private": {
+        "title": "Private by default",
+        "body": "Your journals and conversations are yours. We never sell personal or health information."
+      },
+      "gentle": {
+        "title": "No pressure",
+        "body": "No streaks, no guilt. Come back whenever you need to."
+      },
+      "notMedical": {
+        "title": "Support, not treatment",
+        "body": "ARUVI does not replace professional medical or psychological care."
+      }
     }
   },
   "help": {
@@ -129,5 +175,297 @@
     "disclaimer": "ARUVI is a supportive wellness companion. It is not a replacement for professional medical or psychological treatment.",
     "languages": "Language",
     "made": "Made with care. Free for everyone."
+  },
+  "common": {
+    "save": "Save",
+    "saving": "Saving…",
+    "saved": "Saved.",
+    "error": "Something went wrong. Please try again.",
+    "optional": "optional",
+    "confirmDelete": "Delete this?",
+    "yes": "Yes, delete",
+    "cancel": "Cancel"
+  },
+  "auth": {
+    "signInTitle": "Welcome back",
+    "signInSubtitle": "Sign in to see your journal, diaries and insights.",
+    "signUpTitle": "Create your space",
+    "signUpSubtitle": "Free, private and yours. You can delete everything at any time.",
+    "name": "What should we call you?",
+    "optional": "optional",
+    "email": "Email",
+    "password": "Password",
+    "passwordHint": "At least 10 characters. A short sentence works well.",
+    "acceptTerms": "I agree to the terms and privacy policy.",
+    "acceptHealth": "I consent to ARUVI storing the wellbeing information I choose to enter (moods, journals, migraine and sleep records), privately and only for me.",
+    "signIn": "Sign in",
+    "signUp": "Create account",
+    "wait": "Please wait…",
+    "or": "or",
+    "google": "Continue with Google",
+    "noAccount": "New to ARUVI?",
+    "haveAccount": "Already have an account?",
+    "tryWithout": "Or try a breathing exercise without an account",
+    "errors": {
+      "invalid": "That email and password don't match. Please try again.",
+      "exists": "We couldn't sign you in. If you already have an account, please sign in instead.",
+      "checkFields": "Please check the fields and try again.",
+      "rateLimited": "Too many attempts. Please wait a few minutes and try again.",
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "My space",
+      "overview": "Today",
+      "journal": "Mood & journal",
+      "companion": "Companion",
+      "migraine": "Migraine diary",
+      "sleep": "Sleep & energy",
+      "insights": "Insights",
+      "settings": "Settings",
+      "calm": "Calm Space",
+      "signOut": "Sign out"
+    }
+  },
+  "overview": {
+    "greeting": "Hello",
+    "greetingName": "Hello, {name}",
+    "subtitle": "How are you arriving today? There's nothing you have to do here.",
+    "subtitleCheckedIn": "Thank you for checking in today. Take whatever you need.",
+    "verified": "Your email is confirmed. Thank you.",
+    "verifyFailed": "That confirmation link didn't work or has expired.",
+    "verifyPending": "We've sent you a link to confirm your email. You can keep using ARUVI in the meantime.",
+    "calmTitle": "Calm Space",
+    "calmBody": "A few slow breaths, whenever you need them.",
+    "companionTitle": "Talk with the companion",
+    "companionBody": "A gentle listener, in your language.",
+    "suggestionTitle": "A gentle idea for today",
+    "suggestions": {
+      "0": "Drink a glass of water, slowly.",
+      "1": "Step outside or open a window for a minute of fresh air.",
+      "2": "Loosen your shoulders and let your jaw soften.",
+      "3": "Send a short message to someone you trust.",
+      "4": "Rest your eyes away from screens for five minutes.",
+      "5": "Notice one small thing that went okay today."
+    },
+    "recentJournal": "Recent journal entries",
+    "openJournal": "Open journal",
+    "noJournal": "No entries yet. Writing even one line can help.",
+    "summaryTitle": "At a glance",
+    "migraine30": "Migraine episodes, last 30 days",
+    "lastSleep": "Most recent sleep",
+    "hours": "{hours} h",
+    "seeInsights": "See your insights"
+  },
+  "journal": {
+    "title": "Mood & journal",
+    "subtitle": "Notice how you feel and write freely. Only you can see this.",
+    "moodNote": "A few words about it",
+    "moodHistory": "Recent check-ins",
+    "deleteMood": "Delete this check-in",
+    "writeTitle": "Write",
+    "promptLabel": "A prompt, if it helps",
+    "showPrompt": "Show a writing prompt",
+    "newPrompt": "Show another prompt",
+    "titleLabel": "Title",
+    "contentLabel": "Your thoughts",
+    "privateNote": "Private by default. Never shared.",
+    "entries": "Your entries",
+    "empty": "Your entries will appear here.",
+    "deleteEntry": "Delete this entry",
+    "prompts": {
+      "0": "What is one thing that felt heavy today, and one thing that felt a little lighter?",
+      "1": "What does your body need right now?",
+      "2": "Describe a place where you feel safe.",
+      "3": "What would you say to a friend who felt the way you do today?",
+      "4": "What is something small you're grateful for?",
+      "5": "What drained your energy today? What gave you some back?",
+      "6": "If your feelings had a weather, what would it be?",
+      "7": "What is one kind thing you could do for yourself tomorrow?"
+    }
+  },
+  "migraine": {
+    "title": "Migraine diary",
+    "subtitle": "Keep a simple headache diary you can share with your doctor.",
+    "disclaimer": "This diary records what you notice. Patterns shown here are not a medical diagnosis. Please talk to a doctor about your headaches and any medication.",
+    "report": "Doctor report",
+    "formTitle": "Record an episode",
+    "start": "Started",
+    "end": "Ended",
+    "ongoing": "Still going",
+    "ongoingShort": "ongoing",
+    "duration": "{hours} h",
+    "intensity": "Pain intensity",
+    "intensityHint": "0 means no pain, 10 means the worst pain you can imagine.",
+    "locationsLabel": "Where is the pain?",
+    "characteristicsLabel": "What does it feel like?",
+    "symptomsLabel": "Other symptoms",
+    "triggersLabel": "Possible triggers you noticed",
+    "triggersHint": "Only what you noticed yourself. These are possibilities, not causes.",
+    "medication": "Medication taken",
+    "medicationHint": "Your own record only. ARUVI never suggests medication.",
+    "recovery": "Rest and recovery notes",
+    "save": "Save episode",
+    "history": "Episode history",
+    "empty": "No episodes recorded yet.",
+    "deleteEpisode": "Delete this episode",
+    "locations": {
+      "left": "Left side",
+      "right": "Right side",
+      "both_sides": "Both sides",
+      "forehead": "Forehead",
+      "temples": "Temples",
+      "behind_eyes": "Behind the eyes",
+      "back_of_head": "Back of head",
+      "neck": "Neck"
+    },
+    "characteristics": {
+      "throbbing": "Throbbing",
+      "pressing": "Pressing",
+      "stabbing": "Stabbing",
+      "dull": "Dull ache"
+    },
+    "symptoms": {
+      "nausea": "Nausea",
+      "vomiting": "Vomiting",
+      "light_sensitivity": "Light sensitivity",
+      "sound_sensitivity": "Sound sensitivity",
+      "smell_sensitivity": "Smell sensitivity",
+      "aura": "Aura",
+      "dizziness": "Dizziness",
+      "fatigue": "Fatigue",
+      "blurred_vision": "Blurred vision"
+    },
+    "triggers": {
+      "sleep": "Sleep changes",
+      "stress": "Stress",
+      "weather": "Weather changes",
+      "dehydration": "Dehydration",
+      "meal_timing": "Meal timing",
+      "screen": "Screen time",
+      "environment": "Environment (light, noise, smells)",
+      "menstrual": "Menstrual cycle",
+      "other": "Other"
+    }
+  },
+  "report": {
+    "title": "Headache diary report",
+    "period": "last {days} days",
+    "print": "Print or save as PDF",
+    "disclaimer": "This report contains information recorded by the person themselves in ARUVI. It is not a diagnosis. Possible triggers are self-reported observations.",
+    "episodes": "Episodes",
+    "avgDuration": "Average duration (hours)",
+    "avgIntensity": "Average intensity (0–10)",
+    "triggers": "Self-reported possible triggers",
+    "log": "Episode log",
+    "hours": "Hours"
+  },
+  "sleep": {
+    "title": "Sleep & energy",
+    "subtitle": "A quick daily note about rest and energy helps you understand your days.",
+    "date": "Date",
+    "dateHint": "Record last night's sleep on today's date.",
+    "sleepTitle": "Sleep",
+    "hours": "Hours slept",
+    "quality": "Sleep quality",
+    "poor": "Poor",
+    "restful": "Restful",
+    "energyTitle": "Energy",
+    "energy": "Energy level",
+    "fatigue": "Tiredness",
+    "veryLow": "Very low",
+    "high": "High",
+    "little": "A little",
+    "aLot": "A lot",
+    "rest": "Resting time (minutes)",
+    "note": "Note",
+    "history": "Last two weeks",
+    "empty": "Nothing recorded yet."
+  },
+  "insights": {
+    "title": "Wellness insights",
+    "subtitle": "A simple look back at what you've recorded.",
+    "disclaimer": "These are descriptions of your own records, not medical conclusions. Something appearing together does not mean one causes the other.",
+    "rangeLabel": "Time range",
+    "range": "{days} days",
+    "stats": {
+      "checkIns": "Mood check-ins",
+      "migraines": "Migraine episodes",
+      "avgDuration": "Avg. episode (h)",
+      "avgSleep": "Avg. sleep (h)"
+    },
+    "observationsTitle": "What your records show",
+    "notEnough": "Keep recording for a little while and gentle observations will appear here.",
+    "obs": {
+      "topTrigger": "You noted \"{trigger}\" as a possible trigger in {count} of {total} episodes.",
+      "lowSleepMigraine": "On {share}% of the days you recorded a migraine, you had also recorded less than 6 hours of sleep, compared with {overall}% of all nights you recorded.",
+      "steadyMood": "The feeling you checked in with most often was \"{mood}\" ({count} times)."
+    },
+    "moodChart": "Moods you checked in with",
+    "migraineChart": "Migraine episodes per day",
+    "sleepChart": "Hours of sleep",
+    "energyChart": "Energy level (1–5)",
+    "showTable": "Show as a table",
+    "noData": "No check-ins in this period.",
+    "mood": "Mood",
+    "count": "Times",
+    "date": "Date",
+    "episodes": "Episodes",
+    "hours": "Hours",
+    "energyLevel": "Energy"
+  },
+  "settings": {
+    "title": "Settings",
+    "prefsTitle": "Preferences",
+    "displayName": "Name to greet you with",
+    "trackMigraine": {
+      "title": "I live with migraine",
+      "body": "Show migraine features more prominently."
+    },
+    "trackMenstrual": {
+      "title": "Include menstrual cycle as a possible trigger",
+      "body": "Optional. Only shown in your migraine diary."
+    },
+    "keepAiHistory": {
+      "title": "Keep companion conversation history",
+      "body": "Off by default. When on, your conversations are saved so you can return to them. You can delete them at any time."
+    },
+    "comfortNote": "Theme, text size and language are on the top bar and are remembered on this device.",
+    "exportTitle": "Download your data",
+    "exportBody": "Get a copy of everything ARUVI stores about you, as a JSON file.",
+    "exportButton": "Download my data",
+    "deleteTitle": "Delete account",
+    "deleteBody": "This permanently deletes your account and everything in it: moods, journals, diaries and conversations. This can't be undone.",
+    "deleteConfirmLabel": "Type DELETE to confirm",
+    "deleteButton": "Delete my account forever"
+  },
+  "companion": {
+    "title": "Companion",
+    "subtitle": "Share what's on your mind. Write in any language you like.",
+    "disclaimer": "The companion is an AI, not a therapist or doctor. It can make mistakes and cannot diagnose or give medical advice. If you are in danger, please call 1926 or 1990, or your local emergency number.",
+    "emptyTitle": "I'm here to listen.",
+    "emptyBody": "How are you feeling right now?",
+    "placeholder": "Write what's on your mind…",
+    "inputLabel": "Your message",
+    "send": "Send",
+    "you": "You",
+    "companion": "Companion",
+    "thinking": "…",
+    "newChat": "New conversation",
+    "clear": "Clear chat",
+    "deleteHistory": "Delete all history",
+    "historyOn": "Conversations are saved. You can turn this off in Settings.",
+    "historyOff": "Conversations aren't saved. They disappear when you leave this page.",
+    "crisisTitle": "You don't have to go through this alone",
+    "crisisBody": "It sounds like things are really hard right now. Please reach out to a person who can help — you can call now, any time of day.",
+    "errors": {
+      "refusal": "I'm not able to respond to that. If you're struggling, please reach out to someone you trust or call 1926.",
+      "unavailable": "The companion isn't available right now. Please try again later.",
+      "error": "Something went wrong. Please try again.",
+      "network": "You seem to be offline. Please check your connection.",
+      "limit": "You've sent a lot of messages for now. Please take a short break and try again later.",
+      "generic": "Something went wrong. Please try again."
+    }
   }
 }
