@@ -210,12 +210,32 @@
     "noAccount": "Új vagy az ARUVI-ban?",
     "haveAccount": "Van már fiókod?",
     "tryWithout": "Vagy próbálj ki egy légzőgyakorlatot fiók nélkül",
+    "birthYear": "Születési év",
+    "birthYearPlaceholder": "Válassz évet",
+    "under16": "16 évesnél fiatalabb vagyok",
+    "birthYearHint": "Az ARUVI 16 éves kortól használható. Ezt csak te látod.",
+    "tooYoung": "Az ARUVI 16 éves kortól használható, ezért még nem tudunk fiókot létrehozni neked. Ha most nehéz, beszélj egy felnőttel, akiben megbízol, vagy hívj fel egy segélyvonalat.",
+    "seeHelp": "Segélyvonalak megtekintése",
+    "concernsLabel": "Miben szeretnél támogatást?",
+    "concernsHint": "Válassz bármit, ami illik rád. Ez csak azt alakítja, mit mutat neked az ARUVI — nem diagnózis.",
+    "concerns": {
+      "migraine": "Migrén vagy fejfájás",
+      "depression": "Lehangoltság vagy depresszió",
+      "anxiety": "Szorongás vagy aggódás",
+      "stress": "Stressz",
+      "sleep": "Alvás",
+      "other": "Valami más"
+    },
+    "welcomeTitle": "Néhány adat a kezdés előtt",
+    "welcomeSubtitle": "Így az ARUVI jobban illeszkedik hozzád. Ezt csak te látod.",
+    "continue": "Tovább",
     "errors": {
       "invalid": "Az e-mail és a jelszó nem egyezik. Próbáld újra.",
       "exists": "Nem sikerült bejelentkeztetni. Ha már van fiókod, jelentkezz be.",
       "checkFields": "Ellenőrizd a mezőket, és próbáld újra.",
       "rateLimited": "Túl sok próbálkozás. Várj néhány percet, és próbáld újra.",
-      "generic": "Hiba történt. Kérlek, próbáld újra."
+      "generic": "Hiba történt. Kérlek, próbáld újra.",
+      "oauthLinked": "Ehhez az e-mail-címhez már tartozik ARUVI-fiók. Jelentkezz be e-mail-címmel és jelszóval."
     }
   },
   "dash": {
