@@ -10,26 +10,18 @@ All helplines live in one file, [`data/helplines.json`](../data/helplines.json).
 
 ### Which country is shown
 
-1. The country the user picked ("Your country" selector, remembered on the device)
-2. Otherwise the detected country (`x-vercel-ip-country` / `cf-ipcountry` header on the website, the phone's region on mobile)
-3. Otherwise the language (Sinhala/Tamil → Sri Lanka, Indian languages → India)
-4. Otherwise Sri Lanka
+1. The country the user picked in "Your country" for the current language (remembered per language)
+2. Otherwise the language's own country: choosing a language switches the numbers
+   (සිංහල/தமிழ் → Sri Lanka, हिन्दी → India, 日本語 → Japan, Deutsch → Germany, Español → Spain, Português → Brazil, …)
+3. For English, Arabic and other languages spoken in many countries: the detected country
+   (`x-vercel-ip-country` / `cf-ipcountry` on the website, the phone's region on mobile)
+4. Otherwise: Sri Lanka for English; for other languages, the international directory
 
 A country without a verified list shows "call your local emergency number or go to the nearest hospital" plus a link to [findahelpline.com](https://findahelpline.com), an international directory of free, confidential crisis lines.
 
 ### Current list
 
-| Country | Lines |
-|---|---|
-| Sri Lanka | 1926 National Mental Health Helpline (24 h), 1990 Suwa Seriya, 119 Police |
-| India | 14416 Tele-MANAS (24 h), 112 Emergency |
-| United States | 988 Suicide & Crisis Lifeline, 911 |
-| Canada | 988 Suicide Crisis Helpline, 911 |
-| United Kingdom | 116 123 Samaritans, 999 |
-| Ireland | 116 123 Samaritans, 112 |
-| Australia | 13 11 14 Lifeline, 000 |
-| New Zealand | 1737 Need to talk?, 111 |
-| Singapore | 1767 Samaritans of Singapore, 995 |
+38 countries, in `data/helplines.json`. Where a crisis line is well established it is listed with the emergency number; otherwise only the emergency number is listed. The language → country map is `localeCountry` in the same file.
 
 **Verify every number before each release.** Only add a country when its numbers come from an official or well-established source. Each line needs `number` (as shown), `tel` (digits to dial) and `name` (at least `en`).
 
