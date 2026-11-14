@@ -60,13 +60,14 @@ class AppState extends ChangeNotifier {
   }
 
   // ───── Helpline country ─────
-  /// The user's choice, else the phone's region, else the language.
+  /// The user's pick for this language, else the language's country, else the phone's region.
+  /// Remembered per language, so switching language switches country.
   String get country =>
-      _prefs.getString('country') ??
+      _prefs.getString('country_$locale') ??
       helplines.guess(locale, WidgetsBinding.instance.platformDispatcher.locale.countryCode);
   List<Helpline> get lines => helplines.linesFor(country);
   Future<void> setCountry(String code) async {
-    await _prefs.setString('country', code);
+    await _prefs.setString('country_$locale', code);
     notifyListeners();
   }
 
