@@ -210,12 +210,32 @@
     "noAccount": "Bạn mới dùng ARUVI?",
     "haveAccount": "Đã có tài khoản?",
     "tryWithout": "Hoặc thử một bài tập thở mà không cần tài khoản",
+    "birthYear": "Năm sinh",
+    "birthYearPlaceholder": "Chọn năm",
+    "under16": "Tôi dưới 16 tuổi",
+    "birthYearHint": "ARUVI dành cho người từ 16 tuổi trở lên. Chỉ bạn thấy được thông tin này.",
+    "tooYoung": "ARUVI dành cho người từ 16 tuổi trở lên, nên hiện chưa thể tạo tài khoản cho bạn. Nếu mọi thứ thấy khó khăn, hãy nói chuyện với một người lớn bạn tin tưởng hoặc gọi đường dây hỗ trợ.",
+    "seeHelp": "Xem đường dây hỗ trợ",
+    "concernsLabel": "Bạn muốn được hỗ trợ về điều gì?",
+    "concernsHint": "Chọn bất kỳ mục nào phù hợp. Điều này chỉ thay đổi những gì ARUVI hiển thị cho bạn — không phải chẩn đoán.",
+    "concerns": {
+      "migraine": "Đau nửa đầu hoặc đau đầu",
+      "depression": "Tâm trạng chùng xuống hoặc trầm cảm",
+      "anxiety": "Lo âu hoặc lo lắng",
+      "stress": "Căng thẳng",
+      "sleep": "Giấc ngủ",
+      "other": "Điều khác"
+    },
+    "welcomeTitle": "Vài thông tin trước khi bắt đầu",
+    "welcomeSubtitle": "Giúp ARUVI phù hợp với bạn. Chỉ bạn thấy được thông tin này.",
+    "continue": "Tiếp tục",
     "errors": {
       "invalid": "Email và mật khẩu không khớp. Vui lòng thử lại.",
       "exists": "Không thể đăng nhập. Nếu bạn đã có tài khoản, vui lòng đăng nhập.",
       "checkFields": "Vui lòng kiểm tra thông tin và thử lại.",
       "rateLimited": "Quá nhiều lần thử. Vui lòng chờ vài phút rồi thử lại.",
-      "generic": "Đã xảy ra lỗi. Vui lòng thử lại."
+      "generic": "Đã xảy ra lỗi. Vui lòng thử lại.",
+      "oauthLinked": "Email này đã có tài khoản ARUVI. Vui lòng đăng nhập bằng email và mật khẩu."
     }
   },
   "dash": {
