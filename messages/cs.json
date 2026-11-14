@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Laskavější místo pro těžké dny",
+    "description": "Bezplatný, soukromý a vícejazyčný prostor pro pohodu lidí, kteří žijí s migrénou, depresí, úzkostí a stresem."
+  },
+  "nav": {
+    "skip": "Přejít na hlavní obsah",
+    "home": "Úvod ARUVI",
+    "primary": "Hlavní",
+    "checkin": "Jak se máš",
+    "calm": "Klidný kout",
+    "features": "Co tu najdeš",
+    "support": "Získat pomoc",
+    "signIn": "Přihlásit se",
+    "openMenu": "Otevřít nabídku",
+    "closeMenu": "Zavřít nabídku",
+    "language": "Jazyk",
+    "languagesFull": "Plně přeložené",
+    "languagesMore": "Další jazyky",
+    "mySpace": "Můj prostor"
+  },
+  "comfort": {
+    "toLight": "Přepnout na světlý motiv",
+    "toDark": "Přepnout na tmavý motiv",
+    "textSize": "Velikost textu: {size}. Klepnutím změníš.",
+    "sizes": {
+      "normal": "Normální",
+      "large": "Velká",
+      "larger": "Větší"
+    }
+  },
+  "i18n": {
+    "partial": "{language} byla přeložena strojově, takže některé formulace nemusí být dokonalé. Pokud je něco nejasné, English, සිංහල a தமிழ் byly plně zkontrolovány."
+  },
+  "hero": {
+    "eyebrow": "Zdarma · Soukromě · Ve tvém jazyce",
+    "title": "Laskavější místo pro těžké dny.",
+    "body": "Bezpečný a klidný prostor, kde si můžeš všimnout, jak se cítíš, zpomalit a postarat se o sebe — bez tlaku a bez odsuzování.",
+    "ctaBreathe": "Klidně se nadechni",
+    "ctaCheckin": "Zjisti, jak se máš",
+    "note": "Na začátek nepotřebuješ účet."
+  },
+  "mood": {
+    "title": "Jak se právě teď cítíš?",
+    "subtitle": "Neexistuje správná odpověď. Vyber, co je ti nejblíž — nevadí, když se to změní.",
+    "legend": "Cítím…",
+    "options": {
+      "happy": "Radost",
+      "calm": "Klid",
+      "sad": "Smutek",
+      "anxious": "Úzkost",
+      "overwhelmed": "Zahlcení",
+      "irritated": "Podráždění",
+      "exhausted": "Vyčerpání",
+      "lonely": "Osamělost",
+      "numb": "Otupělost"
+    },
+    "intensity": "Jak silný je ten pocit?",
+    "intensityLow": "Trochu",
+    "intensityHigh": "Hodně",
+    "save": "Uložit",
+    "saved": "Děkujeme, že ses zastavil(a) u sebe.",
+    "savedNote": "Uloženo pouze v tomto zařízení.",
+    "again": "Znovu",
+    "suggestBreathe": "Zkus dechovou pauzu",
+    "privacy": "V tomto náhledu nic neopouští tvé zařízení.",
+    "responses": {
+      "happy": "Je hezké, že je dnes o něco lehčeji. Můžeš si zapsat, co pomohlo, abys se k tomu mohl(a) vrátit.",
+      "calm": "Chvíle klidu stojí za povšimnutí. Zůstaň v ní, jak dlouho chceš.",
+      "sad": "Smutek může tížit. Nemusíš ho teď řešit — stačí být k sobě laskavý/á.",
+      "anxious": "Úzkost dělá všechno naléhavým. Pomalý výdech může tělu pomoct cítit se o něco bezpečněji.",
+      "overwhelmed": "Když je všeho moc, je v pořádku vybrat si jen jednu malou věc — nebo vůbec nic.",
+      "irritated": "Podráždění často ukazuje, že ti na něčem záleží. Krátká pauza ti může dát trochu prostoru.",
+      "exhausted": "Tahle únava je skutečná. Odpočinek si nemusíš zasloužit.",
+      "lonely": "Osamělost je těžká. Pokud můžeš, ozvi se někomu, komu věříš — i krátká zpráva může pomoct.",
+      "numb": "Otupělost je někdy způsob, jakým se mysl chrání. Pořád jsi tady, a to se počítá."
+    }
+  },
+  "calm": {
+    "title": "Můj klidný kout",
+    "subtitle": "Tiché místo, kde zpomalíš dech. Pozastav, změň nebo ukonči kdykoli.",
+    "idle": "Až budeš připraven(a), klepni na start.",
+    "phases": {
+      "in": "Nádech",
+      "hold": "Jemně zadrž",
+      "out": "Výdech",
+      "rest": "Odpočinek"
+    },
+    "seconds": "{seconds, plural, one {# sekunda} few {# sekundy} many {# sekundy} other {# sekund}}",
+    "pausedLabel": "Pozastaveno",
+    "start": "Start",
+    "pause": "Pauza",
+    "resume": "Pokračovat",
+    "stop": "Ukončit",
+    "patternLabel": "Rytmus dechu",
+    "patterns": {
+      "gentle": "Jemný — nádech 4, výdech 6",
+      "box": "Čtverec — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Pozadí",
+    "scenes": {
+      "forest": "Les",
+      "ocean": "Oceán",
+      "dusk": "Soumrak"
+    },
+    "rounds": "{count, plural, =0 {Zatím žádné cykly} one {Dokončen # cyklus} few {Dokončeny # cykly} many {Dokončeno # cyklu} other {Dokončeno # cyklů}}",
+    "note": "Žádné blikání ani rychlý pohyb. Zvuk zůstává vypnutý, dokud ho sám/sama nezapneš."
+  },
+  "features": {
+    "title": "Všechno tvým tempem",
+    "subtitle": "Používej, co pomáhá, a zbytek přeskoč. Nic tady není úkol, který musíš dokončit.",
+    "soon": "Již brzy",
+    "preview": "Vyzkoušet",
+    "items": {
+      "calm": {
+        "title": "Klidný kout",
+        "body": "Dýchání, ukotvení a uvolnění těla s klidnými přírodními scenériemi."
+      },
+      "journal": {
+        "title": "Deník nálad",
+        "body": "Všímej si emocí, piš volně a časem uvidíš jemné vzorce."
+      },
+      "companion": {
+        "title": "AI průvodce pohodou",
+        "body": "Podporující posluchač ve tvém jazyce. Není to lékař ani terapeut."
+      },
+      "migraine": {
+        "title": "Deník migrény",
+        "body": "Zapisuj záchvaty, příznaky a možné spouštěče a exportuj zprávu pro lékaře."
+      },
+      "sleep": {
+        "title": "Spánek a energie",
+        "body": "Sleduj odpočinek, kvalitu spánku a energii, abys lépe rozuměl(a) svým dnům."
+      },
+      "insights": {
+        "title": "Přehledy pohody",
+        "body": "Jednoduchá popisná shrnutí tvých vlastních záznamů — nikdy diagnóza."
+      }
+    }
+  },
+  "promise": {
+    "title": "Náš slib tobě",
+    "items": {
+      "free": {
+        "title": "Zdarma pro všechny",
+        "body": "Žádné předplatné, žádné placené funkce."
+      },
+      "private": {
+        "title": "Ve výchozím stavu soukromé",
+        "body": "Tvé deníky a rozhovory patří tobě. Nikdy neprodáváme osobní ani zdravotní údaje."
+      },
+      "gentle": {
+        "title": "Žádný tlak",
+        "body": "Žádné série, žádné výčitky. Vrať se, kdykoli potřebuješ."
+      },
+      "notMedical": {
+        "title": "Podpora, ne léčba",
+        "body": "ARUVI nenahrazuje odbornou lékařskou ani psychologickou péči."
+      }
+    }
+  },
+  "help": {
+    "title": "Pokud potřebuješ pomoc hned",
+    "body": "Pokud jsi v nebezpečí nebo přemýšlíš o tom, že by sis ublížil(a), obrať se prosím na někoho hned teď. Zasloužíš si podporu.",
+    "lines": {
+      "national": "Národní linka duševního zdraví (Srí Lanka, nonstop)",
+      "ambulance": "Záchranná služba Suwa Seriya",
+      "police": "Tísňové volání policie"
+    },
+    "call": "Zavolat {name}: {number}",
+    "note": "ARUVI není tísňová služba. Pokud bys mohl(a) jednat podle myšlenek na sebepoškození, obrať se prosím na některou z těchto služeb nebo jdi do nejbližší nemocnice.",
+    "countryLabel": "Tvoje země",
+    "otherCountry": "Jiná země",
+    "noList": "Pro tuto zemi zatím nemáme ověřený seznam linek pomoci. Zavolej prosím místní tísňové číslo nebo jdi do nejbližší nemocnice. Bezplatnou a důvěrnou krizovou linku ve svém okolí najdeš také zde:",
+    "findMore": "Najít linku pomoci ve tvé zemi"
+  },
+  "footer": {
+    "tagline": "Laskavější místo pro těžké dny.",
+    "disclaimer": "ARUVI je podporující průvodce pohodou. Nenahrazuje odbornou lékařskou ani psychologickou léčbu.",
+    "languages": "Jazyk",
+    "made": "Vytvořeno s péčí. Zdarma pro všechny."
+  },
+  "common": {
+    "save": "Uložit",
+    "saving": "Ukládání…",
+    "saved": "Uloženo.",
+    "error": "Něco se pokazilo. Zkus to prosím znovu.",
+    "optional": "nepovinné",
+    "confirmDelete": "Smazat?",
+    "yes": "Ano, smazat",
+    "cancel": "Zrušit"
+  },
+  "auth": {
+    "signInTitle": "Vítej zpět",
+    "signInSubtitle": "Přihlas se a uvidíš svůj deník, záznamy a přehledy.",
+    "signUpTitle": "Vytvoř si svůj prostor",
+    "signUpSubtitle": "Zdarma, soukromě a jen tvůj. Všechno můžeš kdykoli smazat.",
+    "name": "Jak ti máme říkat?",
+    "optional": "nepovinné",
+    "email": "E-mail",
+    "password": "Heslo",
+    "passwordHint": "Alespoň 10 znaků. Dobře funguje krátká věta.",
+    "acceptTerms": "Souhlasím s podmínkami používání a zásadami ochrany soukromí.",
+    "acceptHealth": "Souhlasím, aby ARUVI ukládalo informace o pohodě, které se rozhodnu zadat (nálady, deníky, záznamy o migréně a spánku), soukromě a jen pro mě.",
+    "signIn": "Přihlásit se",
+    "signUp": "Vytvořit účet",
+    "wait": "Chvilku strpení…",
+    "or": "nebo",
+    "google": "Pokračovat přes Google",
+    "noAccount": "Jsi v ARUVI nový/á?",
+    "haveAccount": "Už máš účet?",
+    "tryWithout": "Nebo vyzkoušej dechové cvičení bez účtu",
+    "errors": {
+      "invalid": "E-mail a heslo se neshodují. Zkus to znovu.",
+      "exists": "Nepodařilo se tě přihlásit. Pokud už máš účet, přihlas se.",
+      "checkFields": "Zkontroluj prosím pole a zkus to znovu.",
+      "rateLimited": "Příliš mnoho pokusů. Počkej pár minut a zkus to znovu.",
+      "generic": "Něco se pokazilo. Zkus to prosím znovu."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Můj prostor",
+      "overview": "Dnes",
+      "journal": "Nálada a deník",
+      "companion": "Průvodce",
+      "migraine": "Deník migrény",
+      "sleep": "Spánek a energie",
+      "insights": "Přehledy",
+      "settings": "Nastavení",
+      "calm": "Klidný kout",
+      "signOut": "Odhlásit se"
+    }
+  },
+  "overview": {
+    "greeting": "Ahoj",
+    "greetingName": "Ahoj, {name}",
+    "subtitle": "Jak se dnes máš? Tady nemusíš nic dělat.",
+    "subtitleCheckedIn": "Děkujeme, že ses dnes zastavil(a) u sebe. Vezmi si, co potřebuješ.",
+    "verified": "Tvůj e-mail je potvrzen. Děkujeme.",
+    "verifyFailed": "Tento potvrzovací odkaz nefungoval nebo vypršel.",
+    "verifyPending": "Poslali jsme ti odkaz k potvrzení e-mailu. Mezitím můžeš ARUVI dál používat.",
+    "calmTitle": "Klidný kout",
+    "calmBody": "Pár pomalých nádechů, kdykoli je potřebuješ.",
+    "companionTitle": "Promluv si s průvodcem",
+    "companionBody": "Laskavý posluchač ve tvém jazyce.",
+    "suggestionTitle": "Jemný nápad na dnešek",
+    "suggestions": {
+      "0": "Pomalu vypij sklenici vody.",
+      "1": "Vyjdi ven nebo otevři okno na minutu čerstvého vzduchu.",
+      "2": "Spusť ramena a nech čelist povolit.",
+      "3": "Pošli krátkou zprávu někomu, komu věříš.",
+      "4": "Dopřej očím pět minut odpočinku od obrazovek.",
+      "5": "Všimni si jedné malé věci, která se dnes povedla."
+    },
+    "recentJournal": "Poslední zápisy v deníku",
+    "openJournal": "Otevřít deník",
+    "noJournal": "Zatím žádné zápisy. I jeden řádek může pomoct.",
+    "summaryTitle": "Ve zkratce",
+    "migraine30": "Záchvaty migrény za posledních 30 dní",
+    "lastSleep": "Poslední spánek",
+    "hours": "{hours} h",
+    "seeInsights": "Zobrazit přehledy"
+  },
+  "journal": {
+    "title": "Nálada a deník",
+    "subtitle": "Všimni si, jak se cítíš, a piš volně. Vidíš to jen ty.",
+    "moodNote": "Pár slov o tom",
+    "moodHistory": "Poslední záznamy nálady",
+    "deleteMood": "Smazat tento záznam",
+    "writeTitle": "Psát",
+    "promptLabel": "Námět k psaní, pokud pomůže",
+    "showPrompt": "Zobrazit námět",
+    "newPrompt": "Zobrazit jiný námět",
+    "titleLabel": "Název",
+    "contentLabel": "Tvé myšlenky",
+    "privateNote": "Ve výchozím stavu soukromé. Nikdy se nesdílí.",
+    "entries": "Tvé zápisy",
+    "empty": "Tvé zápisy se objeví tady.",
+    "deleteEntry": "Smazat tento zápis",
+    "prompts": {
+      "0": "Co bylo dnes těžké a co o trochu lehčí?",
+      "1": "Co teď potřebuje tvé tělo?",
+      "2": "Popiš místo, kde se cítíš v bezpečí.",
+      "3": "Co bys řekl(a) příteli, který se dnes cítí jako ty?",
+      "4": "Za jakou malou věc jsi vděčný/á?",
+      "5": "Co ti dnes vzalo energii? Co ti trochu vrátilo?",
+      "6": "Kdyby tvé pocity byly počasí, jaké by bylo?",
+      "7": "Co laskavého bys pro sebe mohl(a) zítra udělat?"
+    }
+  },
+  "migraine": {
+    "title": "Deník migrény",
+    "subtitle": "Veď jednoduchý deník bolesti hlavy, který můžeš sdílet s lékařem.",
+    "disclaimer": "Tento deník zaznamenává, čeho si všímáš. Zobrazené vzorce nejsou lékařskou diagnózou. O bolestech hlavy a lécích se prosím poraď s lékařem.",
+    "report": "Zpráva pro lékaře",
+    "formTitle": "Zapsat záchvat",
+    "start": "Začátek",
+    "end": "Konec",
+    "ongoing": "Stále probíhá",
+    "ongoingShort": "probíhá",
+    "duration": "{hours} h",
+    "intensity": "Intenzita bolesti",
+    "intensityHint": "0 znamená žádnou bolest, 10 nejhorší bolest, jakou si dokážeš představit.",
+    "locationsLabel": "Kde to bolí?",
+    "characteristicsLabel": "Jaká je to bolest?",
+    "symptomsLabel": "Další příznaky",
+    "triggersLabel": "Zaznamenané možné spouštěče",
+    "triggersHint": "Jen to, čeho sis všiml(a) sám/sama. Jsou to možnosti, ne příčiny.",
+    "medication": "Užité léky",
+    "medicationHint": "Jen tvoje vlastní poznámka. ARUVI nikdy nedoporučuje léky.",
+    "recovery": "Poznámky k odpočinku a zotavení",
+    "save": "Uložit záchvat",
+    "history": "Historie záchvatů",
+    "empty": "Zatím žádné zapsané záchvaty.",
+    "deleteEpisode": "Smazat tento záchvat",
+    "locations": {
+      "left": "Levá strana",
+      "right": "Pravá strana",
+      "both_sides": "Obě strany",
+      "forehead": "Čelo",
+      "temples": "Spánky",
+      "behind_eyes": "Za očima",
+      "back_of_head": "Týl",
+      "neck": "Krk"
+    },
+    "characteristics": {
+      "throbbing": "Pulzující",
+      "pressing": "Tlaková",
+      "stabbing": "Bodavá",
+      "dull": "Tupá"
+    },
+    "symptoms": {
+      "nausea": "Nevolnost",
+      "vomiting": "Zvracení",
+      "light_sensitivity": "Citlivost na světlo",
+      "sound_sensitivity": "Citlivost na zvuk",
+      "smell_sensitivity": "Citlivost na pachy",
+      "aura": "Aura",
+      "dizziness": "Závrať",
+      "fatigue": "Únava",
+      "blurred_vision": "Rozmazané vidění"
+    },
+    "triggers": {
+      "sleep": "Změny spánku",
+      "stress": "Stres",
+      "weather": "Změny počasí",
+      "dehydration": "Dehydratace",
+      "meal_timing": "Časy jídla",
+      "screen": "Čas u obrazovky",
+      "environment": "Prostředí (světlo, hluk, pachy)",
+      "menstrual": "Menstruační cyklus",
+      "other": "Jiné"
+    }
+  },
+  "report": {
+    "title": "Zpráva z deníku bolesti hlavy",
+    "period": "Posledních {days} dní",
+    "print": "Vytisknout nebo uložit jako PDF",
+    "disclaimer": "Tato zpráva obsahuje informace, které osoba sama zapsala do ARUVI. Nejde o diagnózu. Možné spouštěče jsou osobní pozorování.",
+    "episodes": "Záchvaty",
+    "avgDuration": "Průměrná délka (hodiny)",
+    "avgIntensity": "Průměrná intenzita (0–10)",
+    "triggers": "Možné spouštěče uvedené osobou",
+    "log": "Seznam záchvatů",
+    "hours": "Hodiny"
+  },
+  "sleep": {
+    "title": "Spánek a energie",
+    "subtitle": "Krátká denní poznámka o odpočinku a energii ti pomůže rozumět svým dnům.",
+    "date": "Datum",
+    "dateHint": "Spánek z minulé noci zapiš k dnešnímu datu.",
+    "sleepTitle": "Spánek",
+    "hours": "Hodiny spánku",
+    "quality": "Kvalita spánku",
+    "poor": "Špatná",
+    "restful": "Osvěžující",
+    "energyTitle": "Energie",
+    "energy": "Úroveň energie",
+    "fatigue": "Únava",
+    "veryLow": "Velmi nízká",
+    "high": "Vysoká",
+    "little": "Trochu",
+    "aLot": "Hodně",
+    "rest": "Čas odpočinku (minuty)",
+    "note": "Poznámka",
+    "history": "Poslední dva týdny",
+    "empty": "Zatím nic nezapsáno."
+  },
+  "insights": {
+    "title": "Přehledy pohody",
+    "subtitle": "Jednoduchý pohled na to, co sis zapsal(a).",
+    "disclaimer": "Jde o popisy tvých vlastních záznamů, ne o lékařské závěry. To, že se dvě věci objevují spolu, neznamená, že jedna způsobuje druhou.",
+    "rangeLabel": "Období",
+    "range": "{days} dní",
+    "stats": {
+      "checkIns": "Záznamy nálady",
+      "migraines": "Záchvaty migrény",
+      "avgDuration": "Prům. záchvat (h)",
+      "avgSleep": "Prům. spánek (h)"
+    },
+    "observationsTitle": "Co ukazují tvé záznamy",
+    "notEnough": "Zapisuj ještě chvíli a objeví se tu jemná pozorování.",
+    "obs": {
+      "topTrigger": "„{trigger}“ jsi uvedl(a) jako možný spouštěč u {count} z {total} záchvatů.",
+      "lowSleepMigraine": "V {share} % dní s migrénou jsi také zapsal(a) méně než 6 hodin spánku, oproti {overall} % všech zapsaných nocí.",
+      "steadyMood": "Nejčastěji zapisovaný pocit je „{mood}“ ({count}×)."
+    },
+    "moodChart": "Zapsané nálady",
+    "migraineChart": "Záchvaty migrény za den",
+    "sleepChart": "Hodiny spánku",
+    "energyChart": "Úroveň energie (1–5)",
+    "showTable": "Zobrazit jako tabulku",
+    "noData": "V tomto období žádné záznamy.",
+    "mood": "Nálada",
+    "count": "Počet",
+    "date": "Datum",
+    "episodes": "Záchvaty",
+    "hours": "Hodiny",
+    "energyLevel": "Energie"
+  },
+  "settings": {
+    "title": "Nastavení",
+    "prefsTitle": "Předvolby",
+    "displayName": "Jméno pro pozdrav",
+    "trackMigraine": {
+      "title": "Žiju s migrénou",
+      "body": "Zobrazit funkce pro migrénu výrazněji."
+    },
+    "trackMenstrual": {
+      "title": "Zahrnout menstruační cyklus mezi možné spouštěče",
+      "body": "Nepovinné. Zobrazuje se jen v tvém deníku migrény."
+    },
+    "keepAiHistory": {
+      "title": "Uchovávat historii rozhovorů s průvodcem",
+      "body": "Ve výchozím stavu vypnuto. Když to zapneš, rozhovory se uloží, abys se k nim mohl(a) vrátit. Kdykoli je můžeš smazat."
+    },
+    "comfortNote": "Motiv, velikost textu a jazyk jsou v horní liště a pamatují se v tomto zařízení.",
+    "exportTitle": "Stáhnout svá data",
+    "exportBody": "Získej kopii všeho, co o tobě ARUVI uchovává, jako soubor JSON.",
+    "exportButton": "Stáhnout moje data",
+    "deleteTitle": "Smazat účet",
+    "deleteBody": "Tímto trvale smažeš svůj účet a vše v něm: nálady, deníky, poznámky a rozhovory. Nelze to vrátit zpět.",
+    "deleteConfirmLabel": "Pro potvrzení napiš DELETE",
+    "deleteButton": "Trvale smazat můj účet"
+  },
+  "companion": {
+    "title": "Průvodce",
+    "subtitle": "Sdílej, co tě trápí. Piš v jakémkoli jazyce.",
+    "disclaimer": "Průvodce je AI, ne terapeut ani lékař. Může se mýlit a nemůže stanovit diagnózu ani dávat lékařské rady. Pokud jsi v nebezpečí, použij čísla v sekci „Získat pomoc“ nebo zavolej místní tísňové číslo.",
+    "emptyTitle": "Jsem tu, abych tě vyslechl.",
+    "emptyBody": "Jak se právě teď cítíš?",
+    "placeholder": "Napiš, co tě trápí…",
+    "inputLabel": "Tvoje zpráva",
+    "send": "Odeslat",
+    "you": "Ty",
+    "companion": "Průvodce",
+    "thinking": "…",
+    "newChat": "Nový rozhovor",
+    "clear": "Vymazat rozhovor",
+    "deleteHistory": "Smazat celou historii",
+    "historyOn": "Rozhovory se ukládají. V Nastavení to můžeš vypnout.",
+    "historyOff": "Rozhovory se neukládají. Zmizí, když opustíš tuto stránku.",
+    "crisisTitle": "Nemusíš to zvládat sám/sama",
+    "crisisBody": "Zdá se, že je teď opravdu těžko. Obrať se prosím na někoho, kdo může pomoct — zavolat můžeš hned teď, kdykoli.",
+    "errors": {
+      "refusal": "Na tohle nemohu odpovědět. Pokud je ti těžko, obrať se na někoho, komu věříš, nebo použij čísla v sekci „Získat pomoc“.",
+      "unavailable": "Průvodce teď není dostupný. Zkus to prosím později.",
+      "error": "Něco se pokazilo. Zkus to prosím znovu.",
+      "network": "Zdá se, že jsi offline. Zkontroluj připojení.",
+      "limit": "Poslal(a) jsi hodně zpráv. Dej si krátkou pauzu a zkus to později.",
+      "generic": "Něco se pokazilo. Zkus to prosím znovu."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Pro použití se přihlas",
+    "guestBody": "Vytvoř si bezplatný účet, aby tvé záznamy zůstaly soukromé a v bezpečí na všech zařízeních.",
+    "continueGuest": "Pokračovat bez účtu",
+    "more": "Více",
+    "appearance": "Vzhled",
+    "themeSystem": "Systém",
+    "themeLight": "Světlý",
+    "themeDark": "Tmavý",
+    "account": "Účet",
+    "signedInAs": "Přihlášen(a) jako {email}",
+    "offline": "ARUVI teď není dostupné. Zkontroluj připojení a zkus to znovu.",
+    "reportOnWeb": "Zpráva pro lékaře k tisku je dostupná na webu ARUVI.",
+    "pickDate": "Vybrat datum",
+    "pickTime": "Vybrat čas",
+    "textSize": "Velikost textu",
+    "refresh": "Obnovit",
+    "migraineTab": "Migréna"
+  }
+}
