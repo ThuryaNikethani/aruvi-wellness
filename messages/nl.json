@@ -210,12 +210,32 @@
     "noAccount": "Nieuw bij ARUVI?",
     "haveAccount": "Heb je al een account?",
     "tryWithout": "Of probeer een ademhalingsoefening zonder account",
+    "birthYear": "Geboortejaar",
+    "birthYearPlaceholder": "Kies een jaar",
+    "under16": "Ik ben jonger dan 16",
+    "birthYearHint": "ARUVI is voor mensen van 16 jaar en ouder. Alleen jij kunt dit zien.",
+    "tooYoung": "ARUVI is voor mensen van 16 jaar en ouder, dus we kunnen nog geen account voor je maken. Als het zwaar voelt, praat dan met een volwassene die je vertrouwt of bel een hulplijn.",
+    "seeHelp": "Bekijk hulplijnen",
+    "concernsLabel": "Waarbij wil je steun?",
+    "concernsHint": "Kies wat bij je past. Dit bepaalt alleen wat ARUVI je laat zien — het is geen diagnose.",
+    "concerns": {
+      "migraine": "Migraine of hoofdpijn",
+      "depression": "Sombere stemming of depressie",
+      "anxiety": "Angst of piekeren",
+      "stress": "Stress",
+      "sleep": "Slaap",
+      "other": "Iets anders"
+    },
+    "welcomeTitle": "Een paar gegevens voordat je begint",
+    "welcomeSubtitle": "Zo past ARUVI zich aan jou aan. Alleen jij kunt dit zien.",
+    "continue": "Doorgaan",
     "errors": {
       "invalid": "E-mail en wachtwoord komen niet overeen. Probeer het opnieuw.",
       "exists": "We konden je niet inloggen. Heb je al een account, log dan in.",
       "checkFields": "Controleer de velden en probeer het opnieuw.",
       "rateLimited": "Te veel pogingen. Wacht een paar minuten en probeer het opnieuw.",
-      "generic": "Er ging iets mis. Probeer het opnieuw."
+      "generic": "Er ging iets mis. Probeer het opnieuw.",
+      "oauthLinked": "Dit e-mailadres heeft al een ARUVI-account. Log in met je e-mailadres en wachtwoord."
     }
   },
   "dash": {
