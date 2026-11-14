@@ -210,12 +210,32 @@
     "noAccount": "Nou pe ARUVI?",
     "haveAccount": "Ai deja cont?",
     "tryWithout": "Sau încearcă un exercițiu de respirație fără cont",
+    "birthYear": "Anul nașterii",
+    "birthYearPlaceholder": "Alege un an",
+    "under16": "Am sub 16 ani",
+    "birthYearHint": "ARUVI este pentru persoane de 16 ani și peste. Doar tu poți vedea asta.",
+    "tooYoung": "ARUVI este pentru persoane de 16 ani și peste, așa că încă nu îți putem crea un cont. Dacă îți e greu, vorbește cu un adult în care ai încredere sau sună la o linie de sprijin.",
+    "seeHelp": "Vezi liniile de sprijin",
+    "concernsLabel": "Pentru ce ai vrea sprijin?",
+    "concernsHint": "Alege tot ce ți se potrivește. Asta doar ajustează ce îți arată ARUVI — nu este un diagnostic.",
+    "concerns": {
+      "migraine": "Migrenă sau dureri de cap",
+      "depression": "Stare apăsătoare sau depresie",
+      "anxiety": "Anxietate sau îngrijorare",
+      "stress": "Stres",
+      "sleep": "Somn",
+      "other": "Altceva"
+    },
+    "welcomeTitle": "Câteva detalii înainte să începi",
+    "welcomeSubtitle": "Asta ajută ARUVI să ți se potrivească. Doar tu poți vedea.",
+    "continue": "Continuă",
     "errors": {
       "invalid": "E-mailul și parola nu se potrivesc. Încearcă din nou.",
       "exists": "Nu te-am putut autentifica. Dacă ai deja cont, autentifică-te.",
       "checkFields": "Verifică câmpurile și încearcă din nou.",
       "rateLimited": "Prea multe încercări. Așteaptă câteva minute și încearcă din nou.",
-      "generic": "Ceva n-a mers bine. Încearcă din nou."
+      "generic": "Ceva n-a mers bine. Încearcă din nou.",
+      "oauthLinked": "Acest e-mail are deja un cont ARUVI. Autentifică-te cu e-mailul și parola."
     }
   },
   "dash": {
