@@ -58,6 +58,7 @@ class _CompanionScreenState extends State<CompanionScreen> {
       final stream = await context.app.api.chat({
         if (_conversationId != null) 'conversationId': _conversationId,
         'locale': context.app.locale,
+        'country': context.app.country,
         'history': history,
         'message': message,
       });
