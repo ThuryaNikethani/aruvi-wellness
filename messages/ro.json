@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Un loc mai blând pentru zilele grele",
+    "description": "Un spațiu de bunăstare gratuit, privat și multilingv pentru persoanele care trăiesc cu migrenă, depresie, anxietate și stres."
+  },
+  "nav": {
+    "skip": "Salt la conținutul principal",
+    "home": "Pagina principală ARUVI",
+    "primary": "Principal",
+    "checkin": "Cum te simți",
+    "calm": "Colțul liniștit",
+    "features": "Ce găsești aici",
+    "support": "Cere ajutor",
+    "signIn": "Autentificare",
+    "openMenu": "Deschide meniul",
+    "closeMenu": "Închide meniul",
+    "language": "Limbă",
+    "languagesFull": "Traduse complet",
+    "languagesMore": "Mai multe limbi",
+    "mySpace": "Spațiul meu"
+  },
+  "comfort": {
+    "toLight": "Treci la tema luminoasă",
+    "toDark": "Treci la tema întunecată",
+    "textSize": "Dimensiunea textului: {size}. Atinge pentru a schimba.",
+    "sizes": {
+      "normal": "Normală",
+      "large": "Mare",
+      "larger": "Mai mare"
+    }
+  },
+  "i18n": {
+    "partial": "{language} a fost tradusă automat, așa că unele formulări pot fi imperfecte. Dacă ceva nu e clar, English, සිංහල și தமிழ் au fost verificate complet."
+  },
+  "hero": {
+    "eyebrow": "Gratuit · Privat · În limba ta",
+    "title": "Un loc mai blând pentru zilele grele.",
+    "body": "Un spațiu sigur și liniștit în care să observi ce simți, să încetinești și să ai grijă de tine — fără presiune și fără judecată.",
+    "ctaBreathe": "Respiră blând",
+    "ctaCheckin": "Vezi cum te simți",
+    "note": "Nu ai nevoie de cont ca să începi."
+  },
+  "mood": {
+    "title": "Cum te simți chiar acum?",
+    "subtitle": "Nu există un răspuns corect. Alege ce ți se pare cel mai aproape — e în regulă dacă se schimbă.",
+    "legend": "Mă simt…",
+    "options": {
+      "happy": "Fericit(ă)",
+      "calm": "Calm(ă)",
+      "sad": "Trist(ă)",
+      "anxious": "Anxios/anxioasă",
+      "overwhelmed": "Copleșit(ă)",
+      "irritated": "Iritat(ă)",
+      "exhausted": "Epuizat(ă)",
+      "lonely": "Singur(ă)",
+      "numb": "Amorțit(ă) emoțional"
+    },
+    "intensity": "Cât de puternic e acest sentiment?",
+    "intensityLow": "Puțin",
+    "intensityHigh": "Foarte mult",
+    "save": "Salvează",
+    "saved": "Mulțumim că te-ai ascultat.",
+    "savedNote": "Salvat doar pe acest dispozitiv.",
+    "again": "Din nou",
+    "suggestBreathe": "Încearcă o pauză de respirație",
+    "privacy": "În această previzualizare, nimic nu părăsește dispozitivul tău.",
+    "responses": {
+      "happy": "E bine că azi pare puțin mai ușor. Poți nota ce te-a ajutat, ca să revii la asta.",
+      "calm": "Un moment de liniște merită observat. Rămâi în el cât vrei.",
+      "sad": "Tristețea poate fi grea. Nu trebuie s-o rezolvi acum — e de ajuns să fii blând(ă) cu tine.",
+      "anxious": "Anxietatea face totul să pară urgent. O expirație lentă poate ajuta corpul să se simtă puțin mai în siguranță.",
+      "overwhelmed": "Când totul pare prea mult, e în regulă să alegi un singur lucru mic — sau nimic.",
+      "irritated": "Iritarea arată adesea că ceva contează pentru tine. O pauză scurtă îți poate da puțin spațiu.",
+      "exhausted": "Oboseala aceasta e reală. Odihna nu e ceva ce trebuie să meriți.",
+      "lonely": "Singurătatea e grea. Dacă poți, scrie cuiva în care ai încredere — chiar și un mesaj scurt poate ajuta.",
+      "numb": "Amorțeala e uneori felul în care mintea se protejează. Ești încă aici, și asta contează."
+    }
+  },
+  "calm": {
+    "title": "Colțul meu liniștit",
+    "subtitle": "Un loc liniștit în care să-ți încetinești respirația. Pune pauză, schimbă sau oprește oricând.",
+    "idle": "Atinge start când ești pregătit(ă).",
+    "phases": {
+      "in": "Inspiră",
+      "hold": "Ține ușor",
+      "out": "Expiră",
+      "rest": "Odihnește-te"
+    },
+    "seconds": "{seconds, plural, one {# secundă} few {# secunde} other {# de secunde}}",
+    "pausedLabel": "În pauză",
+    "start": "Start",
+    "pause": "Pauză",
+    "resume": "Continuă",
+    "stop": "Oprește",
+    "patternLabel": "Ritmul respirației",
+    "patterns": {
+      "gentle": "Blând — inspiră 4, expiră 6",
+      "box": "Pătrat — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Fundal",
+    "scenes": {
+      "forest": "Pădure",
+      "ocean": "Ocean",
+      "dusk": "Amurg"
+    },
+    "rounds": "{count, plural, =0 {Niciun ciclu încă} one {# ciclu încheiat} few {# cicluri încheiate} other {# de cicluri încheiate}}",
+    "note": "Fără clipiri sau mișcări rapide. Sunetul rămâne oprit dacă nu îl pornești tu."
+  },
+  "features": {
+    "title": "Totul în ritmul tău",
+    "subtitle": "Folosește ce te ajută și sari peste rest. Nimic de aici nu e o sarcină de terminat.",
+    "soon": "În curând",
+    "preview": "Încearcă acum",
+    "items": {
+      "calm": {
+        "title": "Colțul liniștit",
+        "body": "Respirație, ancorare și relaxare a corpului cu peisaje naturale liniștite."
+      },
+      "journal": {
+        "title": "Jurnalul stărilor",
+        "body": "Observă-ți emoțiile, scrie liber și vezi tipare blânde în timp."
+      },
+      "companion": {
+        "title": "Însoțitor AI pentru bunăstare",
+        "body": "Un ascultător care te susține, în limba ta. Nu e medic sau terapeut."
+      },
+      "migraine": {
+        "title": "Jurnalul migrenei",
+        "body": "Notează crize, simptome și posibili factori declanșatori și exportă un raport pentru medic."
+      },
+      "sleep": {
+        "title": "Somn și energie",
+        "body": "Urmărește odihna, calitatea somnului și energia ca să-ți înțelegi zilele."
+      },
+      "insights": {
+        "title": "Observații despre bunăstare",
+        "body": "Rezumate simple, descriptive ale propriilor notițe — niciodată un diagnostic."
+      }
+    }
+  },
+  "promise": {
+    "title": "Promisiunea noastră",
+    "items": {
+      "free": {
+        "title": "Gratuit pentru toți",
+        "body": "Fără abonamente, fără funcții plătite."
+      },
+      "private": {
+        "title": "Privat în mod implicit",
+        "body": "Jurnalele și conversațiile tale îți aparțin. Nu vindem niciodată date personale sau de sănătate."
+      },
+      "gentle": {
+        "title": "Fără presiune",
+        "body": "Fără serii, fără vinovăție. Revino ori de câte ori ai nevoie."
+      },
+      "notMedical": {
+        "title": "Sprijin, nu tratament",
+        "body": "ARUVI nu înlocuiește îngrijirea medicală sau psihologică profesională."
+      }
+    }
+  },
+  "help": {
+    "title": "Dacă ai nevoie de ajutor acum",
+    "body": "Dacă ești în pericol sau te gândești să-ți faci rău, te rugăm să contactezi pe cineva acum. Meriți sprijin.",
+    "lines": {
+      "national": "Linia națională de sănătate mintală (Sri Lanka, 24 de ore)",
+      "ambulance": "Ambulanța Suwa Seriya",
+      "police": "Urgențe poliție"
+    },
+    "call": "Sună {name}: {number}",
+    "note": "ARUVI nu este un serviciu de urgență. Dacă ai putea acționa pe baza gândurilor de a-ți face rău, contactează unul dintre aceste servicii sau mergi la cel mai apropiat spital.",
+    "countryLabel": "Țara ta",
+    "otherCountry": "Altă țară",
+    "noList": "Nu avem încă o listă verificată de linii de sprijin pentru această țară. Sună la numărul local de urgență sau mergi la cel mai apropiat spital. Aici poți găsi și o linie de criză gratuită și confidențială aproape de tine:",
+    "findMore": "Găsește o linie de sprijin în țara ta"
+  },
+  "footer": {
+    "tagline": "Un loc mai blând pentru zilele grele.",
+    "disclaimer": "ARUVI este un însoțitor de bunăstare care te susține. Nu înlocuiește tratamentul medical sau psihologic profesional.",
+    "languages": "Limbă",
+    "made": "Făcut cu grijă. Gratuit pentru toți."
+  },
+  "common": {
+    "save": "Salvează",
+    "saving": "Se salvează…",
+    "saved": "Salvat.",
+    "error": "Ceva n-a mers bine. Încearcă din nou.",
+    "optional": "opțional",
+    "confirmDelete": "Ștergi asta?",
+    "yes": "Da, șterge",
+    "cancel": "Anulează"
+  },
+  "auth": {
+    "signInTitle": "Bine ai revenit",
+    "signInSubtitle": "Autentifică-te ca să-ți vezi jurnalul, notițele și observațiile.",
+    "signUpTitle": "Creează-ți spațiul",
+    "signUpSubtitle": "Gratuit, privat și al tău. Poți șterge totul oricând.",
+    "name": "Cum să-ți spunem?",
+    "optional": "opțional",
+    "email": "E-mail",
+    "password": "Parolă",
+    "passwordHint": "Cel puțin 10 caractere. O frază scurtă funcționează bine.",
+    "acceptTerms": "Accept termenii de utilizare și politica de confidențialitate.",
+    "acceptHealth": "Sunt de acord ca ARUVI să păstreze informațiile de bunăstare pe care aleg să le introduc (stări, jurnale, notițe despre migrenă și somn), în mod privat și doar pentru mine.",
+    "signIn": "Autentificare",
+    "signUp": "Creează cont",
+    "wait": "Te rugăm să aștepți…",
+    "or": "sau",
+    "google": "Continuă cu Google",
+    "noAccount": "Nou pe ARUVI?",
+    "haveAccount": "Ai deja cont?",
+    "tryWithout": "Sau încearcă un exercițiu de respirație fără cont",
+    "errors": {
+      "invalid": "E-mailul și parola nu se potrivesc. Încearcă din nou.",
+      "exists": "Nu te-am putut autentifica. Dacă ai deja cont, autentifică-te.",
+      "checkFields": "Verifică câmpurile și încearcă din nou.",
+      "rateLimited": "Prea multe încercări. Așteaptă câteva minute și încearcă din nou.",
+      "generic": "Ceva n-a mers bine. Încearcă din nou."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Spațiul meu",
+      "overview": "Azi",
+      "journal": "Stare și jurnal",
+      "companion": "Însoțitor",
+      "migraine": "Jurnalul migrenei",
+      "sleep": "Somn și energie",
+      "insights": "Observații",
+      "settings": "Setări",
+      "calm": "Colțul liniștit",
+      "signOut": "Deconectare"
+    }
+  },
+  "overview": {
+    "greeting": "Bună",
+    "greetingName": "Bună, {name}",
+    "subtitle": "Cum ajungi azi? Nu trebuie să faci nimic aici.",
+    "subtitleCheckedIn": "Mulțumim că te-ai ascultat azi. Ia ce ai nevoie.",
+    "verified": "E-mailul tău a fost confirmat. Mulțumim.",
+    "verifyFailed": "Linkul de confirmare n-a funcționat sau a expirat.",
+    "verifyPending": "Ți-am trimis un link pentru confirmarea e-mailului. Între timp, poți folosi ARUVI în continuare.",
+    "calmTitle": "Colțul liniștit",
+    "calmBody": "Câteva respirații lente, oricând ai nevoie.",
+    "companionTitle": "Vorbește cu însoțitorul",
+    "companionBody": "Un ascultător blând, în limba ta.",
+    "suggestionTitle": "O idee blândă pentru azi",
+    "suggestions": {
+      "0": "Bea un pahar cu apă, încet.",
+      "1": "Ieși afară sau deschide o fereastră pentru un minut de aer proaspăt.",
+      "2": "Lasă umerii să coboare și relaxează-ți maxilarul.",
+      "3": "Trimite un mesaj scurt cuiva în care ai încredere.",
+      "4": "Odihnește-ți ochii de la ecrane timp de cinci minute.",
+      "5": "Observă un lucru mic care a mers bine azi."
+    },
+    "recentJournal": "Însemnări recente în jurnal",
+    "openJournal": "Deschide jurnalul",
+    "noJournal": "Încă nicio însemnare. Chiar și un rând poate ajuta.",
+    "summaryTitle": "Pe scurt",
+    "migraine30": "Crize de migrenă, ultimele 30 de zile",
+    "lastSleep": "Ultimul somn",
+    "hours": "{hours} h",
+    "seeInsights": "Vezi observațiile tale"
+  },
+  "journal": {
+    "title": "Stare și jurnal",
+    "subtitle": "Observă ce simți și scrie liber. Doar tu poți vedea asta.",
+    "moodNote": "Câteva cuvinte despre asta",
+    "moodHistory": "Înregistrări recente",
+    "deleteMood": "Șterge această înregistrare",
+    "writeTitle": "Scrie",
+    "promptLabel": "O sugestie de scris, dacă ajută",
+    "showPrompt": "Arată o sugestie",
+    "newPrompt": "Arată altă sugestie",
+    "titleLabel": "Titlu",
+    "contentLabel": "Gândurile tale",
+    "privateNote": "Privat în mod implicit. Nu se partajează niciodată.",
+    "entries": "Însemnările tale",
+    "empty": "Însemnările tale vor apărea aici.",
+    "deleteEntry": "Șterge această însemnare",
+    "prompts": {
+      "0": "Ce a fost greu azi și ce a fost puțin mai ușor?",
+      "1": "De ce are nevoie corpul tău acum?",
+      "2": "Descrie un loc în care te simți în siguranță.",
+      "3": "Ce i-ai spune unui prieten care se simte azi ca tine?",
+      "4": "Pentru ce lucru mic ești recunoscător/recunoscătoare?",
+      "5": "Ce ți-a consumat energia azi? Ce ți-a dat-o puțin înapoi?",
+      "6": "Dacă emoțiile tale ar fi vremea, ce vreme ar fi?",
+      "7": "Ce lucru bun ai putea face pentru tine mâine?"
+    }
+  },
+  "migraine": {
+    "title": "Jurnalul migrenei",
+    "subtitle": "Ține un jurnal simplu al durerilor de cap pe care să-l poți arăta medicului.",
+    "disclaimer": "Acest jurnal notează ce observi. Tiparele afișate aici nu sunt un diagnostic medical. Discută cu un medic despre durerile de cap și orice medicament.",
+    "report": "Raport pentru medic",
+    "formTitle": "Notează o criză",
+    "start": "Început",
+    "end": "Sfârșit",
+    "ongoing": "Încă în desfășurare",
+    "ongoingShort": "în curs",
+    "duration": "{hours} h",
+    "intensity": "Intensitatea durerii",
+    "intensityHint": "0 înseamnă fără durere, 10 cea mai rea durere imaginabilă.",
+    "locationsLabel": "Unde doare?",
+    "characteristicsLabel": "Cum se simte?",
+    "symptomsLabel": "Alte simptome",
+    "triggersLabel": "Posibili factori declanșatori observați",
+    "triggersHint": "Doar ce ai observat tu. Sunt posibilități, nu cauze.",
+    "medication": "Medicamente luate",
+    "medicationHint": "Doar notița ta. ARUVI nu sugerează niciodată medicamente.",
+    "recovery": "Notițe despre odihnă și refacere",
+    "save": "Salvează criza",
+    "history": "Istoricul crizelor",
+    "empty": "Nicio criză notată încă.",
+    "deleteEpisode": "Șterge această criză",
+    "locations": {
+      "left": "Partea stângă",
+      "right": "Partea dreaptă",
+      "both_sides": "Ambele părți",
+      "forehead": "Frunte",
+      "temples": "Tâmple",
+      "behind_eyes": "În spatele ochilor",
+      "back_of_head": "Ceafă",
+      "neck": "Gât"
+    },
+    "characteristics": {
+      "throbbing": "Pulsatilă",
+      "pressing": "Apăsătoare",
+      "stabbing": "Înțepătoare",
+      "dull": "Surdă"
+    },
+    "symptoms": {
+      "nausea": "Greață",
+      "vomiting": "Vărsături",
+      "light_sensitivity": "Sensibilitate la lumină",
+      "sound_sensitivity": "Sensibilitate la zgomot",
+      "smell_sensitivity": "Sensibilitate la mirosuri",
+      "aura": "Aură",
+      "dizziness": "Amețeală",
+      "fatigue": "Oboseală",
+      "blurred_vision": "Vedere încețoșată"
+    },
+    "triggers": {
+      "sleep": "Schimbări de somn",
+      "stress": "Stres",
+      "weather": "Schimbări de vreme",
+      "dehydration": "Deshidratare",
+      "meal_timing": "Orele meselor",
+      "screen": "Timp petrecut la ecran",
+      "environment": "Mediu (lumină, zgomot, mirosuri)",
+      "menstrual": "Ciclul menstrual",
+      "other": "Altceva"
+    }
+  },
+  "report": {
+    "title": "Raport din jurnalul durerilor de cap",
+    "period": "Ultimele {days} zile",
+    "print": "Tipărește sau salvează ca PDF",
+    "disclaimer": "Acest raport conține informații notate chiar de persoana în cauză în ARUVI. Nu este un diagnostic. Posibilii factori declanșatori sunt observații personale.",
+    "episodes": "Crize",
+    "avgDuration": "Durata medie (ore)",
+    "avgIntensity": "Intensitatea medie (0–10)",
+    "triggers": "Posibili factori declanșatori raportați de persoană",
+    "log": "Lista crizelor",
+    "hours": "Ore"
+  },
+  "sleep": {
+    "title": "Somn și energie",
+    "subtitle": "O notiță zilnică scurtă despre odihnă și energie te ajută să-ți înțelegi zilele.",
+    "date": "Data",
+    "dateHint": "Notează somnul de azi-noapte la data de azi.",
+    "sleepTitle": "Somn",
+    "hours": "Ore dormite",
+    "quality": "Calitatea somnului",
+    "poor": "Slabă",
+    "restful": "Odihnitor",
+    "energyTitle": "Energie",
+    "energy": "Nivel de energie",
+    "fatigue": "Oboseală",
+    "veryLow": "Foarte scăzut",
+    "high": "Ridicat",
+    "little": "Puțin",
+    "aLot": "Mult",
+    "rest": "Timp de odihnă (minute)",
+    "note": "Notiță",
+    "history": "Ultimele două săptămâni",
+    "empty": "Nimic notat încă."
+  },
+  "insights": {
+    "title": "Observații despre bunăstare",
+    "subtitle": "O privire simplă asupra a ceea ce ai notat.",
+    "disclaimer": "Acestea sunt descrieri ale propriilor notițe, nu concluzii medicale. Faptul că două lucruri apar împreună nu înseamnă că unul îl cauzează pe celălalt.",
+    "rangeLabel": "Perioadă",
+    "range": "{days} zile",
+    "stats": {
+      "checkIns": "Înregistrări de stare",
+      "migraines": "Crize de migrenă",
+      "avgDuration": "Criză medie (h)",
+      "avgSleep": "Somn mediu (h)"
+    },
+    "observationsTitle": "Ce arată notițele tale",
+    "notEnough": "Mai notează o vreme, iar aici vor apărea observații blânde.",
+    "obs": {
+      "topTrigger": "Ai notat „{trigger}” ca posibil factor declanșator în {count} din {total} crize.",
+      "lowSleepMigraine": "În {share}% din zilele cu migrenă ai notat și mai puțin de 6 ore de somn, față de {overall}% din toate nopțile notate.",
+      "steadyMood": "Emoția pe care ai notat-o cel mai des este „{mood}” (de {count} ori)."
+    },
+    "moodChart": "Stări notate",
+    "migraineChart": "Crize de migrenă pe zi",
+    "sleepChart": "Ore de somn",
+    "energyChart": "Nivel de energie (1–5)",
+    "showTable": "Arată ca tabel",
+    "noData": "Nicio înregistrare în această perioadă.",
+    "mood": "Stare",
+    "count": "Ori",
+    "date": "Data",
+    "episodes": "Crize",
+    "hours": "Ore",
+    "energyLevel": "Energie"
+  },
+  "settings": {
+    "title": "Setări",
+    "prefsTitle": "Preferințe",
+    "displayName": "Numele cu care să te salutăm",
+    "trackMigraine": {
+      "title": "Trăiesc cu migrenă",
+      "body": "Afișează mai vizibil funcțiile pentru migrenă."
+    },
+    "trackMenstrual": {
+      "title": "Include ciclul menstrual ca posibil factor declanșator",
+      "body": "Opțional. Apare doar în jurnalul migrenei."
+    },
+    "keepAiHistory": {
+      "title": "Păstrează istoricul conversațiilor cu însoțitorul",
+      "body": "Oprit implicit. Dacă îl pornești, conversațiile sunt salvate ca să poți reveni la ele. Le poți șterge oricând."
+    },
+    "comfortNote": "Tema, dimensiunea textului și limba sunt în bara de sus și sunt reținute pe acest dispozitiv.",
+    "exportTitle": "Descarcă-ți datele",
+    "exportBody": "Primește o copie a tot ce păstrează ARUVI despre tine, ca fișier JSON.",
+    "exportButton": "Descarcă datele mele",
+    "deleteTitle": "Șterge contul",
+    "deleteBody": "Aceasta șterge definitiv contul tău și tot ce conține: stări, jurnale, notițe și conversații. Acțiunea nu poate fi anulată.",
+    "deleteConfirmLabel": "Scrie DELETE pentru a confirma",
+    "deleteButton": "Șterge definitiv contul meu"
+  },
+  "companion": {
+    "title": "Însoțitor",
+    "subtitle": "Spune ce ai pe suflet. Scrie în orice limbă dorești.",
+    "disclaimer": "Însoțitorul este un AI, nu un terapeut sau medic. Poate greși și nu poate pune diagnostice sau da sfaturi medicale. Dacă ești în pericol, folosește numerele din „Cere ajutor” sau sună la numărul local de urgență.",
+    "emptyTitle": "Sunt aici să te ascult.",
+    "emptyBody": "Cum te simți chiar acum?",
+    "placeholder": "Scrie ce ai pe suflet…",
+    "inputLabel": "Mesajul tău",
+    "send": "Trimite",
+    "you": "Tu",
+    "companion": "Însoțitor",
+    "thinking": "…",
+    "newChat": "Conversație nouă",
+    "clear": "Golește conversația",
+    "deleteHistory": "Șterge tot istoricul",
+    "historyOn": "Conversațiile sunt salvate. Poți opri asta din Setări.",
+    "historyOff": "Conversațiile nu sunt salvate. Dispar când părăsești pagina.",
+    "crisisTitle": "Nu trebuie să treci singur(ă) prin asta",
+    "crisisBody": "Se pare că acum e foarte greu. Te rugăm să contactezi pe cineva care te poate ajuta — poți suna acum, oricând.",
+    "errors": {
+      "refusal": "Nu pot răspunde la asta. Dacă îți e greu, contactează pe cineva în care ai încredere sau folosește numerele din „Cere ajutor”.",
+      "unavailable": "Însoțitorul nu este disponibil acum. Încearcă mai târziu.",
+      "error": "Ceva n-a mers bine. Încearcă din nou.",
+      "network": "Se pare că ești offline. Verifică-ți conexiunea.",
+      "limit": "Ai trimis multe mesaje. Ia o mică pauză și încearcă mai târziu.",
+      "generic": "Ceva n-a mers bine. Încearcă din nou."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Autentifică-te pentru a folosi asta",
+    "guestBody": "Creează un cont gratuit ca notițele tale să rămână private și în siguranță pe toate dispozitivele.",
+    "continueGuest": "Continuă fără cont",
+    "more": "Mai mult",
+    "appearance": "Aspect",
+    "themeSystem": "Sistem",
+    "themeLight": "Luminos",
+    "themeDark": "Întunecat",
+    "account": "Cont",
+    "signedInAs": "Conectat(ă) ca {email}",
+    "offline": "ARUVI nu poate fi accesat acum. Verifică-ți conexiunea și încearcă din nou.",
+    "reportOnWeb": "Raportul pentru medic, pentru tipărit, este disponibil pe site-ul ARUVI.",
+    "pickDate": "Alege data",
+    "pickTime": "Alege ora",
+    "textSize": "Dimensiunea textului",
+    "refresh": "Reîmprospătează",
+    "migraineTab": "Migrenă"
+  }
+}
