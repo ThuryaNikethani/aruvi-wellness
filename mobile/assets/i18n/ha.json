@@ -210,12 +210,32 @@
     "noAccount": "Sabon shiga ARUVI?",
     "haveAccount": "Kana da asusu tuni?",
     "tryWithout": "Ko gwada aikin numfashi ba tare da asusu ba",
+    "birthYear": "Shekarar haihuwa",
+    "birthYearPlaceholder": "Zaɓi shekara",
+    "under16": "Shekaruna ba su kai 16 ba",
+    "birthYearHint": "ARUVI na mutanen da shekarunsu suka kai 16 zuwa sama ne. Kai kaɗai ne za ka iya ganin wannan.",
+    "tooYoung": "ARUVI na mutanen da shekarunsu suka kai 16 zuwa sama ne, don haka ba za mu iya buɗe maka asusu yanzu ba. Idan abubuwa sun yi wuya, don Allah yi magana da babba da ka amince da shi ko ka kira layin taimako.",
+    "seeHelp": "Duba layukan taimako",
+    "concernsLabel": "A me kake son samun tallafi?",
+    "concernsHint": "Zaɓi duk wanda ya dace. Wannan yana canza abin da ARUVI ke nuna maka kaɗai — ba bincike na cuta ba ne.",
+    "concerns": {
+      "migraine": "Ciwon kai mai tsanani ko ciwon kai",
+      "depression": "Baƙin ciki ko damuwar zuciya",
+      "anxiety": "Damuwa ko fargaba",
+      "stress": "Matsi",
+      "sleep": "Barci",
+      "other": "Wani abu dabam"
+    },
+    "welcomeTitle": "'Yan bayanai kafin ka fara",
+    "welcomeSubtitle": "Wannan yana taimaka wa ARUVI ya dace da kai. Kai kaɗai ne za ka iya ganinsa.",
+    "continue": "Ci gaba",
     "errors": {
       "invalid": "Imel da kalmar sirri ba su dace ba. Don Allah sake gwadawa.",
       "exists": "Ba mu iya shigar da kai ba. Idan kana da asusu tuni, don Allah shiga.",
       "checkFields": "Don Allah duba bayanan ka sake gwadawa.",
       "rateLimited": "Ƙoƙari ya yi yawa. Jira 'yan mintuna ka sake gwadawa.",
-      "generic": "Wani abu ya faru ba daidai ba. Don Allah sake gwadawa."
+      "generic": "Wani abu ya faru ba daidai ba. Don Allah sake gwadawa.",
+      "oauthLinked": "Wannan imel ɗin yana da asusun ARUVI tuni. Don Allah shiga da imel da kalmar sirrinka."
     }
   },
   "dash": {
