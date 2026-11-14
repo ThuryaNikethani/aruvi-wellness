@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — En mjukare plats för svåra dagar",
+    "description": "Ett gratis, privat och flerspråkigt utrymme för välmående för människor som lever med migrän, depression, ångest och stress."
+  },
+  "nav": {
+    "skip": "Hoppa till huvudinnehållet",
+    "home": "ARUVI startsida",
+    "primary": "Huvudmeny",
+    "checkin": "Hur mår du",
+    "calm": "Lugn plats",
+    "features": "Vad som finns",
+    "support": "Få hjälp",
+    "signIn": "Logga in",
+    "openMenu": "Öppna menyn",
+    "closeMenu": "Stäng menyn",
+    "language": "Språk",
+    "languagesFull": "Helt översatta",
+    "languagesMore": "Fler språk",
+    "mySpace": "Mitt utrymme"
+  },
+  "comfort": {
+    "toLight": "Byt till ljust tema",
+    "toDark": "Byt till mörkt tema",
+    "textSize": "Textstorlek: {size}. Tryck för att ändra.",
+    "sizes": {
+      "normal": "Normal",
+      "large": "Stor",
+      "larger": "Större"
+    }
+  },
+  "i18n": {
+    "partial": "{language} har översatts maskinellt, så vissa formuleringar kan vara ofullständiga. Om något är oklart har English, සිංහල och தமிழ் granskats fullt ut."
+  },
+  "hero": {
+    "eyebrow": "Gratis · Privat · På ditt språk",
+    "title": "En mjukare plats för svåra dagar.",
+    "body": "Ett tryggt och lugnt utrymme för att märka hur du mår, sakta ner och ta hand om dig själv — utan press och utan dömande.",
+    "ctaBreathe": "Andas lugnt",
+    "ctaCheckin": "Känn efter hur du mår",
+    "note": "Du behöver inget konto för att börja."
+  },
+  "mood": {
+    "title": "Hur känner du dig just nu?",
+    "subtitle": "Det finns inget rätt svar. Välj det som känns närmast — det är okej om det ändras.",
+    "legend": "Jag känner mig…",
+    "options": {
+      "happy": "Glad",
+      "calm": "Lugn",
+      "sad": "Ledsen",
+      "anxious": "Orolig",
+      "overwhelmed": "Överväldigad",
+      "irritated": "Irriterad",
+      "exhausted": "Utmattad",
+      "lonely": "Ensam",
+      "numb": "Avtrubbad"
+    },
+    "intensity": "Hur stark är känslan?",
+    "intensityLow": "Lite",
+    "intensityHigh": "Mycket",
+    "save": "Spara",
+    "saved": "Tack för att du kände efter.",
+    "savedNote": "Sparat endast på den här enheten.",
+    "again": "Igen",
+    "suggestBreathe": "Prova en andningspaus",
+    "privacy": "I den här förhandsvisningen lämnar inget din enhet.",
+    "responses": {
+      "happy": "Skönt att dagen känns lite lättare. Du kan skriva ner vad som hjälpte, så att du kan återvända till det.",
+      "calm": "En lugn stund är värd att lägga märke till. Stanna i den så länge du vill.",
+      "sad": "Sorg kan kännas tung. Du behöver inte lösa den nu — att vara snäll mot dig själv räcker.",
+      "anxious": "Oro får allt att kännas brådskande. En långsam utandning kan hjälpa kroppen att känna sig lite tryggare.",
+      "overwhelmed": "När allt känns för mycket är det okej att välja en enda liten sak — eller ingenting alls.",
+      "irritated": "Irritation betyder ofta att något är viktigt för dig. En kort paus kan ge dig lite utrymme.",
+      "exhausted": "Den här tröttheten är verklig. Vila är inget du behöver förtjäna.",
+      "lonely": "Ensamhet är svårt. Om du kan, hör av dig till någon du litar på — även ett kort meddelande kan hjälpa.",
+      "numb": "Att känna sig avtrubbad är ibland sinnets sätt att skydda sig. Du är fortfarande här, och det betyder något."
+    }
+  },
+  "calm": {
+    "title": "Min lugna plats",
+    "subtitle": "En stilla plats för att sakta ner andningen. Pausa, byt eller sluta när du vill.",
+    "idle": "Tryck på starta när du är redo.",
+    "phases": {
+      "in": "Andas in",
+      "hold": "Håll mjukt",
+      "out": "Andas ut",
+      "rest": "Vila"
+    },
+    "seconds": "{seconds, plural, one {# sekund} other {# sekunder}}",
+    "pausedLabel": "Pausad",
+    "start": "Starta",
+    "pause": "Pausa",
+    "resume": "Fortsätt",
+    "stop": "Sluta",
+    "patternLabel": "Andningsrytm",
+    "patterns": {
+      "gentle": "Mjuk — in 4, ut 6",
+      "box": "Fyrkant — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Bakgrund",
+    "scenes": {
+      "forest": "Skog",
+      "ocean": "Hav",
+      "dusk": "Skymning"
+    },
+    "rounds": "{count, plural, =0 {Inga varv ännu} one {# varv klart} other {# varv klara}}",
+    "note": "Inga blinkningar eller snabba rörelser. Ljudet är avstängt om du inte slår på det."
+  },
+  "features": {
+    "title": "Allt i din egen takt",
+    "subtitle": "Använd det som hjälper och hoppa över resten. Inget här är en uppgift att bli klar med.",
+    "soon": "Kommer snart",
+    "preview": "Prova nu",
+    "items": {
+      "calm": {
+        "title": "Lugn plats",
+        "body": "Andning, jordning och kroppsavslappning med lugna naturbilder."
+      },
+      "journal": {
+        "title": "Humördagbok",
+        "body": "Lägg märke till dina känslor, skriv fritt och se mjuka mönster över tid."
+      },
+      "companion": {
+        "title": "AI-följeslagare för välmående",
+        "body": "En stöttande lyssnare på ditt språk. Inte en läkare eller terapeut."
+      },
+      "migraine": {
+        "title": "Migrändagbok",
+        "body": "Anteckna anfall, symtom och möjliga utlösare, och exportera en rapport till din läkare."
+      },
+      "sleep": {
+        "title": "Sömn och energi",
+        "body": "Följ vila, sömnkvalitet och energi för att förstå dina dagar."
+      },
+      "insights": {
+        "title": "Insikter om välmående",
+        "body": "Enkla, beskrivande sammanfattningar av dina egna anteckningar — aldrig en diagnos."
+      }
+    }
+  },
+  "promise": {
+    "title": "Vårt löfte till dig",
+    "items": {
+      "free": {
+        "title": "Gratis för alla",
+        "body": "Inga prenumerationer, inga betalfunktioner."
+      },
+      "private": {
+        "title": "Privat som standard",
+        "body": "Dina dagböcker och samtal är dina. Vi säljer aldrig personliga uppgifter eller hälsouppgifter."
+      },
+      "gentle": {
+        "title": "Ingen press",
+        "body": "Inga sviter, ingen skuld. Kom tillbaka när du behöver."
+      },
+      "notMedical": {
+        "title": "Stöd, inte behandling",
+        "body": "ARUVI ersätter inte professionell medicinsk eller psykologisk vård."
+      }
+    }
+  },
+  "help": {
+    "title": "Om du behöver hjälp nu",
+    "body": "Om du är i fara eller tänker på att skada dig själv, kontakta någon nu. Du förtjänar stöd.",
+    "lines": {
+      "national": "Nationella stödlinjen för psykisk hälsa (Sri Lanka, dygnet runt)",
+      "ambulance": "Ambulans Suwa Seriya",
+      "police": "Polisens nödnummer"
+    },
+    "call": "Ring {name}: {number}",
+    "note": "ARUVI är inte en larmtjänst. Om du kan komma att agera på tankar om att skada dig själv, kontakta någon av dessa tjänster eller åk till närmaste sjukhus.",
+    "countryLabel": "Ditt land",
+    "otherCountry": "Ett annat land",
+    "noList": "Vi har ännu ingen granskad lista över stödlinjer för det här landet. Ring det lokala nödnumret eller åk till närmaste sjukhus. Här kan du också hitta en kostnadsfri, konfidentiell krislinje nära dig:",
+    "findMore": "Hitta en stödlinje i ditt land"
+  },
+  "footer": {
+    "tagline": "En mjukare plats för svåra dagar.",
+    "disclaimer": "ARUVI är en stöttande följeslagare för välmående. Den ersätter inte professionell medicinsk eller psykologisk behandling.",
+    "languages": "Språk",
+    "made": "Gjord med omsorg. Gratis för alla."
+  },
+  "common": {
+    "save": "Spara",
+    "saving": "Sparar…",
+    "saved": "Sparat.",
+    "error": "Något gick fel. Försök igen.",
+    "optional": "valfritt",
+    "confirmDelete": "Radera detta?",
+    "yes": "Ja, radera",
+    "cancel": "Avbryt"
+  },
+  "auth": {
+    "signInTitle": "Välkommen tillbaka",
+    "signInSubtitle": "Logga in för att se din dagbok, dina anteckningar och insikter.",
+    "signUpTitle": "Skapa ditt utrymme",
+    "signUpSubtitle": "Gratis, privat och ditt. Du kan radera allt när som helst.",
+    "name": "Vad ska vi kalla dig?",
+    "optional": "valfritt",
+    "email": "E-post",
+    "password": "Lösenord",
+    "passwordHint": "Minst 10 tecken. En kort mening fungerar bra.",
+    "acceptTerms": "Jag godkänner användarvillkoren och integritetspolicyn.",
+    "acceptHealth": "Jag samtycker till att ARUVI sparar den välmåendeinformation jag väljer att ange (humör, dagböcker, migrän- och sömnanteckningar), privat och bara för mig.",
+    "signIn": "Logga in",
+    "signUp": "Skapa konto",
+    "wait": "Vänta…",
+    "or": "eller",
+    "google": "Fortsätt med Google",
+    "noAccount": "Ny på ARUVI?",
+    "haveAccount": "Har du redan ett konto?",
+    "tryWithout": "Eller prova en andningsövning utan konto",
+    "errors": {
+      "invalid": "E-post och lösenord stämmer inte. Försök igen.",
+      "exists": "Vi kunde inte logga in dig. Om du redan har ett konto, logga in.",
+      "checkFields": "Kontrollera fälten och försök igen.",
+      "rateLimited": "För många försök. Vänta några minuter och försök igen.",
+      "generic": "Något gick fel. Försök igen."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Mitt utrymme",
+      "overview": "Idag",
+      "journal": "Humör och dagbok",
+      "companion": "Följeslagare",
+      "migraine": "Migrändagbok",
+      "sleep": "Sömn och energi",
+      "insights": "Insikter",
+      "settings": "Inställningar",
+      "calm": "Lugn plats",
+      "signOut": "Logga ut"
+    }
+  },
+  "overview": {
+    "greeting": "Hej",
+    "greetingName": "Hej, {name}",
+    "subtitle": "Hur mår du idag? Här behöver du inte göra något.",
+    "subtitleCheckedIn": "Tack för att du kände efter idag. Ta det du behöver.",
+    "verified": "Din e-post är bekräftad. Tack.",
+    "verifyFailed": "Bekräftelselänken fungerade inte eller har gått ut.",
+    "verifyPending": "Vi har skickat en länk för att bekräfta din e-post. Under tiden kan du fortsätta använda ARUVI.",
+    "calmTitle": "Lugn plats",
+    "calmBody": "Några långsamma andetag, när du behöver.",
+    "companionTitle": "Prata med följeslagaren",
+    "companionBody": "En mild lyssnare, på ditt språk.",
+    "suggestionTitle": "En mild idé för idag",
+    "suggestions": {
+      "0": "Drick ett glas vatten, långsamt.",
+      "1": "Gå ut eller öppna ett fönster för en minut frisk luft.",
+      "2": "Släpp ner axlarna och låt käken slappna av.",
+      "3": "Skicka ett kort meddelande till någon du litar på.",
+      "4": "Vila ögonen från skärmar i fem minuter.",
+      "5": "Lägg märke till en liten sak som gick bra idag."
+    },
+    "recentJournal": "Senaste dagboksinlägg",
+    "openJournal": "Öppna dagboken",
+    "noJournal": "Inga inlägg ännu. Även en rad kan hjälpa.",
+    "summaryTitle": "I korthet",
+    "migraine30": "Migränanfall, senaste 30 dagarna",
+    "lastSleep": "Senaste sömn",
+    "hours": "{hours} tim",
+    "seeInsights": "Se dina insikter"
+  },
+  "journal": {
+    "title": "Humör och dagbok",
+    "subtitle": "Lägg märke till hur du mår och skriv fritt. Bara du kan se detta.",
+    "moodNote": "Några ord om det",
+    "moodHistory": "Senaste incheckningar",
+    "deleteMood": "Radera denna incheckning",
+    "writeTitle": "Skriv",
+    "promptLabel": "En skrivfråga, om det hjälper",
+    "showPrompt": "Visa en skrivfråga",
+    "newPrompt": "Visa en annan fråga",
+    "titleLabel": "Rubrik",
+    "contentLabel": "Dina tankar",
+    "privateNote": "Privat som standard. Delas aldrig.",
+    "entries": "Dina inlägg",
+    "empty": "Dina inlägg visas här.",
+    "deleteEntry": "Radera detta inlägg",
+    "prompts": {
+      "0": "Vad kändes tungt idag, och vad kändes lite lättare?",
+      "1": "Vad behöver din kropp just nu?",
+      "2": "Beskriv en plats där du känner dig trygg.",
+      "3": "Vad skulle du säga till en vän som känner som du gör idag?",
+      "4": "Vilken liten sak är du tacksam för?",
+      "5": "Vad tog energi idag? Vad gav tillbaka lite?",
+      "6": "Om dina känslor var ett väder, vilket väder skulle det vara?",
+      "7": "Vad kan du göra för att vara snäll mot dig själv imorgon?"
+    }
+  },
+  "migraine": {
+    "title": "Migrändagbok",
+    "subtitle": "För en enkel huvudvärksdagbok som du kan dela med din läkare.",
+    "disclaimer": "Den här dagboken registrerar det du märker. Mönstren som visas här är ingen medicinsk diagnos. Prata med en läkare om din huvudvärk och eventuella läkemedel.",
+    "report": "Rapport till läkaren",
+    "formTitle": "Anteckna ett anfall",
+    "start": "Start",
+    "end": "Slut",
+    "ongoing": "Pågår fortfarande",
+    "ongoingShort": "pågår",
+    "duration": "{hours} tim",
+    "intensity": "Smärtintensitet",
+    "intensityHint": "0 betyder ingen smärta, 10 den värsta smärta du kan föreställa dig.",
+    "locationsLabel": "Var gör det ont?",
+    "characteristicsLabel": "Hur känns det?",
+    "symptomsLabel": "Andra symtom",
+    "triggersLabel": "Möjliga utlösare du märkt",
+    "triggersHint": "Bara det du själv har märkt. Det här är möjligheter, inte orsaker.",
+    "medication": "Tagna läkemedel",
+    "medicationHint": "Bara din egen anteckning. ARUVI föreslår aldrig läkemedel.",
+    "recovery": "Anteckningar om vila och återhämtning",
+    "save": "Spara anfall",
+    "history": "Anfallshistorik",
+    "empty": "Inga anfall antecknade ännu.",
+    "deleteEpisode": "Radera detta anfall",
+    "locations": {
+      "left": "Vänster sida",
+      "right": "Höger sida",
+      "both_sides": "Båda sidor",
+      "forehead": "Panna",
+      "temples": "Tinningar",
+      "behind_eyes": "Bakom ögonen",
+      "back_of_head": "Bakhuvud",
+      "neck": "Nacke"
+    },
+    "characteristics": {
+      "throbbing": "Bultande",
+      "pressing": "Tryckande",
+      "stabbing": "Huggande",
+      "dull": "Molande"
+    },
+    "symptoms": {
+      "nausea": "Illamående",
+      "vomiting": "Kräkningar",
+      "light_sensitivity": "Ljuskänslighet",
+      "sound_sensitivity": "Ljudkänslighet",
+      "smell_sensitivity": "Luktkänslighet",
+      "aura": "Aura",
+      "dizziness": "Yrsel",
+      "fatigue": "Trötthet",
+      "blurred_vision": "Suddig syn"
+    },
+    "triggers": {
+      "sleep": "Förändrad sömn",
+      "stress": "Stress",
+      "weather": "Väderomslag",
+      "dehydration": "Vätskebrist",
+      "meal_timing": "Måltidstider",
+      "screen": "Skärmtid",
+      "environment": "Miljö (ljus, ljud, lukter)",
+      "menstrual": "Menstruationscykel",
+      "other": "Annat"
+    }
+  },
+  "report": {
+    "title": "Rapport från huvudvärksdagbok",
+    "period": "Senaste {days} dagarna",
+    "print": "Skriv ut eller spara som PDF",
+    "disclaimer": "Den här rapporten innehåller uppgifter som personen själv har antecknat i ARUVI. Den är ingen diagnos. Möjliga utlösare är personliga iakttagelser.",
+    "episodes": "Anfall",
+    "avgDuration": "Genomsnittlig längd (timmar)",
+    "avgIntensity": "Genomsnittlig intensitet (0–10)",
+    "triggers": "Möjliga utlösare enligt personen",
+    "log": "Lista över anfall",
+    "hours": "Timmar"
+  },
+  "sleep": {
+    "title": "Sömn och energi",
+    "subtitle": "En kort daglig anteckning om vila och energi hjälper dig att förstå dina dagar.",
+    "date": "Datum",
+    "dateHint": "Anteckna nattens sömn på dagens datum.",
+    "sleepTitle": "Sömn",
+    "hours": "Timmar sömn",
+    "quality": "Sömnkvalitet",
+    "poor": "Dålig",
+    "restful": "Vilsam",
+    "energyTitle": "Energi",
+    "energy": "Energinivå",
+    "fatigue": "Trötthet",
+    "veryLow": "Mycket låg",
+    "high": "Hög",
+    "little": "Lite",
+    "aLot": "Mycket",
+    "rest": "Vilotid (minuter)",
+    "note": "Anteckning",
+    "history": "Senaste två veckorna",
+    "empty": "Inget antecknat ännu."
+  },
+  "insights": {
+    "title": "Insikter om välmående",
+    "subtitle": "En enkel återblick på det du har antecknat.",
+    "disclaimer": "Det här är beskrivningar av dina egna anteckningar, inte medicinska slutsatser. Att två saker förekommer tillsammans betyder inte att den ena orsakar den andra.",
+    "rangeLabel": "Period",
+    "range": "{days} dagar",
+    "stats": {
+      "checkIns": "Humörincheckningar",
+      "migraines": "Migränanfall",
+      "avgDuration": "Snittanfall (tim)",
+      "avgSleep": "Snittsömn (tim)"
+    },
+    "observationsTitle": "Vad dina anteckningar visar",
+    "notEnough": "Fortsätt anteckna ett tag till, så visas milda iakttagelser här.",
+    "obs": {
+      "topTrigger": "Du angav ”{trigger}” som möjlig utlösare vid {count} av {total} anfall.",
+      "lowSleepMigraine": "Under {share} % av dagarna med migrän hade du också antecknat mindre än 6 timmars sömn, jämfört med {overall} % av alla antecknade nätter.",
+      "steadyMood": "Den känsla du antecknat oftast är ”{mood}” ({count} gånger)."
+    },
+    "moodChart": "Antecknade humör",
+    "migraineChart": "Migränanfall per dag",
+    "sleepChart": "Timmar sömn",
+    "energyChart": "Energinivå (1–5)",
+    "showTable": "Visa som tabell",
+    "noData": "Inga incheckningar under perioden.",
+    "mood": "Humör",
+    "count": "Gånger",
+    "date": "Datum",
+    "episodes": "Anfall",
+    "hours": "Timmar",
+    "energyLevel": "Energi"
+  },
+  "settings": {
+    "title": "Inställningar",
+    "prefsTitle": "Preferenser",
+    "displayName": "Namn att hälsa dig med",
+    "trackMigraine": {
+      "title": "Jag lever med migrän",
+      "body": "Visa migränfunktionerna tydligare."
+    },
+    "trackMenstrual": {
+      "title": "Ta med menstruationscykeln som möjlig utlösare",
+      "body": "Valfritt. Visas bara i din migrändagbok."
+    },
+    "keepAiHistory": {
+      "title": "Spara samtalshistorik med följeslagaren",
+      "body": "Avstängt som standard. Om det är på sparas dina samtal så att du kan återvända till dem. Du kan radera dem när som helst."
+    },
+    "comfortNote": "Tema, textstorlek och språk finns i den övre raden och sparas på den här enheten.",
+    "exportTitle": "Ladda ner dina data",
+    "exportBody": "Få en kopia av allt ARUVI sparar om dig, som en JSON-fil.",
+    "exportButton": "Ladda ner mina data",
+    "deleteTitle": "Radera konto",
+    "deleteBody": "Detta raderar permanent ditt konto och allt i det: humör, dagböcker, anteckningar och samtal. Det går inte att ångra.",
+    "deleteConfirmLabel": "Skriv DELETE för att bekräfta",
+    "deleteButton": "Radera mitt konto permanent"
+  },
+  "companion": {
+    "title": "Följeslagare",
+    "subtitle": "Dela det du har på hjärtat. Skriv på vilket språk du vill.",
+    "disclaimer": "Följeslagaren är en AI, inte en terapeut eller läkare. Den kan göra fel och kan inte ställa diagnoser eller ge medicinska råd. Om du är i fara, använd numren under ”Få hjälp” eller ring det lokala nödnumret.",
+    "emptyTitle": "Jag finns här för att lyssna.",
+    "emptyBody": "Hur känner du dig just nu?",
+    "placeholder": "Skriv det du har på hjärtat…",
+    "inputLabel": "Ditt meddelande",
+    "send": "Skicka",
+    "you": "Du",
+    "companion": "Följeslagare",
+    "thinking": "…",
+    "newChat": "Nytt samtal",
+    "clear": "Rensa samtalet",
+    "deleteHistory": "Radera all historik",
+    "historyOn": "Samtal sparas. Du kan stänga av det i Inställningar.",
+    "historyOff": "Samtal sparas inte. De försvinner när du lämnar sidan.",
+    "crisisTitle": "Du behöver inte gå igenom det här ensam",
+    "crisisBody": "Det låter som att det är riktigt tungt just nu. Kontakta någon som kan hjälpa — du kan ringa nu, när som helst.",
+    "errors": {
+      "refusal": "Jag kan inte svara på det. Om det är tungt, kontakta någon du litar på eller använd numren under ”Få hjälp”.",
+      "unavailable": "Följeslagaren är inte tillgänglig just nu. Försök igen senare.",
+      "error": "Något gick fel. Försök igen.",
+      "network": "Du verkar vara offline. Kontrollera din anslutning.",
+      "limit": "Du har skickat många meddelanden. Ta en kort paus och försök igen senare.",
+      "generic": "Något gick fel. Försök igen."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Logga in för att använda detta",
+    "guestBody": "Skapa ett gratis konto så att dina anteckningar förblir privata och säkra på alla enheter.",
+    "continueGuest": "Fortsätt utan konto",
+    "more": "Mer",
+    "appearance": "Utseende",
+    "themeSystem": "System",
+    "themeLight": "Ljust",
+    "themeDark": "Mörkt",
+    "account": "Konto",
+    "signedInAs": "Inloggad som {email}",
+    "offline": "Det går inte att nå ARUVI just nu. Kontrollera din anslutning och försök igen.",
+    "reportOnWeb": "Den utskrivbara läkarrapporten finns på ARUVI:s webbplats.",
+    "pickDate": "Välj datum",
+    "pickTime": "Välj tid",
+    "textSize": "Textstorlek",
+    "refresh": "Uppdatera",
+    "migraineTab": "Migrän"
+  }
+}
