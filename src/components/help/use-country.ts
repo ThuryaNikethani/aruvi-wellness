@@ -2,14 +2,16 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useLocale } from "next-intl";
-import { guessCountry } from "@/lib/helplines";
+import { guessCountry, languageHasCountry } from "@/lib/helplines";
 
-const KEY = "aruvi-country";
 const EVENT = "aruvi-country-change";
+// The user's pick is remembered per language, so switching language switches country.
+const keyFor = (locale: string) => `aruvi-country:${locale}`;
 
 /**
  * The country used for helpline numbers, shared by every component on the page.
- * Order: the user's own choice → detected country → language → default.
+ * Order: the user's pick for this language → the language's country
+ * → (English, Arabic…) the detected country → default.
  */
 export function useHelplineCountry() {
   const locale = useLocale();
@@ -18,13 +20,12 @@ export function useHelplineCountry() {
   useEffect(() => {
     let saved: string | null = null;
     try {
-      saved = localStorage.getItem(KEY);
+      saved = localStorage.getItem(keyFor(locale));
     } catch {
       /* storage unavailable */
     }
-    if (saved) {
-      setCountryState(saved);
-    } else {
+    setCountryState(saved ?? guessCountry(locale));
+    if (!saved && !languageHasCountry(locale)) {
       fetch("/api/geo")
         .then((r) => r.json())
         .then((d: { country: string | null }) => {
@@ -37,15 +38,18 @@ export function useHelplineCountry() {
     return () => window.removeEventListener(EVENT, sync);
   }, [locale]);
 
-  const setCountry = useCallback((value: string) => {
-    try {
-      localStorage.setItem(KEY, value);
-    } catch {
-      /* storage unavailable – choice lasts this visit */
-    }
-    setCountryState(value);
-    window.dispatchEvent(new CustomEvent(EVENT, { detail: value }));
-  }, []);
+  const setCountry = useCallback(
+    (value: string) => {
+      try {
+        localStorage.setItem(keyFor(locale), value);
+      } catch {
+        /* storage unavailable – choice lasts this visit */
+      }
+      setCountryState(value);
+      window.dispatchEvent(new CustomEvent(EVENT, { detail: value }));
+    },
+    [locale],
+  );
 
   return { country, setCountry };
 }
