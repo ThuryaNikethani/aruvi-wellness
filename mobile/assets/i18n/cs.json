@@ -210,12 +210,32 @@
     "noAccount": "Jsi v ARUVI nový/á?",
     "haveAccount": "Už máš účet?",
     "tryWithout": "Nebo vyzkoušej dechové cvičení bez účtu",
+    "birthYear": "Rok narození",
+    "birthYearPlaceholder": "Vyber rok",
+    "under16": "Je mi méně než 16 let",
+    "birthYearHint": "ARUVI je pro lidi od 16 let. Vidíš to jen ty.",
+    "tooYoung": "ARUVI je pro lidi od 16 let, takže ti zatím nemůžeme vytvořit účet. Pokud je ti těžko, promluv si s dospělým, kterému věříš, nebo zavolej na linku pomoci.",
+    "seeHelp": "Zobrazit linky pomoci",
+    "concernsLabel": "S čím bys chtěl(a) podporu?",
+    "concernsHint": "Vyber vše, co sedí. Ovlivní to jen to, co ti ARUVI ukazuje — nejde o diagnózu.",
+    "concerns": {
+      "migraine": "Migréna nebo bolesti hlavy",
+      "depression": "Skleslá nálada nebo deprese",
+      "anxiety": "Úzkost nebo obavy",
+      "stress": "Stres",
+      "sleep": "Spánek",
+      "other": "Něco jiného"
+    },
+    "welcomeTitle": "Pár údajů na začátek",
+    "welcomeSubtitle": "Díky tomu se ARUVI přizpůsobí tobě. Vidíš to jen ty.",
+    "continue": "Pokračovat",
     "errors": {
       "invalid": "E-mail a heslo se neshodují. Zkus to znovu.",
       "exists": "Nepodařilo se tě přihlásit. Pokud už máš účet, přihlas se.",
       "checkFields": "Zkontroluj prosím pole a zkus to znovu.",
       "rateLimited": "Příliš mnoho pokusů. Počkej pár minut a zkus to znovu.",
-      "generic": "Něco se pokazilo. Zkus to prosím znovu."
+      "generic": "Něco se pokazilo. Zkus to prosím znovu.",
+      "oauthLinked": "Tento e-mail už má účet ARUVI. Přihlas se e-mailem a heslem."
     }
   },
   "dash": {
