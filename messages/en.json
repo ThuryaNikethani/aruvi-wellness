@@ -467,5 +467,24 @@
       "limit": "You've sent a lot of messages for now. Please take a short break and try again later.",
       "generic": "Something went wrong. Please try again."
     }
+  },
+  "mobile": {
+    "guestTitle": "Sign in to use this",
+    "guestBody": "Create a free account to keep your records private and safe across devices.",
+    "continueGuest": "Continue without an account",
+    "more": "More",
+    "appearance": "Appearance",
+    "themeSystem": "System",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "account": "Account",
+    "signedInAs": "Signed in as {email}",
+    "offline": "Can’t reach ARUVI right now. Please check your connection and try again.",
+    "reportOnWeb": "The printable doctor report is available on the ARUVI website.",
+    "pickDate": "Choose date",
+    "pickTime": "Choose time",
+    "textSize": "Text size",
+    "refresh": "Refresh",
+    "migraineTab": "Migraine"
   }
 }
