@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — 艰难日子里更温柔的地方",
+    "description": "为偏头痛、抑郁、焦虑和压力困扰的人提供的免费、私密、多语言身心健康空间。"
+  },
+  "nav": {
+    "skip": "跳到主要内容",
+    "home": "ARUVI 首页",
+    "primary": "主导航",
+    "checkin": "心情签到",
+    "calm": "平静空间",
+    "features": "功能介绍",
+    "support": "获取帮助",
+    "signIn": "登录",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单",
+    "language": "语言",
+    "languagesFull": "完整翻译",
+    "languagesMore": "更多语言",
+    "mySpace": "我的空间"
+  },
+  "comfort": {
+    "toLight": "切换到浅色主题",
+    "toDark": "切换到深色主题",
+    "textSize": "文字大小：{size}。点按可更改。",
+    "sizes": {
+      "normal": "标准",
+      "large": "大",
+      "larger": "更大"
+    }
+  },
+  "i18n": {
+    "partial": "{language} 为自动翻译，部分用词可能不够准确。如有不清楚的地方，English、සිංහල 和 தமிழ் 已经过完整审核。"
+  },
+  "hero": {
+    "eyebrow": "免费 · 私密 · 使用你的语言",
+    "title": "艰难日子里更温柔的地方。",
+    "body": "一个安全、安静的空间，让你留意自己的感受、放慢脚步、照顾好自己——没有压力，也没有评判。",
+    "ctaBreathe": "温柔地呼吸一次",
+    "ctaCheckin": "关心一下自己",
+    "note": "无需注册即可开始。"
+  },
+  "mood": {
+    "title": "你现在感觉怎么样？",
+    "subtitle": "没有标准答案。选择最接近的那个——如果有变化也没关系。",
+    "legend": "我感到……",
+    "options": {
+      "happy": "开心",
+      "calm": "平静",
+      "sad": "难过",
+      "anxious": "焦虑",
+      "overwhelmed": "不堪重负",
+      "irritated": "烦躁",
+      "exhausted": "精疲力尽",
+      "lonely": "孤独",
+      "numb": "情感麻木"
+    },
+    "intensity": "这种感觉有多强烈？",
+    "intensityLow": "一点点",
+    "intensityHigh": "非常强烈",
+    "save": "保存签到",
+    "saved": "谢谢你关心自己。",
+    "savedNote": "仅保存在此设备上。",
+    "again": "再次签到",
+    "suggestBreathe": "试试呼吸小憩",
+    "privacy": "在此预览中，任何内容都不会离开你的设备。",
+    "responses": {
+      "happy": "今天感觉轻松一些，真好。不妨记下是什么帮助了你，以后可以再回到它。",
+      "calm": "平静的时刻值得留意。想待多久就待多久。",
+      "sad": "难过可能让人觉得沉重。你不必现在就解决它——温柔地对待自己就够了。",
+      "anxious": "焦虑会让一切都显得很紧迫。缓慢地呼气，可以帮助身体感觉更安全一点。",
+      "overwhelmed": "当一切都显得太多时，只选一件小事——或者什么都不做——也没关系。",
+      "irritated": "烦躁常常意味着某件事对你很重要。短暂的停顿也许能给你一些空间。",
+      "exhausted": "这样的疲惫是真实的。休息不是需要你去争取的东西。",
+      "lonely": "孤独很难受。如果可以，联系一个你信任的人——哪怕只是一条短消息——也许会有帮助。",
+      "numb": "感到麻木有时是心灵保护自己的方式。你仍然在这里，这很重要。"
+    }
+  },
+  "calm": {
+    "title": "我的平静空间",
+    "subtitle": "一个让呼吸慢下来的安静地方。随时可以暂停、更换或停止。",
+    "idle": "准备好后点按开始。",
+    "phases": {
+      "in": "吸气",
+      "hold": "轻轻屏住",
+      "out": "呼气",
+      "rest": "休息"
+    },
+    "seconds": "{seconds, plural, other {# 秒}}",
+    "pausedLabel": "已暂停",
+    "start": "开始",
+    "pause": "暂停",
+    "resume": "继续",
+    "stop": "停止",
+    "patternLabel": "呼吸节奏",
+    "patterns": {
+      "gentle": "舒缓 — 吸 4，呼 6",
+      "box": "方块 — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "背景",
+    "scenes": {
+      "forest": "森林",
+      "ocean": "海洋",
+      "dusk": "黄昏"
+    },
+    "rounds": "{count, plural, =0 {还没有完成的回合} other {已完成 # 个回合}}",
+    "note": "没有闪烁或快速移动。除非你选择开启，声音始终保持关闭。"
+  },
+  "features": {
+    "title": "一切按你的节奏来",
+    "subtitle": "用对你有帮助的，跳过没帮助的。这里没有任何必须完成的任务。",
+    "soon": "即将推出",
+    "preview": "立即试用",
+    "items": {
+      "calm": {
+        "title": "平静空间",
+        "body": "在安静的自然场景中进行呼吸、着陆练习和身体放松。"
+      },
+      "journal": {
+        "title": "心情与情绪日记",
+        "body": "留意你的感受，自由书写，随着时间看到温和的规律。"
+      },
+      "companion": {
+        "title": "AI 身心健康陪伴",
+        "body": "用你的语言倾听和支持你。不是医生，也不是心理治疗师。"
+      },
+      "migraine": {
+        "title": "偏头痛日记",
+        "body": "记录发作、症状和可能的诱因，并导出报告给医生。"
+      },
+      "sleep": {
+        "title": "睡眠与精力",
+        "body": "记录休息、睡眠质量和精力，更好地了解你的每一天。"
+      },
+      "insights": {
+        "title": "身心健康洞察",
+        "body": "对你自己记录的简单、描述性概览——绝不是诊断。"
+      }
+    }
+  },
+  "promise": {
+    "title": "我们对你的承诺",
+    "items": {
+      "free": {
+        "title": "人人免费",
+        "body": "没有订阅，没有付费功能。"
+      },
+      "private": {
+        "title": "默认私密",
+        "body": "你的日记和对话只属于你。我们绝不出售个人或健康信息。"
+      },
+      "gentle": {
+        "title": "没有压力",
+        "body": "没有连续打卡，没有内疚感。需要时随时回来。"
+      },
+      "notMedical": {
+        "title": "陪伴，而非治疗",
+        "body": "ARUVI 不能替代专业的医疗或心理护理。"
+      }
+    }
+  },
+  "help": {
+    "title": "如果你现在需要帮助",
+    "body": "如果你处于危险之中，或正在想伤害自己，请现在就联系一个人。你值得被支持。",
+    "lines": {
+      "national": "国家心理健康热线（斯里兰卡，24 小时）",
+      "ambulance": "Suwa Seriya 救护车",
+      "police": "警察紧急电话"
+    },
+    "call": "拨打{name}：{number}",
+    "note": "ARUVI 不是紧急服务。如果你可能会按伤害自己的念头行事，请联系以下任一服务，或前往最近的医院。",
+    "countryLabel": "你的国家/地区",
+    "otherCountry": "其他国家/地区",
+    "noList": "我们还没有这个国家/地区经过核实的热线列表。请拨打当地紧急电话或前往最近的医院。你也可以在这里找到附近免费、保密的危机热线：",
+    "findMore": "查找你所在国家/地区的热线"
+  },
+  "footer": {
+    "tagline": "艰难日子里更温柔的地方。",
+    "disclaimer": "ARUVI 是一个支持性的身心健康陪伴工具，不能替代专业的医疗或心理治疗。",
+    "languages": "语言",
+    "made": "用心打造。人人免费。"
+  },
+  "common": {
+    "save": "保存",
+    "saving": "正在保存…",
+    "saved": "已保存。",
+    "error": "出了点问题，请重试。",
+    "optional": "可选",
+    "confirmDelete": "要删除吗？",
+    "yes": "是，删除",
+    "cancel": "取消"
+  },
+  "auth": {
+    "signInTitle": "欢迎回来",
+    "signInSubtitle": "登录以查看你的日记、记录和洞察。",
+    "signUpTitle": "创建你的空间",
+    "signUpSubtitle": "免费、私密，只属于你。你可以随时删除所有内容。",
+    "name": "我们该怎么称呼你？",
+    "optional": "可选",
+    "email": "电子邮箱",
+    "password": "密码",
+    "passwordHint": "至少 10 个字符。一个短句就很好。",
+    "acceptTerms": "我同意服务条款和隐私政策。",
+    "acceptHealth": "我同意 ARUVI 以私密方式、仅为我本人保存我选择输入的身心健康信息（心情、日记、偏头痛和睡眠记录）。",
+    "signIn": "登录",
+    "signUp": "创建账户",
+    "wait": "请稍候…",
+    "or": "或",
+    "google": "使用 Google 继续",
+    "noAccount": "第一次使用 ARUVI？",
+    "haveAccount": "已有账户？",
+    "tryWithout": "或者不注册，先试试呼吸练习",
+    "errors": {
+      "invalid": "邮箱和密码不匹配，请重试。",
+      "exists": "无法为你登录。如果你已有账户，请直接登录。",
+      "checkFields": "请检查填写的内容后重试。",
+      "rateLimited": "尝试次数过多，请等几分钟后再试。",
+      "generic": "出了点问题，请重试。"
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "我的空间",
+      "overview": "今天",
+      "journal": "心情与日记",
+      "companion": "陪伴",
+      "migraine": "偏头痛日记",
+      "sleep": "睡眠与精力",
+      "insights": "洞察",
+      "settings": "设置",
+      "calm": "平静空间",
+      "signOut": "退出登录"
+    }
+  },
+  "overview": {
+    "greeting": "你好",
+    "greetingName": "你好，{name}",
+    "subtitle": "今天你过得怎么样？在这里你不需要做任何事。",
+    "subtitleCheckedIn": "谢谢你今天关心自己。需要什么就拿什么。",
+    "verified": "你的邮箱已确认。谢谢。",
+    "verifyFailed": "该确认链接无效或已过期。",
+    "verifyPending": "我们已发送确认邮件链接。在此期间你可以继续使用 ARUVI。",
+    "calmTitle": "平静空间",
+    "calmBody": "需要时，几次缓慢的呼吸。",
+    "companionTitle": "和陪伴者聊聊",
+    "companionBody": "一个温柔的倾听者，使用你的语言。",
+    "suggestionTitle": "今天的一个温柔小建议",
+    "suggestions": {
+      "0": "慢慢喝一杯水。",
+      "1": "出去走走，或打开窗户呼吸一分钟新鲜空气。",
+      "2": "放松肩膀，让下巴松弛下来。",
+      "3": "给你信任的人发一条短消息。",
+      "4": "离开屏幕，让眼睛休息五分钟。",
+      "5": "留意今天一件进展还不错的小事。"
+    },
+    "recentJournal": "最近的日记",
+    "openJournal": "打开日记",
+    "noJournal": "还没有日记。哪怕只写一行也会有帮助。",
+    "summaryTitle": "概览",
+    "migraine30": "偏头痛发作，近 30 天",
+    "lastSleep": "最近一次睡眠",
+    "hours": "{hours} 小时",
+    "seeInsights": "查看你的洞察"
+  },
+  "journal": {
+    "title": "心情与日记",
+    "subtitle": "留意你的感受，自由书写。只有你能看到。",
+    "moodNote": "简单说几句",
+    "moodHistory": "最近的签到",
+    "deleteMood": "删除这次签到",
+    "writeTitle": "写日记",
+    "promptLabel": "写作提示（如果有帮助）",
+    "showPrompt": "显示写作提示",
+    "newPrompt": "换一个提示",
+    "titleLabel": "标题",
+    "contentLabel": "你的想法",
+    "privateNote": "默认私密，绝不分享。",
+    "entries": "你的日记",
+    "empty": "你的日记会显示在这里。",
+    "deleteEntry": "删除这篇日记",
+    "prompts": {
+      "0": "今天有什么让你觉得沉重？又有什么让你觉得轻松了一点？",
+      "1": "你的身体现在需要什么？",
+      "2": "描述一个让你感到安全的地方。",
+      "3": "如果有朋友和你今天的感受一样，你会对他说什么？",
+      "4": "有什么小事让你心存感激？",
+      "5": "今天是什么消耗了你的精力？又是什么给你补充了一些？",
+      "6": "如果你的心情是一种天气，那会是什么？",
+      "7": "明天你可以为自己做一件什么样的善意小事？"
+    }
+  },
+  "migraine": {
+    "title": "偏头痛日记",
+    "subtitle": "记一份简单的头痛日记，可以和医生分享。",
+    "disclaimer": "这份日记记录的是你注意到的情况。这里显示的规律不是医学诊断。关于头痛和任何药物，请咨询医生。",
+    "report": "给医生的报告",
+    "formTitle": "记录一次发作",
+    "start": "开始时间",
+    "end": "结束时间",
+    "ongoing": "仍在持续",
+    "ongoingShort": "持续中",
+    "duration": "{hours} 小时",
+    "intensity": "疼痛程度",
+    "intensityHint": "0 表示不痛，10 表示你能想象到的最剧烈的疼痛。",
+    "locationsLabel": "哪里疼？",
+    "characteristicsLabel": "是什么样的感觉？",
+    "symptomsLabel": "其他症状",
+    "triggersLabel": "你注意到的可能诱因",
+    "triggersHint": "只记录你自己注意到的。这些是可能性，不是原因。",
+    "medication": "服用的药物",
+    "medicationHint": "仅作为你自己的记录。ARUVI 从不推荐药物。",
+    "recovery": "休息与恢复记录",
+    "save": "保存发作记录",
+    "history": "发作历史",
+    "empty": "还没有发作记录。",
+    "deleteEpisode": "删除这次发作记录",
+    "locations": {
+      "left": "左侧",
+      "right": "右侧",
+      "both_sides": "两侧",
+      "forehead": "前额",
+      "temples": "太阳穴",
+      "behind_eyes": "眼睛后方",
+      "back_of_head": "后脑",
+      "neck": "颈部"
+    },
+    "characteristics": {
+      "throbbing": "搏动性",
+      "pressing": "压迫感",
+      "stabbing": "刺痛",
+      "dull": "隐隐作痛"
+    },
+    "symptoms": {
+      "nausea": "恶心",
+      "vomiting": "呕吐",
+      "light_sensitivity": "畏光",
+      "sound_sensitivity": "畏声",
+      "smell_sensitivity": "对气味敏感",
+      "aura": "先兆",
+      "dizziness": "头晕",
+      "fatigue": "疲劳",
+      "blurred_vision": "视物模糊"
+    },
+    "triggers": {
+      "sleep": "睡眠变化",
+      "stress": "压力",
+      "weather": "天气变化",
+      "dehydration": "缺水",
+      "meal_timing": "进餐时间",
+      "screen": "屏幕时间",
+      "environment": "环境（光线、噪音、气味）",
+      "menstrual": "月经周期",
+      "other": "其他"
+    }
+  },
+  "report": {
+    "title": "头痛日记报告",
+    "period": "近 {days} 天",
+    "print": "打印或保存为 PDF",
+    "disclaimer": "本报告包含由本人在 ARUVI 中自行记录的信息。它不是诊断。可能的诱因为本人自述的观察。",
+    "episodes": "发作次数",
+    "avgDuration": "平均持续时间（小时）",
+    "avgIntensity": "平均疼痛程度（0–10）",
+    "triggers": "自述的可能诱因",
+    "log": "发作记录",
+    "hours": "小时"
+  },
+  "sleep": {
+    "title": "睡眠与精力",
+    "subtitle": "每天简单记一下休息和精力，帮助你了解自己的每一天。",
+    "date": "日期",
+    "dateHint": "把昨晚的睡眠记录在今天的日期下。",
+    "sleepTitle": "睡眠",
+    "hours": "睡眠时长（小时）",
+    "quality": "睡眠质量",
+    "poor": "差",
+    "restful": "安稳",
+    "energyTitle": "精力",
+    "energy": "精力水平",
+    "fatigue": "疲惫程度",
+    "veryLow": "很低",
+    "high": "高",
+    "little": "一点点",
+    "aLot": "很多",
+    "rest": "休息时间（分钟）",
+    "note": "备注",
+    "history": "最近两周",
+    "empty": "还没有记录。"
+  },
+  "insights": {
+    "title": "身心健康洞察",
+    "subtitle": "简单回顾你记录过的内容。",
+    "disclaimer": "这些是对你自己记录的描述，不是医学结论。两件事同时出现，并不代表其中一件导致了另一件。",
+    "rangeLabel": "时间范围",
+    "range": "{days} 天",
+    "stats": {
+      "checkIns": "心情签到",
+      "migraines": "偏头痛发作",
+      "avgDuration": "平均发作（小时）",
+      "avgSleep": "平均睡眠（小时）"
+    },
+    "observationsTitle": "你的记录显示",
+    "notEnough": "再坚持记录一段时间，这里会出现温和的观察。",
+    "obs": {
+      "topTrigger": "在 {total} 次发作中，你有 {count} 次把\"{trigger}\"记为可能的诱因。",
+      "lowSleepMigraine": "在你记录偏头痛的日子里，有 {share}% 你也记录了不足 6 小时的睡眠，而在你记录的所有夜晚中，这一比例为 {overall}%。",
+      "steadyMood": "你签到最多的感受是\"{mood}\"（{count} 次）。"
+    },
+    "moodChart": "你签到过的心情",
+    "migraineChart": "每天的偏头痛发作",
+    "sleepChart": "睡眠时长",
+    "energyChart": "精力水平（1–5）",
+    "showTable": "以表格显示",
+    "noData": "这段时间没有签到。",
+    "mood": "心情",
+    "count": "次数",
+    "date": "日期",
+    "episodes": "发作次数",
+    "hours": "小时",
+    "energyLevel": "精力"
+  },
+  "settings": {
+    "title": "设置",
+    "prefsTitle": "偏好",
+    "displayName": "我们问候你时使用的名字",
+    "trackMigraine": {
+      "title": "我有偏头痛",
+      "body": "更突出地显示偏头痛相关功能。"
+    },
+    "trackMenstrual": {
+      "title": "将月经周期列为可能的诱因",
+      "body": "可选。只在你的偏头痛日记中显示。"
+    },
+    "keepAiHistory": {
+      "title": "保留与陪伴者的对话记录",
+      "body": "默认关闭。开启后会保存你的对话，方便你回看。你可以随时删除。"
+    },
+    "comfortNote": "主题、文字大小和语言位于顶部栏，并会在此设备上记住。",
+    "exportTitle": "下载你的数据",
+    "exportBody": "以 JSON 文件获取 ARUVI 保存的关于你的全部内容。",
+    "exportButton": "下载我的数据",
+    "deleteTitle": "删除账户",
+    "deleteBody": "这将永久删除你的账户及其中的所有内容：心情、日记、记录和对话。此操作无法撤销。",
+    "deleteConfirmLabel": "输入 DELETE 以确认",
+    "deleteButton": "永久删除我的账户"
+  },
+  "companion": {
+    "title": "陪伴",
+    "subtitle": "说说你的心事。用你喜欢的任何语言书写。",
+    "disclaimer": "陪伴者是 AI，不是心理治疗师或医生。它可能出错，也不能诊断或提供医疗建议。如果你处于危险之中，请使用「获取帮助」中的电话，或拨打当地紧急电话。",
+    "emptyTitle": "我在这里倾听。",
+    "emptyBody": "你现在感觉怎么样？",
+    "placeholder": "写下你的心事…",
+    "inputLabel": "你的消息",
+    "send": "发送",
+    "you": "你",
+    "companion": "陪伴者",
+    "thinking": "…",
+    "newChat": "新对话",
+    "clear": "清空对话",
+    "deleteHistory": "删除全部记录",
+    "historyOn": "对话会被保存。你可以在设置中关闭。",
+    "historyOff": "对话不会被保存，离开此页面后就会消失。",
+    "crisisTitle": "你不必独自面对这一切",
+    "crisisBody": "听起来现在真的很艰难。请联系能够帮助你的人——你现在就可以打电话，任何时间都可以。",
+    "errors": {
+      "refusal": "我无法回应这个内容。如果你正处于困境，请联系你信任的人，或使用「获取帮助」中的电话。",
+      "unavailable": "陪伴者暂时无法使用，请稍后再试。",
+      "error": "出了点问题，请重试。",
+      "network": "你似乎处于离线状态，请检查网络连接。",
+      "limit": "你刚才发送了很多消息。请稍作休息，稍后再试。",
+      "generic": "出了点问题，请重试。"
+    }
+  },
+  "mobile": {
+    "guestTitle": "登录后使用",
+    "guestBody": "创建一个免费账户，让你的记录在所有设备上都私密、安全。",
+    "continueGuest": "不注册，继续使用",
+    "more": "更多",
+    "appearance": "外观",
+    "themeSystem": "跟随系统",
+    "themeLight": "浅色",
+    "themeDark": "深色",
+    "account": "账户",
+    "signedInAs": "已登录：{email}",
+    "offline": "暂时无法连接到 ARUVI。请检查网络连接后重试。",
+    "reportOnWeb": "可打印的医生报告可在 ARUVI 网站上获取。",
+    "pickDate": "选择日期",
+    "pickTime": "选择时间",
+    "textSize": "文字大小",
+    "refresh": "刷新",
+    "migraineTab": "偏头痛"
+  }
+}
