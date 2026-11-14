@@ -210,12 +210,32 @@
     "noAccount": "Bago sa ARUVI?",
     "haveAccount": "May account na?",
     "tryWithout": "O subukan ang isang ehersisyo sa paghinga nang walang account",
+    "birthYear": "Taon ng kapanganakan",
+    "birthYearPlaceholder": "Pumili ng taon",
+    "under16": "Wala pa akong 16 taong gulang",
+    "birthYearHint": "Ang ARUVI ay para sa mga 16 taong gulang pataas. Ikaw lang ang makakakita nito.",
+    "tooYoung": "Ang ARUVI ay para sa mga 16 taong gulang pataas, kaya hindi pa kami makakagawa ng account para sa iyo. Kung mabigat ang pakiramdam, kausapin ang isang nakatatandang pinagkakatiwalaan mo o tumawag sa support line.",
+    "seeHelp": "Tingnan ang mga support line",
+    "concernsLabel": "Saan mo gustong makatanggap ng suporta?",
+    "concernsHint": "Piliin ang anumang angkop. Binabago lang nito ang ipinapakita ng ARUVI sa iyo — hindi ito diagnosis.",
+    "concerns": {
+      "migraine": "Migraine o sakit ng ulo",
+      "depression": "Kalungkutan o depresyon",
+      "anxiety": "Pagkabalisa o pag-aalala",
+      "stress": "Stress",
+      "sleep": "Tulog",
+      "other": "Iba pa"
+    },
+    "welcomeTitle": "Ilang detalye bago magsimula",
+    "welcomeSubtitle": "Tinutulungan nito ang ARUVI na umangkop sa iyo. Ikaw lang ang makakakita nito.",
+    "continue": "Magpatuloy",
     "errors": {
       "invalid": "Hindi tugma ang email at password. Pakisubukang muli.",
       "exists": "Hindi ka namin ma-sign in. Kung may account ka na, mag-sign in na lang.",
       "checkFields": "Pakisuri ang mga field at subukang muli.",
       "rateLimited": "Masyadong maraming pagsubok. Maghintay ng ilang minuto at subukang muli.",
-      "generic": "May nangyaring mali. Pakisubukang muli."
+      "generic": "May nangyaring mali. Pakisubukang muli.",
+      "oauthLinked": "May ARUVI account na ang email na ito. Mangyaring mag-sign in gamit ang iyong email at password."
     }
   },
   "dash": {
