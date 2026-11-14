@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Een zachtere plek voor moeilijke dagen",
+    "description": "Een gratis, privé en meertalige ruimte voor welzijn voor mensen die leven met migraine, depressie, angst en stress."
+  },
+  "nav": {
+    "skip": "Naar hoofdinhoud",
+    "home": "ARUVI startpagina",
+    "primary": "Hoofdmenu",
+    "checkin": "Hoe gaat het",
+    "calm": "Rustplek",
+    "features": "Wat je vindt",
+    "support": "Hulp zoeken",
+    "signIn": "Inloggen",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "language": "Taal",
+    "languagesFull": "Volledig vertaald",
+    "languagesMore": "Meer talen",
+    "mySpace": "Mijn ruimte"
+  },
+  "comfort": {
+    "toLight": "Overschakelen naar licht thema",
+    "toDark": "Overschakelen naar donker thema",
+    "textSize": "Tekstgrootte: {size}. Tik om te wijzigen.",
+    "sizes": {
+      "normal": "Normaal",
+      "large": "Groot",
+      "larger": "Groter"
+    }
+  },
+  "i18n": {
+    "partial": "{language} is automatisch vertaald, dus sommige formuleringen zijn misschien niet perfect. Als iets onduidelijk is: English, සිංහල en தமிழ் zijn volledig nagekeken."
+  },
+  "hero": {
+    "eyebrow": "Gratis · Privé · In jouw taal",
+    "title": "Een zachtere plek voor moeilijke dagen.",
+    "body": "Een veilige, rustige ruimte om op te merken hoe je je voelt, te vertragen en voor jezelf te zorgen — zonder druk en zonder oordeel.",
+    "ctaBreathe": "Rustig ademen",
+    "ctaCheckin": "Even bij jezelf inchecken",
+    "note": "Je hebt geen account nodig om te beginnen."
+  },
+  "mood": {
+    "title": "Hoe voel je je op dit moment?",
+    "subtitle": "Er is geen goed antwoord. Kies wat het dichtst in de buurt komt — het is oké als het verandert.",
+    "legend": "Ik voel me…",
+    "options": {
+      "happy": "Blij",
+      "calm": "Kalm",
+      "sad": "Verdrietig",
+      "anxious": "Angstig",
+      "overwhelmed": "Overweldigd",
+      "irritated": "Geïrriteerd",
+      "exhausted": "Uitgeput",
+      "lonely": "Eenzaam",
+      "numb": "Verdoofd"
+    },
+    "intensity": "Hoe sterk is dit gevoel?",
+    "intensityLow": "Een beetje",
+    "intensityHigh": "Heel erg",
+    "save": "Opslaan",
+    "saved": "Dank je dat je bij jezelf hebt ingecheckt.",
+    "savedNote": "Alleen op dit apparaat opgeslagen.",
+    "again": "Opnieuw",
+    "suggestBreathe": "Probeer een ademhalingspauze",
+    "privacy": "In deze preview verlaat niets je apparaat.",
+    "responses": {
+      "happy": "Fijn dat vandaag wat lichter voelt. Je kunt opschrijven wat hielp, zodat je ernaar terug kunt keren.",
+      "calm": "Een rustig moment is het waard om op te merken. Blijf er zo lang in als je wilt.",
+      "sad": "Verdriet kan zwaar zijn. Je hoeft het nu niet op te lossen — zacht zijn voor jezelf is genoeg.",
+      "anxious": "Angst maakt alles dringend. Een langzame uitademing kan je lichaam helpen zich wat veiliger te voelen.",
+      "overwhelmed": "Als alles te veel voelt, is het oké om één klein ding te kiezen — of helemaal niets.",
+      "irritated": "Irritatie betekent vaak dat iets belangrijk voor je is. Een korte pauze kan je wat ruimte geven.",
+      "exhausted": "Deze vermoeidheid is echt. Rust is niet iets wat je hoeft te verdienen.",
+      "lonely": "Eenzaamheid is zwaar. Als het kan, neem contact op met iemand die je vertrouwt — zelfs een kort berichtje kan helpen.",
+      "numb": "Je verdoofd voelen is soms een manier waarop de geest zichzelf beschermt. Je bent er nog, en dat telt."
+    }
+  },
+  "calm": {
+    "title": "Mijn rustplek",
+    "subtitle": "Een stille plek om je ademhaling te vertragen. Pauzeer, wissel of stop wanneer je wilt.",
+    "idle": "Tik op start wanneer je er klaar voor bent.",
+    "phases": {
+      "in": "Adem in",
+      "hold": "Zacht vasthouden",
+      "out": "Adem uit",
+      "rest": "Rust"
+    },
+    "seconds": "{seconds, plural, one {# seconde} other {# seconden}}",
+    "pausedLabel": "Gepauzeerd",
+    "start": "Start",
+    "pause": "Pauze",
+    "resume": "Hervatten",
+    "stop": "Stoppen",
+    "patternLabel": "Ademritme",
+    "patterns": {
+      "gentle": "Zacht — in 4, uit 6",
+      "box": "Vierkant — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Achtergrond",
+    "scenes": {
+      "forest": "Bos",
+      "ocean": "Oceaan",
+      "dusk": "Schemering"
+    },
+    "rounds": "{count, plural, =0 {Nog geen rondes} one {# ronde voltooid} other {# rondes voltooid}}",
+    "note": "Geen flitsen of snelle bewegingen. Geluid blijft uit, tenzij je het zelf aanzet."
+  },
+  "features": {
+    "title": "Alles in jouw tempo",
+    "subtitle": "Gebruik wat helpt en sla over wat niet helpt. Niets hier is een taak die af moet.",
+    "soon": "Binnenkort",
+    "preview": "Nu proberen",
+    "items": {
+      "calm": {
+        "title": "Rustplek",
+        "body": "Ademhaling, gronden en lichaamsontspanning met rustige natuurbeelden."
+      },
+      "journal": {
+        "title": "Stemmingsdagboek",
+        "body": "Merk je emoties op, schrijf vrijuit en zie na verloop van tijd zachte patronen."
+      },
+      "companion": {
+        "title": "AI-welzijnsmaatje",
+        "body": "Een steunende luisteraar in jouw taal. Geen arts of therapeut."
+      },
+      "migraine": {
+        "title": "Migrainedagboek",
+        "body": "Leg aanvallen, symptomen en mogelijke triggers vast en exporteer een rapport voor je arts."
+      },
+      "sleep": {
+        "title": "Slaap en energie",
+        "body": "Volg rust, slaapkwaliteit en energie om je dagen beter te begrijpen."
+      },
+      "insights": {
+        "title": "Welzijnsinzichten",
+        "body": "Eenvoudige, beschrijvende samenvattingen van je eigen notities — nooit een diagnose."
+      }
+    }
+  },
+  "promise": {
+    "title": "Onze belofte aan jou",
+    "items": {
+      "free": {
+        "title": "Gratis voor iedereen",
+        "body": "Geen abonnementen, geen betaalde functies."
+      },
+      "private": {
+        "title": "Standaard privé",
+        "body": "Je dagboeken en gesprekken zijn van jou. We verkopen nooit persoonlijke of gezondheidsgegevens."
+      },
+      "gentle": {
+        "title": "Geen druk",
+        "body": "Geen reeksen, geen schuldgevoel. Kom terug wanneer je het nodig hebt."
+      },
+      "notMedical": {
+        "title": "Steun, geen behandeling",
+        "body": "ARUVI vervangt geen professionele medische of psychologische zorg."
+      }
+    }
+  },
+  "help": {
+    "title": "Als je nu hulp nodig hebt",
+    "body": "Als je in gevaar bent of eraan denkt jezelf pijn te doen, neem dan nu contact op met iemand. Je verdient steun.",
+    "lines": {
+      "national": "Nationale hulplijn geestelijke gezondheid (Sri Lanka, 24 uur)",
+      "ambulance": "Ambulance Suwa Seriya",
+      "police": "Politie-noodnummer"
+    },
+    "call": "Bel {name}: {number}",
+    "note": "ARUVI is geen noodhulpdienst. Als je gedachten om jezelf pijn te doen zou kunnen uitvoeren, neem dan contact op met een van deze diensten of ga naar het dichtstbijzijnde ziekenhuis.",
+    "countryLabel": "Jouw land",
+    "otherCountry": "Een ander land",
+    "noList": "We hebben nog geen gecontroleerde lijst met hulplijnen voor dit land. Bel het lokale alarmnummer of ga naar het dichtstbijzijnde ziekenhuis. Hier vind je ook een gratis, vertrouwelijke crisislijn bij jou in de buurt:",
+    "findMore": "Vind een hulplijn in jouw land"
+  },
+  "footer": {
+    "tagline": "Een zachtere plek voor moeilijke dagen.",
+    "disclaimer": "ARUVI is een steunend welzijnsmaatje. Het vervangt geen professionele medische of psychologische behandeling.",
+    "languages": "Taal",
+    "made": "Met zorg gemaakt. Gratis voor iedereen."
+  },
+  "common": {
+    "save": "Opslaan",
+    "saving": "Opslaan…",
+    "saved": "Opgeslagen.",
+    "error": "Er ging iets mis. Probeer het opnieuw.",
+    "optional": "optioneel",
+    "confirmDelete": "Verwijderen?",
+    "yes": "Ja, verwijderen",
+    "cancel": "Annuleren"
+  },
+  "auth": {
+    "signInTitle": "Welkom terug",
+    "signInSubtitle": "Log in om je dagboek, notities en inzichten te bekijken.",
+    "signUpTitle": "Maak je eigen ruimte",
+    "signUpSubtitle": "Gratis, privé en van jou. Je kunt alles op elk moment verwijderen.",
+    "name": "Hoe mogen we je noemen?",
+    "optional": "optioneel",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "passwordHint": "Minstens 10 tekens. Een korte zin werkt goed.",
+    "acceptTerms": "Ik ga akkoord met de gebruiksvoorwaarden en het privacybeleid.",
+    "acceptHealth": "Ik geef ARUVI toestemming om de welzijnsinformatie die ik invoer (stemmingen, dagboeken, migraine- en slaapnotities) privé en alleen voor mij te bewaren.",
+    "signIn": "Inloggen",
+    "signUp": "Account aanmaken",
+    "wait": "Even geduld…",
+    "or": "of",
+    "google": "Doorgaan met Google",
+    "noAccount": "Nieuw bij ARUVI?",
+    "haveAccount": "Heb je al een account?",
+    "tryWithout": "Of probeer een ademhalingsoefening zonder account",
+    "errors": {
+      "invalid": "E-mail en wachtwoord komen niet overeen. Probeer het opnieuw.",
+      "exists": "We konden je niet inloggen. Heb je al een account, log dan in.",
+      "checkFields": "Controleer de velden en probeer het opnieuw.",
+      "rateLimited": "Te veel pogingen. Wacht een paar minuten en probeer het opnieuw.",
+      "generic": "Er ging iets mis. Probeer het opnieuw."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Mijn ruimte",
+      "overview": "Vandaag",
+      "journal": "Stemming en dagboek",
+      "companion": "Maatje",
+      "migraine": "Migrainedagboek",
+      "sleep": "Slaap en energie",
+      "insights": "Inzichten",
+      "settings": "Instellingen",
+      "calm": "Rustplek",
+      "signOut": "Uitloggen"
+    }
+  },
+  "overview": {
+    "greeting": "Hallo",
+    "greetingName": "Hallo, {name}",
+    "subtitle": "Hoe kom je vandaag binnen? Je hoeft hier niets te doen.",
+    "subtitleCheckedIn": "Dank je dat je vandaag bij jezelf hebt ingecheckt. Neem wat je nodig hebt.",
+    "verified": "Je e-mail is bevestigd. Dank je.",
+    "verifyFailed": "Die bevestigingslink werkte niet of is verlopen.",
+    "verifyPending": "We hebben je een link gestuurd om je e-mail te bevestigen. Ondertussen kun je ARUVI gewoon blijven gebruiken.",
+    "calmTitle": "Rustplek",
+    "calmBody": "Een paar langzame ademhalingen, wanneer je ze nodig hebt.",
+    "companionTitle": "Praat met het maatje",
+    "companionBody": "Een zachte luisteraar, in jouw taal.",
+    "suggestionTitle": "Een zacht idee voor vandaag",
+    "suggestions": {
+      "0": "Drink langzaam een glas water.",
+      "1": "Ga even naar buiten of open een raam voor een minuut frisse lucht.",
+      "2": "Laat je schouders zakken en ontspan je kaak.",
+      "3": "Stuur een kort berichtje naar iemand die je vertrouwt.",
+      "4": "Laat je ogen vijf minuten rusten van schermen.",
+      "5": "Merk één klein ding op dat vandaag goed ging."
+    },
+    "recentJournal": "Recente dagboeknotities",
+    "openJournal": "Dagboek openen",
+    "noJournal": "Nog geen notities. Zelfs één regel kan helpen.",
+    "summaryTitle": "In één oogopslag",
+    "migraine30": "Migraineaanvallen, laatste 30 dagen",
+    "lastSleep": "Laatste slaap",
+    "hours": "{hours} u",
+    "seeInsights": "Bekijk je inzichten"
+  },
+  "journal": {
+    "title": "Stemming en dagboek",
+    "subtitle": "Merk op hoe je je voelt en schrijf vrijuit. Alleen jij kunt dit zien.",
+    "moodNote": "Een paar woorden erover",
+    "moodHistory": "Recente check-ins",
+    "deleteMood": "Deze check-in verwijderen",
+    "writeTitle": "Schrijven",
+    "promptLabel": "Een schrijfvraag, als het helpt",
+    "showPrompt": "Toon een schrijfvraag",
+    "newPrompt": "Toon een andere vraag",
+    "titleLabel": "Titel",
+    "contentLabel": "Je gedachten",
+    "privateNote": "Standaard privé. Nooit gedeeld.",
+    "entries": "Je notities",
+    "empty": "Je notities verschijnen hier.",
+    "deleteEntry": "Deze notitie verwijderen",
+    "prompts": {
+      "0": "Wat voelde vandaag zwaar, en wat iets lichter?",
+      "1": "Wat heeft je lichaam nu nodig?",
+      "2": "Beschrijf een plek waar je je veilig voelt.",
+      "3": "Wat zou je zeggen tegen een vriend die zich vandaag voelt zoals jij?",
+      "4": "Voor welk klein ding ben je dankbaar?",
+      "5": "Wat kostte je vandaag energie? Wat gaf je er een beetje van terug?",
+      "6": "Als je gevoelens het weer waren, wat voor weer zou het zijn?",
+      "7": "Wat zou je morgen liefs voor jezelf kunnen doen?"
+    }
+  },
+  "migraine": {
+    "title": "Migrainedagboek",
+    "subtitle": "Houd een eenvoudig hoofdpijndagboek bij dat je met je arts kunt delen.",
+    "disclaimer": "Dit dagboek legt vast wat je opmerkt. De patronen die hier staan zijn geen medische diagnose. Bespreek je hoofdpijn en eventuele medicijnen met een arts.",
+    "report": "Rapport voor de arts",
+    "formTitle": "Een aanval vastleggen",
+    "start": "Begin",
+    "end": "Einde",
+    "ongoing": "Nog bezig",
+    "ongoingShort": "bezig",
+    "duration": "{hours} u",
+    "intensity": "Pijnintensiteit",
+    "intensityHint": "0 betekent geen pijn, 10 de ergste pijn die je je kunt voorstellen.",
+    "locationsLabel": "Waar doet het pijn?",
+    "characteristicsLabel": "Hoe voelt het?",
+    "symptomsLabel": "Andere symptomen",
+    "triggersLabel": "Opgemerkte mogelijke triggers",
+    "triggersHint": "Alleen wat je zelf hebt opgemerkt. Dit zijn mogelijkheden, geen oorzaken.",
+    "medication": "Ingenomen medicijnen",
+    "medicationHint": "Alleen je eigen notitie. ARUVI stelt nooit medicijnen voor.",
+    "recovery": "Notities over rust en herstel",
+    "save": "Aanval opslaan",
+    "history": "Geschiedenis van aanvallen",
+    "empty": "Nog geen aanvallen vastgelegd.",
+    "deleteEpisode": "Deze aanval verwijderen",
+    "locations": {
+      "left": "Linkerkant",
+      "right": "Rechterkant",
+      "both_sides": "Beide kanten",
+      "forehead": "Voorhoofd",
+      "temples": "Slapen",
+      "behind_eyes": "Achter de ogen",
+      "back_of_head": "Achterhoofd",
+      "neck": "Nek"
+    },
+    "characteristics": {
+      "throbbing": "Kloppend",
+      "pressing": "Drukkend",
+      "stabbing": "Stekend",
+      "dull": "Dof"
+    },
+    "symptoms": {
+      "nausea": "Misselijkheid",
+      "vomiting": "Overgeven",
+      "light_sensitivity": "Gevoelig voor licht",
+      "sound_sensitivity": "Gevoelig voor geluid",
+      "smell_sensitivity": "Gevoelig voor geuren",
+      "aura": "Aura",
+      "dizziness": "Duizeligheid",
+      "fatigue": "Vermoeidheid",
+      "blurred_vision": "Wazig zien"
+    },
+    "triggers": {
+      "sleep": "Veranderingen in slaap",
+      "stress": "Stress",
+      "weather": "Weersveranderingen",
+      "dehydration": "Uitdroging",
+      "meal_timing": "Tijdstip van maaltijden",
+      "screen": "Schermtijd",
+      "environment": "Omgeving (licht, geluid, geuren)",
+      "menstrual": "Menstruatiecyclus",
+      "other": "Anders"
+    }
+  },
+  "report": {
+    "title": "Rapport hoofdpijndagboek",
+    "period": "Laatste {days} dagen",
+    "print": "Afdrukken of opslaan als pdf",
+    "disclaimer": "Dit rapport bevat informatie die de persoon zelf in ARUVI heeft vastgelegd. Het is geen diagnose. Mogelijke triggers zijn persoonlijke observaties.",
+    "episodes": "Aanvallen",
+    "avgDuration": "Gemiddelde duur (uur)",
+    "avgIntensity": "Gemiddelde intensiteit (0–10)",
+    "triggers": "Mogelijke triggers gemeld door de persoon",
+    "log": "Overzicht van aanvallen",
+    "hours": "Uren"
+  },
+  "sleep": {
+    "title": "Slaap en energie",
+    "subtitle": "Een korte dagelijkse notitie over rust en energie helpt je je dagen te begrijpen.",
+    "date": "Datum",
+    "dateHint": "Leg de slaap van afgelopen nacht vast op de datum van vandaag.",
+    "sleepTitle": "Slaap",
+    "hours": "Uren geslapen",
+    "quality": "Slaapkwaliteit",
+    "poor": "Slecht",
+    "restful": "Uitgerust",
+    "energyTitle": "Energie",
+    "energy": "Energieniveau",
+    "fatigue": "Vermoeidheid",
+    "veryLow": "Heel laag",
+    "high": "Hoog",
+    "little": "Een beetje",
+    "aLot": "Veel",
+    "rest": "Rusttijd (minuten)",
+    "note": "Notitie",
+    "history": "Laatste twee weken",
+    "empty": "Nog niets vastgelegd."
+  },
+  "insights": {
+    "title": "Welzijnsinzichten",
+    "subtitle": "Een eenvoudige blik op wat je hebt vastgelegd.",
+    "disclaimer": "Dit zijn beschrijvingen van je eigen notities, geen medische conclusies. Als twee dingen samen voorkomen, betekent dat niet dat het een het ander veroorzaakt.",
+    "rangeLabel": "Periode",
+    "range": "{days} dagen",
+    "stats": {
+      "checkIns": "Stemmingscheck-ins",
+      "migraines": "Migraineaanvallen",
+      "avgDuration": "Gem. aanval (u)",
+      "avgSleep": "Gem. slaap (u)"
+    },
+    "observationsTitle": "Wat je notities laten zien",
+    "notEnough": "Blijf nog even vastleggen, dan verschijnen hier zachte observaties.",
+    "obs": {
+      "topTrigger": "Je noteerde ‘{trigger}’ als mogelijke trigger bij {count} van de {total} aanvallen.",
+      "lowSleepMigraine": "Op {share}% van de dagen met migraine had je ook minder dan 6 uur slaap genoteerd, tegenover {overall}% van alle genoteerde nachten.",
+      "steadyMood": "Het gevoel dat je het vaakst noteerde is ‘{mood}’ ({count} keer)."
+    },
+    "moodChart": "Genoteerde stemmingen",
+    "migraineChart": "Migraineaanvallen per dag",
+    "sleepChart": "Uren slaap",
+    "energyChart": "Energieniveau (1–5)",
+    "showTable": "Toon als tabel",
+    "noData": "Geen check-ins in deze periode.",
+    "mood": "Stemming",
+    "count": "Keer",
+    "date": "Datum",
+    "episodes": "Aanvallen",
+    "hours": "Uren",
+    "energyLevel": "Energie"
+  },
+  "settings": {
+    "title": "Instellingen",
+    "prefsTitle": "Voorkeuren",
+    "displayName": "Naam om je te begroeten",
+    "trackMigraine": {
+      "title": "Ik leef met migraine",
+      "body": "Migrainefuncties duidelijker tonen."
+    },
+    "trackMenstrual": {
+      "title": "Menstruatiecyclus meenemen als mogelijke trigger",
+      "body": "Optioneel. Alleen zichtbaar in je migrainedagboek."
+    },
+    "keepAiHistory": {
+      "title": "Gespreksgeschiedenis met het maatje bewaren",
+      "body": "Standaard uit. Als je dit aanzet, worden je gesprekken opgeslagen zodat je erop terug kunt komen. Je kunt ze altijd verwijderen."
+    },
+    "comfortNote": "Thema, tekstgrootte en taal staan in de bovenste balk en worden op dit apparaat onthouden.",
+    "exportTitle": "Download je gegevens",
+    "exportBody": "Ontvang een kopie van alles wat ARUVI over je bewaart, als JSON-bestand.",
+    "exportButton": "Mijn gegevens downloaden",
+    "deleteTitle": "Account verwijderen",
+    "deleteBody": "Hiermee worden je account en alles erin definitief verwijderd: stemmingen, dagboeken, notities en gesprekken. Dit kan niet ongedaan worden gemaakt.",
+    "deleteConfirmLabel": "Typ DELETE om te bevestigen",
+    "deleteButton": "Mijn account definitief verwijderen"
+  },
+  "companion": {
+    "title": "Maatje",
+    "subtitle": "Deel wat je bezighoudt. Schrijf in elke taal die je wilt.",
+    "disclaimer": "Het maatje is een AI, geen therapeut of arts. Het kan fouten maken en kan geen diagnoses stellen of medisch advies geven. Als je in gevaar bent, gebruik dan de nummers bij ‘Hulp zoeken’ of bel het lokale alarmnummer.",
+    "emptyTitle": "Ik ben er om naar je te luisteren.",
+    "emptyBody": "Hoe voel je je op dit moment?",
+    "placeholder": "Schrijf wat je bezighoudt…",
+    "inputLabel": "Je bericht",
+    "send": "Versturen",
+    "you": "Jij",
+    "companion": "Maatje",
+    "thinking": "…",
+    "newChat": "Nieuw gesprek",
+    "clear": "Gesprek wissen",
+    "deleteHistory": "Alle geschiedenis verwijderen",
+    "historyOn": "Gesprekken worden opgeslagen. Je kunt dit uitzetten in Instellingen.",
+    "historyOff": "Gesprekken worden niet opgeslagen. Ze verdwijnen als je deze pagina verlaat.",
+    "crisisTitle": "Je hoeft dit niet alleen te doen",
+    "crisisBody": "Het klinkt alsof het nu echt zwaar is. Neem contact op met iemand die kan helpen — je kunt nu bellen, op elk moment.",
+    "errors": {
+      "refusal": "Daar kan ik niet op antwoorden. Als het zwaar is, neem dan contact op met iemand die je vertrouwt of gebruik de nummers bij ‘Hulp zoeken’.",
+      "unavailable": "Het maatje is nu niet beschikbaar. Probeer het later opnieuw.",
+      "error": "Er ging iets mis. Probeer het opnieuw.",
+      "network": "Je lijkt offline te zijn. Controleer je verbinding.",
+      "limit": "Je hebt veel berichten gestuurd. Neem een korte pauze en probeer het later opnieuw.",
+      "generic": "Er ging iets mis. Probeer het opnieuw."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Log in om dit te gebruiken",
+    "guestBody": "Maak een gratis account aan, zodat je notities privé en veilig blijven op al je apparaten.",
+    "continueGuest": "Doorgaan zonder account",
+    "more": "Meer",
+    "appearance": "Weergave",
+    "themeSystem": "Systeem",
+    "themeLight": "Licht",
+    "themeDark": "Donker",
+    "account": "Account",
+    "signedInAs": "Ingelogd als {email}",
+    "offline": "ARUVI is nu niet bereikbaar. Controleer je verbinding en probeer het opnieuw.",
+    "reportOnWeb": "Het afdrukbare rapport voor de arts staat op de ARUVI-website.",
+    "pickDate": "Kies een datum",
+    "pickTime": "Kies een tijd",
+    "textSize": "Tekstgrootte",
+    "refresh": "Vernieuwen",
+    "migraineTab": "Migraine"
+  }
+}
