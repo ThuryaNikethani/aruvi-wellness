@@ -6,12 +6,23 @@ import { signIn } from "next-auth/react";
 import { Link, useRouter } from "@/i18n/navigation";
 import { api } from "@/lib/client";
 import { ui } from "@/components/ui/styles";
+import { GoogleIcon, ProfileFields, readProfile } from "@/components/auth/profile-fields";
 
-export function AuthForm({ mode, googleEnabled }: { mode: "sign-in" | "sign-up"; googleEnabled: boolean }) {
+export function AuthForm({
+  mode,
+  googleEnabled,
+  oauthError,
+}: {
+  mode: "sign-in" | "sign-up";
+  googleEnabled: boolean;
+  oauthError?: string;
+}) {
   const t = useTranslations("auth");
   const locale = useLocale();
   const router = useRouter();
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState<string | null>(
+    oauthError ? (oauthError === "OAuthAccountNotLinked" ? t("errors.oauthLinked") : t("errors.generic")) : null,
+  );
   const [busy, setBusy] = useState(false);
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -23,11 +34,18 @@ export function AuthForm({ mode, googleEnabled }: { mode: "sign-in" | "sign-up";
     const password = String(form.get("password") ?? "");
 
     if (mode === "sign-up") {
+      const profile = readProfile(form);
+      if (!profile) {
+        setBusy(false);
+        setError(t("tooYoung"));
+        return;
+      }
       const res = await api("/api/auth/register", "POST", {
         name: String(form.get("name") ?? ""),
         email,
         password,
         locale,
+        ...profile,
         acceptTerms: form.get("acceptTerms") === "on",
         acceptHealthData: form.get("acceptHealthData") === "on",
       });
@@ -83,6 +101,8 @@ export function AuthForm({ mode, googleEnabled }: { mode: "sign-in" | "sign-up";
           {isUp && <p id="password-hint" className={ui.hint}>{t("passwordHint")}</p>}
         </div>
 
+        {isUp && <ProfileFields />}
+
         {isUp && (
           <div className="space-y-3 rounded-2xl bg-surface-2 p-4 text-sm">
             <label className="flex items-start gap-3">
@@ -119,6 +139,7 @@ export function AuthForm({ mode, googleEnabled }: { mode: "sign-in" | "sign-up";
             onClick={() => signIn("google", { redirectTo: `/${locale}/dashboard` })}
             className={`${ui.btnSecondary} w-full`}
           >
+            <GoogleIcon />
             {t("google")}
           </button>
         </>
