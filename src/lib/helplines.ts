@@ -2,7 +2,13 @@ import data from "../../data/helplines.json";
 
 export type Helpline = { number: string; tel: string; name: Record<string, string> };
 
-const countries = data.countries as Record<string, { lines: Helpline[] }>;
+const countries = data.countries as Record<string, { name: Record<string, string>; lines: Helpline[] }>;
+
+/** Country name in the UI language (English fallback), from the shared data file. */
+export function countryName(code: string, locale: string) {
+  const names = countries[code]?.name;
+  return names?.[locale] ?? names?.en ?? code;
+}
 const localeCountry = data.localeCountry as Record<string, string>;
 
 export const HELPLINE_DIRECTORY = data.directory;
