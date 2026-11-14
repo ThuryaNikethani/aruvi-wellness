@@ -228,10 +228,9 @@ class CrisisCard extends StatelessWidget {
             const SizedBox(height: 8),
             Text(body ?? context.t('help.body')),
             const SizedBox(height: 12),
-            Wrap(spacing: 8, runSpacing: 8, children: [
-              CallButton(number: '1926', label: context.t('help.lines.national')),
-              CallButton(number: '1990', label: context.t('help.lines.ambulance')),
-            ]),
+            const HelplineButtons(),
+            const SizedBox(height: 8),
+            const CountryTile(),
           ],
         ),
       ),
@@ -239,15 +238,76 @@ class CrisisCard extends StatelessWidget {
   }
 }
 
-class CallButton extends StatelessWidget {
-  const CallButton({super.key, required this.number, required this.label});
+/// Call buttons for the chosen country, or the international directory.
+class HelplineButtons extends StatelessWidget {
+  const HelplineButtons({super.key});
 
-  final String number, label;
+  @override
+  Widget build(BuildContext context) {
+    final app = context.watch<AppState>();
+    final lines = app.lines.take(2).toList();
+    if (lines.isEmpty) {
+      return FilledButton.icon(
+        onPressed: () => launchUrl(Uri.parse(app.helplines.directory), mode: LaunchMode.externalApplication),
+        icon: const Icon(Icons.open_in_new, size: 18),
+        label: Text(context.t('help.findMore')),
+      );
+    }
+    return Wrap(spacing: 8, runSpacing: 8, children: [
+      for (final l in lines) CallButton(number: l.number, tel: l.tel, label: l.name(app.locale)),
+    ]);
+  }
+}
+
+/// Shows the helpline country and lets the user change it.
+class CountryTile extends StatelessWidget {
+  const CountryTile({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final app = context.watch<AppState>();
+    final name = app.country == 'OTHER' ? context.t('help.otherCountry') : app.helplines.countryName(app.country, app.locale);
+    return ListTile(
+      contentPadding: EdgeInsets.zero,
+      dense: true,
+      leading: const Icon(Icons.public),
+      title: Text(context.t('help.countryLabel')),
+      subtitle: Text(name),
+      trailing: const Icon(Icons.expand_more),
+      onTap: () => pickCountry(context),
+    );
+  }
+}
+
+Future<void> pickCountry(BuildContext context) async {
+  final app = context.read<AppState>();
+  final codes = app.helplines.countries..sort((a, b) => app.helplines.countryName(a, app.locale).compareTo(app.helplines.countryName(b, app.locale)));
+  final code = await showModalBottomSheet<String>(
+    context: context,
+    builder: (c) => SafeArea(
+      child: RadioGroup<String>(
+        groupValue: app.country,
+        onChanged: (v) => Navigator.pop(c, v),
+        child: ListView(shrinkWrap: true, children: [
+          ListTile(title: Text(context.t('help.countryLabel'), style: const TextStyle(fontWeight: FontWeight.w700))),
+          for (final cc in codes) RadioListTile<String>(value: cc, title: Text(app.helplines.countryName(cc, app.locale))),
+          RadioListTile<String>(value: 'OTHER', title: Text(context.t('help.otherCountry'))),
+        ]),
+      ),
+    ),
+  );
+  if (code != null) await app.setCountry(code);
+}
+
+class CallButton extends StatelessWidget {
+  const CallButton({super.key, required this.number, required this.tel, required this.label});
+
+  final String number, tel, label;
 
   @override
   Widget build(BuildContext context) {
     return FilledButton.icon(
-      onPressed: () => launchUrl(Uri.parse('tel:$number')),
+      onPressed: () => launchUrl(Uri.parse('tel:$tel')),
       icon: const Icon(Icons.phone, size: 18),
       label: Text(number),
       style: FilledButton.styleFrom(),
