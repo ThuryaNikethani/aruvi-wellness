@@ -6,10 +6,11 @@ import { Globe } from "lucide-react";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { allLocales, curatedLocales, nativeName, type Locale } from "@/i18n/locales";
 
+// Registry order (grouped by region). No runtime sorting: localeCompare differs
+// between Node and browsers and would cause hydration mismatches.
 const others = allLocales
   .filter((l) => !(curatedLocales as readonly string[]).includes(l))
-  .map((l) => ({ code: l, name: nativeName(l) }))
-  .sort((a, b) => a.name.localeCompare(b.name));
+  .map((l) => ({ code: l, name: nativeName(l) }));
 
 export function LanguageSwitcher({ id = "language" }: { id?: string }) {
   const t = useTranslations("nav");
