@@ -210,12 +210,32 @@
     "noAccount": "Ṣé o jẹ́ tuntun sí ARUVI?",
     "haveAccount": "Ṣé o ti ní àkọọ́lẹ̀?",
     "tryWithout": "Tàbí gbìyànjú ìdánrawò mímí láìsí àkọọ́lẹ̀",
+    "birthYear": "Ọdún ìbí",
+    "birthYearPlaceholder": "Yan ọdún kan",
+    "under16": "Ọjọ́ orí mi kò tó ọdún 16",
+    "birthYearHint": "ARUVI wà fún àwọn tí ọjọ́ orí wọn jẹ́ ọdún 16 sókè. Ìwọ nìkan ló lè rí èyí.",
+    "tooYoung": "ARUVI wà fún àwọn tí ọjọ́ orí wọn jẹ́ ọdún 16 sókè, nítorí náà a kò lè ṣẹ̀dá àkọọ́lẹ̀ fún ọ báyìí. Bí nǹkan bá le, jọ̀wọ́ bá àgbàlagbà tí o fọkàn tán sọ̀rọ̀ tàbí pe ìlà ìrànlọ́wọ́.",
+    "seeHelp": "Wo àwọn ìlà ìrànlọ́wọ́",
+    "concernsLabel": "Kí ni o fẹ́ ìtìlẹ́yìn fún?",
+    "concernsHint": "Yan èyíkéyìí tó bá ọ mu. Èyí kàn ń ṣàtúnṣe ohun tí ARUVI ń fihàn ọ́ — kì í ṣe ìwádìí àìsàn.",
+    "concerns": {
+      "migraine": "Ẹ̀fọ́rí líle tàbí orí fífọ́",
+      "depression": "Ìbànújẹ́ tàbí ìsoríkọ́",
+      "anxiety": "Àníyàn tàbí ìdààmú",
+      "stress": "Wàhálà ọkàn",
+      "sleep": "Oorun",
+      "other": "Nǹkan míràn"
+    },
+    "welcomeTitle": "Àlàyé díẹ̀ kí o tó bẹ̀rẹ̀",
+    "welcomeSubtitle": "Èyí ń ràn ARUVI lọ́wọ́ láti bá ọ mu. Ìwọ nìkan ló lè rí i.",
+    "continue": "Tẹ̀síwájú",
     "errors": {
       "invalid": "Ímeèlì àti ọ̀rọ̀ aṣínà kò bá ara wọn mu. Jọ̀wọ́ tún gbìyànjú.",
       "exists": "A kò lè mú ọ wọlé. Bí o bá ti ní àkọọ́lẹ̀, jọ̀wọ́ wọlé.",
       "checkFields": "Jọ̀wọ́ ṣàyẹ̀wò àwọn àlàyé kí o sì tún gbìyànjú.",
       "rateLimited": "Ìgbìyànjú ti pọ̀ jù. Dúró fún ìṣẹ́jú díẹ̀ kí o sì tún gbìyànjú.",
-      "generic": "Nǹkan kan kò lọ dáadáa. Jọ̀wọ́ tún gbìyànjú."
+      "generic": "Nǹkan kan kò lọ dáadáa. Jọ̀wọ́ tún gbìyànjú.",
+      "oauthLinked": "Ímeèlì yìí ti ní àkọọ́lẹ̀ ARUVI tẹ́lẹ̀. Jọ̀wọ́ wọlé pẹ̀lú ímeèlì àti ọ̀rọ̀ aṣínà rẹ."
     }
   },
   "dash": {
