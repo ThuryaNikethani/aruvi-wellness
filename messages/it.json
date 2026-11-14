@@ -210,12 +210,32 @@
     "noAccount": "Nuovo su ARUVI?",
     "haveAccount": "Hai già un account?",
     "tryWithout": "Oppure prova un esercizio di respirazione senza account",
+    "birthYear": "Anno di nascita",
+    "birthYearPlaceholder": "Scegli un anno",
+    "under16": "Ho meno di 16 anni",
+    "birthYearHint": "ARUVI è per persone dai 16 anni in su. Solo tu puoi vederlo.",
+    "tooYoung": "ARUVI è per persone dai 16 anni in su, quindi non possiamo ancora creare il tuo account. Se è un momento difficile, parla con un adulto di cui ti fidi o chiama una linea di supporto.",
+    "seeHelp": "Vedi le linee di supporto",
+    "concernsLabel": "Per cosa vorresti ricevere supporto?",
+    "concernsHint": "Scegli tutto ciò che ti rispecchia. Serve solo a personalizzare ciò che ARUVI ti mostra — non è una diagnosi.",
+    "concerns": {
+      "migraine": "Emicrania o mal di testa",
+      "depression": "Umore basso o depressione",
+      "anxiety": "Ansia o preoccupazione",
+      "stress": "Stress",
+      "sleep": "Sonno",
+      "other": "Altro"
+    },
+    "welcomeTitle": "Qualche informazione prima di iniziare",
+    "welcomeSubtitle": "Aiuta ARUVI ad adattarsi a te. Solo tu puoi vederlo.",
+    "continue": "Continua",
     "errors": {
       "invalid": "Email e password non corrispondono. Riprova.",
       "exists": "Non siamo riusciti a farti accedere. Se hai già un account, accedi.",
       "checkFields": "Controlla i campi e riprova.",
       "rateLimited": "Troppi tentativi. Attendi qualche minuto e riprova.",
-      "generic": "Qualcosa è andato storto. Riprova."
+      "generic": "Qualcosa è andato storto. Riprova.",
+      "oauthLinked": "Questa email ha già un account ARUVI. Accedi con email e password."
     }
   },
   "dash": {
