@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "ARUVI — A gentler place for difficult days",
+    "description": "A free, private and multilingual wellness space for people living with migraine, depression, anxiety and stress."
+  },
+  "nav": {
+    "skip": "Skip to main content",
+    "home": "ARUVI home",
+    "primary": "Main",
+    "checkin": "Check-in",
+    "calm": "Calm Space",
+    "features": "What's inside",
+    "support": "Get help",
+    "signIn": "Sign in",
+    "signInSoon": "Accounts are coming soon. Everything here works without one.",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "languagesFull": "Fully translated",
+    "languagesMore": "More languages"
+  },
+  "comfort": {
+    "toLight": "Switch to light theme",
+    "toDark": "Switch to dark theme",
+    "textSize": "Text size: {size}. Press to change.",
+    "sizes": { "normal": "Normal", "large": "Large", "larger": "Larger" }
+  },
+  "i18n": {
+    "partial": "{language} is being translated. Until it's ready, some text is shown in English."
+  },
+  "hero": {
+    "eyebrow": "Free · Private · In your language",
+    "title": "A gentler place for difficult days.",
+    "body": "A safe, quiet space to notice how you feel, slow down, and care for yourself — without pressure or judgement.",
+    "ctaBreathe": "Take a gentle breath",
+    "ctaCheckin": "Check in with yourself",
+    "note": "No account needed to begin."
+  },
+  "mood": {
+    "title": "How are you feeling right now?",
+    "subtitle": "There's no right answer. Choose whatever feels closest — it's okay if it changes.",
+    "legend": "I'm feeling…",
+    "options": {
+      "happy": "Happy",
+      "calm": "Calm",
+      "sad": "Sad",
+      "anxious": "Anxious",
+      "overwhelmed": "Overwhelmed",
+      "irritated": "Irritated",
+      "exhausted": "Exhausted",
+      "lonely": "Lonely",
+      "numb": "Emotionally numb"
+    },
+    "intensity": "How strong is this feeling?",
+    "intensityLow": "A little",
+    "intensityHigh": "A lot",
+    "save": "Save check-in",
+    "saved": "Thank you for checking in.",
+    "savedNote": "Saved on this device only.",
+    "again": "Check in again",
+    "suggestBreathe": "Try a breathing pause",
+    "privacy": "In this preview, nothing leaves your device.",
+    "responses": {
+      "happy": "It's lovely that today feels lighter. You might like to note what helped, so you can return to it.",
+      "calm": "A calm moment is worth noticing. Stay with it for as long as you like.",
+      "sad": "Sadness can feel heavy. You don't have to fix it right now — being gentle with yourself is enough.",
+      "anxious": "Anxiety can make everything feel urgent. A slow breath out can help your body feel a little safer.",
+      "overwhelmed": "When everything feels like too much, it's okay to pick just one small thing — or nothing at all.",
+      "irritated": "Irritation often means something matters to you. A short pause may give you some space.",
+      "exhausted": "Being this tired is real. Rest is not something you have to earn.",
+      "lonely": "Loneliness is hard. If you can, reaching out to one person you trust may help — even with a short message.",
+      "numb": "Feeling numb is a way minds sometimes protect themselves. You're still here, and that matters."
+    }
+  },
+  "calm": {
+    "title": "My Calm Space",
+    "subtitle": "A quiet place to slow your breathing. Pause, change or stop whenever you like.",
+    "idle": "Press start when you're ready.",
+    "phases": { "in": "Breathe in", "hold": "Hold gently", "out": "Breathe out", "rest": "Rest" },
+    "seconds": "{seconds, plural, one {# second} other {# seconds}}",
+    "pausedLabel": "Paused",
+    "start": "Start",
+    "pause": "Pause",
+    "resume": "Resume",
+    "stop": "Stop",
+    "patternLabel": "Breathing rhythm",
+    "patterns": { "gentle": "Gentle — in 4, out 6", "box": "Box — 4 · 4 · 4 · 4" },
+    "sceneLabel": "Background",
+    "scenes": { "forest": "Forest", "ocean": "Ocean", "dusk": "Dusk" },
+    "rounds": "{count, plural, =0 {No rounds yet} one {# round completed} other {# rounds completed}}",
+    "note": "No flashing or fast movement. Sounds stay off unless you choose to turn them on."
+  },
+  "features": {
+    "title": "Everything moves at your pace",
+    "subtitle": "Use what helps, skip what doesn't. Nothing here is a task you have to finish.",
+    "soon": "Coming soon",
+    "preview": "Try it now",
+    "items": {
+      "calm": { "title": "Calm Space", "body": "Breathing, grounding and body relaxation with quiet nature scenes." },
+      "journal": { "title": "Mood & Emotion Journal", "body": "Notice your feelings, write freely, and see gentle patterns over time." },
+      "companion": { "title": "AI Wellness Companion", "body": "A supportive listener in your language. Not a doctor or therapist." },
+      "migraine": { "title": "Migraine Diary", "body": "Record episodes, symptoms and possible triggers, and export a report for your doctor." },
+      "sleep": { "title": "Sleep & Energy", "body": "Track rest, sleep quality and energy to understand your days." },
+      "insights": { "title": "Wellness Insights", "body": "Simple, descriptive overviews of your own records — never a diagnosis." }
+    }
+  },
+  "promise": {
+    "title": "Our promise to you",
+    "items": {
+      "free": { "title": "Free for everyone", "body": "No subscriptions and no paid features." },
+      "private": { "title": "Private by default", "body": "Your journals and conversations are yours. We never sell personal or health information." },
+      "gentle": { "title": "No pressure", "body": "No streaks, no guilt. Come back whenever you need to." },
+      "notMedical": { "title": "Support, not treatment", "body": "ARUVI does not replace professional medical or psychological care." }
+    }
+  },
+  "help": {
+    "title": "If you need help right now",
+    "body": "If you are in danger or thinking about harming yourself, please reach out to a person now. You deserve support.",
+    "lines": {
+      "national": "National Mental Health Helpline (Sri Lanka, 24 hours)",
+      "ambulance": "Suwa Seriya ambulance",
+      "police": "Police emergency"
+    },
+    "call": "Call {name}: {number}",
+    "note": "ARUVI is not an emergency service. If you are outside Sri Lanka, please contact your local emergency number or go to the nearest hospital."
+  },
+  "footer": {
+    "tagline": "A gentler place for difficult days.",
+    "disclaimer": "ARUVI is a supportive wellness companion. It is not a replacement for professional medical or psychological treatment.",
+    "languages": "Language",
+    "made": "Made with care. Free for everyone."
+  }
+}
