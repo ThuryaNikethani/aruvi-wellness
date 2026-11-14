@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Logo } from "@/components/brand/logo";
@@ -15,9 +15,20 @@ const LINKS = [
   { href: "#support", key: "support" },
 ] as const;
 
-export function SiteHeader() {
+export function SiteHeader({ signedIn = false }: { signedIn?: boolean }) {
   const t = useTranslations("nav");
+  const locale = useLocale();
   const [open, setOpen] = useState(false);
+  const section = (hash: string) => `/${locale}${hash}`;
+  const account = signedIn ? (
+    <Link href="/dashboard" className="rounded-full bg-leaf px-4 py-2 text-sm font-semibold text-on-leaf hover:opacity-90">
+      {t("mySpace")}
+    </Link>
+  ) : (
+    <Link href="/sign-in" className="rounded-full bg-leaf px-4 py-2 text-sm font-semibold text-on-leaf hover:opacity-90">
+      {t("signIn")}
+    </Link>
+  );
 
   useEffect(() => {
     if (!open) return;
@@ -36,7 +47,7 @@ export function SiteHeader() {
       >
         {t("skip")}
       </a>
-      <header className="sticky top-0 z-40 border-b border-line/70 bg-bg/90 backdrop-blur">
+      <header className="sticky top-0 z-40 border-b print:hidden border-line/70 bg-bg/90 backdrop-blur">
         <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
           <Link href="/" aria-label={t("home")} className="shrink-0">
             <Logo />
@@ -47,7 +58,7 @@ export function SiteHeader() {
               {LINKS.map((l) => (
                 <li key={l.key}>
                   <a
-                    href={l.href}
+                    href={section(l.href)}
                     className="rounded-full px-3 py-2 text-[0.95rem] font-medium text-ink-soft hover:bg-surface-2 hover:text-ink"
                   >
                     {t(l.key)}
@@ -60,12 +71,7 @@ export function SiteHeader() {
           <div className="hidden items-center gap-3 lg:flex">
             <LanguageSwitcher />
             <ComfortControls />
-            <span
-              title={t("signInSoon")}
-              className="rounded-full border border-line px-4 py-2 text-sm font-semibold text-ink-soft"
-            >
-              {t("signIn")}
-            </span>
+            {account}
           </div>
 
           <button
@@ -87,7 +93,7 @@ export function SiteHeader() {
                 {LINKS.map((l) => (
                   <li key={l.key}>
                     <a
-                      href={l.href}
+                      href={section(l.href)}
                       onClick={() => setOpen(false)}
                       className="block rounded-xl px-3 py-3 text-base font-medium text-ink hover:bg-surface-2"
                     >
@@ -99,6 +105,7 @@ export function SiteHeader() {
               <div className="mt-4 flex flex-wrap items-center gap-3 border-t border-line pt-4">
                 <LanguageSwitcher id="language-mobile" />
                 <ComfortControls />
+                {account}
               </div>
             </nav>
           </div>
