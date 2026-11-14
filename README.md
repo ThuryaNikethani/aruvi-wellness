@@ -18,6 +18,7 @@ ARUVI is a free, private, multilingual wellness web app for people living with m
 | Wellness insights with charts (descriptive only) | ✅ |
 | AI companion (Claude) with crisis screen and safety prompt | ✅ |
 | Settings: preferences, data export, permanent account deletion | ✅ |
+| Mobile app (Flutter, Android + iOS) sharing the same API | ✅ see [mobile/README.md](mobile/README.md) |
 | Nature sounds, PWA offline, voice notes | ⏳ next |
 
 ## Getting started
@@ -37,7 +38,7 @@ Other scripts: `npm run build`, `npm test` (Vitest), `npm run typecheck`, `npm r
 
 ## API
 
-All endpoints are JSON, require a signed-in session, and are scoped to the current user. Mutations must come from the same origin (CSRF protection) and are rate-limited.
+All endpoints are JSON, require a signed-in user, and are scoped to that user. The website uses the Auth.js session cookie; the mobile app sends `Authorization: Bearer <token>`. Cookie-based mutations must come from the same origin (CSRF protection). Everything is rate-limited.
 
 | Method | Path | Purpose |
 |---|---|---|
@@ -57,6 +58,9 @@ All endpoints are JSON, require a signed-in session, and are scoped to the curre
 | POST | `/api/ai/chat` | Companion message → streamed plain-text reply |
 | GET, DELETE | `/api/ai/conversations` | List / delete all stored conversations |
 | GET, DELETE | `/api/ai/conversations/:id` | Read / delete one conversation |
+| POST | `/api/mobile/auth/register` | Mobile sign-up (same body as web register) |
+| POST | `/api/mobile/auth/login` | Mobile sign-in → `{ token, user }` (30-day bearer token) |
+| GET | `/api/mobile/me` | Signed-in user and preferences |
 | GET | `/api/account/export` | Download all personal data (JSON) |
 | DELETE | `/api/account` | Permanently delete account (`{"confirm":"DELETE"}`) |
 
