@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Indawo ethambile yezinsuku ezinzima",
+    "description": "Indawo yenhlalakahle yamahhala, eyimfihlo, enezilimi eziningi yabantu abaphila nesiqhwala (migraine), ukudangala, ukukhathazeka nengcindezi."
+  },
+  "nav": {
+    "skip": "Yeqela kokuqukethwe okuyinhloko",
+    "home": "Ikhaya le-ARUVI",
+    "primary": "Okuyinhloko",
+    "checkin": "Hlola ukuthi uzizwa kanjani",
+    "calm": "Indawo Yokuthula",
+    "features": "Okutholakalayo",
+    "support": "Thola usizo",
+    "signIn": "Ngena",
+    "openMenu": "Vula imenyu",
+    "closeMenu": "Vala imenyu",
+    "language": "Ulimi",
+    "languagesFull": "Kuhunyushwe ngokuphelele",
+    "languagesMore": "Ezinye izilimi",
+    "mySpace": "Indawo yami"
+  },
+  "comfort": {
+    "toLight": "Shintshela endikimbeni ekhanyayo",
+    "toDark": "Shintshela endikimbeni emnyama",
+    "textSize": "Usayizi wombhalo: {size}. Thepha ukuze ushintshe.",
+    "sizes": {
+      "normal": "Ojwayelekile",
+      "large": "Omkhulu",
+      "larger": "Omkhulu kakhulu"
+    }
+  },
+  "i18n": {
+    "partial": "I-{language} ihunyushwe ngomshini, ngakho amanye amagama angase angabi nembile ngokuphelele. Uma okuthile kungacaci, i-English, සිංහල ne-தமிழ் kuhlolwe ngokugcwele."
+  },
+  "hero": {
+    "eyebrow": "Mahhala · Imfihlo · Ngolimi lwakho",
+    "title": "Indawo ethambile yezinsuku ezinzima.",
+    "body": "Indawo ephephile nethulile yokubona ukuthi uzizwa kanjani, wehlise ijubane, futhi uzinakekele — ngaphandle kwengcindezi noma kokwahlulelwa.",
+    "ctaBreathe": "Phefumula kancane",
+    "ctaCheckin": "Hlola ukuthi unjani",
+    "note": "Akudingeki i-akhawunti ukuze uqale."
+  },
+  "mood": {
+    "title": "Uzizwa kanjani manje?",
+    "subtitle": "Ayikho impendulo efanele. Khetha okusondele kakhulu — kulungile uma kushintsha.",
+    "legend": "Ngizizwa…",
+    "options": {
+      "happy": "Ngijabule",
+      "calm": "Ngizolile",
+      "sad": "Ngidabukile",
+      "anxious": "Ngikhathazekile",
+      "overwhelmed": "Kungeqile",
+      "irritated": "Ngicasukile",
+      "exhausted": "Ngikhathele kakhulu",
+      "lonely": "Nginesizungu",
+      "numb": "Angizizwa lutho"
+    },
+    "intensity": "Lo muzwa unamandla kangakanani?",
+    "intensityLow": "Kancane",
+    "intensityHigh": "Kakhulu",
+    "save": "Londoloza",
+    "saved": "Siyabonga ngokuzihlola.",
+    "savedNote": "Kulondolozwe kule divayisi kuphela.",
+    "again": "Phinda uhlole",
+    "suggestBreathe": "Zama ikhefu lokuphefumula",
+    "privacy": "Kulesi sibonelo, akukho okushiya idivayisi yakho.",
+    "responses": {
+      "happy": "Kuhle ukuthi namuhla kuzwakala kulula kancane. Ungabhala phansi okusizile, ukuze ubuyele kukho.",
+      "calm": "Isikhathi sokuthula kufanele siqashelwe. Hlala kuso isikhathi esingangoba ufuna.",
+      "sad": "Ukudabuka kungaba nzima. Akudingeki ukulungise manje — ukuzithambela kwanele.",
+      "anxious": "Ukukhathazeka kwenza konke kuzwakale kuphuthuma. Ukukhipha umoya kancane kungasiza umzimba wakho uzizwe uphephile kancane.",
+      "overwhelmed": "Uma konke kuba ngaphezulu, kulungile ukukhetha into eyodwa encane — noma ungenzi lutho nhlobo.",
+      "irritated": "Ukucasuka kuvame ukusho ukuthi okuthile kubalulekile kuwe. Ikhefu elifushane lingakunika isikhala esincane.",
+      "exhausted": "Lokhu kukhathala kungokoqobo. Ukuphumula akuyona into okumele uyisebenzele.",
+      "lonely": "Isizungu sinzima. Uma ukwazi, xhumana nomuntu omethembayo — ngisho nomlayezo omfushane ungasiza.",
+      "numb": "Ukungazizwa lutho kwesinye isikhathi kuyindlela ingqondo ezivikela ngayo. Usekhona, futhi lokho kubalulekile."
+    }
+  },
+  "calm": {
+    "title": "Indawo Yami Yokuthula",
+    "subtitle": "Indawo ethulile yokwehlisa ukuphefumula kwakho. Misa isikhashana, shintsha noma uyeke noma nini.",
+    "idle": "Cindezela qala uma usukulungele.",
+    "phases": {
+      "in": "Phefumulela ngaphakathi",
+      "hold": "Bamba kancane",
+      "out": "Phefumulela ngaphandle",
+      "rest": "Phumula"
+    },
+    "seconds": "{seconds, plural, one {umzuzwana #} other {imizuzwana #}}",
+    "pausedLabel": "Kumisiwe",
+    "start": "Qala",
+    "pause": "Misa isikhashana",
+    "resume": "Qhubeka",
+    "stop": "Yeka",
+    "patternLabel": "Isigqi sokuphefumula",
+    "patterns": {
+      "gentle": "Kancane — ngaphakathi 4, ngaphandle 6",
+      "box": "Ibhokisi — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Ingemuva",
+    "scenes": {
+      "forest": "Ihlathi",
+      "ocean": "Ulwandle",
+      "dusk": "Kuhwalala"
+    },
+    "rounds": "{count, plural, =0 {Awukho umjikelezo okwamanje} one {Umjikelezo # uqediwe} other {Imijikelezo # iqediwe}}",
+    "note": "Akukho kucwazimula noma ukunyakaza okusheshayo. Umsindo uhlala uvaliwe ngaphandle uma uwuvula."
+  },
+  "features": {
+    "title": "Konke ngejubane lakho",
+    "subtitle": "Sebenzisa okukusizayo, weqe okungakusizi. Akukho lapha okuwumsebenzi okumele uwuqede.",
+    "soon": "Maduze",
+    "preview": "Zama manje",
+    "items": {
+      "calm": {
+        "title": "Indawo Yokuthula",
+        "body": "Ukuphefumula, ukuzinzisa nokukhulula umzimba ngezithombe zemvelo ezithulile."
+      },
+      "journal": {
+        "title": "Ijenali Yemizwa",
+        "body": "Qaphela imizwa yakho, bhala ngokukhululeka, futhi ubone amaphethini athambile ngokuhamba kwesikhathi."
+      },
+      "companion": {
+        "title": "Umngane Wenhlalakahle we-AI",
+        "body": "Umlaleli osekelayo ngolimi lwakho. Akuyena udokotela noma umelaphi."
+      },
+      "migraine": {
+        "title": "Ijenali Yesiqhwala",
+        "body": "Bhala izigameko, izimpawu nezinto ezingase zikubangele, bese ukhipha umbiko kadokotela wakho."
+      },
+      "sleep": {
+        "title": "Ukulala Namandla",
+        "body": "Landelela ukuphumula, izinga lokulala namandla ukuze uqonde izinsuku zakho."
+      },
+      "insights": {
+        "title": "Ukuqonda Inhlalakahle",
+        "body": "Izifinyezo ezilula, ezichazayo zalokho okubhalile — akusona isixilongo neze."
+      }
+    }
+  },
+  "promise": {
+    "title": "Isithembiso sethu kuwe",
+    "items": {
+      "free": {
+        "title": "Mahhala kuwo wonke umuntu",
+        "body": "Akukho ukubhalisa okukhokhelwayo, azikho izici ezikhokhelwayo."
+      },
+      "private": {
+        "title": "Imfihlo kusukela ekuqaleni",
+        "body": "Amajenali nezingxoxo zakho ngezakho. Asisoze sathengisa imininingwane yomuntu siqu noma yezempilo."
+      },
+      "gentle": {
+        "title": "Akukho ngcindezi",
+        "body": "Akukho ukubala izinsuku, akukho cala. Buya noma nini lapho udinga."
+      },
+      "notMedical": {
+        "title": "Ukwesekwa, hhayi ukwelashwa",
+        "body": "I-ARUVI ayithathi indawo yokunakekelwa ngochwepheshe bezempilo noma bengqondo."
+      }
+    }
+  },
+  "help": {
+    "title": "Uma udinga usizo manje",
+    "body": "Uma usengozini noma ucabanga ukuzilimaza, sicela uxhumane nomuntu manje. Ufanelwe ukwesekwa.",
+    "lines": {
+      "national": "Ulayini Kazwelonke Wosizo Lwempilo Yengqondo (Sri Lanka, amahora angu-24)",
+      "ambulance": "I-ambulensi i-Suwa Seriya",
+      "police": "Isimo esiphuthumayo samaphoyisa"
+    },
+    "call": "Shayela {name}: {number}",
+    "note": "I-ARUVI akuyona insiza yezimo eziphuthumayo. Uma ungase wenze imicabango yokuzilimaza, sicela uxhumane nenye yalezi zinsiza noma uye esibhedlela esiseduze.",
+    "countryLabel": "Izwe lakho",
+    "otherCountry": "Elinye izwe",
+    "noList": "Asikabi nalo uhlu oluqinisekisiwe lwemigqa yosizo yaleli zwe. Sicela ushayele inombolo yezimo eziphuthumayo yendawo noma uye esibhedlela esiseduze. Ungathola nolayini wosizo wamahhala noyimfihlo oseduze nawe lapha:",
+    "findMore": "Thola ulayini wosizo ezweni lakho"
+  },
+  "footer": {
+    "tagline": "Indawo ethambile yezinsuku ezinzima.",
+    "disclaimer": "I-ARUVI ingumngane wenhlalakahle osekelayo. Ayithathi indawo yokwelashwa ngochwepheshe bezempilo noma bengqondo.",
+    "languages": "Ulimi",
+    "made": "Kwenziwe ngokunakekela. Mahhala kuwo wonke umuntu."
+  },
+  "common": {
+    "save": "Londoloza",
+    "saving": "Iyalondoloza…",
+    "saved": "Kulondoloziwe.",
+    "error": "Kukhona okungahambanga kahle. Sicela uzame futhi.",
+    "optional": "akuphoqelekile",
+    "confirmDelete": "Susa lokhu?",
+    "yes": "Yebo, susa",
+    "cancel": "Khansela"
+  },
+  "auth": {
+    "signInTitle": "Siyakwamukela futhi",
+    "signInSubtitle": "Ngena ukuze ubone ijenali, amanothi nokuqonda kwakho.",
+    "signUpTitle": "Dala indawo yakho",
+    "signUpSubtitle": "Mahhala, imfihlo futhi ngeyakho. Ungasusa konke noma nini.",
+    "name": "Sikubize ngokuthini?",
+    "optional": "akuphoqelekile",
+    "email": "I-imeyili",
+    "password": "Iphasiwedi",
+    "passwordHint": "Okungenani izinhlamvu eziyi-10. Umusho omfushane usebenza kahle.",
+    "acceptTerms": "Ngiyavumelana nemigomo yokusebenzisa nenqubomgomo yobumfihlo.",
+    "acceptHealth": "Ngiyavuma ukuthi i-ARUVI igcine imininingwane yenhlalakahle engikhetha ukuyifaka (imizwa, amajenali, amanothi esiqhwala nokulala), ngasese futhi kuphela kimina.",
+    "signIn": "Ngena",
+    "signUp": "Dala i-akhawunti",
+    "wait": "Sicela ulinde…",
+    "or": "noma",
+    "google": "Qhubeka nge-Google",
+    "noAccount": "Umusha ku-ARUVI?",
+    "haveAccount": "Usunayo i-akhawunti?",
+    "tryWithout": "Noma zama umsebenzi wokuphefumula ngaphandle kwe-akhawunti",
+    "errors": {
+      "invalid": "I-imeyili nephasiwedi akuhambisani. Sicela uzame futhi.",
+      "exists": "Asikwazanga ukukungenisa. Uma usunayo i-akhawunti, sicela ungene.",
+      "checkFields": "Sicela uhlole imininingwane bese uzama futhi.",
+      "rateLimited": "Imizamo iningi kakhulu. Linda imizuzu embalwa bese uzama futhi.",
+      "generic": "Kukhona okungahambanga kahle. Sicela uzame futhi."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Indawo yami",
+      "overview": "Namuhla",
+      "journal": "Imizwa nejenali",
+      "companion": "Umngane",
+      "migraine": "Ijenali yesiqhwala",
+      "sleep": "Ukulala namandla",
+      "insights": "Ukuqonda",
+      "settings": "Izilungiselelo",
+      "calm": "Indawo Yokuthula",
+      "signOut": "Phuma"
+    }
+  },
+  "overview": {
+    "greeting": "Sawubona",
+    "greetingName": "Sawubona, {name}",
+    "subtitle": "Unjani namuhla? Akukho okumele ukwenze lapha.",
+    "subtitleCheckedIn": "Siyabonga ngokuzihlola namuhla. Thatha okudingayo.",
+    "verified": "I-imeyili yakho iqinisekisiwe. Siyabonga.",
+    "verifyFailed": "Lelo xhumanisi lokuqinisekisa alisebenzanga noma liphelelwe yisikhathi.",
+    "verifyPending": "Sikuthumelele isixhumanisi sokuqinisekisa i-imeyili yakho. Okwamanje, ungaqhubeka usebenzisa i-ARUVI.",
+    "calmTitle": "Indawo Yokuthula",
+    "calmBody": "Ukuphefumula okumbalwa kancane, noma nini lapho udinga.",
+    "companionTitle": "Khuluma nomngane",
+    "companionBody": "Umlaleli othambile, ngolimi lwakho.",
+    "suggestionTitle": "Umqondo othambile wanamuhla",
+    "suggestions": {
+      "0": "Phuza ingilazi yamanzi, kancane.",
+      "1": "Phuma ngaphandle noma uvule iwindi ukuze uthole umoya opholile umzuzu owodwa.",
+      "2": "Khulula amahlombe akho futhi uyeke umhlathi wakho uthambe.",
+      "3": "Thumela umlayezo omfushane kumuntu omethembayo.",
+      "4": "Phumulisa amehlo akho kude nezikrini imizuzu emihlanu.",
+      "5": "Qaphela into eyodwa encane ehambe kahle namuhla."
+    },
+    "recentJournal": "Okubhalwe muva ejenalini",
+    "openJournal": "Vula ijenali",
+    "noJournal": "Akukabhalwa lutho. Ngisho nomugqa owodwa ungasiza.",
+    "summaryTitle": "Ngokubuka nje",
+    "migraine30": "Izigameko zesiqhwala, izinsuku ezingu-30 ezedlule",
+    "lastSleep": "Ukulala kokugcina",
+    "hours": "amahora angu-{hours}",
+    "seeInsights": "Bona ukuqonda kwakho"
+  },
+  "journal": {
+    "title": "Imizwa nejenali",
+    "subtitle": "Qaphela ukuthi uzizwa kanjani futhi ubhale ngokukhululeka. Nguwe kuphela ongakubona lokhu.",
+    "moodNote": "Amagama ambalwa ngakho",
+    "moodHistory": "Ukuhlola kwakamuva",
+    "deleteMood": "Susa lokhu kuhlola",
+    "writeTitle": "Bhala",
+    "promptLabel": "Isiqondiso sokubhala, uma sisiza",
+    "showPrompt": "Bonisa isiqondiso sokubhala",
+    "newPrompt": "Bonisa esinye isiqondiso",
+    "titleLabel": "Isihloko",
+    "contentLabel": "Imicabango yakho",
+    "privateNote": "Imfihlo kusukela ekuqaleni. Akwabelwa muntu neze.",
+    "entries": "Okubhalile",
+    "empty": "Okubhalile kuzovela lapha.",
+    "deleteEntry": "Susa lokhu okubhaliwe",
+    "prompts": {
+      "0": "Iyiphi into eyodwa ebe nzima namuhla, futhi iyiphi ebe lula kancane?",
+      "1": "Umzimba wakho udingani manje?",
+      "2": "Chaza indawo lapho uzizwa uphephile khona.",
+      "3": "Ungathini kumngane ozizwa njengawe namuhla?",
+      "4": "Iyiphi into encane obonga ngayo?",
+      "5": "Yini eqede amandla akho namuhla? Yini ebuyise amanye?",
+      "6": "Ukube imizwa yakho ibiyisimo sezulu, ibiyoba yisiphi?",
+      "7": "Iyiphi into enomusa ongazenzela yona kusasa?"
+    }
+  },
+  "migraine": {
+    "title": "Ijenali yesiqhwala",
+    "subtitle": "Gcina ijenali elula yekhanda ongayabelana nodokotela wakho.",
+    "disclaimer": "Le jenali ibhala lokho okuqaphelayo. Amaphethini aboniswa lapha awasona isixilongo sezempilo. Sicela ukhulume nodokotela ngekhanda lakho nanoma imuphi umuthi.",
+    "report": "Umbiko kadokotela",
+    "formTitle": "Bhala isigameko",
+    "start": "Ukuqala",
+    "end": "Ukuphela",
+    "ongoing": "Kusaqhubeka",
+    "ongoingShort": "kuyaqhubeka",
+    "duration": "amahora angu-{hours}",
+    "intensity": "Amandla obuhlungu",
+    "intensityHint": "0 kusho ukungabikho kobuhlungu, 10 kusho ubuhlungu obubi kakhulu ongabucabanga.",
+    "locationsLabel": "Kubuhlungu kuphi?",
+    "characteristicsLabel": "Kuzwakala kanjani?",
+    "symptomsLabel": "Ezinye izimpawu",
+    "triggersLabel": "Izinto ezingase zikubangele ozibonile",
+    "triggersHint": "Kuphela lokho okuqaphele wena. Lokhu kungamathuba, hhayi izimbangela.",
+    "medication": "Umuthi owuthathile",
+    "medicationHint": "Inothi lakho kuphela. I-ARUVI ayiphakamisi muthi neze.",
+    "recovery": "Amanothi okuphumula nokululama",
+    "save": "Londoloza isigameko",
+    "history": "Umlando wezigameko",
+    "empty": "Asikabhalwa isigameko.",
+    "deleteEpisode": "Susa lesi sigameko",
+    "locations": {
+      "left": "Uhlangothi lwesobunxele",
+      "right": "Uhlangothi lwesokudla",
+      "both_sides": "Izinhlangothi zombili",
+      "forehead": "Ibunzi",
+      "temples": "Izinkophe zekhanda",
+      "behind_eyes": "Ngemuva kwamehlo",
+      "back_of_head": "Ngemuva kwekhanda",
+      "neck": "Intamo"
+    },
+    "characteristics": {
+      "throbbing": "Kuyagqunqa",
+      "pressing": "Kuyacindezela",
+      "stabbing": "Kuyahlaba",
+      "dull": "Ubuhlungu obuphansi"
+    },
+    "symptoms": {
+      "nausea": "Isicanucanu",
+      "vomiting": "Ukuhlanza",
+      "light_sensitivity": "Ukuzwela ukukhanya",
+      "sound_sensitivity": "Ukuzwela umsindo",
+      "smell_sensitivity": "Ukuzwela iphunga",
+      "aura": "Isixwayiso (aura)",
+      "dizziness": "Isiyezi",
+      "fatigue": "Ukukhathala",
+      "blurred_vision": "Ukubona kufiphele"
+    },
+    "triggers": {
+      "sleep": "Izinguquko zokulala",
+      "stress": "Ingcindezi",
+      "weather": "Izinguquko zesimo sezulu",
+      "dehydration": "Ukuntuleka kwamanzi emzimbeni",
+      "meal_timing": "Izikhathi zokudla",
+      "screen": "Isikhathi sesikrini",
+      "environment": "Imvelo (ukukhanya, umsindo, iphunga)",
+      "menstrual": "Umjikelezo wokuya esikhathini",
+      "other": "Okunye"
+    }
+  },
+  "report": {
+    "title": "Umbiko wejenali yekhanda",
+    "period": "izinsuku ezingu-{days} ezedlule",
+    "print": "Phrinta noma ulondoloze njenge-PDF",
+    "disclaimer": "Lo mbiko uqukethe imininingwane ebhalwe ngumuntu ngokwakhe ku-ARUVI. Akusona isixilongo. Izinto ezingase zibangele ziwukuqaphela komuntu siqu.",
+    "episodes": "Izigameko",
+    "avgDuration": "Isikhathi esimaphakathi (amahora)",
+    "avgIntensity": "Amandla amaphakathi (0–10)",
+    "triggers": "Izinto ezingase zibangele ezibikwe ngumuntu",
+    "log": "Uhlu lwezigameko",
+    "hours": "Amahora"
+  },
+  "sleep": {
+    "title": "Ukulala namandla",
+    "subtitle": "Inothi elifushane lansuku zonke mayelana nokuphumula namandla likusiza uqonde izinsuku zakho.",
+    "date": "Usuku",
+    "dateHint": "Bhala ukulala kwayizolo ebusuku osukwini lwanamuhla.",
+    "sleepTitle": "Ukulala",
+    "hours": "Amahora okulala",
+    "quality": "Izinga lokulala",
+    "poor": "Kubi",
+    "restful": "Kuphumuzile",
+    "energyTitle": "Amandla",
+    "energy": "Izinga lamandla",
+    "fatigue": "Ukukhathala",
+    "veryLow": "Phansi kakhulu",
+    "high": "Phezulu",
+    "little": "Kancane",
+    "aLot": "Kakhulu",
+    "rest": "Isikhathi sokuphumula (imizuzu)",
+    "note": "Inothi",
+    "history": "Amasonto amabili edlule",
+    "empty": "Akukabhalwa lutho."
+  },
+  "insights": {
+    "title": "Ukuqonda inhlalakahle",
+    "subtitle": "Ukubheka okulula kulokho okubhalile.",
+    "disclaimer": "Lezi yizincazelo zamanothi akho, hhayi iziphetho zezempilo. Uma izinto ezimbili zivela ndawonye, akusho ukuthi enye ibangela enye.",
+    "rangeLabel": "Isikhathi",
+    "range": "izinsuku ezingu-{days}",
+    "stats": {
+      "checkIns": "Ukuhlola imizwa",
+      "migraines": "Izigameko zesiqhwala",
+      "avgDuration": "Isigameko esimaphakathi (amahora)",
+      "avgSleep": "Ukulala okumaphakathi (amahora)"
+    },
+    "observationsTitle": "Okuboniswa ngamanothi akho",
+    "notEnough": "Qhubeka ubhala isikhashana, ukuqaphela okuthambile kuzovela lapha.",
+    "obs": {
+      "topTrigger": "Ubhale \"{trigger}\" njengento engase ibangele ezigamekweni ezingu-{count} kwezingu-{total}.",
+      "lowSleepMigraine": "Ku-{share}% wezinsuku obhale ngazo isiqhwala, ubuphinde wabhala ukulala okungaphansi kwamahora angu-6, uma kuqhathaniswa no-{overall}% wabo bonke ubusuku obubhalile.",
+      "steadyMood": "Umzwa owubhale kakhulu ngu-\"{mood}\" (izikhathi ezingu-{count})."
+    },
+    "moodChart": "Imizwa ebhaliwe",
+    "migraineChart": "Izigameko zesiqhwala ngosuku",
+    "sleepChart": "Amahora okulala",
+    "energyChart": "Izinga lamandla (1–5)",
+    "showTable": "Bonisa njengethebula",
+    "noData": "Akukho ukuhlola kulesi sikhathi.",
+    "mood": "Umzwa",
+    "count": "Izikhathi",
+    "date": "Usuku",
+    "episodes": "Izigameko",
+    "hours": "Amahora",
+    "energyLevel": "Amandla"
+  },
+  "settings": {
+    "title": "Izilungiselelo",
+    "prefsTitle": "Okuncamelayo",
+    "displayName": "Igama lokukubingelela",
+    "trackMigraine": {
+      "title": "Ngiphila nesiqhwala",
+      "body": "Bonisa izici zesiqhwala ngokugqamile."
+    },
+    "trackMenstrual": {
+      "title": "Faka umjikelezo wokuya esikhathini njengento engase ibangele",
+      "body": "Akuphoqelekile. Kuvela ejenalini yakho yesiqhwala kuphela."
+    },
+    "keepAiHistory": {
+      "title": "Gcina umlando wezingxoxo nomngane",
+      "body": "Kuvaliwe kusukela ekuqaleni. Uma ukuvula, izingxoxo zakho ziyalondolozwa ukuze ubuyele kuzo. Ungazisusa noma nini."
+    },
+    "comfortNote": "Indikimba, usayizi wombhalo nolimi kusebhayini ephezulu, futhi kukhunjulwa kule divayisi.",
+    "exportTitle": "Landa idatha yakho",
+    "exportBody": "Thola ikhophi yakho konke i-ARUVI ekugcinayo ngawe, njengefayela le-JSON.",
+    "exportButton": "Landa idatha yami",
+    "deleteTitle": "Susa i-akhawunti",
+    "deleteBody": "Lokhu kusula unomphela i-akhawunti yakho nakho konke okukuyo: imizwa, amajenali, amanothi nezingxoxo. Akukwazi ukubuyiswa.",
+    "deleteConfirmLabel": "Thayipha DELETE ukuze uqinisekise",
+    "deleteButton": "Susa i-akhawunti yami unomphela"
+  },
+  "companion": {
+    "title": "Umngane",
+    "subtitle": "Yabelana ngokusengqondweni yakho. Bhala nganoma yiluphi ulimi olufunayo.",
+    "disclaimer": "Umngane uyi-AI, hhayi umelaphi noma udokotela. Angenza amaphutha futhi akakwazi ukuxilonga noma ukunikeza iseluleko sezempilo. Uma usengozini, sicela usebenzise izinombolo ezisengxenyeni ethi “Thola usizo” noma ushayele inombolo yezimo eziphuthumayo yendawo.",
+    "emptyTitle": "Ngilapha ukuze ngikulalele.",
+    "emptyBody": "Uzizwa kanjani manje?",
+    "placeholder": "Bhala okusengqondweni yakho…",
+    "inputLabel": "Umlayezo wakho",
+    "send": "Thumela",
+    "you": "Wena",
+    "companion": "Umngane",
+    "thinking": "…",
+    "newChat": "Ingxoxo entsha",
+    "clear": "Sula ingxoxo",
+    "deleteHistory": "Susa wonke umlando",
+    "historyOn": "Izingxoxo ziyalondolozwa. Ungakuvala lokhu ezilungiselelweni.",
+    "historyOff": "Izingxoxo azilondolozwa. Ziyanyamalala uma ushiya leli khasi.",
+    "crisisTitle": "Akudingeki ubhekane nalokhu wedwa",
+    "crisisBody": "Kubonakala sengathi izinto zinzima ngempela manje. Sicela uxhumane nomuntu ongasiza — ungashayela manje, noma nini.",
+    "errors": {
+      "refusal": "Angikwazi ukuphendula lokhu. Uma izinto zinzima, sicela uxhumane nomuntu omethembayo noma usebenzise izinombolo ezisengxenyeni ethi “Thola usizo”.",
+      "unavailable": "Umngane akatholakali okwamanje. Sicela uzame futhi ngokuhamba kwesikhathi.",
+      "error": "Kukhona okungahambanga kahle. Sicela uzame futhi.",
+      "network": "Kubonakala sengathi awuxhunyiwe ku-inthanethi. Sicela uhlole uxhumano lwakho.",
+      "limit": "Uthumele imilayezo eminingi. Thatha ikhefu elincane bese uzama futhi ngokuhamba kwesikhathi.",
+      "generic": "Kukhona okungahambanga kahle. Sicela uzame futhi."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Ngena ukuze usebenzise lokhu",
+    "guestBody": "Dala i-akhawunti yamahhala ukuze amanothi akho ahlale eyimfihlo futhi ephephile kuwo wonke amadivayisi.",
+    "continueGuest": "Qhubeka ngaphandle kwe-akhawunti",
+    "more": "Okunye",
+    "appearance": "Ukubukeka",
+    "themeSystem": "Uhlelo",
+    "themeLight": "Ukukhanya",
+    "themeDark": "Ubumnyama",
+    "account": "I-akhawunti",
+    "signedInAs": "Ungene njengo-{email}",
+    "offline": "Ayikwazi ukufinyelela i-ARUVI okwamanje. Sicela uhlole uxhumano lwakho bese uzama futhi.",
+    "reportOnWeb": "Umbiko kadokotela ongaphrintwa utholakala kuwebhusayithi ye-ARUVI.",
+    "pickDate": "Khetha usuku",
+    "pickTime": "Khetha isikhathi",
+    "textSize": "Usayizi wombhalo",
+    "refresh": "Vuselela",
+    "migraineTab": "Isiqhwala"
+  }
+}
