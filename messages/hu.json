@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "title": "ARUVI — Egy szelídebb hely a nehéz napokra",
+    "description": "Ingyenes, privát, többnyelvű jólléti tér migrénnel, depresszióval, szorongással és stresszel élőknek."
+  },
+  "nav": {
+    "skip": "Ugrás a fő tartalomra",
+    "home": "ARUVI kezdőlap",
+    "primary": "Fő menü",
+    "checkin": "Hogy vagy",
+    "calm": "Nyugalom sarok",
+    "features": "Mit találsz itt",
+    "support": "Segítség",
+    "signIn": "Bejelentkezés",
+    "openMenu": "Menü megnyitása",
+    "closeMenu": "Menü bezárása",
+    "language": "Nyelv",
+    "languagesFull": "Teljesen lefordítva",
+    "languagesMore": "További nyelvek",
+    "mySpace": "Saját tér"
+  },
+  "comfort": {
+    "toLight": "Váltás világos témára",
+    "toDark": "Váltás sötét témára",
+    "textSize": "Szövegméret: {size}. Koppints a módosításhoz.",
+    "sizes": {
+      "normal": "Normál",
+      "large": "Nagy",
+      "larger": "Nagyobb"
+    }
+  },
+  "i18n": {
+    "partial": "A(z) {language} fordítása gépi, ezért egyes megfogalmazások pontatlanok lehetnek. Ha valami nem világos, az English, සිංහල és தமிழ் változat teljesen ellenőrzött."
+  },
+  "hero": {
+    "eyebrow": "Ingyenes · Privát · A te nyelveden",
+    "title": "Egy szelídebb hely a nehéz napokra.",
+    "body": "Biztonságos, csendes tér, ahol észreveheted, hogy érzed magad, lelassulhatsz és gondoskodhatsz magadról — nyomás és ítélkezés nélkül.",
+    "ctaBreathe": "Lélegezz nyugodtan",
+    "ctaCheckin": "Nézz rá magadra",
+    "note": "A kezdéshez nem kell fiók."
+  },
+  "mood": {
+    "title": "Hogy érzed magad most?",
+    "subtitle": "Nincs helyes válasz. Válaszd azt, ami a legközelebb áll — nem baj, ha változik.",
+    "legend": "Érzem magam…",
+    "options": {
+      "happy": "Boldognak",
+      "calm": "Nyugodtnak",
+      "sad": "Szomorúnak",
+      "anxious": "Szorongónak",
+      "overwhelmed": "Túlterheltnek",
+      "irritated": "Ingerültnek",
+      "exhausted": "Kimerültnek",
+      "lonely": "Magányosnak",
+      "numb": "Zsibbadtnak"
+    },
+    "intensity": "Mennyire erős ez az érzés?",
+    "intensityLow": "Kicsit",
+    "intensityHigh": "Nagyon",
+    "save": "Mentés",
+    "saved": "Köszönjük, hogy ránéztél magadra.",
+    "savedNote": "Csak ezen az eszközön mentve.",
+    "again": "Újra",
+    "suggestBreathe": "Próbálj ki egy légzőszünetet",
+    "privacy": "Ebben az előnézetben semmi sem hagyja el az eszközödet.",
+    "responses": {
+      "happy": "Jó, hogy ma egy kicsit könnyebb. Leírhatod, mi segített, hogy később visszatérhess hozzá.",
+      "calm": "Egy nyugodt pillanatot érdemes észrevenni. Maradj benne, ameddig szeretnél.",
+      "sad": "A szomorúság nehéz lehet. Most nem kell megoldanod — elég, ha kedves vagy magadhoz.",
+      "anxious": "A szorongás mindent sürgősnek mutat. Egy lassú kilégzés segíthet, hogy a tested kicsit nagyobb biztonságban érezze magát.",
+      "overwhelmed": "Ha minden túl sok, rendben van egyetlen apró dolgot választani — vagy semmit.",
+      "irritated": "Az ingerültség gyakran azt jelzi, hogy valami fontos neked. Egy rövid szünet adhat egy kis teret.",
+      "exhausted": "Ez a fáradtság valódi. A pihenést nem kell kiérdemelned.",
+      "lonely": "A magány nehéz. Ha teheted, keress meg valakit, akiben megbízol — akár egy rövid üzenet is segíthet.",
+      "numb": "A zsibbadtság néha az elme módja arra, hogy megvédje magát. Még mindig itt vagy, és ez számít."
+    }
+  },
+  "calm": {
+    "title": "Az én nyugalom sarkom",
+    "subtitle": "Csendes hely, ahol lelassíthatod a légzésed. Szüneteltesd, válts vagy állj meg bármikor.",
+    "idle": "Koppints az indításra, ha készen állsz.",
+    "phases": {
+      "in": "Belégzés",
+      "hold": "Tartsd finoman",
+      "out": "Kilégzés",
+      "rest": "Pihenés"
+    },
+    "seconds": "{seconds, plural, one {# másodperc} other {# másodperc}}",
+    "pausedLabel": "Szüneteltetve",
+    "start": "Indítás",
+    "pause": "Szünet",
+    "resume": "Folytatás",
+    "stop": "Leállítás",
+    "patternLabel": "Légzésritmus",
+    "patterns": {
+      "gentle": "Szelíd — be 4, ki 6",
+      "box": "Négyzet — 4 · 4 · 4 · 4"
+    },
+    "sceneLabel": "Háttér",
+    "scenes": {
+      "forest": "Erdő",
+      "ocean": "Óceán",
+      "dusk": "Alkonyat"
+    },
+    "rounds": "{count, plural, =0 {Még nincs kör} one {# kör kész} other {# kör kész}}",
+    "note": "Nincs villogás vagy gyors mozgás. A hang ki van kapcsolva, hacsak be nem kapcsolod."
+  },
+  "features": {
+    "title": "Minden a saját tempódban",
+    "subtitle": "Használd, ami segít, és hagyd ki a többit. Itt semmi sem elvégzendő feladat.",
+    "soon": "Hamarosan",
+    "preview": "Kipróbálom",
+    "items": {
+      "calm": {
+        "title": "Nyugalom sarok",
+        "body": "Légzés, földelés és testi ellazulás nyugodt természeti tájakkal."
+      },
+      "journal": {
+        "title": "Hangulatnapló",
+        "body": "Vedd észre az érzéseidet, írj szabadon, és idővel láss szelíd mintázatokat."
+      },
+      "companion": {
+        "title": "MI jólléti társ",
+        "body": "Támogató hallgató a te nyelveden. Nem orvos és nem terapeuta."
+      },
+      "migraine": {
+        "title": "Migrénnapló",
+        "body": "Jegyezd fel a rohamokat, tüneteket és lehetséges kiváltó okokat, és exportálj jelentést az orvosodnak."
+      },
+      "sleep": {
+        "title": "Alvás és energia",
+        "body": "Kövesd a pihenést, az alvásminőséget és az energiát, hogy jobban értsd a napjaidat."
+      },
+      "insights": {
+        "title": "Jólléti áttekintés",
+        "body": "Egyszerű, leíró összefoglalók a saját bejegyzéseidről — soha nem diagnózis."
+      }
+    }
+  },
+  "promise": {
+    "title": "Ígéretünk neked",
+    "items": {
+      "free": {
+        "title": "Mindenkinek ingyenes",
+        "body": "Nincs előfizetés, nincsenek fizetős funkciók."
+      },
+      "private": {
+        "title": "Alapértelmezetten privát",
+        "body": "A naplóid és beszélgetéseid a tieid. Soha nem adunk el személyes vagy egészségügyi adatokat."
+      },
+      "gentle": {
+        "title": "Nincs nyomás",
+        "body": "Nincsenek sorozatok, nincs bűntudat. Gyere vissza, amikor szükséged van rá."
+      },
+      "notMedical": {
+        "title": "Támogatás, nem kezelés",
+        "body": "Az ARUVI nem helyettesíti a szakszerű orvosi vagy pszichológiai ellátást."
+      }
+    }
+  },
+  "help": {
+    "title": "Ha most segítségre van szükséged",
+    "body": "Ha veszélyben vagy, vagy arra gondolsz, hogy ártasz magadnak, kérlek, fordulj most valakihez. Megérdemled a támogatást.",
+    "lines": {
+      "national": "Országos lelki egészség segélyvonal (Srí Lanka, 0–24)",
+      "ambulance": "Suwa Seriya mentőszolgálat",
+      "police": "Rendőrségi segélyhívó"
+    },
+    "call": "{name} hívása: {number}",
+    "note": "Az ARUVI nem segélyhívó szolgálat. Ha előfordulhat, hogy cselekszel az önártalmas gondolataid alapján, kérlek, fordulj ezek valamelyikéhez, vagy menj a legközelebbi kórházba.",
+    "countryLabel": "Országod",
+    "otherCountry": "Másik ország",
+    "noList": "Ehhez az országhoz még nincs ellenőrzött segélyvonal-listánk. Kérlek, hívd a helyi segélyhívó számot, vagy menj a legközelebbi kórházba. Itt ingyenes, bizalmas krízisvonalat is találhatsz a közeledben:",
+    "findMore": "Segélyvonal keresése az országodban"
+  },
+  "footer": {
+    "tagline": "Egy szelídebb hely a nehéz napokra.",
+    "disclaimer": "Az ARUVI támogató jólléti társ. Nem helyettesíti a szakszerű orvosi vagy pszichológiai kezelést.",
+    "languages": "Nyelv",
+    "made": "Gondossággal készült. Mindenkinek ingyenes."
+  },
+  "common": {
+    "save": "Mentés",
+    "saving": "Mentés…",
+    "saved": "Mentve.",
+    "error": "Hiba történt. Kérlek, próbáld újra.",
+    "optional": "nem kötelező",
+    "confirmDelete": "Törlöd?",
+    "yes": "Igen, törlés",
+    "cancel": "Mégse"
+  },
+  "auth": {
+    "signInTitle": "Üdv újra",
+    "signInSubtitle": "Jelentkezz be a naplód, bejegyzéseid és áttekintéseid megtekintéséhez.",
+    "signUpTitle": "Hozd létre a saját teredet",
+    "signUpSubtitle": "Ingyenes, privát és a tiéd. Bármikor mindent törölhetsz.",
+    "name": "Hogyan szólíthatunk?",
+    "optional": "nem kötelező",
+    "email": "E-mail",
+    "password": "Jelszó",
+    "passwordHint": "Legalább 10 karakter. Egy rövid mondat jól működik.",
+    "acceptTerms": "Elfogadom a felhasználási feltételeket és az adatvédelmi szabályzatot.",
+    "acceptHealth": "Hozzájárulok, hogy az ARUVI tárolja az általam megadott jólléti adatokat (hangulatok, naplók, migrén- és alvásjegyzetek), privát módon és csak nekem.",
+    "signIn": "Bejelentkezés",
+    "signUp": "Fiók létrehozása",
+    "wait": "Kérlek, várj…",
+    "or": "vagy",
+    "google": "Folytatás Google-fiókkal",
+    "noAccount": "Új vagy az ARUVI-ban?",
+    "haveAccount": "Van már fiókod?",
+    "tryWithout": "Vagy próbálj ki egy légzőgyakorlatot fiók nélkül",
+    "errors": {
+      "invalid": "Az e-mail és a jelszó nem egyezik. Próbáld újra.",
+      "exists": "Nem sikerült bejelentkeztetni. Ha már van fiókod, jelentkezz be.",
+      "checkFields": "Ellenőrizd a mezőket, és próbáld újra.",
+      "rateLimited": "Túl sok próbálkozás. Várj néhány percet, és próbáld újra.",
+      "generic": "Hiba történt. Kérlek, próbáld újra."
+    }
+  },
+  "dash": {
+    "nav": {
+      "label": "Saját tér",
+      "overview": "Ma",
+      "journal": "Hangulat és napló",
+      "companion": "Társ",
+      "migraine": "Migrénnapló",
+      "sleep": "Alvás és energia",
+      "insights": "Áttekintés",
+      "settings": "Beállítások",
+      "calm": "Nyugalom sarok",
+      "signOut": "Kijelentkezés"
+    }
+  },
+  "overview": {
+    "greeting": "Szia",
+    "greetingName": "Szia, {name}",
+    "subtitle": "Hogy érkeztél ma? Itt semmit sem kell tenned.",
+    "subtitleCheckedIn": "Köszönjük, hogy ma ránéztél magadra. Vedd el, amire szükséged van.",
+    "verified": "Az e-mail-címed megerősítve. Köszönjük.",
+    "verifyFailed": "A megerősítő link nem működött, vagy lejárt.",
+    "verifyPending": "Küldtünk egy linket az e-mail-címed megerősítéséhez. Addig is nyugodtan használhatod az ARUVI-t.",
+    "calmTitle": "Nyugalom sarok",
+    "calmBody": "Néhány lassú lélegzet, amikor csak szükséged van rá.",
+    "companionTitle": "Beszélgess a társsal",
+    "companionBody": "Szelíd hallgató a te nyelveden.",
+    "suggestionTitle": "Egy szelíd ötlet mára",
+    "suggestions": {
+      "0": "Igyál meg lassan egy pohár vizet.",
+      "1": "Menj ki, vagy nyiss ablakot egy percnyi friss levegőért.",
+      "2": "Engedd le a vállad, és lazítsd el az állkapcsod.",
+      "3": "Küldj egy rövid üzenetet valakinek, akiben megbízol.",
+      "4": "Pihentesd a szemed öt percig a képernyőktől távol.",
+      "5": "Vegyél észre egy apró dolgot, ami ma jól sikerült."
+    },
+    "recentJournal": "Legutóbbi naplóbejegyzések",
+    "openJournal": "Napló megnyitása",
+    "noJournal": "Még nincs bejegyzés. Akár egy sor is segíthet.",
+    "summaryTitle": "Egy pillantással",
+    "migraine30": "Migrénes rohamok, elmúlt 30 nap",
+    "lastSleep": "Utolsó alvás",
+    "hours": "{hours} óra",
+    "seeInsights": "Áttekintés megtekintése"
+  },
+  "journal": {
+    "title": "Hangulat és napló",
+    "subtitle": "Vedd észre, hogy érzed magad, és írj szabadon. Ezt csak te látod.",
+    "moodNote": "Néhány szó róla",
+    "moodHistory": "Legutóbbi hangulatjegyzetek",
+    "deleteMood": "Bejegyzés törlése",
+    "writeTitle": "Írás",
+    "promptLabel": "Íráshoz ötlet, ha segít",
+    "showPrompt": "Ötlet mutatása",
+    "newPrompt": "Másik ötlet",
+    "titleLabel": "Cím",
+    "contentLabel": "Gondolataid",
+    "privateNote": "Alapértelmezetten privát. Soha nem osztjuk meg.",
+    "entries": "Bejegyzéseid",
+    "empty": "A bejegyzéseid itt jelennek meg.",
+    "deleteEntry": "Bejegyzés törlése",
+    "prompts": {
+      "0": "Mi volt ma nehéz, és mi volt egy kicsit könnyebb?",
+      "1": "Mire van most szüksége a testednek?",
+      "2": "Írj le egy helyet, ahol biztonságban érzed magad.",
+      "3": "Mit mondanál egy barátnak, aki ma úgy érzi magát, mint te?",
+      "4": "Milyen apróságért vagy hálás?",
+      "5": "Mi szívta el ma az energiádat? Mi adott vissza belőle egy keveset?",
+      "6": "Ha az érzéseid időjárás lennének, milyen idő lenne?",
+      "7": "Mi jót tehetnél magadért holnap?"
+    }
+  },
+  "migraine": {
+    "title": "Migrénnapló",
+    "subtitle": "Vezess egyszerű fejfájásnaplót, amelyet megmutathatsz az orvosodnak.",
+    "disclaimer": "Ez a napló azt rögzíti, amit észreveszel. Az itt látható mintázatok nem orvosi diagnózisok. Kérlek, beszélj orvossal a fejfájásodról és bármilyen gyógyszerről.",
+    "report": "Jelentés az orvosnak",
+    "formTitle": "Roham rögzítése",
+    "start": "Kezdete",
+    "end": "Vége",
+    "ongoing": "Még tart",
+    "ongoingShort": "folyamatban",
+    "duration": "{hours} óra",
+    "intensity": "Fájdalom erőssége",
+    "intensityHint": "A 0 azt jelenti, hogy nincs fájdalom, a 10 a legrosszabb elképzelhető fájdalmat.",
+    "locationsLabel": "Hol fáj?",
+    "characteristicsLabel": "Milyen a fájdalom?",
+    "symptomsLabel": "Egyéb tünetek",
+    "triggersLabel": "Észlelt lehetséges kiváltó okok",
+    "triggersHint": "Csak amit te magad észleltél. Ezek lehetőségek, nem okok.",
+    "medication": "Bevett gyógyszer",
+    "medicationHint": "Csak a saját jegyzeted. Az ARUVI soha nem javasol gyógyszert.",
+    "recovery": "Jegyzetek pihenésről és felépülésről",
+    "save": "Roham mentése",
+    "history": "Rohamok előzménye",
+    "empty": "Még nincs rögzített roham.",
+    "deleteEpisode": "Roham törlése",
+    "locations": {
+      "left": "Bal oldal",
+      "right": "Jobb oldal",
+      "both_sides": "Mindkét oldal",
+      "forehead": "Homlok",
+      "temples": "Halánték",
+      "behind_eyes": "Szem mögött",
+      "back_of_head": "Tarkó",
+      "neck": "Nyak"
+    },
+    "characteristics": {
+      "throbbing": "Lüktető",
+      "pressing": "Nyomó",
+      "stabbing": "Szúró",
+      "dull": "Tompa"
+    },
+    "symptoms": {
+      "nausea": "Hányinger",
+      "vomiting": "Hányás",
+      "light_sensitivity": "Fényérzékenység",
+      "sound_sensitivity": "Hangérzékenység",
+      "smell_sensitivity": "Szagérzékenység",
+      "aura": "Aura",
+      "dizziness": "Szédülés",
+      "fatigue": "Fáradtság",
+      "blurred_vision": "Homályos látás"
+    },
+    "triggers": {
+      "sleep": "Alvás változása",
+      "stress": "Stressz",
+      "weather": "Időjárás-változás",
+      "dehydration": "Kiszáradás",
+      "meal_timing": "Étkezések időpontja",
+      "screen": "Képernyőidő",
+      "environment": "Környezet (fény, zaj, szagok)",
+      "menstrual": "Menstruációs ciklus",
+      "other": "Egyéb"
+    }
+  },
+  "report": {
+    "title": "Fejfájásnapló-jelentés",
+    "period": "Elmúlt {days} nap",
+    "print": "Nyomtatás vagy mentés PDF-ként",
+    "disclaimer": "Ez a jelentés olyan adatokat tartalmaz, amelyeket az érintett maga rögzített az ARUVI-ban. Nem diagnózis. A lehetséges kiváltó okok személyes megfigyelések.",
+    "episodes": "Rohamok",
+    "avgDuration": "Átlagos időtartam (óra)",
+    "avgIntensity": "Átlagos erősség (0–10)",
+    "triggers": "Az érintett által jelzett lehetséges kiváltó okok",
+    "log": "Rohamok listája",
+    "hours": "Óra"
+  },
+  "sleep": {
+    "title": "Alvás és energia",
+    "subtitle": "Egy rövid napi jegyzet a pihenésről és energiáról segít megérteni a napjaidat.",
+    "date": "Dátum",
+    "dateHint": "Az előző éjszakai alvást a mai dátumhoz rögzítsd.",
+    "sleepTitle": "Alvás",
+    "hours": "Alvással töltött órák",
+    "quality": "Alvásminőség",
+    "poor": "Rossz",
+    "restful": "Pihentető",
+    "energyTitle": "Energia",
+    "energy": "Energiaszint",
+    "fatigue": "Fáradtság",
+    "veryLow": "Nagyon alacsony",
+    "high": "Magas",
+    "little": "Kicsit",
+    "aLot": "Nagyon",
+    "rest": "Pihenőidő (perc)",
+    "note": "Jegyzet",
+    "history": "Elmúlt két hét",
+    "empty": "Még nincs rögzítve semmi."
+  },
+  "insights": {
+    "title": "Jólléti áttekintés",
+    "subtitle": "Egyszerű pillantás arra, amit rögzítettél.",
+    "disclaimer": "Ezek a saját bejegyzéseid leírásai, nem orvosi következtetések. Ha két dolog együtt jelenik meg, az nem jelenti azt, hogy az egyik okozza a másikat.",
+    "rangeLabel": "Időszak",
+    "range": "{days} nap",
+    "stats": {
+      "checkIns": "Hangulatjegyzetek",
+      "migraines": "Migrénes rohamok",
+      "avgDuration": "Átl. roham (óra)",
+      "avgSleep": "Átl. alvás (óra)"
+    },
+    "observationsTitle": "Amit a bejegyzéseid mutatnak",
+    "notEnough": "Rögzíts még egy ideig, és itt szelíd megfigyelések jelennek meg.",
+    "obs": {
+      "topTrigger": "{total} rohamból {count} esetben jelölted meg a(z) „{trigger}” lehetséges kiváltó okot.",
+      "lowSleepMigraine": "A migrénes napok {share}%-ában 6 óránál kevesebb alvást is rögzítettél, szemben az összes rögzített éjszaka {overall}%-ával.",
+      "steadyMood": "A leggyakrabban rögzített érzésed: „{mood}” ({count} alkalommal)."
+    },
+    "moodChart": "Rögzített hangulatok",
+    "migraineChart": "Migrénes rohamok naponta",
+    "sleepChart": "Alvással töltött órák",
+    "energyChart": "Energiaszint (1–5)",
+    "showTable": "Megjelenítés táblázatként",
+    "noData": "Ebben az időszakban nincs bejegyzés.",
+    "mood": "Hangulat",
+    "count": "Alkalom",
+    "date": "Dátum",
+    "episodes": "Rohamok",
+    "hours": "Óra",
+    "energyLevel": "Energia"
+  },
+  "settings": {
+    "title": "Beállítások",
+    "prefsTitle": "Preferenciák",
+    "displayName": "Név, amellyel köszöntünk",
+    "trackMigraine": {
+      "title": "Migrénnel élek",
+      "body": "A migrénes funkciók hangsúlyosabb megjelenítése."
+    },
+    "trackMenstrual": {
+      "title": "Menstruációs ciklus a lehetséges kiváltó okok között",
+      "body": "Nem kötelező. Csak a migrénnaplódban jelenik meg."
+    },
+    "keepAiHistory": {
+      "title": "A társsal folytatott beszélgetések megőrzése",
+      "body": "Alapértelmezetten ki van kapcsolva. Ha bekapcsolod, a beszélgetéseid mentésre kerülnek, hogy visszatérhess hozzájuk. Bármikor törölheted őket."
+    },
+    "comfortNote": "A téma, a szövegméret és a nyelv a felső sávban található, és ezen az eszközön megjegyezzük.",
+    "exportTitle": "Adataid letöltése",
+    "exportBody": "Kapj másolatot mindenről, amit az ARUVI rólad tárol, JSON-fájlként.",
+    "exportButton": "Adataim letöltése",
+    "deleteTitle": "Fiók törlése",
+    "deleteBody": "Ez véglegesen törli a fiókodat és minden tartalmát: hangulatokat, naplókat, jegyzeteket és beszélgetéseket. Nem vonható vissza.",
+    "deleteConfirmLabel": "A megerősítéshez írd be: DELETE",
+    "deleteButton": "Fiókom végleges törlése"
+  },
+  "companion": {
+    "title": "Társ",
+    "subtitle": "Oszd meg, ami foglalkoztat. Írj bármilyen nyelven.",
+    "disclaimer": "A társ egy MI, nem terapeuta és nem orvos. Tévedhet, és nem tud diagnózist felállítani vagy orvosi tanácsot adni. Ha veszélyben vagy, használd a „Segítség” részben található számokat, vagy hívd a helyi segélyhívót.",
+    "emptyTitle": "Itt vagyok, hogy meghallgassalak.",
+    "emptyBody": "Hogy érzed magad most?",
+    "placeholder": "Írd le, ami foglalkoztat…",
+    "inputLabel": "Üzeneted",
+    "send": "Küldés",
+    "you": "Te",
+    "companion": "Társ",
+    "thinking": "…",
+    "newChat": "Új beszélgetés",
+    "clear": "Beszélgetés törlése",
+    "deleteHistory": "Teljes előzmény törlése",
+    "historyOn": "A beszélgetéseket mentjük. Ezt a Beállításokban kikapcsolhatod.",
+    "historyOff": "A beszélgetéseket nem mentjük. Eltűnnek, amikor elhagyod ezt az oldalt.",
+    "crisisTitle": "Nem kell egyedül átmenned ezen",
+    "crisisBody": "Úgy tűnik, most nagyon nehéz. Kérlek, fordulj valakihez, aki segíteni tud — most is hívhatod, bármikor.",
+    "errors": {
+      "refusal": "Erre nem tudok válaszolni. Ha nehéz most, fordulj valakihez, akiben megbízol, vagy használd a „Segítség” részben található számokat.",
+      "unavailable": "A társ most nem érhető el. Kérlek, próbáld később.",
+      "error": "Hiba történt. Kérlek, próbáld újra.",
+      "network": "Úgy tűnik, offline vagy. Ellenőrizd a kapcsolatot.",
+      "limit": "Sok üzenetet küldtél. Tarts egy kis szünetet, és próbáld később.",
+      "generic": "Hiba történt. Kérlek, próbáld újra."
+    }
+  },
+  "mobile": {
+    "guestTitle": "Jelentkezz be a használathoz",
+    "guestBody": "Hozz létre ingyenes fiókot, hogy a bejegyzéseid privátak és biztonságban legyenek minden eszközön.",
+    "continueGuest": "Folytatás fiók nélkül",
+    "more": "Továbbiak",
+    "appearance": "Megjelenés",
+    "themeSystem": "Rendszer",
+    "themeLight": "Világos",
+    "themeDark": "Sötét",
+    "account": "Fiók",
+    "signedInAs": "Bejelentkezve: {email}",
+    "offline": "Az ARUVI most nem érhető el. Ellenőrizd a kapcsolatot, és próbáld újra.",
+    "reportOnWeb": "A nyomtatható orvosi jelentés az ARUVI weboldalán érhető el.",
+    "pickDate": "Dátum kiválasztása",
+    "pickTime": "Időpont kiválasztása",
+    "textSize": "Szövegméret",
+    "refresh": "Frissítés",
+    "migraineTab": "Migrén"
+  }
+}
