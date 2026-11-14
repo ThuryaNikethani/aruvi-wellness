@@ -2,21 +2,7 @@
 
 import { useId, useState } from "react";
 import { useTranslations } from "next-intl";
-import {
-  BatteryLow, CircleDashed, CloudRain, Flame, Leaf, Moon, Sun, Waves, Wind, type LucideIcon,
-} from "lucide-react";
-
-const MOODS: { key: string; icon: LucideIcon }[] = [
-  { key: "happy", icon: Sun },
-  { key: "calm", icon: Leaf },
-  { key: "sad", icon: CloudRain },
-  { key: "anxious", icon: Wind },
-  { key: "overwhelmed", icon: Waves },
-  { key: "irritated", icon: Flame },
-  { key: "exhausted", icon: BatteryLow },
-  { key: "lonely", icon: Moon },
-  { key: "numb", icon: CircleDashed },
-];
+import { MOODS } from "@/features/mood/moods";
 
 const BREATHE_FIRST = new Set(["anxious", "overwhelmed", "irritated"]);
 
